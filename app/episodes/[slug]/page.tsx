@@ -8,6 +8,7 @@ import { EpisodeCard } from "@/components/episode-card";
 import { TranscriptView } from "@/components/transcript-view";
 import { getEpisodeBySlug, getEpisodes, getRelatedEpisodes } from "@/lib/episodes";
 import { formatEpisodeDate, formatEpisodeDuration } from "@/lib/text";
+import { buildEpisodeJsonLd, buildTranscriptText, serializeJsonLd } from "@/lib/seo";
 import { getTranscriptForEpisode } from "@/lib/transcripts";
 
 export const revalidate = 3600;
@@ -77,11 +78,19 @@ export default async function EpisodePage({ params }: EpisodePageProps) {
     getTranscriptForEpisode(episode),
     getRelatedEpisodes(episode, 3),
   ]);
+  const episodeJsonLd = buildEpisodeJsonLd(episode, {
+    transcriptText: transcript ? buildTranscriptText(transcript.cues) : undefined,
+  });
 
   return (
     <div className="container pageStack">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: serializeJsonLd(episodeJsonLd) }}
+      />
+
       <article className="episodePage">
-        <section className="episodeHero">
+        <section className="episodeHero" aria-labelledby="episode-title">
           <div className="episodeHeroCopy">
             <div className="episodeOverline">
               <p className="eyebrow">Avsnitt</p>
@@ -93,9 +102,9 @@ export default async function EpisodePage({ params }: EpisodePageProps) {
               </div>
             </div>
 
-            <h1>{episode.title}</h1>
+            <h1 id="episode-title">{episode.title}</h1>
 
-            <div className="richText episodeDescription">
+            <div className="richText episodeDescription" id="episode-description">
               {episode.descriptionParagraphs.map((paragraph, index) => (
                 <p key={`${episode.guid}-paragraph-${index}`}>{paragraph}</p>
               ))}
@@ -114,9 +123,9 @@ export default async function EpisodePage({ params }: EpisodePageProps) {
           </div>
         </section>
 
-        <section className="contentPanel">
+        <section className="contentPanel" aria-labelledby="episode-audio-heading">
           <div className="sectionHeading">
-            <h2>Lyssna</h2>
+            <h2 id="episode-audio-heading">Lyssna</h2>
           </div>
           <audio controls preload="none" className="audioPlayer">
             <source src={episode.audioUrl} />
@@ -125,18 +134,18 @@ export default async function EpisodePage({ params }: EpisodePageProps) {
         </section>
 
         {transcript ? (
-          <details className="contentPanel transcriptPanel">
+          <details className="contentPanel transcriptPanel" aria-labelledby="episode-transcript-heading">
             <summary className="transcriptToggle">
-              <h2>Transkript</h2>
+              <h2 id="episode-transcript-heading">Transkript</h2>
               <span className="transcriptChevron" aria-hidden="true" />
             </summary>
 
             <TranscriptView cues={transcript.cues} episodeTitle={episode.title} />
           </details>
         ) : (
-          <section className="contentPanel">
+          <section className="contentPanel" aria-labelledby="episode-transcript-heading">
             <div className="sectionHeading">
-              <h2>Transkript</h2>
+              <h2 id="episode-transcript-heading">Transkript</h2>
             </div>
 
             <p className="emptyState">

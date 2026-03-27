@@ -4,14 +4,21 @@ import Link from "next/link";
 import heroLogo from "@/makeswedenstronger.jpeg";
 import { EpisodeCard } from "@/components/episode-card";
 import { getLatestEpisodes, getShow } from "@/lib/episodes";
+import { buildHomeJsonLd, serializeJsonLd } from "@/lib/seo";
 
 export const revalidate = 3600;
 
 export default async function HomePage() {
   const [show, latestEpisodes] = await Promise.all([getShow(), getLatestEpisodes(6)]);
+  const homeJsonLd = buildHomeJsonLd(show, latestEpisodes);
 
   return (
     <div className="container pageStack">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: serializeJsonLd(homeJsonLd) }}
+      />
+
       <section className="heroPanel">
         <div className="heroMedia">
           <Image

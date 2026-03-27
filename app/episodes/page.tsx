@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 
 import { EpisodeSearch } from "@/components/episode-search";
 import { getEpisodes } from "@/lib/episodes";
+import { buildArchiveJsonLd, serializeJsonLd } from "@/lib/seo";
 
 export const revalidate = 3600;
 
@@ -15,9 +16,15 @@ export const metadata: Metadata = {
 
 export default async function EpisodesPage() {
   const episodes = await getEpisodes();
+  const archiveJsonLd = buildArchiveJsonLd(episodes);
 
   return (
     <div className="container pageStack">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: serializeJsonLd(archiveJsonLd) }}
+      />
+
       <section className="pageIntro">
         <h1 className="archiveTitle">Arkiv</h1>
       </section>
