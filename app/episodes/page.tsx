@@ -1,0 +1,28 @@
+import type { Metadata } from "next";
+
+import { EpisodeSearch } from "@/components/episode-search";
+import { getEpisodes } from "@/lib/episodes";
+
+export const revalidate = 3600;
+
+export const metadata: Metadata = {
+  title: "Alla avsnitt",
+  description: "Bläddra bland alla avsnitt i Make Sweden Stronger och se direkt vilka som har transkript.",
+  alternates: {
+    canonical: "/episodes",
+  },
+};
+
+export default async function EpisodesPage() {
+  const episodes = await getEpisodes();
+
+  return (
+    <div className="container pageStack">
+      <section className="pageIntro">
+        <h1 className="archiveTitle">Arkiv</h1>
+      </section>
+
+      <EpisodeSearch episodes={episodes} />
+    </div>
+  );
+}

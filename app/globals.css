@@ -1,0 +1,908 @@
+:root {
+  --bg: #f6f2eb;
+  --surface: rgba(255, 255, 255, 0.93);
+  --surface-strong: rgba(255, 255, 255, 0.97);
+  --surface-soft: rgba(255, 255, 255, 0.9);
+  --ink: #1e1a16;
+  --muted: #62584d;
+  --line: rgba(255, 255, 255, 0.18);
+  --accent: #bf5b2c;
+  --accent-dark: #8f3c18;
+  --brand-blue: #2038d1;
+  --brand-yellow: #f0e11b;
+  --success: #21643f;
+  --warning: #8d5a10;
+  --shadow: 0 22px 60px rgba(0, 0, 0, 0.26);
+  --radius-lg: 28px;
+  --radius-md: 20px;
+  --radius-sm: 14px;
+  --container: 1180px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at top left, rgba(191, 91, 44, 0.08), transparent 24%),
+    radial-gradient(circle at top right, rgba(32, 56, 209, 0.05), transparent 22%),
+    linear-gradient(180deg, #fcfbf8 0%, #f5f0e8 52%, #f1ebe2 100%);
+  font-family:
+    "Iowan Old Style",
+    "Palatino Linotype",
+    "Book Antiqua",
+    Georgia,
+    serif;
+  line-height: 1.55;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+audio {
+  width: 100%;
+}
+
+code {
+  font-family:
+    "SFMono-Regular",
+    "SF Mono",
+    Consolas,
+    "Liberation Mono",
+    Menlo,
+    monospace;
+}
+
+.pageShell {
+  min-height: 100vh;
+}
+
+.mainContent {
+  padding: 2rem 0 5rem;
+}
+
+.container {
+  width: min(calc(100% - 2rem), var(--container));
+  margin: 0 auto;
+}
+
+.pageStack {
+  display: grid;
+  gap: 2rem;
+}
+
+.narrowStack {
+  max-width: 760px;
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.siteHeader {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  backdrop-filter: blur(16px);
+  background: rgba(11, 12, 15, 0.86);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.siteHeaderInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  min-height: 76px;
+}
+
+.brandMark {
+  display: inline-flex;
+  align-items: flex-start;
+  font-size: 0.98rem;
+}
+
+.brandTitle {
+  display: inline-grid;
+  gap: 0.01em;
+  text-transform: uppercase;
+  font-family:
+    "Arial Narrow Bold",
+    "Helvetica Neue Condensed",
+    Haettenschweiler,
+    Impact,
+    "Arial Narrow",
+    serif;
+  font-size: 2rem;
+  line-height: 0.82;
+  letter-spacing: -0.06em;
+  font-weight: 700;
+}
+
+.brandTitleLine {
+  display: block;
+  width: fit-content;
+}
+
+.brandTitleBlue {
+  color: var(--brand-blue);
+}
+
+.brandTitleYellow {
+  color: var(--brand-yellow);
+}
+
+.brandSubline {
+  display: block;
+  margin-top: 0.35rem;
+  color: var(--muted);
+  font-size: 0.72rem;
+}
+
+.siteNav {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.95rem;
+}
+
+.siteNav a {
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.heroPanel,
+.contentPanel,
+.platformSection,
+.pageIntro {
+  border: 1px solid var(--line);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  border-radius: var(--radius-lg);
+  backdrop-filter: blur(18px) saturate(135%);
+  -webkit-backdrop-filter: blur(18px) saturate(135%);
+  box-shadow:
+    var(--shadow),
+    inset 0 1px 0 rgba(255, 255, 255, 0.24);
+}
+
+.heroPanel {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+  padding: 1.8rem;
+  align-items: stretch;
+}
+
+.heroMedia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  padding: 0.35rem;
+}
+
+.heroCopy {
+  display: grid;
+  align-content: center;
+  align-items: start;
+  justify-self: center;
+  width: min(100%, 34rem);
+  min-height: 100%;
+}
+
+.heroCopy h1,
+.pageIntro h1,
+.contentPanel h1,
+.contentPanel h2,
+.sectionHeading h2 {
+  margin: 0;
+}
+
+.heroCopy h1,
+.pageIntro h1 {
+  font-size: clamp(2.2rem, 5vw, 4.4rem);
+  line-height: 0.95;
+  letter-spacing: -0.04em;
+}
+
+.archiveTitle {
+  font-size: clamp(2.6rem, 5.5vw, 4.8rem);
+}
+
+.episodeHeroCopy h1 {
+  margin: 0;
+  font-size: clamp(1.9rem, 3.8vw, 3rem);
+  line-height: 1;
+  letter-spacing: -0.03em;
+}
+
+.heroLead,
+.introCopy {
+  max-width: 66ch;
+  font-size: 1.08rem;
+  color: var(--muted);
+}
+
+.heroLogoImage {
+  width: min(100%, 31rem);
+  height: auto;
+  border-radius: calc(var(--radius-md) - 4px);
+}
+
+.heroWordmark {
+  display: inline-grid;
+  gap: 0.02em;
+  text-transform: uppercase;
+  font-family:
+    "Arial Narrow Bold",
+    "Helvetica Neue Condensed",
+    Haettenschweiler,
+    Impact,
+    "Arial Narrow Bold",
+    sans-serif;
+  font-size: clamp(3.6rem, 9vw, 7rem);
+  line-height: 0.84;
+  letter-spacing: -0.07em;
+  text-wrap: balance;
+}
+
+.heroWord {
+  display: block;
+  width: fit-content;
+  background: none;
+  color: var(--brand-blue);
+  -webkit-text-fill-color: currentColor;
+  filter: none;
+  text-shadow: none;
+}
+
+.heroWordBlue {
+  color: var(--brand-blue);
+}
+
+.heroWordYellow {
+  padding: 0.02em 0.12em 0.04em 0.09em;
+  border-radius: 0.05em;
+  background: linear-gradient(180deg, #f5ea42 0%, #dfcf12 100%);
+  color: #17130f;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.eyebrow {
+  margin: 0 0 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.8rem;
+  color: var(--accent-dark);
+  font-weight: 700;
+}
+
+.heroActions,
+.buttonRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  margin-top: 1.5rem;
+}
+
+.buttonPrimary,
+.buttonSecondary,
+.platformPill,
+.platformBadgeLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 0.8rem 1.15rem;
+  border-radius: 999px;
+  font-weight: 700;
+  transition:
+    transform 160ms ease,
+    background-color 160ms ease,
+    border-color 160ms ease;
+}
+
+.buttonPrimary {
+  background: var(--ink);
+  color: #fff;
+}
+
+.buttonSecondary,
+.platformPill,
+.platformBadgeLink {
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.75);
+}
+
+.buttonPrimary:hover,
+.buttonSecondary:hover,
+.platformPill:hover,
+.platformBadgeLink:hover,
+.textLink:hover {
+  transform: translateY(-1px);
+}
+
+.statsGrid {
+  display: grid;
+  gap: 1rem;
+  align-content: start;
+}
+
+.statCard {
+  padding: 1.15rem 1.2rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.statCard dt {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.statCard dd {
+  margin: 0.35rem 0 0;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.section {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.sectionHeading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.textLink {
+  display: inline-flex;
+  align-items: center;
+  color: var(--accent-dark);
+  font-weight: 700;
+  transition:
+    transform 180ms ease,
+    color 180ms ease;
+}
+
+.sectionHeadingLink {
+  align-self: flex-end;
+  color: var(--accent-dark);
+  text-shadow: none;
+}
+
+.episodeActionLink {
+  width: fit-content;
+}
+
+.episodeGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.2rem;
+}
+
+.episodeCard,
+.episodeListItem {
+  overflow: hidden;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--line);
+  background: var(--surface-soft);
+  box-shadow:
+    var(--shadow),
+    inset 0 1px 0 rgba(255, 255, 255, 0.22);
+  backdrop-filter: blur(18px) saturate(130%);
+  -webkit-backdrop-filter: blur(18px) saturate(130%);
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    border-color 180ms ease;
+}
+
+.episodeCardImageLink,
+.episodeListImageLink {
+  display: block;
+}
+
+.episodeCardImageLink {
+  padding: 0.6rem 0.6rem 0;
+}
+
+.episodeCardImage,
+.episodeListImage,
+.episodeHeroImage {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  transition:
+    transform 220ms ease,
+    filter 220ms ease;
+}
+
+.episodeCardImage {
+  border-radius: calc(var(--radius-md) - 8px);
+}
+
+.episodeCardBody,
+.episodeListContent {
+  display: grid;
+  gap: 0.8rem;
+  padding: 1rem 1rem 1.2rem;
+}
+
+.episodeCardTitle,
+.episodeListTitle {
+  margin: 0;
+  font-size: 1.22rem;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+.episodeCardExcerpt,
+.episodeListExcerpt,
+.footerCopy,
+.searchSummary,
+.transcriptMeta,
+.episodeMetaRow,
+.richText p,
+.emptyState {
+  color: var(--muted);
+}
+
+.episodeMetaRow,
+.badgeRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  align-items: center;
+}
+
+.episodeMetaRow {
+  font-size: 0.88rem;
+}
+
+.statusBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  min-height: 32px;
+  padding: 0.2rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.statusBadge.isReady {
+  color: var(--success);
+  background: rgba(33, 100, 63, 0.12);
+}
+
+.statusBadge.isMissing {
+  color: var(--warning);
+  background: rgba(141, 90, 16, 0.12);
+}
+
+@media (hover: hover) {
+  .episodeCard:hover,
+  .episodeListItem:hover {
+    transform: translateY(-8px);
+    border-color: rgba(191, 91, 44, 0.18);
+    box-shadow:
+      0 30px 72px rgba(0, 0, 0, 0.18),
+      inset 0 1px 0 rgba(255, 255, 255, 0.28);
+  }
+
+  .episodeCard:hover .episodeCardImage,
+  .episodeListItem:hover .episodeListImage {
+    transform: scale(1.025);
+    filter: saturate(1.03);
+  }
+
+  .sectionHeadingLink:hover {
+    transform: translateX(6px);
+  }
+
+  .episodeActionLink:hover {
+    transform: translateX(6px);
+  }
+}
+
+.pageIntro,
+.platformSection,
+.contentPanel {
+  padding: 1.6rem;
+}
+
+.platformLinkGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.platformBadgeLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 208px;
+  height: 72px;
+  min-height: 72px;
+  padding: 0.45rem 0.7rem;
+  border: 1px solid rgba(255, 255, 255, 0.72);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(246, 240, 232, 0.88));
+  border-radius: 18px;
+  box-shadow:
+    0 16px 34px rgba(54, 34, 12, 0.09),
+    inset 0 1px 0 rgba(255, 255, 255, 0.78);
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    border-color 180ms ease,
+    background-color 180ms ease;
+}
+
+.platformBadgeImage {
+  width: var(--badge-width, 180px);
+  height: var(--badge-height, 44px);
+  object-fit: contain;
+  object-position: center center;
+  transition: transform 180ms ease;
+}
+
+.platformBadgeDark {
+  border-color: rgba(255, 255, 255, 0.08);
+  background: linear-gradient(180deg, rgba(22, 25, 30, 0.98), rgba(10, 12, 15, 0.98));
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    0 16px 30px rgba(0, 0, 0, 0.24);
+}
+
+.platformBadgeLight {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(246, 241, 235, 0.94));
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.7),
+    0 16px 30px rgba(54, 34, 12, 0.12);
+}
+
+.searchLayout {
+  display: grid;
+  gap: 1rem;
+}
+
+.searchField {
+  display: grid;
+  gap: 0.55rem;
+  font-weight: 700;
+}
+
+.searchField input {
+  min-height: 54px;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  padding: 0 1rem;
+  background: rgba(255, 255, 255, 0.62);
+  font: inherit;
+  backdrop-filter: blur(14px) saturate(125%);
+  -webkit-backdrop-filter: blur(14px) saturate(125%);
+}
+
+.episodeList {
+  display: grid;
+  gap: 1rem;
+}
+
+.episodeListItem {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  align-items: stretch;
+}
+
+.episodeListImageLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 220px;
+  min-height: 220px;
+  padding: 0.9rem;
+  background: rgba(255, 255, 255, 0.62);
+}
+
+.episodePage {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.episodeHero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(320px, 0.9fr);
+  gap: 1.8rem;
+  padding: 1.8rem;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--line);
+  background: var(--surface);
+  box-shadow:
+    var(--shadow),
+    inset 0 1px 0 rgba(255, 255, 255, 0.24);
+  backdrop-filter: blur(18px) saturate(135%);
+  -webkit-backdrop-filter: blur(18px) saturate(135%);
+}
+
+.episodeHeroCopy {
+  display: grid;
+  align-content: start;
+  gap: 1rem;
+}
+
+.episodeOverline {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem 0.9rem;
+}
+
+.episodeOverline .eyebrow {
+  margin: 0;
+}
+
+.episodeOverlineMeta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem 0.9rem;
+  color: #4f4840;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.episodeImageShell {
+  overflow: hidden;
+  border-radius: var(--radius-md);
+}
+
+.audioPlayer {
+  margin-top: 0.85rem;
+}
+
+.richText {
+  display: grid;
+  gap: 1rem;
+  margin-top: 0.9rem;
+}
+
+.episodeDescription {
+  max-width: 100%;
+}
+
+.richText p {
+  margin: 0;
+}
+
+.emptyState {
+  margin: 0.6rem 0 0;
+  padding: 1rem 1.1rem;
+  border-radius: 16px;
+  border: 1px dashed var(--line);
+  background: rgba(255, 255, 255, 0.54);
+}
+
+.transcriptShell {
+  display: grid;
+  gap: 1rem;
+  margin-top: 0.75rem;
+}
+
+.transcriptPanel {
+  padding-top: 1.1rem;
+}
+
+.transcriptToggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  cursor: pointer;
+  list-style: none;
+}
+
+.transcriptToggle::-webkit-details-marker {
+  display: none;
+}
+
+.transcriptToggle h2 {
+  margin: 0;
+}
+
+.transcriptChevron {
+  width: 0.9rem;
+  height: 0.9rem;
+  flex: 0 0 auto;
+  border-right: 2px solid var(--accent-dark);
+  border-bottom: 2px solid var(--accent-dark);
+  transform: rotate(45deg);
+  transition: transform 160ms ease;
+}
+
+.transcriptPanel[open] .transcriptChevron {
+  transform: rotate(225deg);
+}
+
+.transcriptMeta {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.transcriptList {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.transcriptCue {
+  padding: 0.95rem 1rem;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.78);
+  border-left: 4px solid rgba(143, 60, 24, 0.18);
+  backdrop-filter: blur(14px) saturate(125%);
+  -webkit-backdrop-filter: blur(14px) saturate(125%);
+}
+
+.transcriptCue.isSpeakerOne {
+  background: rgba(255, 247, 240, 0.9);
+  border-left-color: rgba(191, 91, 44, 0.7);
+}
+
+.transcriptCue.isSpeakerTwo {
+  background: rgba(244, 239, 230, 0.92);
+  border-left-color: rgba(124, 96, 66, 0.7);
+}
+
+.transcriptCueMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  align-items: center;
+  margin-bottom: 0.45rem;
+  color: var(--accent-dark);
+  font-size: 0.86rem;
+  font-weight: 700;
+}
+
+.transcriptCue p {
+  margin: 0;
+  white-space: pre-line;
+}
+
+.episodeListImage {
+  width: 100%;
+  max-width: 180px;
+  height: 180px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.siteFooter {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(10, 11, 14, 0.92);
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.footerInner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1.5rem 0 2.3rem;
+}
+
+.footerTitle {
+  margin: 0;
+  font-weight: 700;
+}
+
+.footerCopy {
+  margin: 0.35rem 0 0;
+}
+
+.footerLinks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  gap: 1rem;
+}
+
+@media (hover: hover) {
+  .platformBadgeLink:hover {
+    transform: translateY(-4px) scale(1.01);
+    border-color: rgba(191, 91, 44, 0.22);
+    box-shadow:
+      0 22px 42px rgba(54, 34, 12, 0.14),
+      inset 0 1px 0 rgba(255, 255, 255, 0.84);
+  }
+
+  .platformBadgeLink:hover .platformBadgeImage {
+    transform: scale(1.025);
+  }
+}
+
+@media (max-width: 980px) {
+  .heroPanel,
+  .episodeHero,
+  .episodeListItem {
+    grid-template-columns: 1fr;
+  }
+
+  .heroCopy {
+    width: 100%;
+    justify-self: stretch;
+  }
+
+  .episodeGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 720px) {
+  .mainContent {
+    padding: 1.2rem 0 3rem;
+  }
+
+  .siteHeaderInner,
+  .sectionHeading,
+  .footerInner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .heroPanel,
+  .pageIntro,
+  .platformSection,
+  .contentPanel,
+  .episodeHero {
+    padding: 1.2rem;
+  }
+
+  .episodeGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .episodeDescription {
+    max-width: 100%;
+  }
+
+  .footerLinks {
+    justify-content: flex-start;
+  }
+
+  .platformBadgeLink {
+    width: 100%;
+    max-width: 208px;
+  }
+}
