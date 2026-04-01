@@ -56,7 +56,6 @@ import meta52 from "./anton-karlsson-grundare-vasafiskerian-skaldjur-och-fisk-on
 import meta53 from "./svante-gabran-grundare-och-vd-xlash-en-foretagsresa-utover-det-vanliga";
 import meta54 from "./tony-hammarlund-poddare-och-marknadsforingsprofil-inom-digital-marknadsforing";
 import meta55 from "./lina-wallmander-partner-red-pill-invest-i-huvudet-pa-en-investerare";
-import meta56 from "./jenny-rydstrom-grundare-och-vd-gents-bolagsbyggande-over-tid";
 import meta57 from "./jens-backbom-pareto-business-school-foretagsutbildning";
 import meta58 from "./niclas-alback-vd-ehandel-se-hur-ser-andra-sidan-av-ehandeln-ut";
 import meta59 from "./bonus-avsnitt-e-handelssnack-fran-kitchen-commerce-pa-juni-bjorn-pahlman-spenger-per-ljungberg-joel-lowenberg";
@@ -147,7 +146,6 @@ export const episodeMetaBySlug: Record<string, EpisodeMeta> = {
   "svante-gabran-grundare-och-vd-xlash-en-foretagsresa-utover-det-vanliga": meta53,
   "tony-hammarlund-poddare-och-marknadsforingsprofil-inom-digital-marknadsforing": meta54,
   "lina-wallmander-partner-red-pill-invest-i-huvudet-pa-en-investerare": meta55,
-  "jenny-rydstrom-grundare-och-vd-gents-bolagsbyggande-over-tid": meta56,
   "jens-backbom-pareto-business-school-foretagsutbildning": meta57,
   "niclas-alback-vd-ehandel-se-hur-ser-andra-sidan-av-ehandeln-ut": meta58,
   "bonus-avsnitt-e-handelssnack-fran-kitchen-commerce-pa-juni-bjorn-pahlman-spenger-per-ljungberg-joel-lowenberg": meta59,
