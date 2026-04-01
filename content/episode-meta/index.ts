@@ -84,6 +84,11 @@ import meta80 from "./anna-stalnacke-multientrepenoren-med-gymmet-kedjan-pratar-
 import meta81 from "./bjorn-rudman-terapeut-forfattare-forelasare-om-smarta-prestation-och-allt-daremellan";
 import meta82 from "./joakim-wang-agare-till-gymmen-styrkefabriken-och-styrkekompaniet";
 import meta83 from "./varumarke-och-global-forsaljning-med-oscar-ragvald-commercial-director-eleiko";
+import meta84 from "./daniel-richter-grundare-och-vd-for-styrkelabbet";
+import meta85 from "./lucas-wasniewski-vd-delagaren-pa-flowlife-om-foretagandets-svangningar";
+import meta86 from "./kim-emilsson-grundare-av-kraftkamp-och-den-stora-tavlings-arrangoren-inom-strongman-sverige";
+import meta87 from "./andreas-guiance-fran-tyngre-legenden-som-aldrig-tystnar";
+import meta88 from "./anja-rahi-f-d-saxmark-agare-och-grundare-eminent-halsostudio";
 
 export const episodeMetaBySlug: Record<string, EpisodeMeta> = {
   "3-intervjuer-fran-d-congress-aida-jammal-jenny-rydhstrom-och-pelle-pettersson": meta0,
@@ -170,4 +175,9 @@ export const episodeMetaBySlug: Record<string, EpisodeMeta> = {
   "bjorn-rudman-terapeut-forfattare-forelasare-om-smarta-prestation-och-allt-daremellan": meta81,
   "joakim-wang-agare-till-gymmen-styrkefabriken-och-styrkekompaniet": meta82,
   "varumarke-och-global-forsaljning-med-oscar-ragvald-commercial-director-eleiko": meta83,
+  "daniel-richter-grundare-och-vd-for-styrkelabbet": meta84,
+  "lucas-wasniewski-vd-delagaren-pa-flowlife-om-foretagandets-svangningar": meta85,
+  "kim-emilsson-grundare-av-kraftkamp-och-den-stora-tavlings-arrangoren-inom-strongman-sverige": meta86,
+  "andreas-guiance-fran-tyngre-legenden-som-aldrig-tystnar": meta87,
+  "anja-rahi-f-d-saxmark-agare-och-grundare-eminent-halsostudio": meta88,
 };
