@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
-import { getEpisodeMeta } from "@/content/episode-meta";
+import { resolveEpisodeMeta } from "@/content/episode-meta";
 import { siteConfig } from "@/config/site";
 import { EpisodeCard } from "@/components/episode-card";
 import { TranscriptView } from "@/components/transcript-view";
@@ -79,7 +79,7 @@ export default async function EpisodePage({ params }: EpisodePageProps) {
     getTranscriptForEpisode(episode),
     getRelatedEpisodes(episode, 3),
   ]);
-  const episodeMeta = getEpisodeMeta(episode.slug);
+  const episodeMeta = resolveEpisodeMeta(episode, transcript);
   const episodeJsonLd = buildEpisodeJsonLd(episode, {
     transcriptText: transcript ? buildTranscriptText(transcript.cues) : undefined,
     topics: episodeMeta?.topics,

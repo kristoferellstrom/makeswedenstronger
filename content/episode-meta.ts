@@ -1,4 +1,5 @@
-import type { EpisodeMeta } from "@/lib/types";
+import { formatTimestamp, normalizeSearchText } from "@/lib/text";
+import type { Episode, EpisodeMeta, EpisodeTranscript, TranscriptCue } from "@/lib/types";
 
 const episodeMetaBySlug: Record<string, EpisodeMeta> = {
   "3-intervjuer-fran-d-congress-aida-jammal-jenny-rydhstrom-och-pelle-pettersson": {
@@ -2233,4 +2234,284 @@ const episodeMetaBySlug: Record<string, EpisodeMeta> = {
 
 export function getEpisodeMeta(slug: string) {
   return episodeMetaBySlug[slug] ?? null;
+}
+
+const genericChapterTitles = [
+  "Introduktion och bakgrund",
+  "Resan fram till dagens verksamhet",
+  "Arbetssatt, vagval och utmaningar",
+  "Tillvaxt, strategi och lardomar",
+  "Avslutning och framtidsblick",
+];
+
+const topicStopwords = new Set([
+  "about",
+  "alla",
+  "allt",
+  "annat",
+  "ansvarig",
+  "att",
+  "bara",
+  "basta",
+  "behovs",
+  "bland",
+  "bolag",
+  "chefredaktor",
+  "chief",
+  "content",
+  "delagare",
+  "det",
+  "detta",
+  "dessa",
+  "dina",
+  "eller",
+  "en",
+  "enorm",
+  "entreprenor",
+  "entreprenorer",
+  "etc",
+  "fantastisk",
+  "folk",
+  "foretag",
+  "foretagsbyggande",
+  "fortsatta",
+  "forsta",
+  "fraga",
+  "fran",
+  "grundare",
+  "hur",
+  "hans",
+  "hennes",
+  "hela",
+  "idag",
+  "inom",
+  "insikter",
+  "inte",
+  "investerare",
+  "jobb",
+  "komplex",
+  "kring",
+  "kanske",
+  "mycket",
+  "med",
+  "medgrundare",
+  "mest",
+  "mer",
+  "mfl",
+  "nagot",
+  "och",
+  "of",
+  "om",
+  "online",
+  "pa",
+  "partner",
+  "poddare",
+  "podden",
+  "product",
+  "repris",
+  "resa",
+  "riktigt",
+  "sista",
+  "sjalv",
+  "som",
+  "sommar",
+  "sverige",
+  "tid",
+  "till",
+  "utgivare",
+  "vad",
+  "varfor",
+  "verkligen",
+  "vd",
+  "via",
+  "vi",
+]);
+
+function splitIntoSummaryParagraphs(description: string) {
+  const sanitized = description
+    .replace(/\s+-\s+/g, ". ")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  const sentences = sanitized
+    .split(/(?<=[.!?])\s+/)
+    .map((sentence) => sentence.trim())
+    .filter(Boolean);
+
+  if (sentences.length <= 3) {
+    return sentences;
+  }
+
+  const paragraphs: string[] = [];
+  let current = "";
+
+  for (const sentence of sentences) {
+    const next = current ? `${current} ${sentence}` : sentence;
+
+    if (next.length > 220 && current) {
+      paragraphs.push(current);
+      current = sentence;
+    } else {
+      current = next;
+    }
+  }
+
+  if (current) {
+    paragraphs.push(current);
+  }
+
+  return paragraphs.slice(0, 3);
+}
+
+function buildAutoTopics(title: string, description: string) {
+  const guestTokens = title
+    .split(" - ")[0]
+    ?.split(/\s+/)
+    .map((token) => normalizeSearchText(token))
+    .filter(Boolean) ?? [];
+
+  const blocked = new Set([...topicStopwords, ...guestTokens]);
+  const counts = new Map<string, number>();
+
+  for (const token of normalizeSearchText(`${title} ${description}`).split(" ")) {
+    if (!token || token.length < 4 || blocked.has(token)) {
+      continue;
+    }
+
+    counts.set(token, (counts.get(token) ?? 0) + 1);
+  }
+
+  return [...counts.entries()]
+    .sort((a, b) => {
+      if (b[1] !== a[1]) {
+        return b[1] - a[1];
+      }
+
+      return a[0].localeCompare(b[0], "sv");
+    })
+    .map(([token]) => token)
+    .slice(0, 8);
+}
+
+function buildAutoEntities(title: string) {
+  const entities = new Set<string>();
+  const [guestPart = "", ...restParts] = title.split(" - ").map((part) => part.trim()).filter(Boolean);
+
+  if (guestPart) {
+    entities.add(guestPart);
+  }
+
+  entities.add("Joel Lowenberg");
+
+  const roleWords = /(grundare|medgrundare|vd|delagare|partner|chefredaktor|chief|product|officer|sommar|repris|fighter|commercial director|tf)/i;
+
+  for (const part of restParts) {
+    const candidates = part
+      .replace(/\(.*?\)/g, "")
+      .split(/[,!]/)
+      .map((candidate) => candidate.trim())
+      .filter(Boolean);
+
+    for (const candidate of candidates) {
+      if (roleWords.test(candidate) && !/[A-ZÅÄÖ].*[A-ZÅÄÖ]/.test(candidate)) {
+        continue;
+      }
+
+      const matches = candidate.match(/[A-ZÅÄÖ][A-Za-zÅÄÖåäö0-9.&-]*(?:\s+[A-ZÅÄÖ][A-Za-zÅÄÖåäö0-9.&-]*)*/g) ?? [];
+
+      for (const match of matches) {
+        if (roleWords.test(match) || match.length < 2) {
+          continue;
+        }
+
+        entities.add(match.trim());
+      }
+    }
+  }
+
+  return [...entities].slice(0, 6);
+}
+
+function buildChapterTargets(totalSeconds: number) {
+  if (totalSeconds <= 900) {
+    return [45, Math.round(totalSeconds * 0.45), Math.round(totalSeconds * 0.78)];
+  }
+
+  if (totalSeconds <= 2100) {
+    return [45, Math.round(totalSeconds * 0.24), Math.round(totalSeconds * 0.52), Math.round(totalSeconds * 0.8)];
+  }
+
+  return [45, Math.round(totalSeconds * 0.2), Math.round(totalSeconds * 0.42), Math.round(totalSeconds * 0.66), Math.round(totalSeconds * 0.86)];
+}
+
+function buildChapterSummary(cues: TranscriptCue[], startIndex: number) {
+  const summary = cues
+    .slice(startIndex, startIndex + 3)
+    .map((cue) => cue.text.trim())
+    .filter(Boolean)
+    .join(" ")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  if (!summary) {
+    return undefined;
+  }
+
+  return summary.length > 220 ? `${summary.slice(0, 217).trimEnd()}…` : summary;
+}
+
+function buildAutoChapters(transcript: EpisodeTranscript) {
+  const lastCue = transcript.cues.at(-1);
+  const totalSeconds = lastCue?.endSeconds ?? transcript.cues.at(-1)?.startSeconds ?? 0;
+  const targets = buildChapterTargets(totalSeconds);
+  const chapterTitles = genericChapterTitles.slice(0, targets.length);
+  const seenStarts = new Set<number>();
+
+  return targets.flatMap((target, index) => {
+    const cueIndex = transcript.cues.findIndex((cue) => cue.startSeconds >= target);
+
+    if (cueIndex === -1) {
+      return [];
+    }
+
+    const cue = transcript.cues[cueIndex];
+
+    if (seenStarts.has(cue.startSeconds)) {
+      return [];
+    }
+
+    seenStarts.add(cue.startSeconds);
+
+    return {
+      start: formatTimestamp(cue.start),
+      title: chapterTitles[index] ?? genericChapterTitles.at(-1) ?? "Avslutning",
+      summary: buildChapterSummary(transcript.cues, cueIndex),
+    };
+  });
+}
+
+function buildAutoEpisodeMeta(episode: Episode, transcript: EpisodeTranscript): EpisodeMeta {
+  const summary = splitIntoSummaryParagraphs(episode.descriptionText || episode.excerpt || episode.title);
+  const topics = buildAutoTopics(episode.title, episode.descriptionText || episode.excerpt || "");
+  const entities = buildAutoEntities(episode.title);
+  const chapters = buildAutoChapters(transcript);
+
+  return {
+    summary: summary.length ? summary : [episode.excerpt || episode.title],
+    topics: topics.length ? topics : [normalizeSearchText(episode.title).split(" ").filter((token) => token.length > 3)[0] ?? "avsnitt"],
+    chapters: chapters.length
+      ? chapters
+      : [
+          {
+            start: "00:45",
+            title: "Introduktion och bakgrund",
+            summary: episode.excerpt || episode.descriptionText || episode.title,
+          },
+        ],
+    entities: entities.length ? entities : undefined,
+  };
+}
+
+export function resolveEpisodeMeta(episode: Episode, transcript: EpisodeTranscript | null) {
+  return getEpisodeMeta(episode.slug) ?? (transcript ? buildAutoEpisodeMeta(episode, transcript) : null);
 }
