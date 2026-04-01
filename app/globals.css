@@ -706,6 +706,90 @@ code {
   margin-top: 0.85rem;
 }
 
+.episodeGuidePanel {
+  display: grid;
+  gap: 1.2rem;
+}
+
+.episodeGuideGrid {
+  display: grid;
+  gap: 1.2rem;
+}
+
+.episodeGuideBlock {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.episodeGuideBlock h3 {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.topicChipList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
+
+.topicChip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 38px;
+  padding: 0.55rem 0.85rem;
+  border-radius: 999px;
+  border: 1px solid rgba(191, 91, 44, 0.18);
+  background: rgba(255, 248, 241, 0.88);
+  color: var(--accent-dark);
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+.topicChipMuted {
+  border-color: rgba(110, 96, 80, 0.16);
+  background: rgba(249, 245, 238, 0.82);
+  color: #5f564d;
+}
+
+.chapterBlock {
+  padding-top: 0.2rem;
+}
+
+.chapterList {
+  display: grid;
+  gap: 0.85rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.chapterItem {
+  display: grid;
+  gap: 0.45rem;
+  padding: 1rem 1.05rem;
+  border-radius: 18px;
+  border: 1px solid rgba(191, 91, 44, 0.12);
+  background: rgba(255, 255, 255, 0.56);
+}
+
+.chapterHeading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.65rem;
+  font-weight: 700;
+}
+
+.chapterHeading time {
+  color: var(--accent-dark);
+  font-size: 0.9rem;
+}
+
+.chapterItem p {
+  margin: 0;
+  color: var(--muted);
+}
+
 .richText {
   display: grid;
   gap: 1rem;
@@ -1016,6 +1100,10 @@ code {
   .transcriptCue {
     padding: 0.85rem 0.9rem;
     border-radius: 16px;
+  }
+
+  .chapterItem {
+    padding: 0.9rem 0.95rem;
   }
 
   .transcriptCueMeta {

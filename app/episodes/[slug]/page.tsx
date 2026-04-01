@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+import { getEpisodeMeta } from "@/content/episode-meta";
 import { siteConfig } from "@/config/site";
 import { EpisodeCard } from "@/components/episode-card";
 import { TranscriptView } from "@/components/transcript-view";
@@ -78,8 +79,11 @@ export default async function EpisodePage({ params }: EpisodePageProps) {
     getTranscriptForEpisode(episode),
     getRelatedEpisodes(episode, 3),
   ]);
+  const episodeMeta = getEpisodeMeta(episode.slug);
   const episodeJsonLd = buildEpisodeJsonLd(episode, {
     transcriptText: transcript ? buildTranscriptText(transcript.cues) : undefined,
+    topics: episodeMeta?.topics,
+    entities: episodeMeta?.entities,
   });
 
   return (
@@ -132,6 +136,60 @@ export default async function EpisodePage({ params }: EpisodePageProps) {
             Din webbläsare stödjer inte ljudspelaren.
           </audio>
         </section>
+
+        {episodeMeta ? (
+          <section className="contentPanel episodeGuidePanel" aria-labelledby="episode-guide-heading">
+            <div className="sectionHeading">
+              <h2 id="episode-guide-heading">Det här pratar de om</h2>
+            </div>
+
+            <div className="episodeGuideGrid">
+              <div className="episodeGuideBlock">
+                <h3>Sammanfattning</h3>
+                <div className="richText">
+                  {episodeMeta.summary.map((paragraph, index) => (
+                    <p key={`${episode.slug}-summary-${index}`}>{paragraph}</p>
+                  ))}
+                </div>
+              </div>
+
+              <div className="episodeGuideBlock">
+                <h3>Nyckelamnen</h3>
+                <div className="topicChipList">
+                  {episodeMeta.topics.map((topic) => (
+                    <span key={topic} className="topicChip">{topic}</span>
+                  ))}
+                </div>
+              </div>
+
+              {episodeMeta.entities?.length ? (
+                <div className="episodeGuideBlock">
+                  <h3>Personer och bolag</h3>
+                  <div className="topicChipList">
+                    {episodeMeta.entities.map((entity) => (
+                      <span key={entity} className="topicChip topicChipMuted">{entity}</span>
+                    ))}
+                  </div>
+                </div>
+              ) : null}
+
+              <div className="episodeGuideBlock chapterBlock">
+                <h3>Kapitel</h3>
+                <ol className="chapterList">
+                  {episodeMeta.chapters.map((chapter) => (
+                    <li key={`${episode.slug}-${chapter.start}-${chapter.title}`} className="chapterItem">
+                      <div className="chapterHeading">
+                        <time dateTime={chapter.start}>{chapter.start}</time>
+                        <span>{chapter.title}</span>
+                      </div>
+                      {chapter.summary ? <p>{chapter.summary}</p> : null}
+                    </li>
+                  ))}
+                </ol>
+              </div>
+            </div>
+          </section>
+        ) : null}
 
         {transcript ? (
           <details className="contentPanel transcriptPanel" aria-labelledby="episode-transcript-heading">

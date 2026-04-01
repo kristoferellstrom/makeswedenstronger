@@ -114,9 +114,13 @@ export function buildEpisodeJsonLd(
   episode: Episode,
   options?: {
     transcriptText?: string;
+    topics?: string[];
+    entities?: string[];
   },
 ) {
   const transcriptText = options?.transcriptText?.trim();
+  const topics = options?.topics?.filter(Boolean) ?? [];
+  const entities = options?.entities?.filter(Boolean) ?? [];
 
   return {
     "@context": "https://schema.org",
@@ -126,6 +130,7 @@ export function buildEpisodeJsonLd(
     url: `${siteConfig.siteUrl}/episodes/${episode.slug}`,
     mainEntityOfPage: `${siteConfig.siteUrl}/episodes/${episode.slug}`,
     description: episode.descriptionText,
+    ...(topics.length ? { keywords: topics.join(", ") } : {}),
     datePublished: episode.publishedAt,
     inLanguage: siteConfig.locale,
     image: episode.imageUrl || siteConfig.defaultImage,
@@ -147,5 +152,21 @@ export function buildEpisodeJsonLd(
       "@type": "Person",
       name: siteConfig.creator,
     },
+    ...(topics.length
+      ? {
+          about: topics.map((topic) => ({
+            "@type": "Thing",
+            name: topic,
+          })),
+        }
+      : {}),
+    ...(entities.length
+      ? {
+          mentions: entities.map((entity) => ({
+            "@type": "Thing",
+            name: entity,
+          })),
+        }
+      : {}),
   };
 }

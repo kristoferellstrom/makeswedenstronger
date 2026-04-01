@@ -46,3 +46,15 @@ export type EpisodeTranscript = {
   cues: TranscriptCue[];
 };
 
+export type EpisodeChapter = {
+  start: string;
+  title: string;
+  summary?: string;
+};
+
+export type EpisodeMeta = {
+  summary: string[];
+  topics: string[];
+  chapters: EpisodeChapter[];
+  entities?: string[];
+};
