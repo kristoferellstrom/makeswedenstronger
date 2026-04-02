@@ -122,6 +122,7 @@ export default async function EpisodePage({ params }: EpisodePageProps) {
               width={900}
               height={900}
               priority
+              sizes="(max-width: 767px) 100vw, (max-width: 1200px) 45vw, 520px"
               className="episodeHeroImage"
             />
           </div>

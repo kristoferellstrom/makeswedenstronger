@@ -25,6 +25,7 @@ export default async function HomePage() {
             src={heroLogo}
             alt={show.title}
             priority
+            sizes="(max-width: 767px) 100vw, 50vw"
             className="heroLogoImage"
           />
         </div>
@@ -51,11 +52,10 @@ export default async function HomePage() {
         </div>
 
         <div className="episodeGrid">
-          {latestEpisodes.map((episode, index) => (
+          {latestEpisodes.map((episode) => (
             <EpisodeCard
               key={episode.guid}
               episode={episode}
-              priority={index < 2}
             />
           ))}
         </div>

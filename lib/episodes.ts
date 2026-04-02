@@ -8,7 +8,7 @@ import {
   getTranscriptMatchForEpisode,
 } from "@/lib/transcripts";
 import { normalizeSearchText } from "@/lib/text";
-import type { Episode } from "@/lib/types";
+import type { Episode, EpisodeListItem } from "@/lib/types";
 
 export const getShow = cache(async () => {
   const { show } = await getPodcastFeed();
@@ -34,6 +34,23 @@ export async function getEpisodeBySlug(slug: string): Promise<Episode | null> {
 
 export async function getLatestEpisodes(limit = 6): Promise<Episode[]> {
   return (await getEpisodes()).slice(0, limit);
+}
+
+export function toEpisodeListItem(episode: Episode): EpisodeListItem {
+  return {
+    guid: episode.guid,
+    slug: episode.slug,
+    title: episode.title,
+    excerpt: episode.excerpt,
+    publishedAt: episode.publishedAt,
+    imageUrl: episode.imageUrl,
+    duration: episode.duration,
+    hasTranscript: episode.hasTranscript,
+  };
+}
+
+export async function getEpisodeListItems(): Promise<EpisodeListItem[]> {
+  return (await getEpisodes()).map(toEpisodeListItem);
 }
 
 function normalizeMetaValue(value: string): string {
@@ -168,4 +185,8 @@ export async function searchEpisodes(query: string): Promise<Episode[]> {
   return searchIndex
     .filter(({ searchText }) => queryTokens.every((token) => searchText.includes(token)))
     .map(({ episode }) => episode);
+}
+
+export async function searchEpisodeListItems(query: string): Promise<EpisodeListItem[]> {
+  return (await searchEpisodes(query)).map(toEpisodeListItem);
 }

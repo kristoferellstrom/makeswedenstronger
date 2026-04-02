@@ -41,6 +41,7 @@ export function PlatformLinks({
                 alt={link.badge.alt}
                 width={link.badge.width}
                 height={link.badge.height}
+                sizes={`${link.badge.displayWidth ?? link.badge.width}px`}
                 className={
                   `platformBadgeImage ${link.badge.imageClassName ?? ""}`.trim()
                 }

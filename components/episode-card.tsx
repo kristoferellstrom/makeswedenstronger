@@ -1,17 +1,14 @@
-"use client";
-
 import Image from "next/image";
 import Link from "next/link";
 
 import { formatEpisodeDate, formatEpisodeDuration } from "@/lib/text";
-import type { Episode } from "@/lib/types";
+import type { EpisodeListItem } from "@/lib/types";
 
 type EpisodeCardProps = {
-  episode: Episode;
-  priority?: boolean;
+  episode: EpisodeListItem;
 };
 
-export function EpisodeCard({ episode, priority = false }: EpisodeCardProps) {
+export function EpisodeCard({ episode }: EpisodeCardProps) {
   return (
     <article className="episodeCard">
       <Link href={`/episodes/${episode.slug}`} className="episodeCardImageLink">
@@ -20,7 +17,7 @@ export function EpisodeCard({ episode, priority = false }: EpisodeCardProps) {
           alt={episode.title}
           width={640}
           height={640}
-          priority={priority}
+          sizes="(max-width: 767px) 100vw, (max-width: 1200px) 50vw, 33vw"
           className="episodeCardImage"
         />
       </Link>

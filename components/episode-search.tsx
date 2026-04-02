@@ -5,10 +5,10 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { formatEpisodeDate, formatEpisodeDuration } from "@/lib/text";
-import type { Episode } from "@/lib/types";
+import type { EpisodeListItem } from "@/lib/types";
 
 type EpisodeSearchProps = {
-  episodes: Episode[];
+  episodes: EpisodeListItem[];
 };
 
 export function EpisodeSearch({ episodes }: EpisodeSearchProps) {
@@ -35,7 +35,7 @@ export function EpisodeSearch({ episodes }: EpisodeSearchProps) {
           throw new Error(`Search failed with status ${response.status}`);
         }
 
-        return response.json() as Promise<{ episodes: Episode[] }>;
+        return response.json() as Promise<{ episodes: EpisodeListItem[] }>;
       })
       .then((data) => {
         setFilteredEpisodes(data.episodes);
@@ -85,6 +85,7 @@ export function EpisodeSearch({ episodes }: EpisodeSearchProps) {
                 alt={episode.title}
                 width={280}
                 height={280}
+                sizes="(max-width: 767px) 100vw, 280px"
                 className="episodeListImage"
               />
             </Link>

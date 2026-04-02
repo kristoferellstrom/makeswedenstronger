@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 import { EpisodeSearch } from "@/components/episode-search";
-import { getEpisodes } from "@/lib/episodes";
+import { getEpisodeListItems, getEpisodes } from "@/lib/episodes";
 import { buildArchiveJsonLd, serializeJsonLd } from "@/lib/seo";
 
 export const revalidate = 3600;
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 export default async function EpisodesPage() {
-  const episodes = await getEpisodes();
+  const [episodes, episodeListItems] = await Promise.all([getEpisodes(), getEpisodeListItems()]);
   const archiveJsonLd = buildArchiveJsonLd(episodes);
 
   return (
@@ -29,7 +29,7 @@ export default async function EpisodesPage() {
         <h1 className="archiveTitle">Arkiv</h1>
       </section>
 
-      <EpisodeSearch episodes={episodes} />
+      <EpisodeSearch episodes={episodeListItems} />
     </div>
   );
 }

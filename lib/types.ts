@@ -15,6 +15,11 @@ export type Episode = {
   hasTranscript: boolean;
 };
 
+export type EpisodeListItem = Pick<
+  Episode,
+  "guid" | "slug" | "title" | "excerpt" | "publishedAt" | "imageUrl" | "duration" | "hasTranscript"
+>;
+
 export type PodcastShow = {
   title: string;
   description: string;
