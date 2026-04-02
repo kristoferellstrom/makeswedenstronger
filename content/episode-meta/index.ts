@@ -17,6 +17,16 @@ import meta13 from "./simon-wikstrand-lopning-livet-att-lyckas-forvandla-en-pass
 import meta14 from "./elin-morales-haren-vd-airmee-optimering-datastyrning-och-minimala-felmarginaler";
 import meta15 from "./lydia-engholm-vd-skinome-om-att-bygga-en-kombination-av-produktutveckling-och-framgangsrik-ehandel";
 import meta16 from "./mats-georgson-ph-d-marknadsforing-och-varumarkesarbete";
+import meta89 from "./stefan-lundell-medgrundare-breakit-om-investeringar-bonnier-affaren-och-hur-han-forstorde-joels-halsa";
+import meta90 from "./alba-bostrom-flerfaldig-guldmedaljor-inom-styrkelyft";
+import meta91 from "./edvin-arnstrand-medgrundare-elcykelkompaniet";
+import meta92 from "./viktor-hakansson-delagaren-pa-sportstravel-om-att-salja-know-your-shit-och-mota-corona-vaggen";
+import meta93 from "./pelle-pettersson-grundare-omniarch";
+import meta94 from "./maria-paulsson-ronnback-medgrundare-astrid-wild-att-bygga-ett-genuint-varumarke";
+import meta95 from "./felix-frey-grundare-explr-kayakstore-ehandel-showroom-och-att-ta-vara-pa-mojligheter";
+import meta96 from "./helene-rothstein-reporter-moderator-och-poddare";
+import meta97 from "./joel-svensson-vd-delagare-partykungen";
+import meta98 from "./hur-man-bygger-ett-varumarke-fran-grunden-max-andren-grundare-av-nordic-training-gear";
 import meta17 from "./david-ekelund-icebug-grundaren-med-en-helt-annan-strategi-pa-black-friday-om-varderingsdriven-tillvaxt-och-att-salja-skor-for-hundratals-miljoner";
 import meta18 from "./kristin-hars-grundare-av-sisterly-tribe-om-hur-du-bygger-ett-varumarke-som-media-alskar-blir-omnamnd-i-artiklar-varlden-over-tar-in-kapital-utan-att-tappa-kontrollen";
 import meta19 from "./ali-ghoce-grundare-av-gordon-om-kylvarulogistik-hoga-kostnader-personal-tillvaxt-och-rock-n-roll-i-en-tuff-bransch";
@@ -107,6 +117,16 @@ export const episodeMetaBySlug: Record<string, EpisodeMeta> = {
   "elin-morales-haren-vd-airmee-optimering-datastyrning-och-minimala-felmarginaler": meta14,
   "lydia-engholm-vd-skinome-om-att-bygga-en-kombination-av-produktutveckling-och-framgangsrik-ehandel": meta15,
   "mats-georgson-ph-d-marknadsforing-och-varumarkesarbete": meta16,
+  "stefan-lundell-medgrundare-breakit-om-investeringar-bonnier-affaren-och-hur-han-forstorde-joels-halsa": meta89,
+  "alba-bostrom-flerfaldig-guldmedaljor-inom-styrkelyft": meta90,
+  "edvin-arnstrand-medgrundare-elcykelkompaniet": meta91,
+  "viktor-hakansson-delagaren-pa-sportstravel-om-att-salja-know-your-shit-och-mota-corona-vaggen": meta92,
+  "pelle-pettersson-grundare-omniarch": meta93,
+  "maria-paulsson-ronnback-medgrundare-astrid-wild-att-bygga-ett-genuint-varumarke": meta94,
+  "felix-frey-grundare-explr-kayakstore-ehandel-showroom-och-att-ta-vara-pa-mojligheter": meta95,
+  "helene-rothstein-reporter-moderator-och-poddare": meta96,
+  "joel-svensson-vd-delagare-partykungen": meta97,
+  "hur-man-bygger-ett-varumarke-fran-grunden-max-andren-grundare-av-nordic-training-gear": meta98,
   "david-ekelund-icebug-grundaren-med-en-helt-annan-strategi-pa-black-friday-om-varderingsdriven-tillvaxt-och-att-salja-skor-for-hundratals-miljoner": meta17,
   "kristin-hars-grundare-av-sisterly-tribe-om-hur-du-bygger-ett-varumarke-som-media-alskar-blir-omnamnd-i-artiklar-varlden-over-tar-in-kapital-utan-att-tappa-kontrollen": meta18,
   "ali-ghoce-grundare-av-gordon-om-kylvarulogistik-hoga-kostnader-personal-tillvaxt-och-rock-n-roll-i-en-tuff-bransch": meta19,

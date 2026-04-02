@@ -155,7 +155,7 @@ export default async function EpisodePage({ params }: EpisodePageProps) {
               </div>
 
               <div className="episodeGuideBlock">
-                <h3>Nyckelamnen</h3>
+                <h3>Nyckelämnen</h3>
                 <div className="topicChipList">
                   {episodeMeta.topics.map((topic) => (
                     <span key={topic} className="topicChip">{topic}</span>
