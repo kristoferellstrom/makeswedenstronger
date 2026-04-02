@@ -3,6 +3,11 @@ import type { TranscriptCue } from "@/lib/types";
 
 const HOST_NAME = "Joel";
 const INTRO_WINDOW_SECONDS = 120;
+const HOST_PHRASE_FALLBACK_START = 38;
+const HOST_PHRASE_FALLBACK_END = 46;
+const HOST_TIMING_FALLBACK_START = 44;
+const HOST_TIMING_FALLBACK_END = 50;
+const HOST_BRIDGE_PHRASE = "jag haller med men vad brinner ni mest for";
 
 function normalizeSpeakerLabel(speaker?: string) {
   return speaker?.trim().toLowerCase().replace(/[\s-]+/g, "_");
@@ -87,6 +92,14 @@ function cueLooksLikeHostIntro(text: string) {
   ].some((pattern) => normalized.includes(pattern));
 }
 
+function cueOverlapsWindow(cue: TranscriptCue, startSeconds: number, endSeconds: number) {
+  return cue.startSeconds <= endSeconds && cue.endSeconds >= startSeconds;
+}
+
+function cueLooksLikeHostBridgeQuestion(text: string) {
+  return normalizeSearchText(text).includes(HOST_BRIDGE_PHRASE);
+}
+
 function getGuestNameFromTitle(episodeTitle: string) {
   const withoutSubtitle = episodeTitle.split(/\s+-\s+/)[0]?.trim() ?? episodeTitle.trim();
   const primaryName = withoutSubtitle.split(",")[0]?.trim() ?? withoutSubtitle;
@@ -121,6 +134,41 @@ function getGuestSpeakerLabel(
     }
 
     return label;
+  }
+
+  return null;
+}
+
+function findFallbackHostCue(cues: TranscriptCue[]) {
+  for (const [index, cue] of cues.entries()) {
+    if (cue.startSeconds > INTRO_WINDOW_SECONDS || !cue.speaker || !isGenericSpeakerLabel(cue.speaker)) {
+      continue;
+    }
+
+    if (
+      cueOverlapsWindow(cue, HOST_PHRASE_FALLBACK_START, HOST_PHRASE_FALLBACK_END) &&
+      cueLooksLikeHostBridgeQuestion(cue.text)
+    ) {
+      return {
+        hostLabel: normalizeSpeakerLabel(cue.speaker) ?? null,
+        hostCueIndex: index,
+      };
+    }
+  }
+
+  for (const [index, cue] of cues.entries()) {
+    if (cue.startSeconds > INTRO_WINDOW_SECONDS || !cue.speaker || !isGenericSpeakerLabel(cue.speaker)) {
+      continue;
+    }
+
+    if (!cueOverlapsWindow(cue, HOST_TIMING_FALLBACK_START, HOST_TIMING_FALLBACK_END)) {
+      continue;
+    }
+
+    return {
+      hostLabel: normalizeSpeakerLabel(cue.speaker) ?? null,
+      hostCueIndex: index,
+    };
   }
 
   return null;
@@ -179,7 +227,14 @@ export function inferSpeakerDisplayNames(cues: TranscriptCue[], episodeTitle: st
   }
 
   if (!hostLabel) {
-    return new Map<string, string>();
+    const fallbackHostCue = findFallbackHostCue(cues);
+
+    if (!fallbackHostCue?.hostLabel) {
+      return new Map<string, string>();
+    }
+
+    hostLabel = fallbackHostCue.hostLabel;
+    hostCueIndex = fallbackHostCue.hostCueIndex;
   }
 
   const speakerNames = new Map<string, string>([[hostLabel, HOST_NAME]]);
