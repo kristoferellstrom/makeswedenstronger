@@ -16,7 +16,8 @@ export const siteConfig = {
     spotify: "https://open.spotify.com/search/Make%20Sweden%20Stronger",
     applePodcasts:
       "https://podcasts.apple.com/us/podcast/make-sweden-stronger/id1718037226",
-    youtube: "",
+    youtube:
+      "https://www.youtube.com/playlist?list=PLDN2kFf8TeetLpOS8F_bJi6BUKaLtSifz",
     podspace: "https://play.pod.space/makeswedenstronger",
     gymkompaniet: "https://www.gymkompaniet.se",
     instagram: "",
@@ -51,7 +52,18 @@ export const socialLinkItems = [
       containerClassName: "platformBadgeLight",
     },
   },
-  { label: "YouTube", href: siteConfig.links.youtube },
+  {
+    label: "YouTube",
+    href: siteConfig.links.youtube,
+    badge: {
+      src: "/youtube-badge.svg",
+      alt: `Se ${siteConfig.name} på YouTube`,
+      width: 165,
+      height: 40,
+      displayWidth: 180,
+      displayHeight: 44,
+    },
+  },
   {
     label: "Gymkompaniet",
     href: siteConfig.links.gymkompaniet,
