@@ -19,6 +19,8 @@ export function SiteHeader() {
         <nav className="siteNav" aria-label="Huvudnavigering">
           <Link href="/">Hem</Link>
           <Link href="/episodes">Avsnitt</Link>
+          <Link href="/om-podden">Om podden</Link>
+          <Link href="/om-joel">Om Joel</Link>
         </nav>
       </div>
     </header>

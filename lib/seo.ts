@@ -7,6 +7,14 @@ export function serializeJsonLd(data: unknown) {
   return JSON.stringify(data).replace(/</g, "\\u003c");
 }
 
+function toAbsoluteUrl(path: string) {
+  if (/^https?:\/\//i.test(path)) {
+    return path;
+  }
+
+  return `${siteConfig.siteUrl}${path.startsWith("/") ? path : `/${path}`}`;
+}
+
 export function getPublicSocialLinks() {
   return socialLinkItems
     .map((item) => item.href)
@@ -110,6 +118,88 @@ export function buildArchiveJsonLd(episodes: Episode[]) {
   };
 }
 
+export function buildBreadcrumbJsonLd(
+  items: Array<{
+    name: string;
+    url: string;
+  }>,
+) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: items.map((item, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: item.name,
+      item: item.url,
+    })),
+  };
+}
+
+export function buildPodcastAboutJsonLd() {
+  return [
+    {
+      "@context": "https://schema.org",
+      "@type": "AboutPage",
+      name: `${siteConfig.podcastAbout.title} | ${siteConfig.name}`,
+      url: `${siteConfig.siteUrl}/om-podden`,
+      description: siteConfig.podcastAbout.description,
+      isPartOf: {
+        "@type": "WebSite",
+        name: siteConfig.name,
+        url: siteConfig.siteUrl,
+      },
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "PodcastSeries",
+      name: siteConfig.name,
+      url: siteConfig.siteUrl,
+      description: siteConfig.podcastAbout.description,
+      image: siteConfig.defaultImage,
+      inLanguage: siteConfig.locale,
+      publisher: {
+        "@type": "Person",
+        name: siteConfig.creator,
+      },
+      sameAs: getPublicSocialLinks(),
+    },
+  ];
+}
+
+export function buildCreatorProfileJsonLd() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    name: `${siteConfig.creatorProfile.title} | ${siteConfig.name}`,
+    url: `${siteConfig.siteUrl}/om-joel`,
+    description: siteConfig.creatorProfile.description,
+    isPartOf: {
+      "@type": "WebSite",
+      name: siteConfig.name,
+      url: siteConfig.siteUrl,
+    },
+    mainEntity: {
+      "@type": "Person",
+      name: siteConfig.creator,
+      jobTitle: siteConfig.creatorRole,
+      image: toAbsoluteUrl(siteConfig.creatorImagePath),
+      description: siteConfig.creatorProfile.paragraphs.join(" "),
+      knowsAbout: siteConfig.creatorProfile.expertise,
+      worksFor: [
+        {
+          "@type": "Organization",
+          name: "Gymkompaniet Sverige AB",
+        },
+        {
+          "@type": "Organization",
+          name: "Beyond Yourself AB",
+        },
+      ],
+    },
+  };
+}
+
 export function buildEpisodeJsonLd(
   episode: Episode,
   options?: {
@@ -151,6 +241,11 @@ export function buildEpisodeJsonLd(
     publisher: {
       "@type": "Person",
       name: siteConfig.creator,
+    },
+    author: {
+      "@type": "Person",
+      name: siteConfig.creator,
+      url: `${siteConfig.siteUrl}/om-joel`,
     },
     ...(topics.length
       ? {

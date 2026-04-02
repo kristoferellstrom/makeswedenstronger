@@ -5,11 +5,17 @@ import { notFound } from "next/navigation";
 
 import { getEpisodeMeta } from "@/content/episode-meta";
 import { siteConfig } from "@/config/site";
+import { Breadcrumbs } from "@/components/breadcrumbs";
 import { EpisodeCard } from "@/components/episode-card";
 import { TranscriptView } from "@/components/transcript-view";
 import { getEpisodeBySlug, getEpisodes, getRelatedEpisodes } from "@/lib/episodes";
 import { formatEpisodeDate, formatEpisodeDuration } from "@/lib/text";
-import { buildEpisodeJsonLd, buildTranscriptText, serializeJsonLd } from "@/lib/seo";
+import {
+  buildBreadcrumbJsonLd,
+  buildEpisodeJsonLd,
+  buildTranscriptText,
+  serializeJsonLd,
+} from "@/lib/seo";
 import { getTranscriptForEpisode } from "@/lib/transcripts";
 
 export const revalidate = 3600;
@@ -34,6 +40,7 @@ export async function generateMetadata({
 }: EpisodePageProps): Promise<Metadata> {
   const { slug } = await params;
   const episode = await getEpisodeBySlug(slug);
+  const episodeMeta = episode ? getEpisodeMeta(episode.slug) : null;
 
   if (!episode) {
     return {
@@ -41,11 +48,14 @@ export async function generateMetadata({
     };
   }
 
-  const description = episode.excerpt || episode.descriptionText || siteConfig.description;
+  const description =
+    episodeMeta?.summary[0] || episode.excerpt || episode.descriptionText || siteConfig.description;
 
   return {
     title: episode.title,
     description,
+    keywords: episodeMeta?.topics,
+    authors: [{ name: siteConfig.creator, url: `${siteConfig.siteUrl}/om-joel` }],
     alternates: {
       canonical: `/episodes/${episode.slug}`,
     },
@@ -85,12 +95,29 @@ export default async function EpisodePage({ params }: EpisodePageProps) {
     topics: episodeMeta?.topics,
     entities: episodeMeta?.entities,
   });
+  const breadcrumbJsonLd = buildBreadcrumbJsonLd([
+    { name: "Hem", url: siteConfig.siteUrl },
+    { name: "Avsnitt", url: `${siteConfig.siteUrl}/episodes` },
+    { name: episode.title, url: `${siteConfig.siteUrl}/episodes/${episode.slug}` },
+  ]);
 
   return (
     <div className="container pageStack">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: serializeJsonLd(episodeJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: serializeJsonLd(breadcrumbJsonLd) }}
+      />
+
+      <Breadcrumbs
+        items={[
+          { label: "Hem", href: "/" },
+          { label: "Avsnitt", href: "/episodes" },
+          { label: episode.title },
+        ]}
       />
 
       <article className="episodePage">
@@ -107,6 +134,10 @@ export default async function EpisodePage({ params }: EpisodePageProps) {
             </div>
 
             <h1 id="episode-title">{episode.title}</h1>
+
+            <p className="episodeHostLine">
+              Intervju med <Link href="/om-joel">Joel Löwenberg</Link>
+            </p>
 
             <div className="richText episodeDescription" id="episode-description">
               {episode.descriptionParagraphs.map((paragraph, index) => (
