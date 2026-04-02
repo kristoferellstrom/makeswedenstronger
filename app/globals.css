@@ -112,9 +112,10 @@ code {
   position: sticky;
   top: 0;
   z-index: 40;
-  backdrop-filter: blur(16px);
-  background: rgba(11, 12, 15, 0.86);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  background: rgba(23, 18, 14, 0.9);
+  border-bottom: 1px solid rgba(74, 60, 46, 0.24);
 }
 
 .siteHeaderInner {
@@ -130,6 +131,11 @@ code {
   display: inline-flex;
   align-items: flex-start;
   min-width: 0;
+  padding: 0.35rem 0.55rem 0.42rem;
+  border-radius: 16px;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
   font-size: 0.98rem;
 }
 
@@ -146,7 +152,7 @@ code {
     serif;
   font-size: 2rem;
   line-height: 0.82;
-  letter-spacing: -0.06em;
+  letter-spacing: -0.01em;
   font-weight: 700;
 }
 
@@ -157,10 +163,12 @@ code {
 
 .brandTitleBlue {
   color: var(--brand-blue);
+  text-shadow: none;
 }
 
 .brandTitleYellow {
   color: var(--brand-yellow);
+  text-shadow: none;
 }
 
 .brandSubline {
@@ -180,10 +188,44 @@ code {
 }
 
 .siteNav a {
+  position: relative;
   display: inline-flex;
   align-items: center;
   min-height: 40px;
-  color: rgba(255, 255, 255, 0.72);
+  padding: 0.12rem 0.05rem;
+  border: 0;
+  background: transparent;
+  color: rgba(255, 248, 240, 0.94);
+  box-shadow: none;
+  transition:
+    transform 180ms ease,
+    color 180ms ease,
+    text-shadow 180ms ease;
+}
+
+.siteNav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0.15rem;
+  height: 1.5px;
+  background: rgba(255, 248, 240, 0.82);
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 180ms ease;
+}
+
+@media (hover: hover) {
+  .siteNav a:hover {
+    transform: translateY(-1px);
+    color: #fffdfa;
+    text-shadow: 0 1px 12px rgba(255, 250, 244, 0.2);
+  }
+
+  .siteNav a:hover::after {
+    transform: scaleX(1);
+  }
 }
 
 .breadcrumbs {

@@ -13,6 +13,8 @@ import { formatEpisodeDate, formatEpisodeDuration } from "@/lib/text";
 import {
   buildBreadcrumbJsonLd,
   buildEpisodeJsonLd,
+  buildEpisodeSeoDescription,
+  buildEpisodeSeoTitle,
   buildTranscriptText,
   serializeJsonLd,
 } from "@/lib/seo";
@@ -48,11 +50,16 @@ export async function generateMetadata({
     };
   }
 
-  const description =
-    episodeMeta?.summary[0] || episode.excerpt || episode.descriptionText || siteConfig.description;
+  const description = buildEpisodeSeoDescription({
+    summary: episodeMeta?.summary[0],
+    excerpt: episode.excerpt,
+    description: episode.descriptionText,
+    topics: episodeMeta?.topics,
+  });
+  const seoTitle = buildEpisodeSeoTitle(episode.title, episodeMeta?.topics);
 
   return {
-    title: episode.title,
+    title: seoTitle,
     description,
     keywords: episodeMeta?.topics,
     authors: [{ name: siteConfig.creator, url: `${siteConfig.siteUrl}/om-joel` }],
@@ -62,7 +69,7 @@ export async function generateMetadata({
     openGraph: {
       type: "article",
       url: `${siteConfig.siteUrl}/episodes/${episode.slug}`,
-      title: episode.title,
+      title: seoTitle,
       description,
       publishedTime: episode.publishedAt,
       images: [

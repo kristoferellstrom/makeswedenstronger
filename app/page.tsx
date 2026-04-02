@@ -1,12 +1,40 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 
 import heroLogo from "@/makeswedenstronger.jpeg";
+import { siteConfig } from "@/config/site";
 import { EpisodeCard } from "@/components/episode-card";
 import { getLatestEpisodes, getShow } from "@/lib/episodes";
 import { buildHomeJsonLd, serializeJsonLd } from "@/lib/seo";
 
 export const revalidate = 3600;
+
+export const metadata: Metadata = {
+  title: "Podcast om företagsbyggande, e-handel och ledarskap",
+  description:
+    "Make Sweden Stronger är en svensk podcast med Joel Löwenberg om företagsbyggande, kapitalanskaffning, e-handel, ledarskap, marknadsföring och varumärkesbyggande.",
+  keywords: [...siteConfig.podcastAbout.topics],
+  authors: [{ name: siteConfig.creator, url: `${siteConfig.siteUrl}/om-joel` }],
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    type: "website",
+    url: siteConfig.siteUrl,
+    title: `Podcast om företagsbyggande, e-handel och ledarskap | ${siteConfig.name}`,
+    description:
+      "Make Sweden Stronger är en svensk podcast med Joel Löwenberg om företagsbyggande, kapitalanskaffning, e-handel, ledarskap, marknadsföring och varumärkesbyggande.",
+    images: [
+      {
+        url: siteConfig.defaultImage,
+        width: 1200,
+        height: 1200,
+        alt: siteConfig.name,
+      },
+    ],
+  },
+};
 
 export default async function HomePage() {
   const [show, latestEpisodes] = await Promise.all([getShow(), getLatestEpisodes(6)]);
