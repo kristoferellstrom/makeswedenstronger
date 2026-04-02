@@ -2,6 +2,17 @@ import { decode } from "html-entities";
 
 import type { TranscriptCue } from "@/lib/types";
 
+function normalizeCueTimestamp(timestamp: string): string {
+  const [hours = "00", minutes = "00", rest = "00.000"] = timestamp.trim().split(":");
+  const [seconds = "00", milliseconds = "000"] = rest.split(".");
+
+  return [
+    hours.padStart(2, "0"),
+    minutes.padStart(2, "0"),
+    `${seconds.padStart(2, "0")}.${milliseconds.padEnd(3, "0").slice(0, 3)}`,
+  ].join(":");
+}
+
 function parseTimestamp(timestamp: string): number {
   const [hours = "00", minutes = "00", rest = "00.000"] = timestamp.split(":");
   const [seconds = "0", milliseconds = "0"] = rest.split(".");
@@ -100,21 +111,21 @@ export function parseVtt(rawVtt: string): TranscriptCue[] {
       timingLine = lines[index]?.trim() ?? "";
     }
 
-    if (!timingLine.includes("-->")) {
-      index += 1;
-      continue;
-    }
-
-    const timingMatch = timingLine.match(
-      /^(\d{2}:\d{2}:\d{2}\.\d{3})\s+-->\s+(\d{2}:\d{2}:\d{2}\.\d{3})/,
+    const vttTimingMatch = timingLine.match(
+      /^(\d{1,2}:\d{2}:\d{2}\.\d{3})\s+-->\s+(\d{1,2}:\d{2}:\d{2}\.\d{3})/,
+    );
+    const sbvTimingMatch = timingLine.match(
+      /^(\d{1,2}:\d{2}:\d{2}\.\d{3}),(\d{1,2}:\d{2}:\d{2}\.\d{3})$/,
     );
 
-    if (!timingMatch) {
+    if (!vttTimingMatch && !sbvTimingMatch) {
       index += 1;
       continue;
     }
 
-    const [, start, end] = timingMatch;
+    const [, rawStart, rawEnd] = vttTimingMatch ?? sbvTimingMatch ?? [];
+    const start = normalizeCueTimestamp(rawStart);
+    const end = normalizeCueTimestamp(rawEnd);
     index += 1;
 
     const textLines: string[] = [];
@@ -149,4 +160,3 @@ export function parseVtt(rawVtt: string): TranscriptCue[] {
 
   return cues;
 }
-

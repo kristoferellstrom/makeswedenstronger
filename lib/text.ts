@@ -28,7 +28,7 @@ export function normalizeSearchText(input: string): string {
 export function normalizeTitle(input: string): string {
   const normalized = normalizeSearchText(
     input
-      .replace(/\.vtt$/i, "")
+      .replace(/\.(vtt|sbv)$/i, "")
       .replace(/^\s*\d+\.\s*/, ""),
   );
 

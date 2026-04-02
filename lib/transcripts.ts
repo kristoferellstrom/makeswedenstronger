@@ -17,6 +17,11 @@ const transcriptDirectories = [
   },
 ];
 
+function isSupportedTranscriptFile(fileName: string): boolean {
+  const lowerCaseName = fileName.toLowerCase();
+  return lowerCaseName.endsWith(".vtt") || lowerCaseName.endsWith(".sbv");
+}
+
 async function directoryExists(directoryPath: string): Promise<boolean> {
   try {
     const info = await stat(directoryPath);
@@ -37,7 +42,7 @@ export const getTranscriptIndex = cache(async () => {
     const files = await readdir(directory.absoluteDirectory, { withFileTypes: true });
 
     for (const file of files) {
-      if (!file.isFile() || !file.name.toLowerCase().endsWith(".vtt")) {
+      if (!file.isFile() || !isSupportedTranscriptFile(file.name)) {
         continue;
       }
 
