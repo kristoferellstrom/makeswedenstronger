@@ -4,7 +4,13 @@ import { useEffect, useMemo, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-import { formatEpisodeDate, formatEpisodeDuration, normalizeSearchText } from "@/lib/text";
+import {
+  formatEpisodeDate,
+  formatEpisodeDuration,
+  getNormalizedSearchTokens,
+  matchesWholeWordQuery,
+  normalizeSearchText,
+} from "@/lib/text";
 import type { EpisodeListItem } from "@/lib/types";
 
 type EpisodeSearchProps = {
@@ -21,7 +27,8 @@ export function EpisodeSearch({ episodes }: EpisodeSearchProps) {
     () =>
       episodes.map((episode) => ({
         episode,
-        searchText: normalizeSearchText(`${episode.title} ${episode.excerpt}`),
+        normalizedTitle: normalizeSearchText(episode.title),
+        normalizedExcerpt: normalizeSearchText(episode.excerpt),
       })),
     [episodes],
   );
@@ -31,10 +38,49 @@ export function EpisodeSearch({ episodes }: EpisodeSearchProps) {
       return episodes;
     }
 
-    const queryTokens = normalizedQuery.split(" ").filter(Boolean);
+    const queryTokens = getNormalizedSearchTokens(normalizedQuery);
 
     return localSearchIndex
-      .filter(({ searchText }) => queryTokens.every((token) => searchText.includes(token)))
+      .map(({ episode, normalizedTitle, normalizedExcerpt }) => {
+        const titleMatches = matchesWholeWordQuery(normalizedTitle, queryTokens);
+        const excerptMatches = matchesWholeWordQuery(normalizedExcerpt, queryTokens);
+
+        if (!titleMatches && !excerptMatches) {
+          return null;
+        }
+
+        let score = 0;
+
+        if (titleMatches) {
+          score += 100;
+
+          if (normalizedTitle.startsWith(normalizedQuery)) {
+            score += 25;
+          } else if (normalizedTitle.includes(normalizedQuery)) {
+            score += 15;
+          }
+        }
+
+        if (excerptMatches) {
+          score += 25;
+
+          if (normalizedExcerpt.includes(normalizedQuery)) {
+            score += 5;
+          }
+        }
+
+        return { episode, score };
+      })
+      .filter((result): result is { episode: EpisodeListItem; score: number } => Boolean(result))
+      .sort((left, right) => {
+        if (right.score !== left.score) {
+          return right.score - left.score;
+        }
+
+        return (
+          new Date(right.episode.publishedAt).getTime() - new Date(left.episode.publishedAt).getTime()
+        );
+      })
       .map(({ episode }) => episode);
   }, [episodes, localSearchIndex, normalizedQuery]);
 

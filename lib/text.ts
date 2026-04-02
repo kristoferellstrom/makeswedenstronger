@@ -25,6 +25,19 @@ export function normalizeSearchText(input: string): string {
     .replace(/\s+/g, " ");
 }
 
+export function getNormalizedSearchTokens(normalizedInput: string): string[] {
+  return normalizedInput.split(" ").filter(Boolean);
+}
+
+export function matchesWholeWordQuery(normalizedText: string, queryTokens: readonly string[]) {
+  if (!queryTokens.length) {
+    return true;
+  }
+
+  const tokenSet = new Set(getNormalizedSearchTokens(normalizedText));
+  return queryTokens.every((token) => tokenSet.has(token));
+}
+
 export function normalizeTitle(input: string): string {
   const normalized = normalizeSearchText(
     input

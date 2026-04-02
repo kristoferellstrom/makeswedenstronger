@@ -7,7 +7,11 @@ import {
   getTranscriptIndex,
   getTranscriptMatchForEpisode,
 } from "@/lib/transcripts";
-import { normalizeSearchText } from "@/lib/text";
+import {
+  getNormalizedSearchTokens,
+  matchesWholeWordQuery,
+  normalizeSearchText,
+} from "@/lib/text";
 import type { Episode, EpisodeListItem } from "@/lib/types";
 
 export const getShow = cache(async () => {
@@ -155,7 +159,9 @@ const getEpisodeSearchIndex = cache(async () => {
 
   return episodes.map((episode) => ({
     episode,
-    searchText: normalizeSearchText(`${episode.title} ${episode.descriptionText} ${episode.excerpt}`),
+    normalizedTitle: normalizeSearchText(episode.title),
+    normalizedDescription: normalizeSearchText(episode.descriptionText),
+    normalizedExcerpt: normalizeSearchText(episode.excerpt),
   }));
 });
 
@@ -188,28 +194,85 @@ export async function searchEpisodes(query: string): Promise<Episode[]> {
     return getEpisodes();
   }
 
-  const queryTokens = normalizedQuery.split(" ").filter(Boolean);
-  const episodes = await getEpisodes();
-  const matchedEpisodeSlugs = new Set<string>();
+  const queryTokens = getNormalizedSearchTokens(normalizedQuery);
   const searchIndex = await getEpisodeSearchIndex();
+  const scoredEpisodes = new Map<string, { episode: Episode; score: number }>();
 
-  for (const { episode, searchText } of searchIndex) {
-    if (queryTokens.every((token) => searchText.includes(token))) {
-      matchedEpisodeSlugs.add(episode.slug);
+  function setEpisodeScore(episode: Episode, score: number) {
+    const current = scoredEpisodes.get(episode.slug);
+
+    if (!current || score > current.score) {
+      scoredEpisodes.set(episode.slug, { episode, score });
     }
+  }
+
+  for (const { episode, normalizedTitle, normalizedDescription, normalizedExcerpt } of searchIndex) {
+    const titleMatches = matchesWholeWordQuery(normalizedTitle, queryTokens);
+    const descriptionMatches = matchesWholeWordQuery(normalizedDescription, queryTokens);
+    const excerptMatches = matchesWholeWordQuery(normalizedExcerpt, queryTokens);
+
+    if (!titleMatches && !descriptionMatches && !excerptMatches) {
+      continue;
+    }
+
+    let score = 0;
+
+    if (titleMatches) {
+      score += 100;
+
+      if (normalizedTitle.startsWith(normalizedQuery)) {
+        score += 25;
+      } else if (normalizedTitle.includes(normalizedQuery)) {
+        score += 15;
+      }
+    }
+
+    if (descriptionMatches) {
+      score += 35;
+
+      if (normalizedDescription.includes(normalizedQuery)) {
+        score += 5;
+      }
+    }
+
+    if (excerptMatches) {
+      score += 25;
+
+      if (normalizedExcerpt.includes(normalizedQuery)) {
+        score += 5;
+      }
+    }
+
+    setEpisodeScore(episode, score);
   }
 
   if (normalizedQuery.length >= 3) {
     const transcriptSearchIndex = await getEpisodeTranscriptSearchIndex();
 
     for (const { episode, searchText } of transcriptSearchIndex) {
-      if (queryTokens.every((token) => searchText.includes(token))) {
-        matchedEpisodeSlugs.add(episode.slug);
+      if (matchesWholeWordQuery(searchText, queryTokens)) {
+        let score = 15;
+
+        if (searchText.includes(normalizedQuery)) {
+          score += 5;
+        }
+
+        setEpisodeScore(episode, score);
       }
     }
   }
 
-  return episodes.filter((episode) => matchedEpisodeSlugs.has(episode.slug));
+  return Array.from(scoredEpisodes.values())
+    .sort((left, right) => {
+      if (right.score !== left.score) {
+        return right.score - left.score;
+      }
+
+      return (
+        new Date(right.episode.publishedAt).getTime() - new Date(left.episode.publishedAt).getTime()
+      );
+    })
+    .map(({ episode }) => episode);
 }
 
 export async function searchEpisodeListItems(query: string): Promise<EpisodeListItem[]> {
