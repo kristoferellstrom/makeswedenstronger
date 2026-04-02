@@ -153,22 +153,31 @@ export async function hasTranscriptForEpisode(episode: Episode): Promise<boolean
 const getEpisodeSearchIndex = cache(async () => {
   const episodes = await getEpisodes();
 
-  return Promise.all(
-    episodes.map(async (episode) => {
-      const transcript = episode.hasTranscript ? await getTranscriptForEpisode(episode) : null;
-      const transcriptText = transcript
-        ? transcript.cues
-            .map((cue) => [cue.speaker, cue.text].filter(Boolean).join(" "))
-            .join(" ")
-        : "";
+  return episodes.map((episode) => ({
+    episode,
+    searchText: normalizeSearchText(`${episode.title} ${episode.descriptionText} ${episode.excerpt}`),
+  }));
+});
 
-      return {
-        episode,
-        searchText: normalizeSearchText(
-          `${episode.title} ${episode.descriptionText} ${transcriptText}`,
-        ),
-      };
-    }),
+const getEpisodeTranscriptSearchIndex = cache(async () => {
+  const episodes = await getEpisodes();
+
+  return Promise.all(
+    episodes
+      .filter((episode) => episode.hasTranscript)
+      .map(async (episode) => {
+        const transcript = await getTranscriptForEpisode(episode);
+        const transcriptText = transcript
+          ? transcript.cues
+              .map((cue) => [cue.speaker, cue.text].filter(Boolean).join(" "))
+              .join(" ")
+          : "";
+
+        return {
+          episode,
+          searchText: normalizeSearchText(transcriptText),
+        };
+      }),
   );
 });
 
@@ -180,11 +189,27 @@ export async function searchEpisodes(query: string): Promise<Episode[]> {
   }
 
   const queryTokens = normalizedQuery.split(" ").filter(Boolean);
+  const episodes = await getEpisodes();
+  const matchedEpisodeSlugs = new Set<string>();
   const searchIndex = await getEpisodeSearchIndex();
 
-  return searchIndex
-    .filter(({ searchText }) => queryTokens.every((token) => searchText.includes(token)))
-    .map(({ episode }) => episode);
+  for (const { episode, searchText } of searchIndex) {
+    if (queryTokens.every((token) => searchText.includes(token))) {
+      matchedEpisodeSlugs.add(episode.slug);
+    }
+  }
+
+  if (normalizedQuery.length >= 3) {
+    const transcriptSearchIndex = await getEpisodeTranscriptSearchIndex();
+
+    for (const { episode, searchText } of transcriptSearchIndex) {
+      if (queryTokens.every((token) => searchText.includes(token))) {
+        matchedEpisodeSlugs.add(episode.slug);
+      }
+    }
+  }
+
+  return episodes.filter((episode) => matchedEpisodeSlugs.has(episode.slug));
 }
 
 export async function searchEpisodeListItems(query: string): Promise<EpisodeListItem[]> {

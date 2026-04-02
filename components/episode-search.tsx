@@ -1,10 +1,10 @@
 "use client";
 
-import { useDeferredValue, useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-import { formatEpisodeDate, formatEpisodeDuration } from "@/lib/text";
+import { formatEpisodeDate, formatEpisodeDuration, normalizeSearchText } from "@/lib/text";
 import type { EpisodeListItem } from "@/lib/types";
 
 type EpisodeSearchProps = {
@@ -13,50 +13,77 @@ type EpisodeSearchProps = {
 
 export function EpisodeSearch({ episodes }: EpisodeSearchProps) {
   const [query, setQuery] = useState("");
-  const deferredQuery = useDeferredValue(query.trim());
-  const [filteredEpisodes, setFilteredEpisodes] = useState(episodes);
+  const normalizedQuery = normalizeSearchText(query);
+  const [filteredEpisodes, setFilteredEpisodes] = useState<EpisodeListItem[] | null>(null);
   const [isSearching, setIsSearching] = useState(false);
 
+  const localSearchIndex = useMemo(
+    () =>
+      episodes.map((episode) => ({
+        episode,
+        searchText: normalizeSearchText(`${episode.title} ${episode.excerpt}`),
+      })),
+    [episodes],
+  );
+
+  const localFilteredEpisodes = useMemo(() => {
+    if (!normalizedQuery) {
+      return episodes;
+    }
+
+    const queryTokens = normalizedQuery.split(" ").filter(Boolean);
+
+    return localSearchIndex
+      .filter(({ searchText }) => queryTokens.every((token) => searchText.includes(token)))
+      .map(({ episode }) => episode);
+  }, [episodes, localSearchIndex, normalizedQuery]);
+
   useEffect(() => {
-    if (!deferredQuery) {
-      setFilteredEpisodes(episodes);
+    setFilteredEpisodes(null);
+
+    if (!normalizedQuery || normalizedQuery.length < 3) {
       setIsSearching(false);
       return;
     }
 
     const controller = new AbortController();
-    setIsSearching(true);
+    const timeoutId = window.setTimeout(() => {
+      setIsSearching(true);
 
-    void fetch(`/api/episodes/search?query=${encodeURIComponent(deferredQuery)}`, {
-      signal: controller.signal,
-    })
-      .then(async (response) => {
-        if (!response.ok) {
-          throw new Error(`Search failed with status ${response.status}`);
-        }
+      void fetch(`/api/episodes/search?query=${encodeURIComponent(normalizedQuery)}`, {
+        signal: controller.signal,
+      })
+        .then(async (response) => {
+          if (!response.ok) {
+            throw new Error(`Search failed with status ${response.status}`);
+          }
 
-        return response.json() as Promise<{ episodes: EpisodeListItem[] }>;
-      })
-      .then((data) => {
-        setFilteredEpisodes(data.episodes);
-      })
-      .catch((error: unknown) => {
-        if (error instanceof DOMException && error.name === "AbortError") {
-          return;
-        }
+          return response.json() as Promise<{ episodes: EpisodeListItem[] }>;
+        })
+        .then((data) => {
+          setFilteredEpisodes(data.episodes);
+        })
+        .catch((error: unknown) => {
+          if (error instanceof DOMException && error.name === "AbortError") {
+            return;
+          }
 
-        console.error(error);
-      })
-      .finally(() => {
-        if (!controller.signal.aborted) {
-          setIsSearching(false);
-        }
-      });
+          console.error(error);
+        })
+        .finally(() => {
+          if (!controller.signal.aborted) {
+            setIsSearching(false);
+          }
+        });
+    }, 250);
 
     return () => {
+      window.clearTimeout(timeoutId);
       controller.abort();
     };
-  }, [deferredQuery, episodes]);
+  }, [normalizedQuery]);
+
+  const displayedEpisodes = filteredEpisodes ?? localFilteredEpisodes;
 
   return (
     <div className="searchLayout">
@@ -72,12 +99,12 @@ export function EpisodeSearch({ episodes }: EpisodeSearchProps) {
       </label>
 
       <p className="searchSummary">
-        Visar {filteredEpisodes.length} av {episodes.length} avsnitt
+        Visar {displayedEpisodes.length} av {episodes.length} avsnitt
         {isSearching ? " ..." : ""}
       </p>
 
       <div className="episodeList">
-        {filteredEpisodes.map((episode) => (
+        {displayedEpisodes.map((episode) => (
           <article key={episode.guid} className="episodeListItem">
             <Link href={`/episodes/${episode.slug}`} className="episodeListImageLink">
               <Image
