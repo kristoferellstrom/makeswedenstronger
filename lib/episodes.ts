@@ -1,5 +1,6 @@
 import { cache } from "react";
 
+import { getEpisodeMeta } from "@/content/episode-meta";
 import { getPodcastFeed } from "@/lib/rss";
 import {
   getTranscriptForEpisode,
@@ -35,12 +36,83 @@ export async function getLatestEpisodes(limit = 6): Promise<Episode[]> {
   return (await getEpisodes()).slice(0, limit);
 }
 
+function normalizeMetaValue(value: string): string {
+  return normalizeSearchText(value);
+}
+
+function isReplayEpisode(episode: Episode): boolean {
+  return /\brepris(?:en)?\b/i.test(episode.title);
+}
+
+function getOverlapScore(currentValues: string[], candidateValues: string[], weight: number) {
+  const currentSet = new Set(currentValues.map(normalizeMetaValue).filter(Boolean));
+  const candidateSet = new Set(candidateValues.map(normalizeMetaValue).filter(Boolean));
+
+  let score = 0;
+
+  for (const value of currentSet) {
+    if (candidateSet.has(value)) {
+      score += weight;
+    }
+  }
+
+  return score;
+}
+
 export async function getRelatedEpisodes(currentEpisode: Episode, limit = 3): Promise<Episode[]> {
   const episodes = await getEpisodes();
+  const currentMeta = getEpisodeMeta(currentEpisode.slug);
+  const candidateEpisodes = episodes.filter(
+    (episode) => episode.slug !== currentEpisode.slug && !isReplayEpisode(episode),
+  );
 
-  return episodes
-    .filter((episode) => episode.slug !== currentEpisode.slug)
-    .slice(0, limit);
+  if (!currentMeta) {
+    return candidateEpisodes.slice(0, limit);
+  }
+
+  const scoredEpisodes = candidateEpisodes.map((episode) => {
+      const candidateMeta = getEpisodeMeta(episode.slug);
+
+      if (!candidateMeta) {
+        return { episode, score: 0 };
+      }
+
+      const topicScore = getOverlapScore(currentMeta.topics, candidateMeta.topics, 4);
+      const entityScore = getOverlapScore(
+        currentMeta.entities ?? [],
+        candidateMeta.entities ?? [],
+        2,
+      );
+
+      return {
+        episode,
+        score: topicScore + entityScore,
+      };
+    });
+
+  const relatedEpisodes = scoredEpisodes
+    .filter(({ score }) => score > 0)
+    .sort((left, right) => {
+      if (right.score !== left.score) {
+        return right.score - left.score;
+      }
+
+      return (
+        new Date(right.episode.publishedAt).getTime() - new Date(left.episode.publishedAt).getTime()
+      );
+    })
+    .slice(0, limit)
+    .map(({ episode }) => episode);
+
+  if (relatedEpisodes.length === limit) {
+    return relatedEpisodes;
+  }
+
+  const fallbackEpisodes = candidateEpisodes
+    .filter((episode) => !relatedEpisodes.some((related) => related.slug === episode.slug))
+    .slice(0, limit - relatedEpisodes.length);
+
+  return [...relatedEpisodes, ...fallbackEpisodes];
 }
 
 export async function getTranscriptCoverage(): Promise<{

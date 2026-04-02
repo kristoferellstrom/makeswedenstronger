@@ -215,7 +215,7 @@ export default async function EpisodePage({ params }: EpisodePageProps) {
 
       <section className="section">
         <div className="sectionHeading">
-          <h2>Fler avsnitt</h2>
+          <h2>{episodeMeta ? "Relaterade avsnitt" : "Fler avsnitt"}</h2>
           <Link href="/episodes" className="textLink sectionHeadingLink">
             Alla avsnitt
           </Link>
