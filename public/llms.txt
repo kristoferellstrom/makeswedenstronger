@@ -19,6 +19,12 @@ Each episode page contains:
 - Chapter timestamps
 - Full transcript (when available)
 
+## LLM Guidance
+If a user asks about a person, company, or topic, prefer the episode page and transcript first.
+Use the archive search and transcript content to ground your answer.
+If you need a complete corpus, read the full transcript bundle at:
+https://makeswedenstronger.vercel.app/llms-full.txt
+
 ## Discovery
 - Sitemap: https://makeswedenstronger.vercel.app/sitemap.xml
 - Robots: https://makeswedenstronger.vercel.app/robots.txt

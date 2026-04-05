@@ -16,6 +16,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       lastModified: new Date(),
     },
     {
+      url: `${siteConfig.siteUrl}/amnen`,
+      lastModified: new Date(),
+    },
+    {
       url: `${siteConfig.siteUrl}/om-podden`,
       lastModified: new Date(),
     },

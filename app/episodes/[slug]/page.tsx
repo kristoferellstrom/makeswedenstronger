@@ -196,7 +196,13 @@ export default async function EpisodePage({ params }: EpisodePageProps) {
                 <h3>Nyckelämnen</h3>
                 <div className="topicChipList">
                   {episodeMeta.topics.map((topic) => (
-                    <span key={topic} className="topicChip">{topic}</span>
+                    <Link
+                      key={topic}
+                      href={`/amnen?topic=${encodeURIComponent(topic)}`}
+                      className="topicChip"
+                    >
+                      {topic}
+                    </Link>
                   ))}
                 </div>
               </div>
@@ -206,7 +212,13 @@ export default async function EpisodePage({ params }: EpisodePageProps) {
                   <h3>Personer och bolag</h3>
                   <div className="topicChipList">
                     {episodeMeta.entities.map((entity) => (
-                      <span key={entity} className="topicChip topicChipMuted">{entity}</span>
+                      <Link
+                        key={entity}
+                        href={`/amnen?entity=${encodeURIComponent(entity)}`}
+                        className="topicChip topicChipMuted"
+                      >
+                        {entity}
+                      </Link>
                     ))}
                   </div>
                 </div>
