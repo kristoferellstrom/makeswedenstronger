@@ -19,7 +19,7 @@ import {
   serializeJsonLd,
 } from "@/lib/seo";
 import { getTranscriptForEpisode } from "@/lib/transcripts";
-import { getYouTubeVideoForTitle } from "@/lib/youtube";
+import { buildYouTubeSearchUrl, getYouTubeVideoForTitle } from "@/lib/youtube";
 
 export const revalidate = 3600;
 export const dynamicParams = true;
@@ -178,11 +178,11 @@ export default async function EpisodePage({ params }: EpisodePageProps) {
           </audio>
         </section>
 
-        {youtubeVideo ? (
-          <section className="contentPanel" aria-labelledby="episode-youtube-heading">
-            <div className="sectionHeading">
-              <h2 id="episode-youtube-heading">YouTube</h2>
-            </div>
+        <section className="contentPanel" aria-labelledby="episode-youtube-heading">
+          <div className="sectionHeading">
+            <h2 id="episode-youtube-heading">YouTube</h2>
+          </div>
+          {youtubeVideo ? (
             <div className="youtubeEmbed">
               <iframe
                 src={youtubeVideo.embedUrl}
@@ -193,8 +193,33 @@ export default async function EpisodePage({ params }: EpisodePageProps) {
                 allowFullScreen
               />
             </div>
-          </section>
-        ) : null}
+          ) : (
+            <div className="emptyStateBlock">
+              <p>
+                Vi hittar ingen exakt video i YouTube-flödet ännu. Öppna sökningen eller
+                spellistan så hittar du avsnittet direkt där.
+              </p>
+              <div className="inlineActions">
+                <a
+                  className="textLink"
+                  href={buildYouTubeSearchUrl(episode.title)}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Sök avsnittet på YouTube
+                </a>
+                <a
+                  className="textLink"
+                  href={siteConfig.links.youtube}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Öppna spellistan
+                </a>
+              </div>
+            </div>
+          )}
+        </section>
 
         {episodeMeta ? (
           <section className="contentPanel episodeGuidePanel" aria-labelledby="episode-guide-heading">

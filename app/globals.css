@@ -1006,6 +1006,17 @@ code {
   display: block;
 }
 
+.emptyStateBlock {
+  display: grid;
+  gap: 0.65rem;
+}
+
+.inlineActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+}
+
 .episodeGuidePanel {
   display: grid;
   gap: 1.2rem;

@@ -29,6 +29,11 @@ export type YouTubeVideo = {
   thumbnailUrl?: string;
 };
 
+export function buildYouTubeSearchUrl(title: string) {
+  const query = encodeURIComponent(title);
+  return `https://www.youtube.com/results?search_query=${query}`;
+}
+
 const parser = new XMLParser({
   ignoreAttributes: false,
   attributeNamePrefix: "",
