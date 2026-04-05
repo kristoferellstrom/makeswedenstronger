@@ -131,7 +131,7 @@ function extractGuestTokens(title: string) {
   return filterMatchTokens(getNormalizedSearchTokens(normalizedLeft));
 }
 
-const getYouTubeVideoIndex = cache(async (): Promise<YouTubeVideoIndex> => {
+export const getYouTubeVideoIndex = cache(async (): Promise<YouTubeVideoIndex> => {
   const byTitle = new Map<string, YouTubeVideo>();
   const indexedEntries: YouTubeVideoIndex["entries"] = [];
 
