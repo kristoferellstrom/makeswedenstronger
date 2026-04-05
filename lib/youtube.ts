@@ -61,6 +61,42 @@ type YouTubeVideoIndex = {
   entries: Array<YouTubeVideo & { normalizedTitle: string; tokens: string[] }>;
 };
 
+const MATCH_STOPWORDS = new Set([
+  "och",
+  "om",
+  "med",
+  "for",
+  "för",
+  "av",
+  "i",
+  "att",
+  "den",
+  "det",
+  "en",
+  "ett",
+  "som",
+  "ar",
+  "är",
+  "har",
+  "till",
+  "pa",
+  "på",
+  "mot",
+  "samt",
+  "vd",
+  "ceo",
+  "grundare",
+  "medgrundare",
+  "delagare",
+  "delägare",
+  "gast",
+  "gäst",
+]);
+
+function filterMatchTokens(tokens: string[]) {
+  return tokens.filter((token) => token.length > 2 && !MATCH_STOPWORDS.has(token));
+}
+
 const getYouTubeVideoIndex = cache(async (): Promise<YouTubeVideoIndex> => {
   const byTitle = new Map<string, YouTubeVideo>();
   const indexedEntries: YouTubeVideoIndex["entries"] = [];
@@ -134,6 +170,7 @@ export async function getYouTubeVideoForTitle(title: string): Promise<YouTubeVid
 
   const normalizedInput = normalizeSearchText(title);
   const inputTokens = getNormalizedSearchTokens(normalizedInput);
+  const filteredInputTokens = filterMatchTokens(inputTokens);
 
   if (!inputTokens.length) {
     return null;
@@ -149,13 +186,16 @@ export async function getYouTubeVideoForTitle(title: string): Promise<YouTubeVid
     return directMatch[0];
   }
 
+  const baseTokens = filteredInputTokens.length ? filteredInputTokens : inputTokens;
   const scored = index.entries
     .map((entry) => {
-      const overlap = entry.tokens.filter((token) => inputTokens.includes(token)).length;
-      const score = overlap / inputTokens.length;
-      return { entry, score };
+      const entryFilteredTokens = filterMatchTokens(entry.tokens);
+      const entryTokens = entryFilteredTokens.length ? entryFilteredTokens : entry.tokens;
+      const overlap = entryTokens.filter((token) => baseTokens.includes(token)).length;
+      const score = overlap / Math.max(2, baseTokens.length);
+      return { entry, score, overlap };
     })
-    .filter((item) => item.score >= 0.7)
+    .filter((item) => item.score >= 0.5 && item.overlap >= Math.min(2, baseTokens.length))
     .sort((a, b) => b.score - a.score);
 
   if (!scored.length) {
