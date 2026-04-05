@@ -1,0 +1,17 @@
+{
+  "name": "Make Sweden Stronger",
+  "short_name": "MSS",
+  "description": "Podcast om företagsbyggande, kapitalanskaffning, e-handel, ledarskap, marknadsföring och varumärkesbyggande.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#efe7dd",
+  "theme_color": "#1b1612",
+  "icons": [
+    {
+      "src": "/jLowenbergoel.webp",
+      "sizes": "512x512",
+      "type": "image/webp"
+    }
+  ]
+}
