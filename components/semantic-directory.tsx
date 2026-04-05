@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
@@ -54,6 +54,8 @@ export function SemanticDirectory({ topics, entities }: SemanticDirectoryProps) 
   const params = useSearchParams();
   const selectedTopic = params.get("topic");
   const selectedEntity = params.get("entity");
+  const [query, setQuery] = useState("");
+  const normalizedQuery = normalizeSearchText(query);
 
   const activeTopic = useMemo(() => findEntry(topics, selectedTopic), [topics, selectedTopic]);
   const activeEntity = useMemo(
@@ -67,59 +69,44 @@ export function SemanticDirectory({ topics, entities }: SemanticDirectoryProps) 
   );
 
   const hasFilter = Boolean(activeTopic || activeEntity);
+  const filteredTopics = useMemo(() => {
+    if (!normalizedQuery) {
+      return topics;
+    }
+
+    return topics.filter((entry) =>
+      normalizeSearchText(entry.label).includes(normalizedQuery),
+    );
+  }, [normalizedQuery, topics]);
+
+  const filteredEntities = useMemo(() => {
+    if (!normalizedQuery) {
+      return entities;
+    }
+
+    return entities.filter((entry) =>
+      normalizeSearchText(entry.label).includes(normalizedQuery),
+    );
+  }, [entities, normalizedQuery]);
 
   return (
     <div className="semanticDirectory">
-      <section className="contentPanel">
-        <div className="sectionHeading">
-          <h2>Ämnen</h2>
-        </div>
-        <div className="topicChipList">
-          {topics.map((entry) => (
-            <Link
-              key={entry.label}
-              href={`/amnen?topic=${encodeURIComponent(entry.label)}`}
-              className={[
-                "topicChip",
-                activeTopic?.label === entry.label ? "isActive" : "",
-              ]
-                .filter(Boolean)
-                .join(" ")}
-            >
-              {entry.label}
-            </Link>
-          ))}
-        </div>
-      </section>
+      <label className="searchField">
+        <span>Sök i ämnen och personer</span>
+        <input
+          type="search"
+          name="topic-search"
+          value={query}
+          onChange={(event) => setQuery(event.target.value)}
+          placeholder="Sök ämne eller namn"
+        />
+      </label>
 
-      <section className="contentPanel">
-        <div className="sectionHeading">
-          <h2>Personer och bolag</h2>
-        </div>
-        <div className="topicChipList">
-          {entities.map((entry) => (
-            <Link
-              key={entry.label}
-              href={`/amnen?entity=${encodeURIComponent(entry.label)}`}
-              className={[
-                "topicChip",
-                "topicChipMuted",
-                activeEntity?.label === entry.label ? "isActive" : "",
-              ]
-                .filter(Boolean)
-                .join(" ")}
-            >
-              {entry.label}
-            </Link>
-          ))}
-        </div>
-      </section>
-
-      <section className="contentPanel">
+      <section className="contentPanel" id="results">
         <div className="sectionHeading">
           <h2>{hasFilter ? "Relaterade avsnitt" : "Välj ett ämne eller namn"}</h2>
           {hasFilter ? (
-            <Link href="/amnen" className="textLink sectionHeadingLink">
+            <Link href="/amnen#results" className="textLink sectionHeadingLink">
               Rensa filter
             </Link>
           ) : null}
@@ -167,6 +154,60 @@ export function SemanticDirectory({ topics, entities }: SemanticDirectoryProps) 
           </p>
         )}
       </section>
+
+      <section className="contentPanel semanticPanel">
+        <div className="semanticPanelRow">
+          <div className="sectionHeading">
+            <h2>Ämnen</h2>
+          </div>
+          <div className="semanticChipPanel">
+            <div className="topicChipList">
+              {filteredTopics.map((entry) => (
+                <Link
+                  key={entry.label}
+                  href={`/amnen?topic=${encodeURIComponent(entry.label)}#results`}
+              className={[
+                "topicChip",
+                activeTopic?.label === entry.label ? "isActive" : "",
+                  ]
+                    .filter(Boolean)
+                    .join(" ")}
+                >
+                  {entry.label}
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="contentPanel semanticPanel">
+        <div className="semanticPanelRow">
+          <div className="sectionHeading">
+            <h2>Personer och bolag</h2>
+          </div>
+          <div className="semanticChipPanel">
+            <div className="topicChipList">
+              {filteredEntities.map((entry) => (
+                <Link
+                  key={entry.label}
+                  href={`/amnen?entity=${encodeURIComponent(entry.label)}#results`}
+              className={[
+                "topicChip",
+                "topicChipMuted",
+                    activeEntity?.label === entry.label ? "isActive" : "",
+                  ]
+                    .filter(Boolean)
+                    .join(" ")}
+                >
+                  {entry.label}
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
     </div>
   );
 }
