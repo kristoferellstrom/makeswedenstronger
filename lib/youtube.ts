@@ -20,6 +20,26 @@ type YouTubeFeed = {
   };
 };
 
+type YouTubeApiItem = {
+  snippet?: {
+    title?: string;
+    publishedAt?: string;
+    resourceId?: {
+      videoId?: string;
+    };
+    thumbnails?: {
+      high?: { url?: string };
+      medium?: { url?: string };
+      default?: { url?: string };
+    };
+  };
+};
+
+type YouTubeApiResponse = {
+  items?: YouTubeApiItem[];
+  nextPageToken?: string;
+};
+
 export type YouTubeVideo = {
   id: string;
   title: string;
@@ -114,6 +134,78 @@ function extractGuestTokens(title: string) {
 const getYouTubeVideoIndex = cache(async (): Promise<YouTubeVideoIndex> => {
   const byTitle = new Map<string, YouTubeVideo>();
   const indexedEntries: YouTubeVideoIndex["entries"] = [];
+
+  const apiKey = process.env.YOUTUBE_API_KEY;
+  if (apiKey && siteConfig.youtubePlaylistId) {
+    try {
+      let pageToken: string | undefined;
+      const items: YouTubeApiItem[] = [];
+
+      do {
+        const url = new URL("https://www.googleapis.com/youtube/v3/playlistItems");
+        url.searchParams.set("part", "snippet");
+        url.searchParams.set("maxResults", "50");
+        url.searchParams.set("playlistId", siteConfig.youtubePlaylistId);
+        url.searchParams.set("key", apiKey);
+        if (pageToken) {
+          url.searchParams.set("pageToken", pageToken);
+        }
+
+        const response = await fetch(url.toString(), {
+          next: { revalidate: siteConfig.revalidateSeconds },
+        });
+
+        if (!response.ok) {
+          break;
+        }
+
+        const data = (await response.json()) as YouTubeApiResponse;
+        if (data.items?.length) {
+          items.push(...data.items);
+        }
+        pageToken = data.nextPageToken;
+      } while (pageToken);
+
+      for (const item of items) {
+        const snippet = item.snippet;
+        const title = snippet?.title?.trim() ?? "";
+        const normalizedTitle = normalizeTitle(title);
+
+        if (!normalizedTitle) {
+          continue;
+        }
+
+        const id = snippet?.resourceId?.videoId?.trim() ?? "";
+        if (!id) {
+          continue;
+        }
+
+        const video: YouTubeVideo = {
+          id,
+          title,
+          url: `https://www.youtube.com/watch?v=${id}`,
+          embedUrl: `https://www.youtube.com/embed/${id}`,
+          publishedAt: snippet?.publishedAt ?? null,
+          thumbnailUrl:
+            snippet?.thumbnails?.high?.url ??
+            snippet?.thumbnails?.medium?.url ??
+            snippet?.thumbnails?.default?.url,
+        };
+
+        byTitle.set(normalizedTitle, video);
+        indexedEntries.push({
+          ...video,
+          normalizedTitle,
+          tokens: getNormalizedSearchTokens(normalizeSearchText(title)),
+        });
+      }
+
+      return { byTitle, entries: indexedEntries };
+    } catch {
+      return { byTitle, entries: indexedEntries };
+    }
+  }
+
   if (!siteConfig.youtubeFeedUrl) {
     return { byTitle, entries: indexedEntries };
   }
