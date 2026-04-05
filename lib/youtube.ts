@@ -97,6 +97,15 @@ function filterMatchTokens(tokens: string[]) {
   return tokens.filter((token) => token.length > 2 && !MATCH_STOPWORDS.has(token));
 }
 
+function extractGuestTokens(title: string) {
+  const [left] = title.split(" - ");
+  if (!left) {
+    return [];
+  }
+  const normalizedLeft = normalizeSearchText(left);
+  return filterMatchTokens(getNormalizedSearchTokens(normalizedLeft));
+}
+
 const getYouTubeVideoIndex = cache(async (): Promise<YouTubeVideoIndex> => {
   const byTitle = new Map<string, YouTubeVideo>();
   const indexedEntries: YouTubeVideoIndex["entries"] = [];
@@ -171,6 +180,7 @@ export async function getYouTubeVideoForTitle(title: string): Promise<YouTubeVid
   const normalizedInput = normalizeSearchText(title);
   const inputTokens = getNormalizedSearchTokens(normalizedInput);
   const filteredInputTokens = filterMatchTokens(inputTokens);
+  const guestTokens = extractGuestTokens(title);
 
   if (!inputTokens.length) {
     return null;
@@ -192,10 +202,16 @@ export async function getYouTubeVideoForTitle(title: string): Promise<YouTubeVid
       const entryFilteredTokens = filterMatchTokens(entry.tokens);
       const entryTokens = entryFilteredTokens.length ? entryFilteredTokens : entry.tokens;
       const overlap = entryTokens.filter((token) => baseTokens.includes(token)).length;
+      const guestOverlap = guestTokens.filter((token) => entryTokens.includes(token)).length;
       const score = overlap / Math.max(2, baseTokens.length);
-      return { entry, score, overlap };
+      return { entry, score, overlap, guestOverlap };
     })
-    .filter((item) => item.score >= 0.5 && item.overlap >= Math.min(2, baseTokens.length))
+    .filter((item) => {
+      if (guestTokens.length >= 2 && item.guestOverlap < guestTokens.length) {
+        return false;
+      }
+      return item.score >= 0.5 && item.overlap >= Math.min(2, baseTokens.length);
+    })
     .sort((a, b) => b.score - a.score);
 
   if (!scored.length) {
