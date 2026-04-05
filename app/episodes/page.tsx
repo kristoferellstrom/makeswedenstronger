@@ -9,8 +9,9 @@ import { buildArchiveJsonLd, buildBreadcrumbJsonLd, serializeJsonLd } from "@/li
 export const revalidate = 3600;
 
 export const metadata: Metadata = {
-  title: "Arkiv",
-  description: "Bläddra bland alla avsnitt i Make Sweden Stronger och se direkt vilka som har transkript.",
+  title: "Arkiv: alla transkriberingar och avsnitt",
+  description:
+    "Alla avsnitt och transkriberingar från Make Sweden Stronger. Sök bland gäster, bolag och ämnen och hitta rätt intervju direkt.",
   alternates: {
     canonical: "/episodes",
   },
@@ -26,10 +27,20 @@ export default async function EpisodesPage() {
 
   return (
     <div className="container pageStack">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: serializeJsonLd(archiveJsonLd) }}
-      />
+      {Array.isArray(archiveJsonLd)
+        ? archiveJsonLd.map((entry, index) => (
+            <script
+              key={`archive-jsonld-${index}`}
+              type="application/ld+json"
+              dangerouslySetInnerHTML={{ __html: serializeJsonLd(entry) }}
+            />
+          ))
+        : (
+            <script
+              type="application/ld+json"
+              dangerouslySetInnerHTML={{ __html: serializeJsonLd(archiveJsonLd) }}
+            />
+          )}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: serializeJsonLd(breadcrumbJsonLd) }}

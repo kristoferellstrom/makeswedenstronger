@@ -192,27 +192,59 @@ export function buildHomeJsonLd(show: PodcastShow, latestEpisodes: Episode[]) {
 }
 
 export function buildArchiveJsonLd(episodes: Episode[]) {
-  return {
-    "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    name: `Arkiv | ${siteConfig.name}`,
-    url: `${siteConfig.siteUrl}/episodes`,
-    description: "Alla publicerade avsnitt av Make Sweden Stronger.",
-    isPartOf: {
-      "@type": "WebSite",
-      name: siteConfig.name,
-      url: siteConfig.siteUrl,
+  const episodeUrls = episodes.map((episode) => `${siteConfig.siteUrl}/episodes/${episode.slug}`);
+
+  return [
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      name: `Arkiv | ${siteConfig.name}`,
+      url: `${siteConfig.siteUrl}/episodes`,
+      description: "Alla publicerade avsnitt av Make Sweden Stronger.",
+      isPartOf: {
+        "@type": "WebSite",
+        name: siteConfig.name,
+        url: siteConfig.siteUrl,
+      },
+      mainEntity: {
+        "@type": "ItemList",
+        itemListElement: episodes.map((episode, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          url: `${siteConfig.siteUrl}/episodes/${episode.slug}`,
+          name: episode.title,
+        })),
+      },
     },
-    mainEntity: {
-      "@type": "ItemList",
-      itemListElement: episodes.map((episode, index) => ({
-        "@type": "ListItem",
-        position: index + 1,
-        url: `${siteConfig.siteUrl}/episodes/${episode.slug}`,
-        name: episode.title,
+    {
+      "@context": "https://schema.org",
+      "@type": "Dataset",
+      name: `${siteConfig.name} – Transkriberingar`,
+      description:
+        "Samling av avsnittstranskriberingar från Make Sweden Stronger. Varje post länkar till ett avsnitt med fullständig transcript, sammanfattning och kapitel.",
+      url: `${siteConfig.siteUrl}/episodes`,
+      creator: {
+        "@type": "Person",
+        name: siteConfig.creator,
+        url: creatorProfileUrl,
+      },
+      publisher: {
+        "@id": organizationId,
+      },
+      license: siteConfig.siteUrl,
+      inLanguage: siteConfig.locale,
+      distribution: episodeUrls.map((url) => ({
+        "@type": "DataDownload",
+        encodingFormat: "text/html",
+        contentUrl: url,
       })),
+      isPartOf: {
+        "@type": "DataCatalog",
+        name: `${siteConfig.name} – Avsnittsarkiv`,
+        url: `${siteConfig.siteUrl}/episodes`,
+      },
     },
-  };
+  ];
 }
 
 export function buildBreadcrumbJsonLd(
