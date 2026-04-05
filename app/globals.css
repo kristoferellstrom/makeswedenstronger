@@ -989,6 +989,23 @@ code {
   margin-top: 0.85rem;
 }
 
+.youtubeEmbed {
+  margin-top: 0.85rem;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 18px;
+  overflow: hidden;
+  background: #0c0c0c;
+  box-shadow: 0 14px 28px rgba(24, 18, 12, 0.2);
+}
+
+.youtubeEmbed iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
 .episodeGuidePanel {
   display: grid;
   gap: 1.2rem;
@@ -1013,6 +1030,47 @@ code {
   display: flex;
   flex-wrap: wrap;
   gap: 0.65rem;
+}
+
+.semanticDirectory {
+  display: grid;
+  gap: 2.1rem;
+}
+
+.semanticDirectory .searchField {
+  margin-bottom: 0.4rem;
+}
+
+.semanticPanel {
+  padding: 1.4rem 1.5rem;
+}
+
+.semanticPanelRow {
+  display: grid;
+  grid-template-columns: minmax(160px, 220px) 1fr;
+  gap: 1.2rem;
+  align-items: start;
+}
+
+.semanticPanel .sectionHeading {
+  margin: 0;
+}
+
+.semanticChipPanel {
+  padding: 1rem 1.1rem;
+  border-radius: 18px;
+  border: 1px solid rgba(191, 91, 44, 0.12);
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 12px 30px rgba(37, 28, 18, 0.08);
+}
+
+.semanticPanel .topicChip {
+  font-size: 0.9rem;
+  padding: 0.52rem 0.88rem;
+}
+
+.semanticPanel .topicChipMuted {
+  background: rgba(248, 243, 236, 0.9);
 }
 
 .aboutTopicCloud .topicChipList {
@@ -1318,6 +1376,14 @@ code {
 
   .episodeGrid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .semanticPanelRow {
+    grid-template-columns: 1fr;
+  }
+
+  .semanticChipPanel {
+    padding: 0.9rem 1rem;
   }
 }
 

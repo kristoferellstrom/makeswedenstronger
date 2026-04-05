@@ -19,6 +19,7 @@ import {
   serializeJsonLd,
 } from "@/lib/seo";
 import { getTranscriptForEpisode } from "@/lib/transcripts";
+import { getYouTubeVideoForTitle } from "@/lib/youtube";
 
 export const revalidate = 3600;
 export const dynamicParams = true;
@@ -92,9 +93,10 @@ export default async function EpisodePage({ params }: EpisodePageProps) {
     notFound();
   }
 
-  const [transcript, relatedEpisodes] = await Promise.all([
+  const [transcript, relatedEpisodes, youtubeVideo] = await Promise.all([
     getTranscriptForEpisode(episode),
     getRelatedEpisodes(episode, 3),
+    getYouTubeVideoForTitle(episode.title),
   ]);
   const episodeMeta = getEpisodeMeta(episode.slug);
   const episodeJsonLd = buildEpisodeJsonLd(episode, {
@@ -176,6 +178,24 @@ export default async function EpisodePage({ params }: EpisodePageProps) {
           </audio>
         </section>
 
+        {youtubeVideo ? (
+          <section className="contentPanel" aria-labelledby="episode-youtube-heading">
+            <div className="sectionHeading">
+              <h2 id="episode-youtube-heading">YouTube</h2>
+            </div>
+            <div className="youtubeEmbed">
+              <iframe
+                src={youtubeVideo.embedUrl}
+                title={`YouTube - ${episode.title}`}
+                loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              />
+            </div>
+          </section>
+        ) : null}
+
         {episodeMeta ? (
           <section className="contentPanel episodeGuidePanel" aria-labelledby="episode-guide-heading">
             <div className="sectionHeading">
@@ -198,7 +218,7 @@ export default async function EpisodePage({ params }: EpisodePageProps) {
                   {episodeMeta.topics.map((topic) => (
                     <Link
                       key={topic}
-                      href={`/amnen?topic=${encodeURIComponent(topic)}`}
+                      href={`/amnen?topic=${encodeURIComponent(topic)}#results`}
                       className="topicChip"
                     >
                       {topic}
@@ -212,12 +232,12 @@ export default async function EpisodePage({ params }: EpisodePageProps) {
                   <h3>Personer och bolag</h3>
                   <div className="topicChipList">
                     {episodeMeta.entities.map((entity) => (
-                      <Link
-                        key={entity}
-                        href={`/amnen?entity=${encodeURIComponent(entity)}`}
-                        className="topicChip topicChipMuted"
-                      >
-                        {entity}
+                    <Link
+                      key={entity}
+                      href={`/amnen?entity=${encodeURIComponent(entity)}#results`}
+                      className="topicChip topicChipMuted"
+                    >
+                      {entity}
                       </Link>
                     ))}
                   </div>

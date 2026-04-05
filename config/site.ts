@@ -7,6 +7,8 @@ export const siteConfig = {
     process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ||
     "http://localhost:3000",
   rssFeedUrl: "https://feed.pod.space/makeswedenstronger",
+  youtubeFeedUrl:
+    "https://www.youtube.com/feeds/videos.xml?playlist_id=PLDN2kFf8TeetLpOS8F_bJi6BUKaLtSifz",
   locale: "sv-SE",
   revalidateSeconds: 60 * 60,
   defaultImage:
