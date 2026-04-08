@@ -127,8 +127,18 @@ function extractGuestTokens(title: string) {
   if (!left) {
     return [];
   }
-  const normalizedLeft = normalizeSearchText(left);
-  return filterMatchTokens(getNormalizedSearchTokens(normalizedLeft));
+  const beforeComma = left.split(",")[0]?.trim();
+  const candidate = beforeComma?.length ? beforeComma : left;
+  const normalizedCandidate = normalizeSearchText(candidate);
+  const tokens = filterMatchTokens(getNormalizedSearchTokens(normalizedCandidate));
+
+  if (tokens.length <= 1) {
+    return tokens;
+  }
+
+  const first = tokens[0];
+  const last = tokens[tokens.length - 1];
+  return first === last ? [first] : [first, last];
 }
 
 export const getYouTubeVideoIndex = cache(async (): Promise<YouTubeVideoIndex> => {
@@ -300,14 +310,20 @@ export async function getYouTubeVideoForTitle(title: string): Promise<YouTubeVid
       const entryTokens = entryFilteredTokens.length ? entryFilteredTokens : entry.tokens;
       const overlap = entryTokens.filter((token) => baseTokens.includes(token)).length;
       const guestOverlap = guestTokens.filter((token) => entryTokens.includes(token)).length;
-      const score = overlap / Math.max(2, baseTokens.length);
-      return { entry, score, overlap, guestOverlap };
+      const baseScore = overlap / Math.max(2, baseTokens.length);
+      const guestMatchBonus =
+        guestTokens.length >= 2 && guestOverlap === guestTokens.length ? 1 : 0;
+      const score = baseScore + guestMatchBonus;
+      return { entry, score, baseScore, overlap, guestOverlap };
     })
     .filter((item) => {
       if (guestTokens.length >= 2 && item.guestOverlap < guestTokens.length) {
         return false;
       }
-      return item.score >= 0.5 && item.overlap >= Math.min(2, baseTokens.length);
+      if (guestTokens.length >= 2) {
+        return item.overlap >= Math.min(2, baseTokens.length);
+      }
+      return item.baseScore >= 0.5 && item.overlap >= Math.min(2, baseTokens.length);
     })
     .sort((a, b) => b.score - a.score);
 

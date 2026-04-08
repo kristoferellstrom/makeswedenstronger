@@ -98,6 +98,7 @@ import meta85 from "./lucas-wasniewski-vd-delagaren-pa-flowlife-om-foretagandets
 import meta86 from "./kim-emilsson-grundare-av-kraftkamp-och-den-stora-tavlings-arrangoren-inom-strongman-sverige";
 import meta87 from "./andreas-guiance-fran-tyngre-legenden-som-aldrig-tystnar";
 import meta88 from "./anja-rahi-f-d-saxmark-agare-och-grundare-eminent-halsostudio";
+import meta99 from "./jakob-wigselius-united-influencers-elle-att-jobba-med-influencers";
 
 export const episodeMetaBySlug: Record<string, EpisodeMeta> = {
   "3-intervjuer-fran-d-congress-aida-jammal-jenny-rydhstrom-och-pelle-pettersson": meta0,
@@ -198,4 +199,5 @@ export const episodeMetaBySlug: Record<string, EpisodeMeta> = {
   "kim-emilsson-grundare-av-kraftkamp-och-den-stora-tavlings-arrangoren-inom-strongman-sverige": meta86,
   "andreas-guiance-fran-tyngre-legenden-som-aldrig-tystnar": meta87,
   "anja-rahi-f-d-saxmark-agare-och-grundare-eminent-halsostudio": meta88,
+  "jakob-wigselius-united-influencers-elle-att-jobba-med-influencers": meta99,
 };
