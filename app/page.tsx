@@ -114,20 +114,22 @@ export default async function HomePage() {
             </Link>
           </div>
 
-          <article className="episodeListItem latestEpisodeItem">
-            <div className="episodeListContent latestEpisodeContent">
-              <div className="episodeMetaRow">
-                <span>{formatEpisodeDate(latestEpisode.publishedAt)}</span>
-                {latestEpisode.duration ? <span>{formatEpisodeDuration(latestEpisode.duration)}</span> : null}
+          <article className="latestFeatureCard">
+            <div className="latestFeatureContent">
+              <div className="latestFeatureTop">
+                <div className="episodeMetaRow">
+                  <span>{formatEpisodeDate(latestEpisode.publishedAt)}</span>
+                  {latestEpisode.duration ? <span>{formatEpisodeDuration(latestEpisode.duration)}</span> : null}
+                </div>
+
+                <h3 className="episodeListTitle">
+                  <Link href={`/episodes/${latestEpisode.slug}`}>{latestEpisode.title}</Link>
+                </h3>
+
+                <p className="episodeListExcerpt">{latestEpisode.excerpt}</p>
               </div>
 
-              <h3 className="episodeListTitle">
-                <Link href={`/episodes/${latestEpisode.slug}`}>{latestEpisode.title}</Link>
-              </h3>
-
-              <p className="episodeListExcerpt">{latestEpisode.excerpt}</p>
-
-              <div className="episodeActionRow">
+              <div className="episodeActionRow latestFeatureActions">
                 <Link href={`/episodes/${latestEpisode.slug}`} className="textLink episodeActionLink">
                   Öppna avsnitt
                 </Link>
@@ -140,14 +142,14 @@ export default async function HomePage() {
               </div>
             </div>
 
-            <Link href={`/episodes/${latestEpisode.slug}`} className="episodeListImageLink latestEpisodeImageLink">
+            <Link href={`/episodes/${latestEpisode.slug}`} className="latestFeatureMediaLink">
               <Image
                 src={latestEpisode.imageUrl}
                 alt={latestEpisode.title}
                 width={1200}
                 height={1200}
                 sizes="(max-width: 980px) 100vw, 50vw"
-                className="episodeListImage"
+                className="latestFeatureMediaImage"
               />
             </Link>
           </article>

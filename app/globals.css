@@ -1004,40 +1004,48 @@ code {
   background: rgba(255, 255, 255, 0.62);
 }
 
-.latestEpisodeItem {
+.latestFeatureCard {
+  display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-  gap: 1.2rem;
+  gap: 1.35rem;
+  align-items: stretch;
   padding: 1rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--line);
+  background: var(--surface-soft);
 }
 
-.latestEpisodeContent {
-  padding: 0.35rem 0.15rem 0.35rem 0.2rem;
+.latestFeatureContent {
+  display: grid;
   align-content: space-between;
+  min-width: 0;
+  gap: 1rem;
+  padding: 0.15rem 0.2rem;
 }
 
-.latestEpisodeImageLink {
+.latestFeatureTop {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.latestFeatureActions {
+  margin-top: 0.4rem;
+}
+
+.latestFeatureMediaLink {
   display: block;
   width: 100%;
-  max-width: min(100%, 30rem);
-  justify-self: end;
-  align-self: center;
-  min-height: 0;
-  aspect-ratio: 1 / 1;
-  padding: 0;
-  background: transparent;
   border-radius: calc(var(--radius-md) - 8px);
   overflow: hidden;
 }
 
-.latestEpisodeImageLink .episodeListImage {
+.latestFeatureMediaImage {
   display: block;
   width: 100%;
   height: 100%;
-  min-height: 0;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   object-position: center;
-  border-radius: calc(var(--radius-md) - 8px);
 }
 
 .episodePage {
@@ -1516,22 +1524,17 @@ code {
     border-radius: calc(var(--radius-md) - 8px);
   }
 
-  .latestEpisodeItem {
+  .latestFeatureCard {
+    grid-template-columns: 1fr;
     gap: 1rem;
     padding: 0.9rem;
   }
 
-  .latestEpisodeImageLink {
+  .latestFeatureMediaLink {
     order: -1;
-    min-height: auto;
   }
 
-  .latestEpisodeImageLink .episodeListImage {
-    min-height: 0;
-    aspect-ratio: 1 / 1;
-  }
-
-  .latestEpisodeContent {
+  .latestFeatureContent {
     padding: 0.1rem;
   }
 
