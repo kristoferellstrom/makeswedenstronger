@@ -61,7 +61,13 @@ function hasSingleGenericSpeakerTrack(cues: TranscriptCue[]) {
 function inferSingleTrackSpeakers(cues: TranscriptCue[], episodeTitle: string) {
   const speakerByCue = new Map<string, string>();
   const guestName = getGuestNameFromEpisodeTitle(episodeTitle);
+  const normalizedGuestFirstName = normalizeSearchText(guestName.split(" ")[0] ?? "");
+  const normalizedEpisodeTitle = normalizeSearchText(episodeTitle);
+  const isLucasReturnEpisode = normalizedEpisodeTitle.includes(
+    "lucas wasniewski vd flowlife den stora aterkomsten",
+  );
   let previousSpeaker: string | null = null;
+  let expectGuestAnswer = false;
 
   for (const cue of cues) {
     const normalizedText = normalizeSearchText(cue.text);
@@ -72,25 +78,34 @@ function inferSingleTrackSpeakers(cues: TranscriptCue[], episodeTitle: string) {
 
     let speaker: string;
 
-    if (
+    if (isLucasReturnEpisode && cue.startSeconds < 15) {
+      speaker = guestName;
+      expectGuestAnswer = false;
+    } else if (
       cue.startSeconds <= 50 ||
       normalizedText.includes("idag valkomnar vi") ||
       normalizedText.includes("valkommen till podden") ||
       normalizedText.includes("jag haller med men vad brinner ni mest for")
     ) {
       speaker = "Joel";
+      expectGuestAnswer = true;
     } else if (
       normalizedText.includes("alltsa joel") ||
       normalizedText.startsWith("tack joel") ||
-      normalizedText.includes("joel jag kanner")
+      normalizedText.includes("joel jag kanner") ||
+      (normalizedGuestFirstName &&
+        normalizedText.includes(`jag heter ${normalizedGuestFirstName}`))
     ) {
       speaker = guestName;
+      expectGuestAnswer = false;
     } else if (hasQuestion) {
       speaker = "Joel";
-    } else if (previousSpeaker === "Joel") {
+      expectGuestAnswer = true;
+    } else if (expectGuestAnswer) {
       speaker = guestName;
-    } else if (previousSpeaker === guestName) {
-      speaker = guestName;
+      expectGuestAnswer = false;
+    } else if (previousSpeaker) {
+      speaker = previousSpeaker;
     } else {
       speaker = guestName;
     }
@@ -123,6 +138,8 @@ type TranscriptBlock = {
   id: string;
   start: string;
   end: string;
+  startSeconds: number;
+  endSeconds: number;
   text: string;
   speakerKey?: string;
   speakerTone?: "speakerOne" | "speakerTwo";
@@ -155,9 +172,11 @@ function mergeTranscriptCues(
   speakerTones: Map<string, "speakerOne" | "speakerTwo">,
   speakerDisplayNames: Map<string, string>,
   syntheticSpeakerByCue: Map<string, string>,
-  allowMerge: boolean,
+  singleTrackMode: boolean,
 ) {
   const blocks: TranscriptBlock[] = [];
+  const maxSingleTrackBlockSeconds = 50;
+  const maxSingleTrackBlockChars = 650;
 
   for (const cue of cues) {
     const syntheticSpeaker = syntheticSpeakerByCue.get(getCueKey(cue));
@@ -167,13 +186,20 @@ function mergeTranscriptCues(
     const speakerTone = normalizedSpeaker ? speakerTones.get(normalizedSpeaker) : undefined;
     const previousBlock = blocks.at(-1);
 
-    if (
-      allowMerge &&
-      previousBlock &&
-      normalizedSpeaker &&
-      previousBlock.speakerKey === normalizedSpeaker
-    ) {
+    const singleTrackDurationIfMerged = previousBlock
+      ? cue.endSeconds - previousBlock.startSeconds
+      : 0;
+    const singleTrackCharsIfMerged = previousBlock
+      ? `${previousBlock.text} ${cue.text}`.length
+      : cue.text.length;
+    const exceedsSingleTrackLimits =
+      singleTrackMode &&
+      (singleTrackDurationIfMerged > maxSingleTrackBlockSeconds ||
+        singleTrackCharsIfMerged > maxSingleTrackBlockChars);
+
+    if (previousBlock && normalizedSpeaker && previousBlock.speakerKey === normalizedSpeaker && !exceedsSingleTrackLimits) {
       previousBlock.end = cue.end;
+      previousBlock.endSeconds = cue.endSeconds;
       previousBlock.text = `${previousBlock.text} ${cue.text}`
         .replace(/\s+/g, " ")
         .trim();
@@ -184,6 +210,8 @@ function mergeTranscriptCues(
       id: cue.id,
       start: cue.start,
       end: cue.end,
+      startSeconds: cue.startSeconds,
+      endSeconds: cue.endSeconds,
       text: cue.text,
       speakerKey: normalizedSpeaker,
       speakerTone,
@@ -206,7 +234,7 @@ export function TranscriptView({ cues, episodeTitle }: TranscriptViewProps) {
     speakerTones,
     speakerDisplayNames,
     syntheticSpeakerByCue,
-    !singleGenericTrack,
+    singleGenericTrack,
   );
 
   return (
