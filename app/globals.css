@@ -1717,18 +1717,15 @@ code {
   }
 
   .homePage {
-    padding-bottom: 5.8rem;
+    padding-bottom: 0;
   }
 
   .mobileStickyCta {
-    position: fixed;
-    left: 0.7rem;
-    right: 0.7rem;
-    bottom: calc(0.7rem + env(safe-area-inset-bottom, 0px));
-    z-index: 45;
+    position: static;
     display: grid;
     grid-template-columns: minmax(0, 1fr) auto;
     gap: 0.55rem;
+    margin-top: 0.75rem;
     padding: 0.65rem;
     border-radius: 16px;
     border: 1px solid rgba(191, 91, 44, 0.16);
