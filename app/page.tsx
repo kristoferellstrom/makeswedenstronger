@@ -45,8 +45,14 @@ export default async function HomePage() {
   ]);
   const homeJsonLd = buildHomeJsonLd(show, latestEpisodes);
   const latestEpisode = latestEpisodes[0] ?? null;
-  const startHereEpisodes = latestEpisodes.slice(0, 3);
-  const startHereSlugs = new Set(startHereEpisodes.map((episode) => episode.slug));
+  const startHereEpisodes =
+    latestEpisodes.length > 1 ? latestEpisodes.slice(1, 4) : latestEpisodes.slice(0, 3);
+  const latestAndStartSlugs = new Set(
+    [latestEpisode, ...startHereEpisodes]
+      .filter((episode): episode is NonNullable<typeof episode> => Boolean(episode))
+      .map((episode) => episode.slug),
+  );
+  const recentEpisodes = latestEpisodes.slice(1);
   const popularEpisodes = episodes
     .map((episode) => {
       const meta = getEpisodeMeta(episode.slug);
@@ -59,7 +65,7 @@ export default async function HomePage() {
         score: topicsScore * 3 + entitiesScore + chaptersScore,
       };
     })
-    .filter(({ episode }) => !startHereSlugs.has(episode.slug))
+    .filter(({ episode }) => !latestAndStartSlugs.has(episode.slug))
     .sort((left, right) => {
       if (right.score !== left.score) {
         return right.score - left.score;
@@ -123,6 +129,20 @@ export default async function HomePage() {
         </div>
       </section>
 
+      {latestEpisode ? (
+        <section className="section">
+          <div className="sectionHeading">
+            <h2>Nytt avsnitt</h2>
+            <Link href={`/episodes/${latestEpisode.slug}`} className="textLink sectionHeadingLink">
+              Öppna avsnitt
+            </Link>
+          </div>
+          <div className="episodeGrid">
+            <EpisodeCard episode={latestEpisode} />
+          </div>
+        </section>
+      ) : null}
+
       <section className="contentPanel trustPanel" aria-label="Förtroende och överblick">
         <div className="trustGrid">
           <div className="trustItem">
@@ -131,11 +151,11 @@ export default async function HomePage() {
           </div>
           <div className="trustItem">
             <p className="trustLabel">Transkript och guider</p>
-            <p className="trustValue">Klara för alla publicerade avsnitt</p>
+            <p className="trustValue">Tillgängliga för alla publicerade avsnitt</p>
           </div>
           <div className="trustItem">
             <p className="trustLabel">Kunskapsområden</p>
-            <p className="trustValue">{uniqueTopics} ämnen indexerade</p>
+            <p className="trustValue">{uniqueTopics} ämnen</p>
           </div>
           <div className="trustItem">
             <p className="trustLabel">Publicering</p>
@@ -172,7 +192,7 @@ export default async function HomePage() {
             </Link>
           </div>
           <p className="introCopy sectionIntro">
-            Avsnitt med bred ämnestäckning som ofta är bra att fortsätta med efter första lyssningen.
+            Våra mest populära avsnitt som många börjar med.
           </p>
 
           <div className="episodeGrid">
@@ -183,23 +203,25 @@ export default async function HomePage() {
         </section>
       ) : null}
 
-      <section className="section">
-        <div className="sectionHeading">
-          <h2>Senaste avsnitten</h2>
-          <Link href="/episodes" className="textLink sectionHeadingLink">
-            Se alla
-          </Link>
-        </div>
+      {recentEpisodes.length ? (
+        <section className="section">
+          <div className="sectionHeading">
+            <h2>Fler nya avsnitt</h2>
+            <Link href="/episodes" className="textLink sectionHeadingLink">
+              Se alla
+            </Link>
+          </div>
 
-        <div className="episodeGrid">
-          {latestEpisodes.map((episode) => (
-            <EpisodeCard
-              key={episode.guid}
-              episode={episode}
-            />
-          ))}
-        </div>
-      </section>
+          <div className="episodeGrid">
+            {recentEpisodes.map((episode) => (
+              <EpisodeCard
+                key={episode.guid}
+                episode={episode}
+              />
+            ))}
+          </div>
+        </section>
+      ) : null}
 
       {latestEpisode ? (
         <div className="mobileStickyCta" aria-label="Snabblyssna">
