@@ -9,6 +9,7 @@ import { EpisodeCard } from "@/components/episode-card";
 import { RandomEpisodeGrid } from "@/components/random-episode-grid";
 import { getEpisodes, getShow } from "@/lib/episodes";
 import { buildHomeJsonLd, serializeJsonLd } from "@/lib/seo";
+import { formatEpisodeDate, formatEpisodeDuration } from "@/lib/text";
 
 export const revalidate = 3600;
 
@@ -50,7 +51,7 @@ export default async function HomePage() {
     ...(latestEpisode ? [latestEpisode.slug] : []),
     ...startHereEpisodes.map((episode) => episode.slug),
   ]);
-  const recentEpisodes = latestEpisodes.slice(1);
+  const recentEpisodes = episodes.slice(1, 7);
   const popularCandidates = episodes.filter((episode) => !latestAndStartSlugs.has(episode.slug));
   const uniqueTopics = new Set(
     episodes.flatMap((episode) => getEpisodeMeta(episode.slug)?.topics ?? []),
@@ -105,16 +106,51 @@ export default async function HomePage() {
       </section>
 
       {latestEpisode ? (
-        <section className="section">
+        <section className="contentPanel section">
           <div className="sectionHeading">
             <h2>Nytt avsnitt</h2>
             <Link href={`/episodes/${latestEpisode.slug}`} className="textLink sectionHeadingLink">
               Öppna avsnitt
             </Link>
           </div>
-          <div className="episodeGrid">
-            <EpisodeCard episode={latestEpisode} />
-          </div>
+
+          <article className="episodeListItem">
+            <Link href={`/episodes/${latestEpisode.slug}`} className="episodeListImageLink">
+              <Image
+                src={latestEpisode.imageUrl}
+                alt={latestEpisode.title}
+                width={280}
+                height={280}
+                sizes="(max-width: 767px) 100vw, 280px"
+                className="episodeListImage"
+              />
+            </Link>
+
+            <div className="episodeListContent">
+              <div className="episodeMetaRow">
+                <span>{formatEpisodeDate(latestEpisode.publishedAt)}</span>
+                {latestEpisode.duration ? <span>{formatEpisodeDuration(latestEpisode.duration)}</span> : null}
+              </div>
+
+              <h3 className="episodeListTitle">
+                <Link href={`/episodes/${latestEpisode.slug}`}>{latestEpisode.title}</Link>
+              </h3>
+
+              <p className="episodeListExcerpt">{latestEpisode.excerpt}</p>
+
+              <div className="episodeActionRow">
+                <Link href={`/episodes/${latestEpisode.slug}`} className="textLink episodeActionLink">
+                  Öppna avsnitt
+                </Link>
+                <Link
+                  href={`/episodes/${latestEpisode.slug}#episode-audio-heading`}
+                  className="buttonPrimary episodeCardPlayButton"
+                >
+                  Spela avsnitt
+                </Link>
+              </div>
+            </div>
+          </article>
         </section>
       ) : null}
 
@@ -146,10 +182,6 @@ export default async function HomePage() {
             Om podden
           </Link>
         </div>
-        <p className="introCopy sectionIntro">
-          Tre stabila ingångsavsnitt: det 10:e, 20:e och 30:e senaste avsnittet. De roterar
-          automatiskt när nya avsnitt publiceras.
-        </p>
 
         <div className="episodeGrid">
           {startHereEpisodes.map((episode) => (
@@ -167,7 +199,7 @@ export default async function HomePage() {
             </Link>
           </div>
           <p className="introCopy sectionIntro">
-            Tre slumpade avsnitt vid varje besök för variation.
+            Tre av våra populäraste avsnitt.
           </p>
 
           <RandomEpisodeGrid episodes={popularCandidates} count={3} />
