@@ -15,6 +15,28 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/episodes",
   },
+  openGraph: {
+    type: "website",
+    url: `${siteConfig.siteUrl}/episodes`,
+    title: `Arkiv: alla transkriberingar och avsnitt | ${siteConfig.name}`,
+    description:
+      "Alla avsnitt och transkriberingar från Make Sweden Stronger. Sök bland gäster, bolag och ämnen och hitta rätt intervju direkt.",
+    images: [
+      {
+        url: siteConfig.defaultImage,
+        width: 1200,
+        height: 1200,
+        alt: siteConfig.name,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `Arkiv: alla transkriberingar och avsnitt | ${siteConfig.name}`,
+    description:
+      "Alla avsnitt och transkriberingar från Make Sweden Stronger. Sök bland gäster, bolag och ämnen och hitta rätt intervju direkt.",
+    images: [siteConfig.defaultImage],
+  },
 };
 
 export default async function EpisodesPage() {

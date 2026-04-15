@@ -19,6 +19,28 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/amnen",
   },
+  openGraph: {
+    type: "website",
+    url: `${siteConfig.siteUrl}/amnen`,
+    title: `Ämnen och personer | ${siteConfig.name}`,
+    description:
+      "Bläddra bland ämnen, personer och bolag och hitta relaterade avsnitt i Make Sweden Stronger.",
+    images: [
+      {
+        url: siteConfig.defaultImage,
+        width: 1200,
+        height: 1200,
+        alt: siteConfig.name,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `Ämnen och personer | ${siteConfig.name}`,
+    description:
+      "Bläddra bland ämnen, personer och bolag och hitta relaterade avsnitt i Make Sweden Stronger.",
+    images: [siteConfig.defaultImage],
+  },
 };
 
 type SemanticEntry = {
