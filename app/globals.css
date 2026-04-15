@@ -500,6 +500,14 @@ code {
   margin-top: 1.5rem;
 }
 
+.heroHook {
+  margin: 0;
+  font-size: 1.05rem;
+  color: #3f362d;
+  font-weight: 700;
+  max-width: 38ch;
+}
+
 .buttonPrimary,
 .buttonSecondary,
 .platformPill,
@@ -709,6 +717,20 @@ code {
   width: fit-content;
 }
 
+.episodeActionRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+
+.episodeCardPlayButton {
+  min-height: 40px;
+  padding: 0.55rem 0.9rem;
+  font-size: 0.88rem;
+}
+
 .episodeGrid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -841,6 +863,45 @@ code {
   .episodeActionLink:hover {
     transform: translateX(6px);
   }
+}
+
+.trustPanel {
+  padding-top: 1.15rem;
+  padding-bottom: 1.15rem;
+}
+
+.trustGrid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.8rem;
+}
+
+.trustItem {
+  border: 1px solid rgba(191, 91, 44, 0.12);
+  border-radius: calc(var(--radius-md) - 6px);
+  padding: 0.85rem 0.95rem;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.84), rgba(247, 241, 233, 0.7));
+}
+
+.trustLabel {
+  margin: 0;
+  font-size: 0.77rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent-dark);
+  font-weight: 700;
+}
+
+.trustValue {
+  margin: 0.38rem 0 0;
+  color: #2a241e;
+  font-size: 0.97rem;
+  font-weight: 700;
+}
+
+.sectionIntro {
+  margin: -0.5rem 0 0;
+  max-width: 78ch;
 }
 
 .pageIntro,
@@ -1139,6 +1200,10 @@ code {
   color: #5f564d;
 }
 
+.mobileStickyCta {
+  display: none;
+}
+
 .chapterBlock {
   padding-top: 0.2rem;
 }
@@ -1426,6 +1491,10 @@ code {
   .semanticChipPanel {
     padding: 0.9rem 1rem;
   }
+
+  .trustGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 720px) {
@@ -1498,6 +1567,10 @@ code {
 
   .heroLead,
   .introCopy {
+    font-size: 1rem;
+  }
+
+  .heroHook {
     font-size: 1rem;
   }
 
@@ -1574,6 +1647,39 @@ code {
     height: 64px;
     min-height: 64px;
   }
+
+  .homePage {
+    padding-bottom: 5.8rem;
+  }
+
+  .mobileStickyCta {
+    position: fixed;
+    left: 0.7rem;
+    right: 0.7rem;
+    bottom: calc(0.7rem + env(safe-area-inset-bottom, 0px));
+    z-index: 45;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 0.55rem;
+    padding: 0.65rem;
+    border-radius: 16px;
+    border: 1px solid rgba(191, 91, 44, 0.16);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.97), rgba(245, 239, 230, 0.94));
+    box-shadow:
+      0 14px 34px rgba(0, 0, 0, 0.18),
+      inset 0 1px 0 rgba(255, 255, 255, 0.76);
+  }
+
+  .mobileStickyCta .buttonPrimary,
+  .mobileStickyCta .buttonSecondary {
+    min-height: 42px;
+    padding: 0.6rem 0.9rem;
+    font-size: 0.9rem;
+  }
+
+  .mobileStickyCta .buttonSecondary {
+    white-space: nowrap;
+  }
 }
 
 @media (max-width: 560px) {
@@ -1610,6 +1716,15 @@ code {
   .buttonPrimary,
   .buttonSecondary {
     width: 100%;
+  }
+
+  .trustGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .mobileStickyCta .buttonPrimary,
+  .mobileStickyCta .buttonSecondary {
+    width: auto;
   }
 
   .episodeMetaRow,

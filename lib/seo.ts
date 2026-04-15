@@ -1,5 +1,5 @@
 import { siteConfig, socialLinkItems } from "@/config/site";
-import type { Episode, PodcastShow, TranscriptCue } from "@/lib/types";
+import type { Episode, EpisodeListItem, PodcastShow, TranscriptCue } from "@/lib/types";
 
 type SocialHref = (typeof socialLinkItems)[number]["href"];
 
@@ -243,6 +243,55 @@ export function buildArchiveJsonLd(episodes: Episode[]) {
         name: `${siteConfig.name} – Avsnittsarkiv`,
         url: `${siteConfig.siteUrl}/episodes`,
       },
+    },
+  ];
+}
+
+export function buildSemanticCollectionJsonLd(options: {
+  type: "topic" | "entity";
+  label: string;
+  urlPath: string;
+  episodes: EpisodeListItem[];
+}) {
+  const absoluteUrl = `${siteConfig.siteUrl}${options.urlPath}`;
+  const noun = options.type === "topic" ? "ämne" : "person eller bolag";
+  const pageLabel = options.type === "topic" ? "Ämne" : "Person och bolag";
+  const description = `${options.episodes.length} avsnitt om ${options.label} i Make Sweden Stronger.`;
+
+  return [
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      name: `${pageLabel}: ${options.label} | ${siteConfig.name}`,
+      url: absoluteUrl,
+      description,
+      about: {
+        "@type": "Thing",
+        name: options.label,
+      },
+      isPartOf: {
+        "@type": "WebSite",
+        name: siteConfig.name,
+        url: siteConfig.siteUrl,
+      },
+      mainEntity: {
+        "@type": "ItemList",
+        numberOfItems: options.episodes.length,
+        itemListElement: options.episodes.map((episode, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          name: episode.title,
+          url: `${siteConfig.siteUrl}/episodes/${episode.slug}`,
+        })),
+      },
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "DefinedTerm",
+      name: options.label,
+      description: `Samlingssida för avsnitt där ${options.label} är ett centralt ${noun}.`,
+      inDefinedTermSet: `${siteConfig.siteUrl}/amnen`,
+      url: absoluteUrl,
     },
   ];
 }

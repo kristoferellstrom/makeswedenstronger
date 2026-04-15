@@ -77,6 +77,12 @@ export default async function EpisodesPage() {
 
       <section className="pageIntro">
         <h1 className="archiveTitle">Arkiv</h1>
+        <p className="introCopy">
+          Här finns hela arkivet för Make Sweden Stronger med avsnitt, transkript och sammanfattningar.
+          Du kan söka på gäster, bolag, ämnen och nyckelord och snabbt hitta rätt intervju.
+          Varje avsnittssida innehåller tydlig metadata med publiceringsdatum, avsnittslängd, kapitel,
+          nyckelämnen och personer för att både besökare och sökmotorer enkelt ska förstå innehållet.
+        </p>
       </section>
 
       <EpisodeSearch episodes={episodeListItems} />

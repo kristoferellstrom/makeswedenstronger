@@ -18,6 +18,7 @@ import {
   buildTranscriptText,
   serializeJsonLd,
 } from "@/lib/seo";
+import { toSemanticSlug } from "@/lib/semantic";
 import { getTranscriptForEpisode } from "@/lib/transcripts";
 import { buildYouTubeSearchUrl, getYouTubeVideoForTitle } from "@/lib/youtube";
 
@@ -243,7 +244,7 @@ export default async function EpisodePage({ params }: EpisodePageProps) {
                   {episodeMeta.topics.map((topic) => (
                     <Link
                       key={topic}
-                      href={`/amnen?topic=${encodeURIComponent(topic)}#results`}
+                      href={`/amnen/${toSemanticSlug(topic)}#results`}
                       className="topicChip"
                     >
                       {topic}
@@ -257,12 +258,12 @@ export default async function EpisodePage({ params }: EpisodePageProps) {
                   <h3>Personer och bolag</h3>
                   <div className="topicChipList">
                     {episodeMeta.entities.map((entity) => (
-                    <Link
-                      key={entity}
-                      href={`/amnen?entity=${encodeURIComponent(entity)}#results`}
-                      className="topicChip topicChipMuted"
-                    >
-                      {entity}
+                      <Link
+                        key={entity}
+                        href={`/personer/${toSemanticSlug(entity)}#results`}
+                        className="topicChip topicChipMuted"
+                      >
+                        {entity}
                       </Link>
                     ))}
                   </div>

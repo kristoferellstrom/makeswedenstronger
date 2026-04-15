@@ -3,12 +3,9 @@ import { Suspense } from "react";
 
 import { SemanticDirectory } from "@/components/semantic-directory";
 import { Breadcrumbs } from "@/components/breadcrumbs";
-import { getEpisodeListItems, getEpisodes } from "@/lib/episodes";
-import { getEpisodeMeta } from "@/content/episode-meta";
-import { normalizeSearchText } from "@/lib/text";
+import { getSemanticDirectoryEntries } from "@/lib/semantic";
 import { siteConfig } from "@/config/site";
 import { buildBreadcrumbJsonLd, serializeJsonLd } from "@/lib/seo";
-import type { EpisodeListItem } from "@/lib/types";
 
 export const revalidate = 3600;
 
@@ -43,58 +40,8 @@ export const metadata: Metadata = {
   },
 };
 
-type SemanticEntry = {
-  label: string;
-  episodes: EpisodeListItem[];
-};
-
-function toKey(value: string) {
-  return normalizeSearchText(value);
-}
-
 export default async function TopicsPage() {
-  const [episodes, listItems] = await Promise.all([getEpisodes(), getEpisodeListItems()]);
-  const listItemBySlug = new Map(listItems.map((item) => [item.slug, item]));
-  const topicMap = new Map<string, SemanticEntry>();
-  const entityMap = new Map<string, SemanticEntry>();
-
-  for (const episode of episodes) {
-    const meta = getEpisodeMeta(episode.slug);
-    const listItem = listItemBySlug.get(episode.slug);
-
-    if (!meta || !listItem) {
-      continue;
-    }
-
-    for (const topic of meta.topics) {
-      const key = toKey(topic);
-      const entry = topicMap.get(key) ?? { label: topic, episodes: [] };
-
-      if (!entry.episodes.some((item) => item.slug === listItem.slug)) {
-        entry.episodes.push(listItem);
-      }
-
-      topicMap.set(key, entry);
-    }
-
-    for (const entity of meta.entities ?? []) {
-      const key = toKey(entity);
-      const entry = entityMap.get(key) ?? { label: entity, episodes: [] };
-
-      if (!entry.episodes.some((item) => item.slug === listItem.slug)) {
-        entry.episodes.push(listItem);
-      }
-
-      entityMap.set(key, entry);
-    }
-  }
-
-  const topics = Array.from(topicMap.values()).sort((a, b) =>
-    a.label.localeCompare(b.label, "sv"),
-  );
-  const entities = Array.from(entityMap.values()).sort((a, b) =>
-    a.label.localeCompare(b.label, "sv"),
-  );
+  const { topics, entities } = await getSemanticDirectoryEntries();
 
   const breadcrumbJsonLd = buildBreadcrumbJsonLd([
     { name: "Hem", url: siteConfig.siteUrl },
@@ -117,6 +64,12 @@ export default async function TopicsPage() {
 
       <section className="pageIntro">
         <h1 className="archiveTitle">Ämnen och personer</h1>
+        <p className="introCopy">
+          Bläddra i poddens kunskapsnätverk och hitta avsnitt utifrån ämnen, personer och bolag.
+          Den här sidan samlar och strukturerar innehållet så att du snabbare kan hoppa till rätt
+          avsnitt, oavsett om du söker efter ett specifikt namn eller ett område som e-handel,
+          ledarskap eller marknadsföring.
+        </p>
       </section>
 
       <Suspense fallback={<p className="emptyState">Laddar…</p>}>

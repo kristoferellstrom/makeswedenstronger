@@ -9,6 +9,7 @@ import { formatEpisodeDate, formatEpisodeDuration, normalizeSearchText } from "@
 import type { EpisodeListItem } from "@/lib/types";
 
 type SemanticEntry = {
+  slug: string;
   label: string;
   episodes: EpisodeListItem[];
 };
@@ -165,10 +166,10 @@ export function SemanticDirectory({ topics, entities }: SemanticDirectoryProps) 
               {filteredTopics.map((entry) => (
                 <Link
                   key={entry.label}
-                  href={`/amnen?topic=${encodeURIComponent(entry.label)}#results`}
-              className={[
-                "topicChip",
-                activeTopic?.label === entry.label ? "isActive" : "",
+                  href={`/amnen/${entry.slug}#results`}
+                  className={[
+                    "topicChip",
+                    activeTopic?.label === entry.label ? "isActive" : "",
                   ]
                     .filter(Boolean)
                     .join(" ")}
@@ -191,10 +192,10 @@ export function SemanticDirectory({ topics, entities }: SemanticDirectoryProps) 
               {filteredEntities.map((entry) => (
                 <Link
                   key={entry.label}
-                  href={`/amnen?entity=${encodeURIComponent(entry.label)}#results`}
-              className={[
-                "topicChip",
-                "topicChipMuted",
+                  href={`/personer/${entry.slug}#results`}
+                  className={[
+                    "topicChip",
+                    "topicChipMuted",
                     activeEntity?.label === entry.label ? "isActive" : "",
                   ]
                     .filter(Boolean)

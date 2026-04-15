@@ -3,9 +3,10 @@ import Image from "next/image";
 import Link from "next/link";
 
 import heroLogo from "@/makeswedenstronger.jpeg";
+import { getEpisodeMeta } from "@/content/episode-meta";
 import { siteConfig } from "@/config/site";
 import { EpisodeCard } from "@/components/episode-card";
-import { getLatestEpisodes, getShow } from "@/lib/episodes";
+import { getEpisodes, getLatestEpisodes, getShow } from "@/lib/episodes";
 import { buildHomeJsonLd, serializeJsonLd } from "@/lib/seo";
 
 export const revalidate = 3600;
@@ -37,11 +38,45 @@ export const metadata: Metadata = {
 };
 
 export default async function HomePage() {
-  const [show, latestEpisodes] = await Promise.all([getShow(), getLatestEpisodes(6)]);
+  const [show, latestEpisodes, episodes] = await Promise.all([
+    getShow(),
+    getLatestEpisodes(6),
+    getEpisodes(),
+  ]);
   const homeJsonLd = buildHomeJsonLd(show, latestEpisodes);
+  const latestEpisode = latestEpisodes[0] ?? null;
+  const startHereEpisodes = latestEpisodes.slice(0, 3);
+  const startHereSlugs = new Set(startHereEpisodes.map((episode) => episode.slug));
+  const popularEpisodes = episodes
+    .map((episode) => {
+      const meta = getEpisodeMeta(episode.slug);
+      const topicsScore = meta?.topics.length ?? 0;
+      const entitiesScore = meta?.entities?.length ?? 0;
+      const chaptersScore = meta?.chapters.length ?? 0;
+
+      return {
+        episode,
+        score: topicsScore * 3 + entitiesScore + chaptersScore,
+      };
+    })
+    .filter(({ episode }) => !startHereSlugs.has(episode.slug))
+    .sort((left, right) => {
+      if (right.score !== left.score) {
+        return right.score - left.score;
+      }
+
+      return (
+        new Date(right.episode.publishedAt).getTime() - new Date(left.episode.publishedAt).getTime()
+      );
+    })
+    .slice(0, 3)
+    .map(({ episode }) => episode);
+  const uniqueTopics = new Set(
+    episodes.flatMap((episode) => getEpisodeMeta(episode.slug)?.topics ?? []),
+  ).size;
 
   return (
-    <div className="container pageStack">
+    <div className="container pageStack homePage">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: serializeJsonLd(homeJsonLd) }}
@@ -61,15 +96,92 @@ export default async function HomePage() {
         <div className="heroCopy">
           <p className="eyebrow">Podcast</p>
           <h1 className="srOnly">{show.title}</h1>
+          <p className="heroHook">
+            En podcast om entreprenörskap, e-handel och ledarskap. Börja med senaste avsnittet
+            eller hoppa direkt till arkivet.
+          </p>
           <p className="heroLead">{show.description}</p>
 
           <div className="heroActions">
-            <Link href="/episodes" className="buttonPrimary">
+            {latestEpisode ? (
+              <Link href={`/episodes/${latestEpisode.slug}#episode-audio-heading`} className="buttonPrimary">
+                Spela senaste avsnittet
+              </Link>
+            ) : null}
+            <a
+              href={siteConfig.links.spotify}
+              target="_blank"
+              rel="noreferrer"
+              className="buttonSecondary"
+            >
+              Lyssna på Spotify
+            </a>
+            <Link href="/episodes" className="buttonSecondary">
               Alla avsnitt
             </Link>
           </div>
         </div>
       </section>
+
+      <section className="contentPanel trustPanel" aria-label="Förtroende och överblick">
+        <div className="trustGrid">
+          <div className="trustItem">
+            <p className="trustLabel">Publicerat</p>
+            <p className="trustValue">{episodes.length} avsnitt</p>
+          </div>
+          <div className="trustItem">
+            <p className="trustLabel">Transkript och guider</p>
+            <p className="trustValue">Klara för alla publicerade avsnitt</p>
+          </div>
+          <div className="trustItem">
+            <p className="trustLabel">Kunskapsområden</p>
+            <p className="trustValue">{uniqueTopics} ämnen indexerade</p>
+          </div>
+          <div className="trustItem">
+            <p className="trustLabel">Publicering</p>
+            <p className="trustValue">Nya avsnitt varje vecka</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="sectionHeading">
+          <h2>Starta här</h2>
+          <Link href="/om-podden" className="textLink sectionHeadingLink">
+            Om podden
+          </Link>
+        </div>
+        <p className="introCopy sectionIntro">
+          Tre bra ingångsavsnitt om du är ny här. Alla avsnittssidor innehåller sammanfattning,
+          nyckelämnen, personer och bolag samt fullt transkript för snabb överblick.
+        </p>
+
+        <div className="episodeGrid">
+          {startHereEpisodes.map((episode) => (
+            <EpisodeCard key={episode.guid} episode={episode} />
+          ))}
+        </div>
+      </section>
+
+      {popularEpisodes.length ? (
+        <section className="section">
+          <div className="sectionHeading">
+            <h2>Populära avsnitt</h2>
+            <Link href="/amnen" className="textLink sectionHeadingLink">
+              Ämnen och personer
+            </Link>
+          </div>
+          <p className="introCopy sectionIntro">
+            Avsnitt med bred ämnestäckning som ofta är bra att fortsätta med efter första lyssningen.
+          </p>
+
+          <div className="episodeGrid">
+            {popularEpisodes.map((episode) => (
+              <EpisodeCard key={episode.guid} episode={episode} />
+            ))}
+          </div>
+        </section>
+      ) : null}
 
       <section className="section">
         <div className="sectionHeading">
@@ -88,6 +200,22 @@ export default async function HomePage() {
           ))}
         </div>
       </section>
+
+      {latestEpisode ? (
+        <div className="mobileStickyCta" aria-label="Snabblyssna">
+          <Link href={`/episodes/${latestEpisode.slug}#episode-audio-heading`} className="buttonPrimary">
+            Spela senaste
+          </Link>
+          <a
+            href={siteConfig.links.spotify}
+            target="_blank"
+            rel="noreferrer"
+            className="buttonSecondary"
+          >
+            Spotify
+          </a>
+        </div>
+      ) : null}
     </div>
   );
 }

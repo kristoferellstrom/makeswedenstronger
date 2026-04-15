@@ -40,9 +40,17 @@ export function EpisodeCard({ episode }: EpisodeCardProps) {
 
         <p className="episodeCardExcerpt">{episode.excerpt}</p>
 
-        <Link href={`/episodes/${episode.slug}`} className="textLink episodeActionLink">
-          Läs och lyssna
-        </Link>
+        <div className="episodeActionRow">
+          <Link href={`/episodes/${episode.slug}`} className="textLink episodeActionLink">
+            Öppna avsnitt
+          </Link>
+          <Link
+            href={`/episodes/${episode.slug}#episode-audio-heading`}
+            className="buttonPrimary episodeCardPlayButton"
+          >
+            Spela avsnitt
+          </Link>
+        </div>
       </div>
     </article>
   );

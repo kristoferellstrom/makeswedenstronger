@@ -12,7 +12,31 @@ import {
   matchesWholeWordQuery,
   normalizeSearchText,
 } from "@/lib/text";
-import type { Episode, EpisodeListItem } from "@/lib/types";
+import type { Episode, EpisodeListItem, EpisodeMeta } from "@/lib/types";
+
+function hasCompleteEpisodeMeta(meta: EpisodeMeta | null): meta is EpisodeMeta {
+  if (!meta) {
+    return false;
+  }
+
+  const hasSummary = Array.isArray(meta.summary) && meta.summary.some((value) => Boolean(value.trim()));
+  const hasTopics = Array.isArray(meta.topics) && meta.topics.some((value) => Boolean(value.trim()));
+  const hasEntities =
+    Array.isArray(meta.entities) && meta.entities.some((value) => Boolean(value.trim()));
+  const hasChapters =
+    Array.isArray(meta.chapters) &&
+    meta.chapters.some((chapter) => Boolean(chapter.start?.trim()) && Boolean(chapter.title?.trim()));
+
+  return hasSummary && hasTopics && hasEntities && hasChapters;
+}
+
+function isEpisodePublishReady(episode: Episode): boolean {
+  if (!episode.hasTranscript) {
+    return false;
+  }
+
+  return hasCompleteEpisodeMeta(getEpisodeMeta(episode.slug));
+}
 
 export const getShow = cache(async () => {
   const { show } = await getPodcastFeed();
@@ -25,10 +49,12 @@ export const getEpisodes = cache(async (): Promise<Episode[]> => {
     getTranscriptIndex(),
   ]);
 
-  return episodes.map((episode) => ({
+  const episodesWithAssets = episodes.map((episode) => ({
     ...episode,
     hasTranscript: transcriptIndex.has(episode.titleKey),
   }));
+
+  return episodesWithAssets.filter(isEpisodePublishReady);
 });
 
 export async function getEpisodeBySlug(slug: string): Promise<Episode | null> {
