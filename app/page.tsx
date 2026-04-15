@@ -114,19 +114,8 @@ export default async function HomePage() {
             </Link>
           </div>
 
-          <article className="episodeListItem">
-            <Link href={`/episodes/${latestEpisode.slug}`} className="episodeListImageLink">
-              <Image
-                src={latestEpisode.imageUrl}
-                alt={latestEpisode.title}
-                width={280}
-                height={280}
-                sizes="(max-width: 767px) 100vw, 280px"
-                className="episodeListImage"
-              />
-            </Link>
-
-            <div className="episodeListContent">
+          <article className="episodeListItem latestEpisodeItem">
+            <div className="episodeListContent latestEpisodeContent">
               <div className="episodeMetaRow">
                 <span>{formatEpisodeDate(latestEpisode.publishedAt)}</span>
                 {latestEpisode.duration ? <span>{formatEpisodeDuration(latestEpisode.duration)}</span> : null}
@@ -150,6 +139,17 @@ export default async function HomePage() {
                 </Link>
               </div>
             </div>
+
+            <Link href={`/episodes/${latestEpisode.slug}`} className="episodeListImageLink latestEpisodeImageLink">
+              <Image
+                src={latestEpisode.imageUrl}
+                alt={latestEpisode.title}
+                width={1200}
+                height={1200}
+                sizes="(max-width: 980px) 100vw, 50vw"
+                className="episodeListImage"
+              />
+            </Link>
           </article>
         </section>
       ) : null}

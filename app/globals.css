@@ -1004,6 +1004,33 @@ code {
   background: rgba(255, 255, 255, 0.62);
 }
 
+.latestEpisodeItem {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 1.2rem;
+  padding: 1rem;
+}
+
+.latestEpisodeContent {
+  padding: 0.35rem 0.15rem 0.35rem 0.2rem;
+  align-content: space-between;
+}
+
+.latestEpisodeImageLink {
+  width: 100%;
+  min-height: 100%;
+  padding: 0;
+  background: transparent;
+  border-radius: calc(var(--radius-md) - 8px);
+  overflow: hidden;
+}
+
+.latestEpisodeImageLink .episodeListImage {
+  height: 100%;
+  min-height: 340px;
+  aspect-ratio: auto;
+  border-radius: calc(var(--radius-md) - 8px);
+}
+
 .episodePage {
   display: grid;
   gap: 1.5rem;
@@ -1478,6 +1505,25 @@ code {
     max-width: none;
     height: auto;
     border-radius: calc(var(--radius-md) - 8px);
+  }
+
+  .latestEpisodeItem {
+    gap: 1rem;
+    padding: 0.9rem;
+  }
+
+  .latestEpisodeImageLink {
+    order: -1;
+    min-height: auto;
+  }
+
+  .latestEpisodeImageLink .episodeListImage {
+    min-height: 0;
+    aspect-ratio: 1 / 1;
+  }
+
+  .latestEpisodeContent {
+    padding: 0.1rem;
   }
 
   .episodeGrid {
