@@ -16,6 +16,10 @@ export const metadata: Metadata = {
 };
 
 export default async function YouTubeStatusPage() {
+  if (process.env.ENABLE_YOUTUBE_STATUS_PAGE !== "true") {
+    notFound();
+  }
+
   const [episodes, youtubeIndex] = await Promise.all([getEpisodes(), getYouTubeVideoIndex()]);
   const youtubeTitles = new Set(youtubeIndex.entries.map((entry) => entry.normalizedTitle));
 
