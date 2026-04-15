@@ -6,7 +6,8 @@ import heroLogo from "@/makeswedenstronger.jpeg";
 import { getEpisodeMeta } from "@/content/episode-meta";
 import { siteConfig } from "@/config/site";
 import { EpisodeCard } from "@/components/episode-card";
-import { getEpisodes, getLatestEpisodes, getShow } from "@/lib/episodes";
+import { RandomEpisodeGrid } from "@/components/random-episode-grid";
+import { getEpisodes, getShow } from "@/lib/episodes";
 import { buildHomeJsonLd, serializeJsonLd } from "@/lib/seo";
 
 export const revalidate = 3600;
@@ -38,45 +39,19 @@ export const metadata: Metadata = {
 };
 
 export default async function HomePage() {
-  const [show, latestEpisodes, episodes] = await Promise.all([
-    getShow(),
-    getLatestEpisodes(6),
-    getEpisodes(),
-  ]);
+  const [show, episodes] = await Promise.all([getShow(), getEpisodes()]);
+  const latestEpisodes = episodes.slice(0, 6);
   const homeJsonLd = buildHomeJsonLd(show, latestEpisodes);
   const latestEpisode = latestEpisodes[0] ?? null;
-  const startHereEpisodes =
-    latestEpisodes.length > 1 ? latestEpisodes.slice(1, 4) : latestEpisodes.slice(0, 3);
-  const latestAndStartSlugs = new Set(
-    [latestEpisode, ...startHereEpisodes]
-      .filter((episode): episode is NonNullable<typeof episode> => Boolean(episode))
-      .map((episode) => episode.slug),
-  );
+  const startHereEpisodes = [9, 19, 29]
+    .map((index) => episodes[index])
+    .filter((episode): episode is NonNullable<typeof episode> => Boolean(episode));
+  const latestAndStartSlugs = new Set([
+    ...(latestEpisode ? [latestEpisode.slug] : []),
+    ...startHereEpisodes.map((episode) => episode.slug),
+  ]);
   const recentEpisodes = latestEpisodes.slice(1);
-  const popularEpisodes = episodes
-    .map((episode) => {
-      const meta = getEpisodeMeta(episode.slug);
-      const topicsScore = meta?.topics.length ?? 0;
-      const entitiesScore = meta?.entities?.length ?? 0;
-      const chaptersScore = meta?.chapters.length ?? 0;
-
-      return {
-        episode,
-        score: topicsScore * 3 + entitiesScore + chaptersScore,
-      };
-    })
-    .filter(({ episode }) => !latestAndStartSlugs.has(episode.slug))
-    .sort((left, right) => {
-      if (right.score !== left.score) {
-        return right.score - left.score;
-      }
-
-      return (
-        new Date(right.episode.publishedAt).getTime() - new Date(left.episode.publishedAt).getTime()
-      );
-    })
-    .slice(0, 3)
-    .map(({ episode }) => episode);
+  const popularCandidates = episodes.filter((episode) => !latestAndStartSlugs.has(episode.slug));
   const uniqueTopics = new Set(
     episodes.flatMap((episode) => getEpisodeMeta(episode.slug)?.topics ?? []),
   ).size;
@@ -172,8 +147,8 @@ export default async function HomePage() {
           </Link>
         </div>
         <p className="introCopy sectionIntro">
-          Tre bra ingångsavsnitt om du är ny här. Alla avsnittssidor innehåller sammanfattning,
-          nyckelämnen, personer och bolag samt fullt transkript för snabb överblick.
+          Tre stabila ingångsavsnitt: det 10:e, 20:e och 30:e senaste avsnittet. De roterar
+          automatiskt när nya avsnitt publiceras.
         </p>
 
         <div className="episodeGrid">
@@ -183,7 +158,7 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {popularEpisodes.length ? (
+      {popularCandidates.length ? (
         <section className="section">
           <div className="sectionHeading">
             <h2>Populära avsnitt</h2>
@@ -192,14 +167,10 @@ export default async function HomePage() {
             </Link>
           </div>
           <p className="introCopy sectionIntro">
-            Våra mest populära avsnitt som många börjar med.
+            Tre slumpade avsnitt vid varje besök för variation.
           </p>
 
-          <div className="episodeGrid">
-            {popularEpisodes.map((episode) => (
-              <EpisodeCard key={episode.guid} episode={episode} />
-            ))}
-          </div>
+          <RandomEpisodeGrid episodes={popularCandidates} count={3} />
         </section>
       ) : null}
 
