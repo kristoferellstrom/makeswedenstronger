@@ -116,6 +116,7 @@ code {
   -webkit-backdrop-filter: none;
   background: rgba(23, 18, 14, 0.9);
   border-bottom: 1px solid rgba(74, 60, 46, 0.24);
+  transition: border-color 220ms ease;
 }
 
 .siteHeaderInner {
@@ -125,18 +126,47 @@ code {
   flex-wrap: wrap;
   gap: 1rem;
   min-height: 76px;
+  transition:
+    min-height 220ms ease,
+    padding 220ms ease,
+    gap 220ms ease;
 }
 
 .brandMark {
   display: inline-flex;
   align-items: flex-start;
   min-width: 0;
+  max-width: 14rem;
+  max-height: 92px;
+  overflow: hidden;
   padding: 0.35rem 0.55rem 0.42rem;
   border-radius: 16px;
   background: transparent;
   border: 0;
   box-shadow: none;
   font-size: 0.98rem;
+  transition:
+    max-width 220ms ease,
+    max-height 220ms ease,
+    opacity 160ms ease,
+    transform 220ms ease,
+    margin 220ms ease,
+    padding 220ms ease;
+}
+
+.siteHeaderCompact .siteHeaderInner {
+  min-height: 54px;
+  gap: 0.7rem;
+}
+
+.siteHeaderCompact .brandMark {
+  max-width: 0;
+  max-height: 0;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  transform: translateY(-6px);
+  pointer-events: none;
 }
 
 .brandTitle {
