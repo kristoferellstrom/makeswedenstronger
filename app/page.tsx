@@ -105,6 +105,27 @@ export default async function HomePage() {
         </div>
       </section>
 
+      <section className="contentPanel trustPanel" aria-label="Förtroende och överblick">
+        <div className="trustGrid">
+          <div className="trustItem">
+            <p className="trustLabel">Publicerat</p>
+            <p className="trustValue">{episodes.length} avsnitt</p>
+          </div>
+          <div className="trustItem">
+            <p className="trustLabel">Transkript och guider</p>
+            <p className="trustValue">Tillgängliga för alla publicerade avsnitt</p>
+          </div>
+          <div className="trustItem">
+            <p className="trustLabel">Kunskapsområden</p>
+            <p className="trustValue">{uniqueTopics} ämnen</p>
+          </div>
+          <div className="trustItem">
+            <p className="trustLabel">Publicering</p>
+            <p className="trustValue">Nya avsnitt varje vecka</p>
+          </div>
+        </div>
+      </section>
+
       {latestEpisode ? (
         <section className="contentPanel section">
           <div className="sectionHeading">
@@ -162,27 +183,6 @@ export default async function HomePage() {
           </article>
         </section>
       ) : null}
-
-      <section className="contentPanel trustPanel" aria-label="Förtroende och överblick">
-        <div className="trustGrid">
-          <div className="trustItem">
-            <p className="trustLabel">Publicerat</p>
-            <p className="trustValue">{episodes.length} avsnitt</p>
-          </div>
-          <div className="trustItem">
-            <p className="trustLabel">Transkript och guider</p>
-            <p className="trustValue">Tillgängliga för alla publicerade avsnitt</p>
-          </div>
-          <div className="trustItem">
-            <p className="trustLabel">Kunskapsområden</p>
-            <p className="trustValue">{uniqueTopics} ämnen</p>
-          </div>
-          <div className="trustItem">
-            <p className="trustLabel">Publicering</p>
-            <p className="trustValue">Nya avsnitt varje vecka</p>
-          </div>
-        </div>
-      </section>
 
       <section className="section">
         <div className="sectionHeading">
