@@ -1028,6 +1028,16 @@ code {
   gap: 0.9rem;
 }
 
+.latestFeatureDescription {
+  display: grid;
+  gap: 0.85rem;
+  color: var(--muted);
+}
+
+.latestFeatureDescription p {
+  margin: 0;
+}
+
 .latestFeatureActions {
   margin-top: 0.4rem;
 }

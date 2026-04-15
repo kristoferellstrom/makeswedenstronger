@@ -126,7 +126,14 @@ export default async function HomePage() {
                   <Link href={`/episodes/${latestEpisode.slug}`}>{latestEpisode.title}</Link>
                 </h3>
 
-                <p className="episodeListExcerpt">{latestEpisode.excerpt}</p>
+                <div className="latestFeatureDescription">
+                  {(latestEpisode.descriptionParagraphs.length
+                    ? latestEpisode.descriptionParagraphs
+                    : [latestEpisode.descriptionText]
+                  ).map((paragraph, index) => (
+                    <p key={`${latestEpisode.slug}-description-${index}`}>{paragraph}</p>
+                  ))}
+                </div>
               </div>
 
               <div className="episodeActionRow latestFeatureActions">
