@@ -117,7 +117,7 @@ export default async function HomePage() {
           </div>
           <div className="trustItem">
             <p className="trustLabel">Kunskapsområden</p>
-            <p className="trustValue">{uniqueTopics} ämnen</p>
+            <p className="trustValue">{uniqueTopics}+ ämnen</p>
           </div>
           <div className="trustItem">
             <p className="trustLabel">Publicering</p>

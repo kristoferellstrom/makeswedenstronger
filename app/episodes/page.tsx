@@ -81,7 +81,7 @@ export default async function EpisodesPage() {
           Här finns hela arkivet för Make Sweden Stronger med avsnitt, transkript och sammanfattningar.
           Du kan söka på gäster, bolag, ämnen och nyckelord och snabbt hitta rätt intervju.
           Varje avsnittssida innehåller tydlig metadata med publiceringsdatum, avsnittslängd, kapitel,
-          nyckelämnen och personer för att både besökare och sökmotorer enkelt ska förstå innehållet.
+          nyckelämnen och personer.
         </p>
       </section>
 
