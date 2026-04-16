@@ -25,6 +25,13 @@ type SemanticCategoryGroup = {
   entries: SemanticEntry[];
 };
 
+type SearchSuggestion = {
+  id: string;
+  label: string;
+  href: string;
+  kind: "Ämne" | "Person / Företag";
+};
+
 type TopicCategoryRule = {
   id: string;
   label: string;
@@ -49,19 +56,324 @@ const topicCompaniesCategory = {
 
 const topicCategoryRules: TopicCategoryRule[] = [
   {
-    id: "sport-health",
-    label: "Sport & Hälsa",
+    id: "business-strategy",
+    label: "Företagande & strategi",
     keywords: [
+      "bolagsbyggande",
+      "agarperspektiv",
+      "ägarperspektiv",
+      "delägarskap",
+      "familjebolag",
+      "börsnotering",
+      "börsnoteringar",
+      "due diligence",
+      "portfoljbolag",
+      "smart money",
+      "långsiktighet",
+      "vision",
+      "vändning",
+      "etablering",
+      "organisatorisk riktning",
+      "operations",
+      "operativ kontroll",
+      "execution",
+      "förändringsarbete",
+      "change management",
+      "professionalisering",
+      "konsolidering",
+      "entreprenörskap",
+      "affärsmodell",
+      "strategi",
+      "internationalisering",
+      "internationell expansion",
+      "europaexpansion",
+      "uk-expansion",
+      "omställning",
+      "diversifiering",
+      "m&a",
+      "företagsförsäljning",
+      "avtal",
+      "affärsjuridik",
+      "ägarresor",
+      "konsultbolag",
+      "konkurrens",
+    ],
+  },
+  {
+    id: "marketing-growth",
+    label: "Marknadsföring & tillväxt",
+    keywords: [
+      "marknadsföring",
+      "betald annonsering",
+      "creatives",
+      "attribution",
+      "kundanskaffning",
+      "go to market",
+      "segmentering",
+      "organisk trafik",
+      "organisk spridning",
+      "söktrafik",
+      "rabattkoder",
+      "premium online",
+      "premiumprodukt",
+      "premiumprodukter",
+      "differentiering",
+      "nyhetsvärde",
+      "redaktionella omnämnanden",
+      "redaktionell integritet",
+      "performance marketing",
+      "meta ads",
+      "tiktok",
+      "instagram",
+      "sociala medier",
+      "seo",
+      "ugc",
+      "influencer marketing",
+      "influencers",
+      "telemarketing",
+      "brand safety",
+      "roi",
+      "varumärke",
+      "varumärkesbyggande",
+      "varumärkesstrategi",
+      "premiumpositionering",
+      "prissättning",
+      "försäljning",
+      "trovärdighet",
+      "metaannonsering",
+      "tillväxt",
+    ],
+  },
+  {
+    id: "ecommerce-retail",
+    label: "E-handel & retail",
+    keywords: [
+      "e-handel",
+      "retail",
+      "checkout",
+      "dagligvaror online",
+      "dropshipping",
+      "kvallsleveranser",
+      "kvällsleveranser",
+      "leveransupplevelse",
+      "snabba leveranser",
+      "lager",
+      "lagring",
+      "ruttoptimering",
+      "mikrohubbar",
+      "butiker",
+      "pop-up stores",
+      "premium skor",
+      "konsumentelektronik",
+      "vitvaror",
+      "smycken",
+      "väskor",
+      "takbox",
+      "lastbilstillbehör",
+      "omnihandel",
+      "omnikanal",
+      "shopify",
+      "klarna",
+      "nischhandel",
+      "cykelhandel",
+      "sortimentsstrategi",
+      "halloween",
+      "prenumerationsaffär",
+      "showroom",
+      "säsongsaffär",
+      "återköp",
+      "återförsäljare",
+      "3pl",
+      "last mile",
+    ],
+  },
+  {
+    id: "product-development",
+    label: "Produkt & utveckling",
+    keywords: [
+      "produktlansering",
+      "produktvision",
+      "produkturval",
+      "produktprovning",
+      "produktvideo",
+      "hero-produkter",
+      "hero produkter",
+      "private label",
+      "egen konstruktion",
+      "uppfinning",
+      "uppfinnare",
+      "validering",
+      "precision",
+      "produktutveckling",
+      "innovation",
+      "produktion i europa",
+      "produktion",
+      "kvalitet",
+      "design",
+      "hållbarhet",
+      "kopior",
+      "nischprodukter",
+      "marinelektronik",
+      "elcyklar",
+      "recovery tech",
+    ],
+  },
+  {
+    id: "leadership-organization",
+    label: "Ledarskap & organisation",
+    keywords: [
+      "ledarskap",
+      "chefskap",
+      "destruktiva chefer",
+      "feedback",
+      "feedbackkultur",
+      "psykologisk trygghet",
+      "konflikthantering",
+      "konflikträdsla",
+      "konsensuskultur",
+      "kravställning",
+      "personal",
+      "personberoende",
+      "nyckelpersoner",
+      "generalister",
+      "expertroll",
+      "karriär",
+      "livspussel",
+      "karriärvägar",
+      "remote work",
+      "företagskultur",
+      "organisation",
+      "rekrytering",
+      "team",
+      "styrelsearbete",
+      "styrelse",
+      "ledning",
+      "familjeliv",
+      "medgrundare",
+      "kunskapsdelning",
+      "intervjuteknik",
+      "moderatorrollen",
+      "stoicism",
+      "lärande",
+      "pedagogik",
+      "personlig utveckling",
+      "berättande",
+      "corona",
+      "coronaboomen",
+    ],
+  },
+  {
+    id: "finance-business-operations",
+    label: "Ekonomi & affärsdrift",
+    keywords: [
+      "cashflow",
+      "kassaflöde",
+      "budget",
+      "prognoser",
+      "prispress",
+      "underskott",
+      "riskbedömning",
+      "riskminimering",
+      "kravställning",
+      "outsourcing",
+      "inkoterms",
+      "likviditet",
+      "marginal",
+      "marginaler",
+      "produktmarginal",
+      "kostnadskontroll",
+      "riskkapital",
+      "investering",
+      "investeringar",
+      "lönsam tillväxt",
+      "kapital",
+      "finansiering",
+      "konkurs",
+      "ängelinvestering",
+      "ängelinvestering",
+      "ängelinvesteringar",
+    ],
+  },
+  {
+    id: "partnerships-relations",
+    label: "Partnerskap & affärsrelationer",
+    keywords: [
+      "partners",
+      "partnerskap",
+      "distributörer",
+      "leverantörer",
+      "leverantörsnätverk",
+      "wholesale",
+      "oberoende handlare",
+      "förhandling",
+      "internationella leverantörer",
+      "inköp",
+      "inkop",
+      "b2b",
+      "kundrelationer",
+    ],
+  },
+  {
+    id: "customer-behavior",
+    label: "Kund & beteende",
+    keywords: [
+      "kundinsikt",
+      "kundpersonas",
+      "kunddriven utveckling",
+      "kundvård",
+      "lojalitet",
+      "beteendeförändring",
+      "vanor",
+      "användarfokus",
+      "användare istället för förbrukare",
+      "kundservice",
+      "kundupplevelse",
+      "kundrelation",
+      "kundrelationer",
+      "konvertering",
+      "återköp",
+    ],
+  },
+  {
+    id: "sustainability-society",
+    label: "Hållbarhet & samhälle",
+    keywords: [
+      "klimat",
+      "cirkularitet",
+      "återbruk",
+      "socialt ansvar",
+      "greenwashing",
+      "transparens",
+      "svensk tillverkning",
+      "etik",
+      "forskning",
+      "hållbarhet",
+    ],
+  },
+  {
+    id: "health-fitness-lifestyle",
+    label: "Hälsa, träning & livsstil",
+    keywords: [
+      "hälsa",
       "träning",
-      "styrke",
+      "träningrelation",
+      "biohacking",
+      "blodtester",
+      "mikrobiom",
+      "fightcamp",
+      "massagepistol",
+      "gymdrift",
+      "gymkedja",
+      "hälsotrender",
+      "terapi",
+      "utmattning",
+      "smärta",
       "gym",
       "sport",
       "fotboll",
       "friidrott",
       "simning",
       "styrkelyft",
-      "hälsa",
-      "kost",
       "löpning",
       "coachning",
       "ufc",
@@ -69,80 +381,128 @@ const topicCategoryRules: TopicCategoryRule[] = [
       "crossfit",
       "recovery",
       "idrott",
+      "onlinecoaching",
+      "mental träning",
+      "prestation",
+      "prestationsångest",
+      "hetsätning",
+      "hemmagym",
+      "träningsbranschen",
+      "träningsläger",
+      "kost för prestation",
+      "luktsalt",
+      "sportresor",
+      "sportfiske",
+      "stress",
+      "stresshantering",
+      "sömn",
+      "aterhamtning",
+      "återhämtning",
+      "välmående",
+      "kvinnor och styrketräning",
+      "kajaker",
     ],
   },
   {
-    id: "ecommerce",
-    label: "E-handel",
+    id: "consumer-products-niches",
+    label: "Konsumentprodukter & nischer",
     keywords: [
-      "e-handel",
-      "retail",
-      "omnihandel",
-      "omnikanal",
-      "shopify",
-      "klarna",
-      "konvertering",
-      "sortiment",
-      "prissättning",
-      "lager",
-      "last mile",
-      "kundresa",
-      "kundupplevelse",
-      "d2c",
-      "dtc",
-    ],
-  },
-  {
-    id: "operations",
-    label: "Drift & Logistik",
-    keywords: [
-      "logistik",
-      "distribution",
-      "3pl",
-      "lager",
-      "frakt",
-      "last mile",
-      "supply chain",
-      "inköp",
-      "inkop",
-      "kundservice",
-      "retur",
-      "returer",
-      "kassaflöde",
-      "likviditet",
-      "marginal",
-      "finansiering",
-      "showroom",
-      "återförsäljare",
-      "b2b",
-      "kpi",
-      "säsongsaffär",
-      "återköp",
-    ],
-  },
-  {
-    id: "product-innovation",
-    label: "Produkt & Innovation",
-    keywords: [
-      "produktutveckling",
-      "innovation",
-      "produktion",
-      "design",
-      "kvalitet",
-      "hållbarhet",
+      "barnmat",
+      "blöjor",
+      "bivaxduk",
+      "frityrolja",
+      "frystorkade bar",
+      "torkad frukt",
+      "utan tillsatt socker",
+      "doft",
+      "grooming",
+      "ljus",
+      "loshår",
       "hudvård",
       "parfym",
+      "mode",
+      "skönhet",
+      "outdoorkläder",
+      "kläder",
+      "designfilosofi",
+      "storleksstrategi",
+      "kvinnliga former",
       "merchandising",
-      "kopior",
+      "krydda",
+      "kryddor",
+      "mat",
+      "livsmedel",
+      "fisk",
+      "skaldjur",
     ],
   },
   {
-    id: "tech",
-    label: "Tech & AI",
+    id: "parenting-family",
+    label: "Föräldraskap & familj",
     keywords: [
+      "föräldraskap",
+      "föräldrasegmentet",
+      "mammaliv",
+      "postpartum",
+      "förlossningsvård",
+    ],
+  },
+  {
+    id: "public-organization",
+    label: "Samhälle & organisation",
+    keywords: [
+      "offentlig sektor",
+      "folkrörelse",
+      "föreningssamarbeten",
+      "funktionärer",
+    ],
+  },
+  {
+    id: "operational-processes",
+    label: "Operativt & processer",
+    keywords: [
+      "processer",
+      "processkartläggning",
+      "lean",
+      "six sigma",
+      "optimering",
+      "teknisk skuld",
+      "mötesstruktur",
+      "operations",
+      "operativ kontroll",
+      "execution",
+      "logistik",
+      "distribution",
+      "frakt",
+      "montering",
+      "lagerbindning",
+    ],
+  },
+  {
+    id: "trend-analysis",
+    label: "Trend & analys",
+    keywords: [
+      "trender",
+      "framtidsspaning",
+      "omvärldsbevakning",
+      "kategoritänk",
+      "nyckelpersoner",
+      "generation z",
+      "trendspaning",
+      "research",
+      "journalistik",
+      "media",
+      "mediebolag",
+      "medieformat",
+      "näringslivsmedia",
+      "podcast",
+      "podcasting",
+      "affärsvärlden",
+      "privata affärer",
+      "breakit",
+      "bonnier",
       "ai",
       "automation",
-      "tech",
       "data",
       "ga4",
       "dashboard",
@@ -150,103 +510,30 @@ const topicCategoryRules: TopicCategoryRule[] = [
       "app",
       "saas",
       "api",
-      "martech",
       "algoritm",
-    ],
-  },
-  {
-    id: "startups",
-    label: "Startups & Tillväxt",
-    keywords: [
-      "startup",
-      "scaleup",
-      "tillväxt",
-      "lönsam",
-      "riskkapital",
-      "kapital",
-      "investering",
-      "expansion",
-      "internationalisering",
-      "internationell expansion",
-      "bootstrapping",
-      "forvarv",
-      "m&a",
-      "ipo",
-      "investerare",
-      "uppköp",
-      "turnaround",
-      "värdering",
-    ],
-  },
-  {
-    id: "business",
-    label: "Företag & Ledarskap",
-    keywords: [
-      "ledarskap",
-      "företagskultur",
-      "organisation",
-      "rekrytering",
-      "team",
-      "styrelse",
-      "styrelsearbete",
-      "försäljning",
-      "entreprenörskap",
-      "affärsmodell",
-      "strategi",
-      "partnerskap",
-      "familjeföretag",
-      "konsultbolag",
-      "relationer",
-      "karriärvägar",
-      "medgrundare",
-      "familjeliv",
-      "frihet",
-      "corona",
-      "pandemi",
-    ],
-  },
-  {
-    id: "knowledge-media",
-    label: "Kunskap & Media",
-    keywords: [
-      "podcast",
-      "journalistik",
-      "media",
-      "utbildning",
-      "kunskap",
+      "martech",
+      "digital assessment",
+      "usa",
+      "göteborg",
+      "piteå",
       "research",
-      "föreläsning",
-      "nyhetsbrev",
-      "blogg",
-      "podd",
-      "innehåll",
-      "event",
     ],
   },
   {
-    id: "marketing-brand",
-    label: "Marknadsföring & Varumärke",
+    id: "niche-misc",
+    label: "Misc / nischade topics",
     keywords: [
-      "varumärke",
-      "brand",
-      "branding",
-      "marknadsföring",
-      "influencer",
-      "pr",
-      "content",
-      "seo",
-      "sociala medier",
-      "positionering",
-      "community",
-      "tiktok",
-      "instagram",
-      "meta ads",
-      "google ads",
-      "metaannonsering",
-      "performance marketing",
-      "linkedin",
-      "ugc",
-      "kommunikation",
+      "amazon pager",
+      "bastutält",
+      "peri bottle",
+      "moss & noor",
+      "moss noor",
+      "slaget om småland",
+      "social xp",
+      "rödljus",
+      "smoothiemixer",
+      "resebranschen",
+      "elcyklar",
     ],
   },
 ];
@@ -407,6 +694,24 @@ function hasKeywordMatch(
   return normalizedLabel.includes(keyword);
 }
 
+function getSearchRank(label: string, normalizedQuery: string): number {
+  const normalizedLabel = normalizeSearchText(label);
+
+  if (normalizedLabel === normalizedQuery) {
+    return 4;
+  }
+
+  if (normalizedLabel.startsWith(normalizedQuery)) {
+    return 3;
+  }
+
+  if (normalizedLabel.split(" ").some((word) => word.startsWith(normalizedQuery))) {
+    return 2;
+  }
+
+  return 1;
+}
+
 function isLikelyCompanyTopic(label: string): boolean {
   const normalizedLabel = normalizeSearchText(label);
   const normalizedWords = normalizedLabel.split(" ").filter(Boolean);
@@ -436,6 +741,15 @@ function getTopicCategoryId(
 ): string {
   const normalizedLabel = normalizeSearchText(label);
   const normalizedWords = normalizedLabel.split(" ").filter(Boolean);
+  const entityBucket = entityBucketByLabel.get(normalizedLabel);
+
+  if (entityBucket === "people") {
+    return topicPeopleCategory.id;
+  }
+
+  if (entityBucket === "companies") {
+    return topicCompaniesCategory.id;
+  }
 
   for (const category of normalizedTopicCategoryRules) {
     if (
@@ -445,16 +759,6 @@ function getTopicCategoryId(
     ) {
       return category.id;
     }
-  }
-
-  const entityBucket = entityBucketByLabel.get(normalizedLabel);
-
-  if (entityBucket === "people") {
-    return topicPeopleCategory.id;
-  }
-
-  if (entityBucket === "companies") {
-    return topicCompaniesCategory.id;
   }
 
   if (isLikelyPersonName(label)) {
@@ -593,6 +897,8 @@ export function SemanticDirectory({ topics, entities }: SemanticDirectoryProps) 
   const selectedTopic = params.get("topic");
   const selectedEntity = params.get("entity");
   const [query, setQuery] = useState("");
+  const [selectedTopicCategoryIds, setSelectedTopicCategoryIds] = useState<string[]>([]);
+  const [selectedEntityCategoryIds, setSelectedEntityCategoryIds] = useState<string[]>([]);
   const normalizedQuery = normalizeSearchText(query);
 
   const activeTopic = useMemo(() => findEntry(topics, selectedTopic), [topics, selectedTopic]);
@@ -626,6 +932,37 @@ export function SemanticDirectory({ topics, entities }: SemanticDirectoryProps) 
       normalizeSearchText(entry.label).includes(normalizedQuery),
     );
   }, [entities, normalizedQuery]);
+  const searchSuggestions = useMemo(() => {
+    if (!normalizedQuery) {
+      return [] as SearchSuggestion[];
+    }
+
+    const topicSuggestions = filteredTopics.map((entry) => ({
+      id: `topic-${entry.slug}`,
+      label: entry.label,
+      href: `/amnen/${entry.slug}#results`,
+      kind: "Ämne" as const,
+      rank: getSearchRank(entry.label, normalizedQuery),
+    }));
+    const entitySuggestions = filteredEntities.map((entry) => ({
+      id: `entity-${entry.slug}`,
+      label: entry.label,
+      href: `/personer/${entry.slug}#results`,
+      kind: "Person / Företag" as const,
+      rank: getSearchRank(entry.label, normalizedQuery),
+    }));
+
+    return [...topicSuggestions, ...entitySuggestions]
+      .sort((left, right) => {
+        if (right.rank !== left.rank) {
+          return right.rank - left.rank;
+        }
+
+        return left.label.localeCompare(right.label, "sv");
+      })
+      .slice(0, 12)
+      .map(({ rank: _rank, ...entry }) => entry);
+  }, [filteredEntities, filteredTopics, normalizedQuery]);
 
   const entityBucketByLabel = useMemo(
     () => buildEntityBucketByLabel(entities),
@@ -640,19 +977,162 @@ export function SemanticDirectory({ topics, entities }: SemanticDirectoryProps) 
     () => buildEntityGroups(filteredEntities),
     [filteredEntities],
   );
+  const hasCategoryFilter =
+    selectedTopicCategoryIds.length > 0 || selectedEntityCategoryIds.length > 0;
+  const visibleTopicCategoryGroups = useMemo(() => {
+    if (!selectedTopicCategoryIds.length) {
+      return topicCategoryGroups;
+    }
+
+    return topicCategoryGroups.filter((group) => selectedTopicCategoryIds.includes(group.id));
+  }, [selectedTopicCategoryIds, topicCategoryGroups]);
+  const visibleEntityCategoryGroups = useMemo(() => {
+    if (!selectedEntityCategoryIds.length) {
+      return entityCategoryGroups;
+    }
+
+    return entityCategoryGroups.filter((group) => selectedEntityCategoryIds.includes(group.id));
+  }, [entityCategoryGroups, selectedEntityCategoryIds]);
+  const toggleTopicCategory = (categoryId: string) => {
+    setSelectedTopicCategoryIds((current) =>
+      current.includes(categoryId)
+        ? current.filter((value) => value !== categoryId)
+        : [...current, categoryId],
+    );
+  };
+  const toggleEntityCategory = (categoryId: string) => {
+    setSelectedEntityCategoryIds((current) =>
+      current.includes(categoryId)
+        ? current.filter((value) => value !== categoryId)
+        : [...current, categoryId],
+    );
+  };
+  const resetCategoryFilters = () => {
+    setSelectedTopicCategoryIds([]);
+    setSelectedEntityCategoryIds([]);
+  };
+  const jumpToPanel = (panelId: string) => {
+    const target = document.getElementById(panelId);
+
+    if (!target) {
+      return;
+    }
+
+    target.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
 
   return (
     <div className="semanticDirectory">
-      <label className="searchField">
-        <span>Sök i ämnen, personer och bolag</span>
-        <input
-          type="search"
-          name="topic-search"
-          value={query}
-          onChange={(event) => setQuery(event.target.value)}
-          placeholder="Sök ämne eller namn"
-        />
-      </label>
+      <div className="semanticSearchShell">
+        <label className="searchField">
+          <span>Sök i ämnen, personer och bolag</span>
+          <input
+            type="search"
+            name="topic-search"
+            value={query}
+            onChange={(event) => setQuery(event.target.value)}
+            placeholder="Sök ämne eller namn"
+          />
+        </label>
+        {normalizedQuery ? (
+          <div className="semanticSearchResults" aria-live="polite">
+            {searchSuggestions.length ? (
+              <div className="semanticSearchResultList">
+                {searchSuggestions.map((entry) => (
+                  <Link key={entry.id} href={entry.href} className="semanticSearchResultItem">
+                    <span>{entry.label}</span>
+                    <span className="semanticSearchResultKind">{entry.kind}</span>
+                  </Link>
+                ))}
+              </div>
+            ) : (
+              <p className="semanticSearchEmpty">Inga direkta träffar för sökningen ännu.</p>
+            )}
+          </div>
+        ) : null}
+      </div>
+
+      <section className="contentPanel semanticFilterPanel" aria-label="Kategorifilter">
+        <div className="semanticFilterPanelHeader">
+          <div className="semanticFilterPanelIntro">
+            <p className="semanticFilterPanelTitle">Filtrera med lista</p>
+            <p className="semanticFilterPanelSubtitle">Tryck fram en lista och bocka i en eller flera kategorier.</p>
+          </div>
+          {hasCategoryFilter ? (
+            <button
+              type="button"
+              className="semanticFilterButton semanticFilterButtonReset"
+              onClick={resetCategoryFilters}
+            >
+              Rensa val
+            </button>
+          ) : null}
+        </div>
+        <div className="semanticFilterJumpRow">
+          <button
+            type="button"
+            className="semanticFilterButton semanticFilterButtonJump"
+            onClick={() => jumpToPanel("topics-panel")}
+          >
+            Hoppa till ämnen
+          </button>
+          <button
+            type="button"
+            className="semanticFilterButton semanticFilterButtonJump"
+            onClick={() => jumpToPanel("entities-panel")}
+          >
+            Hoppa till personer & företag
+          </button>
+        </div>
+        <div className="semanticFilterPickerGrid">
+          <details className="semanticFilterPicker">
+            <summary className="semanticFilterPickerSummary">
+              <span className="semanticFilterPickerTitle">Ämneskategorier</span>
+              <span className="semanticFilterPickerMeta">
+                {selectedTopicCategoryIds.length
+                  ? `${selectedTopicCategoryIds.length} valda`
+                  : "Alla"}
+              </span>
+            </summary>
+            <div className="semanticFilterChecklist semanticFilterChecklistTopics">
+              {topicCategoryGroups.map((group) => (
+                <label key={group.id} className="semanticFilterOption">
+                  <input
+                    type="checkbox"
+                    checked={selectedTopicCategoryIds.includes(group.id)}
+                    onChange={() => toggleTopicCategory(group.id)}
+                  />
+                  <span>{group.label}</span>
+                  <span className="semanticFilterOptionCount">{group.entries.length}</span>
+                </label>
+              ))}
+            </div>
+          </details>
+          <details className="semanticFilterPicker">
+            <summary className="semanticFilterPickerSummary">
+              <span className="semanticFilterPickerTitle">Personer & bolag</span>
+              <span className="semanticFilterPickerMeta">
+                {selectedEntityCategoryIds.length
+                  ? `${selectedEntityCategoryIds.length} valda`
+                  : "Alla"}
+              </span>
+            </summary>
+            <div className="semanticFilterChecklist semanticFilterChecklistEntities">
+              {entityCategoryGroups.map((group) => (
+                <label key={group.id} className="semanticFilterOption">
+                  <input
+                    type="checkbox"
+                    checked={selectedEntityCategoryIds.includes(group.id)}
+                    onChange={() => toggleEntityCategory(group.id)}
+                  />
+                  <span>{group.label}</span>
+                  <span className="semanticFilterOptionCount">{group.entries.length}</span>
+                </label>
+              ))}
+            </div>
+          </details>
+        </div>
+      </section>
 
       <section className="contentPanel" id="results">
         <div className="sectionHeading">
@@ -707,14 +1187,14 @@ export function SemanticDirectory({ topics, entities }: SemanticDirectoryProps) 
         )}
       </section>
 
-      <section className="contentPanel semanticPanel">
+      <section className="contentPanel semanticPanel" id="topics-panel">
         <div className="semanticPanelRow">
           <div className="sectionHeading">
             <h2>Ämnen</h2>
           </div>
           <div className="semanticChipPanel">
             <div className="semanticCategoryStack">
-              {topicCategoryGroups.map((group) => (
+              {visibleTopicCategoryGroups.map((group) => (
                 <section key={group.id} className="semanticCategoryGroup">
                   <div className="semanticCategoryHeading">
                     <h3 className="semanticCategoryTitle">{group.label}</h3>
@@ -743,14 +1223,14 @@ export function SemanticDirectory({ topics, entities }: SemanticDirectoryProps) 
         </div>
       </section>
 
-      <section className="contentPanel semanticPanel">
+      <section className="contentPanel semanticPanel" id="entities-panel">
         <div className="semanticPanelRow">
           <div className="sectionHeading">
             <h2>Personer och bolag</h2>
           </div>
           <div className="semanticChipPanel">
             <div className="semanticCategoryStack">
-              {entityCategoryGroups.map((group) => (
+              {visibleEntityCategoryGroups.map((group) => (
                 <section key={group.id} className="semanticCategoryGroup">
                   <div className="semanticCategoryHeading">
                     <h3 className="semanticCategoryTitle">{group.label}</h3>

@@ -1193,8 +1193,84 @@ code {
   gap: 2.1rem;
 }
 
+.semanticSearchShell {
+  display: grid;
+  gap: 0.58rem;
+}
+
 .semanticDirectory .searchField {
-  margin-bottom: 0.4rem;
+  margin: 0;
+}
+
+.semanticSearchResults {
+  border-radius: 16px;
+  border: 1px solid rgba(164, 122, 84, 0.2);
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 10px 24px rgba(54, 34, 12, 0.08);
+  padding: 0.46rem;
+}
+
+.semanticSearchResultList {
+  display: grid;
+  gap: 0.35rem;
+  max-height: 310px;
+  overflow-y: auto;
+  padding-right: 0.2rem;
+}
+
+.semanticSearchResultItem {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 0.6rem;
+  min-height: 36px;
+  padding: 0.45rem 0.58rem;
+  border-radius: 10px;
+  border: 1px solid rgba(191, 91, 44, 0.1);
+  background: rgba(255, 252, 248, 0.92);
+  color: #5c4f42;
+  font-weight: 700;
+}
+
+.semanticSearchResultItem:hover {
+  border-color: rgba(191, 91, 44, 0.28);
+  background: rgba(255, 246, 235, 0.95);
+  color: #4f3a28;
+}
+
+.semanticSearchResultKind {
+  display: inline-flex;
+  align-items: center;
+  min-height: 22px;
+  padding: 0.12rem 0.48rem;
+  border-radius: 999px;
+  border: 1px solid rgba(164, 122, 84, 0.22);
+  background: rgba(248, 239, 228, 0.9);
+  color: #7a6757;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.semanticSearchEmpty {
+  margin: 0;
+  padding: 0.52rem 0.62rem;
+  color: #6a5b4d;
+  font-size: 0.9rem;
+}
+
+.semanticSearchResultList::-webkit-scrollbar {
+  width: 8px;
+}
+
+.semanticSearchResultList::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: rgba(164, 122, 84, 0.35);
+}
+
+.semanticSearchResultList::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.45);
 }
 
 .semanticPanel {
@@ -1203,8 +1279,8 @@ code {
 
 .semanticPanelRow {
   display: grid;
-  grid-template-columns: minmax(160px, 220px) 1fr;
-  gap: 1.2rem;
+  grid-template-columns: minmax(96px, 132px) 1fr;
+  gap: 0.8rem;
   align-items: start;
 }
 
@@ -1228,11 +1304,19 @@ code {
 .semanticCategoryGroup {
   display: grid;
   gap: 0.55rem;
+  padding: 0.7rem 0.75rem;
+  border-radius: 14px;
+  border: 1px solid rgba(191, 91, 44, 0.1);
+  background: rgba(255, 255, 255, 0.38);
+}
+
+.semanticCategoryGroup:nth-of-type(even) {
+  background: rgba(232, 220, 208, 0.34);
+  border-color: rgba(164, 122, 84, 0.13);
 }
 
 .semanticCategoryGroup + .semanticCategoryGroup {
-  padding-top: 0.75rem;
-  border-top: 1px solid rgba(191, 91, 44, 0.12);
+  margin-top: 0.1rem;
 }
 
 .semanticCategoryHeading {
@@ -1256,13 +1340,282 @@ code {
   font-weight: 700;
 }
 
+.semanticFilterButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 36px;
+  padding: 0.46rem 0.86rem;
+  border-radius: 999px;
+  border: 1px solid rgba(164, 122, 84, 0.24);
+  background: rgba(252, 247, 241, 0.88);
+  color: #6e5d4c;
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: 0.01em;
+  text-transform: none;
+  cursor: pointer;
+  transition: border-color 150ms ease, background-color 150ms ease, color 150ms ease;
+}
+
+.semanticFilterButton:hover {
+  border-color: rgba(191, 91, 44, 0.3);
+  background: rgba(255, 247, 238, 0.92);
+}
+
+.semanticFilterButton.isActive {
+  border-color: rgba(191, 91, 44, 0.28);
+  background: linear-gradient(180deg, rgba(255, 252, 248, 0.98), rgba(255, 242, 228, 0.94));
+  color: var(--accent-dark);
+}
+
+.semanticFilterPanel {
+  display: grid;
+  gap: 0.9rem;
+  padding: 1.05rem 1.1rem 1.1rem;
+  border-radius: 18px;
+  border: 1px solid rgba(191, 91, 44, 0.14);
+  background:
+    linear-gradient(180deg, rgba(255, 252, 248, 0.95), rgba(252, 244, 235, 0.86));
+  box-shadow: 0 10px 24px rgba(54, 34, 12, 0.07);
+}
+
+.semanticFilterPanelHeader {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.semanticFilterPanelIntro {
+  display: grid;
+  gap: 0.18rem;
+}
+
+.semanticFilterPanelTitle {
+  margin: 0;
+  color: #7a6959;
+  font-size: 0.79rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.semanticFilterPanelSubtitle {
+  margin: 0;
+  color: #7b6f63;
+  font-size: 0.88rem;
+}
+
+.semanticFilterButtonReset {
+  border-color: rgba(191, 91, 44, 0.25);
+  color: #825735;
+}
+
+.semanticFilterJumpRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.semanticFilterButtonJump {
+  background: rgba(255, 255, 255, 0.74);
+}
+
+.semanticFilterPickerGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.8rem;
+}
+
+.semanticFilterPicker {
+  border-radius: 15px;
+  border: 1px solid rgba(164, 122, 84, 0.16);
+  background: rgba(255, 255, 255, 0.68);
+  padding: 0.68rem 0.78rem;
+  transition: box-shadow 150ms ease, border-color 150ms ease, background-color 150ms ease;
+}
+
+.semanticFilterPicker:hover {
+  border-color: rgba(191, 91, 44, 0.24);
+  background: rgba(255, 255, 255, 0.76);
+}
+
+.semanticFilterPickerSummary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+  cursor: pointer;
+}
+
+.semanticFilterPickerTitle {
+  color: #6a5646;
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.semanticFilterPickerMeta {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  border: 1px solid rgba(164, 122, 84, 0.2);
+  background: rgba(247, 237, 226, 0.86);
+  color: #7f6956;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.semanticFilterChecklist {
+  margin-top: 0.72rem;
+  display: grid;
+  gap: 0.38rem;
+  max-height: 290px;
+  overflow-y: auto;
+  padding-right: 0.24rem;
+  padding-top: 0.04rem;
+}
+
+.semanticFilterChecklistTopics {
+  grid-template-columns: 1fr;
+}
+
+.semanticFilterOption {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 0.55rem;
+  min-height: 36px;
+  padding: 0.28rem 0.42rem;
+  border-radius: 10px;
+  font-size: 0.88rem;
+  color: #5c4f42;
+  transition: background-color 140ms ease, color 140ms ease;
+}
+
+.semanticFilterOption:hover {
+  background: rgba(248, 240, 231, 0.9);
+  color: #4f3d2d;
+}
+
+.semanticFilterOption input {
+  margin: 0;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 4px;
+  accent-color: #8f5a34;
+}
+
+.semanticFilterOptionCount {
+  color: #7a695b;
+  font-size: 0.76rem;
+  font-weight: 700;
+  justify-self: end;
+}
+
+.semanticFilterOption span {
+  line-height: 1.25;
+}
+
+.semanticFilterOption:has(input:checked) {
+  background: rgba(248, 238, 226, 0.96);
+  color: #503725;
+  font-weight: 800;
+}
+
+.semanticFilterOption:has(input:checked) .semanticFilterOptionCount {
+  color: #69472e;
+}
+
+.semanticFilterPicker[open] {
+  box-shadow:
+    inset 0 0 0 1px rgba(191, 91, 44, 0.12),
+    0 8px 22px rgba(54, 34, 12, 0.06);
+  border-color: rgba(191, 91, 44, 0.2);
+}
+
+.semanticFilterPickerSummary::-webkit-details-marker {
+  display: none;
+}
+
+.semanticFilterPickerSummary::after {
+  content: "▾";
+  margin-left: 0.25rem;
+  font-size: 0.74rem;
+  color: #8d7763;
+}
+
+.semanticFilterPicker[open] .semanticFilterPickerSummary::after {
+  content: "▴";
+}
+
+.semanticFilterChecklist::-webkit-scrollbar {
+  width: 8px;
+}
+
+.semanticFilterChecklist::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: rgba(164, 122, 84, 0.35);
+}
+
+.semanticFilterChecklist::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.45);
+}
+
+.semanticFilterPicker summary {
+  list-style: none;
+}
+
+.semanticFilterPicker summary::-webkit-details-marker {
+  display: none;
+}
+
+.semanticFilterPanel .semanticFilterButton {
+  min-height: 34px;
+  font-size: 0.76rem;
+}
+
+.semanticFilterJumpRow .semanticFilterButton {
+  width: auto;
+}
+
+.semanticFilterPickerGrid {
+  align-items: start;
+}
+
+.semanticFilterPanel .semanticFilterButton:focus-visible,
+.semanticFilterOption input:focus-visible {
+  outline: 2px solid rgba(191, 91, 44, 0.4);
+  outline-offset: 2px;
+}
+
+@media (min-width: 1180px) {
+  .semanticFilterChecklistTopics {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
 .semanticPanel .topicChip {
   font-size: 0.9rem;
   padding: 0.52rem 0.88rem;
+  width: 100%;
+  justify-content: flex-start;
 }
 
 .semanticPanel .topicChipMuted {
   background: rgba(248, 243, 236, 0.9);
+}
+
+.semanticPanel .topicChipList {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 0.65rem;
 }
 
 .aboutTopicCloud .topicChipList {
@@ -1596,6 +1949,18 @@ code {
     padding: 0.9rem 1rem;
   }
 
+  .semanticFilterPickerGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .semanticSearchResults {
+    padding: 0.4rem;
+  }
+
+  .semanticPanel .topicChipList {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .trustGrid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1642,6 +2007,20 @@ code {
   .contentPanel,
   .episodeHero {
     padding: 1.1rem;
+  }
+
+  .semanticFilterPanelHeader {
+    align-items: flex-start;
+  }
+
+  .semanticSearchResultItem {
+    grid-template-columns: 1fr;
+    align-items: flex-start;
+    gap: 0.32rem;
+  }
+
+  .semanticSearchResultKind {
+    justify-self: flex-start;
   }
 
   .aboutHeroPanel {
@@ -1708,6 +2087,10 @@ code {
 
   .episodeHeroCopy h1 {
     font-size: clamp(1.65rem, 8vw, 2.2rem);
+  }
+
+  .semanticPanel .topicChipList {
+    grid-template-columns: 1fr;
   }
 
   .episodeOverline {
