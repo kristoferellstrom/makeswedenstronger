@@ -9,7 +9,7 @@ const episodeMeta = {
   "topics": [
     "dpj workspace",
     "kontorsmobler",
-    "b2b-försäljning",
+    "B2B-försäljning",
     "e-handel",
     "sortimentsstrategi",
     "lagerfinansiering",

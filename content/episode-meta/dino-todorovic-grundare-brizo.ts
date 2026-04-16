@@ -9,14 +9,14 @@ const episodeMeta = {
   "topics": [
     "brizo",
     "vembla",
-    "3pl",
+    "3PL",
     "mikrohubbar",
     "snabba leveranser",
     "e-handelslogistik",
     "amazon prime",
     "kapitalresning",
     "vision",
-    "europaexpansion",
+    "Europaexpansion",
     "last mile",
     "konvertering"
   ],

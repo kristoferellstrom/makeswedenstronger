@@ -9,7 +9,7 @@ const episodeMeta = {
   "topics": [
     "Sisterly Tribe",
     "PR",
-    "varumarkesbyggande",
+    "varumärkesbyggande",
     "internationell expansion",
     "USA",
     "premiumprodukt",

@@ -12,7 +12,7 @@ const episodeMeta = {
     "syftesdrivet varumärke",
     "hållbarhet",
     "e-handel",
-    "foretagskultur",
+    "företagskultur",
     "kommunikation",
     "kreativt ledarskap",
     "socialt ansvar",

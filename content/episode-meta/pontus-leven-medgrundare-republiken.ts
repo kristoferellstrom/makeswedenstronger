@@ -11,7 +11,7 @@ const episodeMeta = {
     "varumarkesbygge",
     "marknadsföringsbyrå",
     "strategi",
-    "google ads",
+    "Google Ads",
     "ikea",
     "fyra p",
     "rekrytering",

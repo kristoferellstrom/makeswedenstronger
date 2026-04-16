@@ -8,7 +8,7 @@ const episodeMeta = {
   ],
   "topics": [
     "Eleiko",
-    "styrketraning",
+    "styrketräning",
     "premiumprodukter",
     "global expansion",
     "familjeföretag",

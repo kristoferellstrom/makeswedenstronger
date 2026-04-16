@@ -16,7 +16,7 @@ const episodeMeta = {
     "global expansion",
     "kreativitet",
     "mammaliv",
-    "varumarkesbyggande",
+    "varumärkesbyggande",
     "produktutveckling",
     "styrelsearbete"
   ],

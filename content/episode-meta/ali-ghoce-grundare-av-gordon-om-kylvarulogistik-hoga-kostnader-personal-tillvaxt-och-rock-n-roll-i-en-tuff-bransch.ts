@@ -15,7 +15,7 @@ const episodeMeta = {
     "personaltata bolag",
     "ruttoptimering",
     "kapitalanskaffning",
-    "foretagskultur",
+    "företagskultur",
     "tillväxt",
     "nischstrategi",
     "operativ kontroll"

@@ -14,7 +14,7 @@ const episodeMeta = {
     "go to market",
     "konvertering",
     "kommunikation",
-    "prissattning",
+    "prissättning",
     "startup",
     "scaleup",
     "emotionell marknadsföring",
