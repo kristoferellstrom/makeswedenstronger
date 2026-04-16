@@ -1220,6 +1220,42 @@ code {
   box-shadow: 0 12px 30px rgba(37, 28, 18, 0.08);
 }
 
+.semanticCategoryStack {
+  display: grid;
+  gap: 0.95rem;
+}
+
+.semanticCategoryGroup {
+  display: grid;
+  gap: 0.55rem;
+}
+
+.semanticCategoryGroup + .semanticCategoryGroup {
+  padding-top: 0.75rem;
+  border-top: 1px solid rgba(191, 91, 44, 0.12);
+}
+
+.semanticCategoryHeading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.6rem;
+}
+
+.semanticCategoryTitle {
+  margin: 0;
+  color: #6d6053;
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.semanticCategoryCount {
+  color: #8a7b6c;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
 .semanticPanel .topicChip {
   font-size: 0.9rem;
   padding: 0.52rem 0.88rem;
