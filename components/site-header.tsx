@@ -5,22 +5,59 @@ import { useEffect, useState } from "react";
 
 import { siteConfig } from "@/config/site";
 
+const compactEnterScrollY = 68;
+const compactExitScrollY = 20;
+const compactDisabledMediaQuery = "(max-width: 720px)";
+
+function shouldUseCompactHeader(isCompact: boolean, scrollY: number, isNarrowViewport: boolean) {
+  if (isNarrowViewport) {
+    return false;
+  }
+
+  if (isCompact) {
+    return scrollY > compactExitScrollY;
+  }
+
+  return scrollY > compactEnterScrollY;
+}
+
 export function SiteHeader() {
   const [isCompact, setIsCompact] = useState(false);
 
   useEffect(() => {
+    let frameId: number | null = null;
+    const mediaQueryList = window.matchMedia(compactDisabledMediaQuery);
+
     const updateHeaderState = () => {
-      const nextIsCompact = window.scrollY > 8;
-      setIsCompact((current) =>
-        current === nextIsCompact ? current : nextIsCompact,
-      );
+      if (frameId !== null) {
+        return;
+      }
+
+      frameId = window.requestAnimationFrame(() => {
+        frameId = null;
+        const nextScrollY = window.scrollY || 0;
+        const isNarrowViewport = mediaQueryList.matches;
+
+        setIsCompact((current) => {
+          const next = shouldUseCompactHeader(current, nextScrollY, isNarrowViewport);
+          return current === next ? current : next;
+        });
+      });
     };
 
     updateHeaderState();
     window.addEventListener("scroll", updateHeaderState, { passive: true });
+    window.addEventListener("resize", updateHeaderState, { passive: true });
+    mediaQueryList.addEventListener("change", updateHeaderState);
 
     return () => {
       window.removeEventListener("scroll", updateHeaderState);
+      window.removeEventListener("resize", updateHeaderState);
+      mediaQueryList.removeEventListener("change", updateHeaderState);
+
+      if (frameId !== null) {
+        window.cancelAnimationFrame(frameId);
+      }
     };
   }, []);
 
