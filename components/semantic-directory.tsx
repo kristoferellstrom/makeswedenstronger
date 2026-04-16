@@ -37,7 +37,40 @@ type TopicCategoryRuleNormalized = TopicCategoryRule & {
 
 type EntityBucket = "people" | "companies" | "other";
 
+const topicPeopleCategory = {
+  id: "topic-people",
+  label: "Personer",
+};
+
+const topicCompaniesCategory = {
+  id: "topic-companies",
+  label: "Företag & varumärken",
+};
+
 const topicCategoryRules: TopicCategoryRule[] = [
+  {
+    id: "sport-health",
+    label: "Sport & Hälsa",
+    keywords: [
+      "träning",
+      "styrke",
+      "gym",
+      "sport",
+      "fotboll",
+      "friidrott",
+      "simning",
+      "styrkelyft",
+      "hälsa",
+      "kost",
+      "löpning",
+      "coachning",
+      "ufc",
+      "mma",
+      "crossfit",
+      "recovery",
+      "idrott",
+    ],
+  },
   {
     id: "ecommerce",
     label: "E-handel",
@@ -57,6 +90,50 @@ const topicCategoryRules: TopicCategoryRule[] = [
       "kundupplevelse",
       "d2c",
       "dtc",
+    ],
+  },
+  {
+    id: "operations",
+    label: "Drift & Logistik",
+    keywords: [
+      "logistik",
+      "distribution",
+      "3pl",
+      "lager",
+      "frakt",
+      "last mile",
+      "supply chain",
+      "inköp",
+      "inkop",
+      "kundservice",
+      "retur",
+      "returer",
+      "kassaflöde",
+      "likviditet",
+      "marginal",
+      "finansiering",
+      "showroom",
+      "återförsäljare",
+      "b2b",
+      "kpi",
+      "säsongsaffär",
+      "återköp",
+    ],
+  },
+  {
+    id: "product-innovation",
+    label: "Produkt & Innovation",
+    keywords: [
+      "produktutveckling",
+      "innovation",
+      "produktion",
+      "design",
+      "kvalitet",
+      "hållbarhet",
+      "hudvård",
+      "parfym",
+      "merchandising",
+      "kopior",
     ],
   },
   {
@@ -95,6 +172,10 @@ const topicCategoryRules: TopicCategoryRule[] = [
       "forvarv",
       "m&a",
       "ipo",
+      "investerare",
+      "uppköp",
+      "turnaround",
+      "värdering",
     ],
   },
   {
@@ -112,24 +193,16 @@ const topicCategoryRules: TopicCategoryRule[] = [
       "entreprenörskap",
       "affärsmodell",
       "strategi",
-    ],
-  },
-  {
-    id: "sport-health",
-    label: "Sport & Hälsa",
-    keywords: [
-      "träning",
-      "styrke",
-      "gym",
-      "sport",
-      "hälsa",
-      "kost",
-      "löpning",
-      "ufc",
-      "mma",
-      "crossfit",
-      "recovery",
-      "idrott",
+      "partnerskap",
+      "familjeföretag",
+      "konsultbolag",
+      "relationer",
+      "karriärvägar",
+      "medgrundare",
+      "familjeliv",
+      "frihet",
+      "corona",
+      "pandemi",
     ],
   },
   {
@@ -144,6 +217,10 @@ const topicCategoryRules: TopicCategoryRule[] = [
       "research",
       "föreläsning",
       "nyhetsbrev",
+      "blogg",
+      "podd",
+      "innehåll",
+      "event",
     ],
   },
   {
@@ -164,6 +241,12 @@ const topicCategoryRules: TopicCategoryRule[] = [
       "tiktok",
       "instagram",
       "meta ads",
+      "google ads",
+      "metaannonsering",
+      "performance marketing",
+      "linkedin",
+      "ugc",
+      "kommunikation",
     ],
   },
 ];
@@ -304,17 +387,82 @@ function includesMarker(
   return normalizedWords.includes(marker);
 }
 
-function getTopicCategoryId(label: string): string {
+function hasKeywordMatch(
+  normalizedLabel: string,
+  normalizedWords: string[],
+  keyword: string,
+): boolean {
+  if (!keyword) {
+    return false;
+  }
+
+  if (keyword.includes(" ")) {
+    return normalizedLabel.includes(keyword);
+  }
+
+  if (keyword.length <= 3) {
+    return normalizedWords.includes(keyword);
+  }
+
+  return normalizedLabel.includes(keyword);
+}
+
+function isLikelyCompanyTopic(label: string): boolean {
   const normalizedLabel = normalizeSearchText(label);
+  const normalizedWords = normalizedLabel.split(" ").filter(Boolean);
+  const words = label.trim().split(/\s+/).filter(Boolean);
+  const hasDigit = words.some((word) => /\d/.test(word));
+  const hasAcronymWord = words.some(
+    (word) => word.length > 2 && /[A-ZÅÄÖ]/.test(word) && word === word.toUpperCase(),
+  );
+  const hasCompanyMarker = normalizedEntityCompanyMarkers.some((marker) =>
+    includesMarker(normalizedLabel, normalizedWords, marker),
+  );
+
+  if (hasCompanyMarker) {
+    return true;
+  }
+
+  if (hasAcronymWord && words.length <= 4) {
+    return true;
+  }
+
+  return hasDigit && words.length <= 3;
+}
+
+function getTopicCategoryId(
+  label: string,
+  entityBucketByLabel: Map<string, EntityBucket>,
+): string {
+  const normalizedLabel = normalizeSearchText(label);
+  const normalizedWords = normalizedLabel.split(" ").filter(Boolean);
 
   for (const category of normalizedTopicCategoryRules) {
     if (
       category.normalizedKeywords.some(
-        (keyword) => keyword && normalizedLabel.includes(keyword),
+        (keyword) => hasKeywordMatch(normalizedLabel, normalizedWords, keyword),
       )
     ) {
       return category.id;
     }
+  }
+
+  const entityBucket = entityBucketByLabel.get(normalizedLabel);
+
+  if (entityBucket === "people") {
+    return topicPeopleCategory.id;
+  }
+
+  if (entityBucket === "companies") {
+    return topicCompaniesCategory.id;
+  }
+
+  if (isLikelyPersonName(label)) {
+    return topicPeopleCategory.id;
+  }
+
+  if (isLikelyCompanyTopic(label)) {
+    return topicCompaniesCategory.id;
   }
 
   return topicFallbackCategory.id;
@@ -322,10 +470,18 @@ function getTopicCategoryId(label: string): string {
 
 function buildTopicCategoryGroups(
   entries: SemanticEntry[],
+  entityBucketByLabel: Map<string, EntityBucket>,
 ): SemanticCategoryGroup[] {
   const categoryMap = new Map<string, SemanticCategoryGroup>();
 
-  for (const category of topicCategoryRules) {
+  const orderedCategories = [
+    topicPeopleCategory,
+    topicCompaniesCategory,
+    ...topicCategoryRules,
+    topicFallbackCategory,
+  ];
+
+  for (const category of orderedCategories) {
     categoryMap.set(category.id, {
       id: category.id,
       label: category.label,
@@ -333,14 +489,8 @@ function buildTopicCategoryGroups(
     });
   }
 
-  categoryMap.set(topicFallbackCategory.id, {
-    id: topicFallbackCategory.id,
-    label: topicFallbackCategory.label,
-    entries: [],
-  });
-
   for (const entry of entries) {
-    const categoryId = getTopicCategoryId(entry.label);
+    const categoryId = getTopicCategoryId(entry.label, entityBucketByLabel);
     const category = categoryMap.get(categoryId) ?? categoryMap.get(topicFallbackCategory.id);
 
     if (!category) {
@@ -426,6 +576,18 @@ function buildEntityGroups(
   );
 }
 
+function buildEntityBucketByLabel(
+  entries: SemanticEntry[],
+): Map<string, EntityBucket> {
+  const bucketByLabel = new Map<string, EntityBucket>();
+
+  for (const entry of entries) {
+    bucketByLabel.set(normalizeSearchText(entry.label), classifyEntity(entry));
+  }
+
+  return bucketByLabel;
+}
+
 export function SemanticDirectory({ topics, entities }: SemanticDirectoryProps) {
   const params = useSearchParams();
   const selectedTopic = params.get("topic");
@@ -465,9 +627,14 @@ export function SemanticDirectory({ topics, entities }: SemanticDirectoryProps) 
     );
   }, [entities, normalizedQuery]);
 
+  const entityBucketByLabel = useMemo(
+    () => buildEntityBucketByLabel(entities),
+    [entities],
+  );
+
   const topicCategoryGroups = useMemo(
-    () => buildTopicCategoryGroups(filteredTopics),
-    [filteredTopics],
+    () => buildTopicCategoryGroups(filteredTopics, entityBucketByLabel),
+    [entityBucketByLabel, filteredTopics],
   );
   const entityCategoryGroups = useMemo(
     () => buildEntityGroups(filteredEntities),
