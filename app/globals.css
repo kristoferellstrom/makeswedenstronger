@@ -426,6 +426,22 @@ code {
   overflow-wrap: anywhere;
 }
 
+.topicsIntroPrompt {
+  display: grid;
+  gap: 0.55rem;
+  margin-top: 0.8rem;
+}
+
+.topicsIntroPrompt h2 {
+  margin: 0;
+}
+
+.topicsIntroPrompt p {
+  margin: 0;
+  max-width: 66ch;
+  color: var(--muted);
+}
+
 .aboutHeroLead {
   max-width: 58ch;
 }

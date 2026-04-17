@@ -130,9 +130,6 @@ export default async function HomePage() {
         <section className="contentPanel section">
           <div className="sectionHeading">
             <h2>Nytt avsnitt</h2>
-            <Link href={`/episodes/${latestEpisode.slug}`} className="textLink sectionHeadingLink">
-              Öppna avsnitt
-            </Link>
           </div>
 
           <article className="latestFeatureCard">

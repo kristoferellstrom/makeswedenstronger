@@ -70,6 +70,10 @@ export default async function TopicsPage() {
           avsnitt, oavsett om du söker efter ett specifikt namn eller ett område som e-handel,
           ledarskap eller marknadsföring.
         </p>
+        <div className="topicsIntroPrompt">
+          <h2>Välj ett ämne eller namn</h2>
+          <p>Välj ett ämne eller ett namn för att se relaterade avsnitt.</p>
+        </div>
       </section>
 
       <Suspense fallback={<p className="emptyState">Laddar…</p>}>
