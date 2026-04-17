@@ -171,16 +171,18 @@ export default async function EpisodePage({ params }: EpisodePageProps) {
           </div>
         </section>
 
-        <section className="contentPanel" aria-labelledby="episode-audio-heading">
-          <div className="sectionHeading">
-            <h2 id="episode-audio-heading">Lyssna</h2>
-          </div>
+        <section id="episode-audio-section" className="contentPanel" aria-labelledby="episode-audio-heading">
           <Suspense
             fallback={
-              <audio controls preload="none" className="audioPlayer">
-                <source src={episode.audioUrl} />
-                Din webbläsare stödjer inte ljudspelaren.
-              </audio>
+              <>
+                <div className="sectionHeading">
+                  <h2 id="episode-audio-heading">Lyssna</h2>
+                </div>
+                <audio controls preload="none" className="audioPlayer">
+                  <source src={episode.audioUrl} />
+                  Din webbläsare stödjer inte ljudspelaren.
+                </audio>
+              </>
             }
           >
             <SeekableAudioPlayerFromQuery audioUrl={episode.audioUrl} />

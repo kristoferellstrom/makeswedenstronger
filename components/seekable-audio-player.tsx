@@ -91,6 +91,46 @@ export function SeekableAudioPlayerFromQuery({ audioUrl }: SeekableAudioPlayerFr
   const searchParams = useSearchParams();
   const startAtSeconds = parseSeekSeconds(searchParams.get("t"));
   const focusLabel = searchParams.get("from");
+  const hasSeek =
+    typeof startAtSeconds === "number" &&
+    Number.isFinite(startAtSeconds) &&
+    startAtSeconds >= 0;
+  const hasAudioHash =
+    typeof window !== "undefined" && window.location.hash === "#episode-audio-heading";
+  const isSeekAudioNavigation = hasSeek && hasAudioHash;
 
-  return <SeekableAudioPlayer audioUrl={audioUrl} startAtSeconds={startAtSeconds} focusLabel={focusLabel} />;
+  useEffect(() => {
+    if (!isSeekAudioNavigation) {
+      return;
+    }
+
+    const targetSection = document.getElementById("episode-audio-section");
+
+    if (!targetSection) {
+      return;
+    }
+
+    const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const frameId = window.requestAnimationFrame(() => {
+      targetSection.scrollIntoView({
+        behavior: prefersReducedMotion ? "auto" : "smooth",
+        block: "center",
+      });
+    });
+
+    return () => {
+      window.cancelAnimationFrame(frameId);
+    };
+  }, [isSeekAudioNavigation]);
+
+  return (
+    <>
+      {isSeekAudioNavigation ? <h2 id="episode-audio-heading" className="srOnly">Lyssna</h2> : (
+        <div className="sectionHeading">
+          <h2 id="episode-audio-heading">Lyssna</h2>
+        </div>
+      )}
+      <SeekableAudioPlayer audioUrl={audioUrl} startAtSeconds={startAtSeconds} focusLabel={focusLabel} />
+    </>
+  );
 }
