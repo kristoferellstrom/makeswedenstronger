@@ -31,10 +31,14 @@ export function SiteHeader() {
     let frameId: number | null = null;
     let scrollStopTimeoutId: number | null = null;
     let hasPendingScrollActivity = false;
+    let lastScrollY = Math.max(0, window.scrollY || 0);
     const mediaQueryList = window.matchMedia(compactDisabledMediaQuery);
 
     const updateHeaderState = (markScrollActivity: boolean) => {
-      if (markScrollActivity) {
+      const liveScrollY = Math.max(0, window.scrollY || 0);
+      const hasMeaningfulScrollDelta = Math.abs(liveScrollY - lastScrollY) > 1;
+
+      if (markScrollActivity && hasMeaningfulScrollDelta) {
         hasPendingScrollActivity = true;
       }
 
@@ -45,6 +49,7 @@ export function SiteHeader() {
       frameId = window.requestAnimationFrame(() => {
         frameId = null;
         const nextScrollY = Math.max(0, window.scrollY || 0);
+        lastScrollY = nextScrollY;
         const isNarrowViewport = mediaQueryList.matches;
         const nextIsAtTop = nextScrollY <= 2;
 
@@ -76,7 +81,7 @@ export function SiteHeader() {
           scrollStopTimeoutId = window.setTimeout(() => {
             setIsScrolling(false);
             scrollStopTimeoutId = null;
-          }, 140);
+          }, 320);
         }
 
         hasPendingScrollActivity = false;

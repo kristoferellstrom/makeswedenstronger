@@ -118,9 +118,9 @@ code {
   background: rgba(23, 18, 14, 0.9);
   border-bottom: 1px solid rgba(74, 60, 46, 0.24);
   transition:
-    border-color 320ms ease,
-    transform 560ms cubic-bezier(0.22, 1, 0.36, 1),
-    opacity 460ms ease;
+    border-color 420ms ease,
+    transform 780ms cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 680ms ease;
 }
 
 .siteHeaderInner {
@@ -151,12 +151,12 @@ code {
   box-shadow: none;
   font-size: 0.98rem;
   transition:
-    max-width 560ms cubic-bezier(0.22, 1, 0.36, 1),
-    max-height 560ms cubic-bezier(0.22, 1, 0.36, 1),
-    opacity 460ms ease,
-    transform 560ms cubic-bezier(0.22, 1, 0.36, 1),
-    margin 560ms cubic-bezier(0.22, 1, 0.36, 1),
-    padding 560ms cubic-bezier(0.22, 1, 0.36, 1);
+    max-width 780ms cubic-bezier(0.22, 1, 0.36, 1),
+    max-height 780ms cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 680ms ease,
+    transform 780ms cubic-bezier(0.22, 1, 0.36, 1),
+    margin 780ms cubic-bezier(0.22, 1, 0.36, 1),
+    padding 780ms cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .siteHeaderCompact .siteHeaderInner {
@@ -2039,14 +2039,12 @@ code {
   }
 
   .brandMark {
-    max-height: 46px;
-    padding-block: 0.2rem;
+    max-height: 52px;
+    padding-block: 0.24rem;
   }
 
   .brandTitle {
-    font-size: 1.55rem;
-    transform: scaleY(0.5);
-    transform-origin: left top;
+    font-size: 1.3rem;
   }
 
   .siteNav {

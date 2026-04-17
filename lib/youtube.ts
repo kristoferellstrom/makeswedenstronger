@@ -49,6 +49,19 @@ export type YouTubeVideo = {
   thumbnailUrl?: string;
 };
 
+type YouTubeEpisodeOverride = {
+  id: string;
+  title: string;
+  url?: string;
+};
+
+const YOUTUBE_EPISODE_OVERRIDES: Record<string, YouTubeEpisodeOverride> = {
+  "lucas-wasniewski-vd-delagaren-pa-flowlife-om-foretagandets-svangningar": {
+    id: "I77uBudeWHM",
+    title: "Lucas Wasniewski - VD/Delägaren på Flowlife - Om företagandets svängningar!",
+  },
+};
+
 export function buildYouTubeSearchUrl(title: string) {
   const query = encodeURIComponent(title);
   return `https://www.youtube.com/results?search_query=${query}`;
@@ -283,7 +296,24 @@ export const getYouTubeVideoIndex = cache(async (): Promise<YouTubeVideoIndex> =
   return { byTitle, entries: indexedEntries };
 });
 
-export async function getYouTubeVideoForTitle(title: string): Promise<YouTubeVideo | null> {
+export async function getYouTubeVideoForTitle(
+  title: string,
+  options?: { episodeSlug?: string },
+): Promise<YouTubeVideo | null> {
+  const overrideSlug = options?.episodeSlug;
+  const override = overrideSlug ? YOUTUBE_EPISODE_OVERRIDES[overrideSlug] : undefined;
+
+  if (override) {
+    const overrideUrl = override.url ?? `https://www.youtube.com/watch?v=${override.id}`;
+    return {
+      id: override.id,
+      title: override.title,
+      url: overrideUrl,
+      embedUrl: `https://www.youtube.com/embed/${override.id}`,
+      publishedAt: null,
+    };
+  }
+
   const index = await getYouTubeVideoIndex();
   const normalizedTitle = normalizeTitle(title);
 

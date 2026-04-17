@@ -99,7 +99,7 @@ export default async function EpisodePage({ params }: EpisodePageProps) {
   const [transcript, relatedEpisodes, youtubeVideo] = await Promise.all([
     getTranscriptForEpisode(episode),
     getRelatedEpisodes(episode, 3),
-    getYouTubeVideoForTitle(episode.title),
+    getYouTubeVideoForTitle(episode.title, { episodeSlug: episode.slug }),
   ]);
   const episodeMeta = getEpisodeMeta(episode.slug);
   const episodeJsonLd = buildEpisodeJsonLd(episode, {
