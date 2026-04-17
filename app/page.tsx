@@ -232,21 +232,6 @@ export default async function HomePage() {
         </section>
       ) : null}
 
-      {latestEpisode ? (
-        <div className="mobileStickyCta" aria-label="Snabblyssna">
-          <Link href={`/episodes/${latestEpisode.slug}#episode-audio-heading`} className="buttonPrimary">
-            Spela senaste
-          </Link>
-          <a
-            href={siteConfig.links.spotify}
-            target="_blank"
-            rel="noreferrer"
-            className="buttonSecondary"
-          >
-            Spotify
-          </a>
-        </div>
-      ) : null}
     </div>
   );
 }
