@@ -317,6 +317,8 @@ export async function getYouTubeVideoForTitle(title: string): Promise<YouTubeVid
   }
 
   const baseTokens = filteredInputTokens.length ? filteredInputTokens : inputTokens;
+  const minimumContextOverlap =
+    contextTokens.length >= 3 ? 2 : contextTokens.length >= 2 ? 1 : 0;
   const scored = index.entries
     .map((entry) => {
       const entryFilteredTokens = filterMatchTokens(entry.tokens);
@@ -336,13 +338,13 @@ export async function getYouTubeVideoForTitle(title: string): Promise<YouTubeVid
       if (guestTokens.length >= 2 && item.guestOverlap < guestTokens.length) {
         return false;
       }
-      if (contextTokens.length >= 2 && item.contextOverlap < 1) {
+      if (minimumContextOverlap > 0 && item.contextOverlap < minimumContextOverlap) {
         return false;
       }
       if (guestTokens.length >= 2) {
         return item.overlap >= Math.min(2, baseTokens.length);
       }
-      return item.baseScore >= 0.5 && item.overlap >= Math.min(2, baseTokens.length);
+      return item.baseScore >= 0.66 && item.overlap >= Math.min(2, baseTokens.length);
     })
     .sort((a, b) => b.score - a.score);
 
