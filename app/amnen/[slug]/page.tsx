@@ -5,7 +5,11 @@ import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { EpisodeCard } from "@/components/episode-card";
 import { siteConfig } from "@/config/site";
-import { getSemanticTopicBySlug, getSemanticTopicEntries } from "@/lib/semantic";
+import {
+  getSemanticTopicBySlug,
+  getSemanticTopicEntries,
+  getSemanticTopicRouteSlugs,
+} from "@/lib/semantic";
 import {
   buildBreadcrumbJsonLd,
   buildSemanticCollectionJsonLd,
@@ -22,10 +26,10 @@ type TopicPageProps = {
 };
 
 export async function generateStaticParams() {
-  const topics = await getSemanticTopicEntries();
+  const slugs = await getSemanticTopicRouteSlugs();
 
-  return topics.map((topic) => ({
-    slug: topic.slug,
+  return slugs.map((slug) => ({
+    slug,
   }));
 }
 
@@ -119,12 +123,11 @@ export default async function TopicPage({ params }: TopicPageProps) {
         <p className="eyebrow">Ämne</p>
         <h1 className="archiveTitle">{topic.label}</h1>
         <p className="introCopy">
-          {topic.episodes.length} relaterade avsnitt med transkript, sammanfattning och kapitel.
+          {topic.episodes.length} relaterade avsnitt där ämnet {topic.label} är centralt.
         </p>
         <p className="introCopy">
-          På den här samlingssidan får du en tydlig överblick över alla avsnitt där ämnet är centralt.
-          Öppna ett avsnitt för att läsa sammanfattningen, se nyckelämnen och personer samt spela
-          direkt i den inbyggda spelaren eller via externa plattformar.
+          Här hittar du avsnitt som går djupare i {topic.label}. Öppna ett avsnitt för att se hur
+          {" "}{topic.label} diskuteras i sammanfattning, nyckelämnen, personer och kapitel.
         </p>
       </section>
 

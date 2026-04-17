@@ -18,7 +18,7 @@ import {
   buildTranscriptText,
   serializeJsonLd,
 } from "@/lib/seo";
-import { toSemanticSlug } from "@/lib/semantic";
+import { toSemanticSlug, toSemanticTopicSlug } from "@/lib/semantic";
 import { getTranscriptForEpisode } from "@/lib/transcripts";
 import { buildYouTubeSearchUrl, getYouTubeVideoForTitle } from "@/lib/youtube";
 
@@ -244,7 +244,7 @@ export default async function EpisodePage({ params }: EpisodePageProps) {
                   {episodeMeta.topics.map((topic) => (
                     <Link
                       key={topic}
-                      href={`/amnen/${toSemanticSlug(topic)}#results`}
+                      href={`/amnen/${toSemanticTopicSlug(topic)}#results`}
                       className="topicChip"
                     >
                       {topic}

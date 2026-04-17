@@ -119,12 +119,12 @@ export default async function EntityPage({ params }: EntityPageProps) {
         <p className="eyebrow">Personer och bolag</p>
         <h1 className="archiveTitle">{entity.label}</h1>
         <p className="introCopy">
-          {entity.episodes.length} relaterade avsnitt där namnet förekommer i avsnittsdata.
+          {entity.episodes.length} relaterade avsnitt där {entity.label} förekommer i avsnittsdata.
         </p>
         <p className="introCopy">
-          Här ser du avsnitten där personen eller bolaget nämns som central del av innehållet.
-          Varje avsnitt har en egen sida med struktur för ämnen, kapitel och transkript, vilket gör
-          det enkelt att jämföra resonemang över tid och hitta rätt del i samtalen.
+          Här hittar du avsnitt där {entity.label} är en central del av innehållet. Öppna ett
+          avsnitt för att se hur {entity.label} kopplas till ämnen, kapitel och transkript och
+          jämföra resonemangen över tid.
         </p>
       </section>
 
