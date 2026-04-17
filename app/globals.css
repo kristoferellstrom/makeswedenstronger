@@ -2014,6 +2014,33 @@ code {
     pointer-events: none;
   }
 
+  .siteHeaderMobileNoLogo .siteHeaderInner {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 40px;
+    gap: 0.25rem;
+    padding: 0.18rem 0;
+  }
+
+  .siteHeaderMobileNoLogo .siteNav {
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 0.35rem;
+  }
+
+  .siteHeaderMobileNoLogo .siteNav a {
+    min-height: 30px;
+    padding: 0.04rem 0;
+    font-size: 0.9rem;
+    white-space: nowrap;
+  }
+
+  .siteHeaderMobileNoLogo .siteNav a::after {
+    bottom: 0.12rem;
+  }
+
   .mainContent {
     padding: 1rem 0 2.75rem;
   }
@@ -2039,12 +2066,12 @@ code {
   }
 
   .brandMark {
-    max-height: 52px;
-    padding-block: 0.24rem;
+    max-height: 68px;
+    padding-block: 0.28rem;
   }
 
   .brandTitle {
-    font-size: 1.3rem;
+    font-size: 1.55rem;
   }
 
   .siteNav {
