@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+import { getEpisodeMeta } from "@/content/episode-meta";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { EpisodeCard } from "@/components/episode-card";
 import { siteConfig } from "@/config/site";
@@ -9,6 +10,7 @@ import {
   getSemanticTopicBySlug,
   getSemanticTopicEntries,
   getSemanticTopicRouteSlugs,
+  toSemanticTopicSlug,
 } from "@/lib/semantic";
 import {
   buildBreadcrumbJsonLd,
@@ -84,6 +86,7 @@ export default async function TopicPage({ params }: TopicPageProps) {
   if (!topic) {
     notFound();
   }
+  const topicSeekKey = toSemanticTopicSlug(topic.label);
 
   const breadcrumbJsonLd = buildBreadcrumbJsonLd([
     { name: "Hem", url: siteConfig.siteUrl },
@@ -140,9 +143,17 @@ export default async function TopicPage({ params }: TopicPageProps) {
         </div>
 
         <div className="episodeGrid">
-          {topic.episodes.map((episode) => (
-            <EpisodeCard key={episode.guid} episode={episode} />
-          ))}
+          {topic.episodes.map((episode) => {
+            const seekSeconds = getEpisodeMeta(episode.slug)?.topicSeekSeconds?.[topicSeekKey];
+            return (
+              <EpisodeCard
+                key={episode.guid}
+                episode={episode}
+                seekSeconds={seekSeconds}
+                seekLabel={topic.label}
+              />
+            );
+          })}
         </div>
       </section>
 

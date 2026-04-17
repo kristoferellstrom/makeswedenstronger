@@ -1150,6 +1150,15 @@ code {
   margin-top: 0.85rem;
 }
 
+.audioSeekHint {
+  margin: 0.2rem 0 0.65rem;
+  color: #201a15;
+  font-size: clamp(1.35rem, 2.6vw, 2.15rem);
+  font-weight: 800;
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+}
+
 .youtubeEmbed {
   margin-top: 0.85rem;
   width: 100%;

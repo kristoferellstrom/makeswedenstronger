@@ -76,13 +76,7 @@ function toTopicGroupingKey(value: string) {
 }
 
 export function toSemanticTopicSlug(value: string) {
-  const topicKey = toTopicGroupingKey(value);
-
-  if (!topicKey) {
-    return toSemanticSlug(value);
-  }
-
-  return toSemanticSlugFromKey(topicKey);
+  return toSemanticSlug(value);
 }
 
 function pickPreferredLabel(labelCounts: Map<string, number>) {

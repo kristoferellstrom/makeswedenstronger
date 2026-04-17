@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -7,6 +8,7 @@ import { getEpisodeMeta } from "@/content/episode-meta";
 import { siteConfig } from "@/config/site";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { EpisodeCard } from "@/components/episode-card";
+import { SeekableAudioPlayerFromQuery } from "@/components/seekable-audio-player";
 import { TranscriptView } from "@/components/transcript-view";
 import { getEpisodeBySlug, getEpisodes, getRelatedEpisodes } from "@/lib/episodes";
 import { formatEpisodeDate, formatEpisodeDuration } from "@/lib/text";
@@ -173,10 +175,16 @@ export default async function EpisodePage({ params }: EpisodePageProps) {
           <div className="sectionHeading">
             <h2 id="episode-audio-heading">Lyssna</h2>
           </div>
-          <audio controls preload="none" className="audioPlayer">
-            <source src={episode.audioUrl} />
-            Din webbläsare stödjer inte ljudspelaren.
-          </audio>
+          <Suspense
+            fallback={
+              <audio controls preload="none" className="audioPlayer">
+                <source src={episode.audioUrl} />
+                Din webbläsare stödjer inte ljudspelaren.
+              </audio>
+            }
+          >
+            <SeekableAudioPlayerFromQuery audioUrl={episode.audioUrl} />
+          </Suspense>
         </section>
 
         <section className="contentPanel" aria-labelledby="episode-youtube-heading">

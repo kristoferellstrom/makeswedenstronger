@@ -2,10 +2,11 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+import { getEpisodeMeta } from "@/content/episode-meta";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { EpisodeCard } from "@/components/episode-card";
 import { siteConfig } from "@/config/site";
-import { getSemanticEntityBySlug, getSemanticEntityEntries } from "@/lib/semantic";
+import { getSemanticEntityBySlug, getSemanticEntityEntries, toSemanticSlug } from "@/lib/semantic";
 import {
   buildBreadcrumbJsonLd,
   buildSemanticCollectionJsonLd,
@@ -80,6 +81,7 @@ export default async function EntityPage({ params }: EntityPageProps) {
   if (!entity) {
     notFound();
   }
+  const entitySeekKey = toSemanticSlug(entity.label);
 
   const breadcrumbJsonLd = buildBreadcrumbJsonLd([
     { name: "Hem", url: siteConfig.siteUrl },
@@ -137,9 +139,17 @@ export default async function EntityPage({ params }: EntityPageProps) {
         </div>
 
         <div className="episodeGrid">
-          {entity.episodes.map((episode) => (
-            <EpisodeCard key={episode.guid} episode={episode} />
-          ))}
+          {entity.episodes.map((episode) => {
+            const seekSeconds = getEpisodeMeta(episode.slug)?.entitySeekSeconds?.[entitySeekKey];
+            return (
+              <EpisodeCard
+                key={episode.guid}
+                episode={episode}
+                seekSeconds={seekSeconds}
+                seekLabel={entity.label}
+              />
+            );
+          })}
         </div>
       </section>
 

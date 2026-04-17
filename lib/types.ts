@@ -62,4 +62,6 @@ export type EpisodeMeta = {
   topics: string[];
   chapters: EpisodeChapter[];
   entities?: string[];
+  topicSeekSeconds?: Record<string, number>;
+  entitySeekSeconds?: Record<string, number>;
 };

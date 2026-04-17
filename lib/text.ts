@@ -92,6 +92,19 @@ export function formatEpisodeDuration(duration: string): string {
   return `Avsnittslängd: ${duration}`;
 }
 
+export function formatSecondsAsClock(totalSeconds: number): string {
+  const safeSeconds = Math.max(0, Math.floor(totalSeconds));
+  const hours = Math.floor(safeSeconds / 3600);
+  const minutes = Math.floor((safeSeconds % 3600) / 60);
+  const seconds = safeSeconds % 60;
+
+  if (hours > 0) {
+    return `${String(hours).padStart(2, "0")}:${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+  }
+
+  return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+}
+
 export function formatTimestamp(timestamp: string): string {
   const [hours = "00", minutes = "00", rest = "00.000"] = timestamp.split(":");
   const seconds = rest.split(".")[0] ?? "00";
