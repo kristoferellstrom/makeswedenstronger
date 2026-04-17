@@ -2217,14 +2217,43 @@ code {
   }
 
   .platformLinkGrid {
-    justify-content: center;
-    gap: 0.75rem;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.65rem;
+    justify-content: stretch;
+  }
+
+  .footerLinks {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.65rem;
+    align-items: stretch;
+  }
+
+  .platformLinkGrid > *,
+  .footerLinks > * {
+    min-width: 0;
   }
 
   .platformBadgeLink {
-    width: min(100%, 240px);
-    height: 64px;
-    min-height: 64px;
+    width: 100%;
+    max-width: none;
+    height: clamp(52px, 14vw, 62px);
+    min-height: clamp(52px, 14vw, 62px);
+    padding: 0.24rem 0.42rem;
+  }
+
+  .siteFooter .platformBadgeLink {
+    width: 100%;
+    max-width: none;
+    height: clamp(52px, 14vw, 62px);
+    min-height: clamp(52px, 14vw, 62px);
+  }
+
+  .platformBadgeImage {
+    width: min(100%, var(--badge-width, 180px));
+    height: auto;
+    max-height: 100%;
   }
 
   .homePage {
@@ -2324,8 +2353,8 @@ code {
     margin-top: 0.3rem;
   }
 
-  .platformBadgeLink {
-    width: 100%;
-    max-width: none;
+  .platformLinkGrid,
+  .footerLinks {
+    gap: 0.55rem;
   }
 }
