@@ -141,6 +141,18 @@ function extractGuestTokens(title: string) {
   return first === last ? [first] : [first, last];
 }
 
+function extractContextTokens(title: string) {
+  const [, ...rest] = title.split(" - ");
+  const rightSide = rest.join(" - ").trim();
+
+  if (!rightSide) {
+    return [];
+  }
+
+  const normalizedRightSide = normalizeSearchText(rightSide);
+  return filterMatchTokens(getNormalizedSearchTokens(normalizedRightSide));
+}
+
 export const getYouTubeVideoIndex = cache(async (): Promise<YouTubeVideoIndex> => {
   const byTitle = new Map<string, YouTubeVideo>();
   const indexedEntries: YouTubeVideoIndex["entries"] = [];
@@ -288,6 +300,7 @@ export async function getYouTubeVideoForTitle(title: string): Promise<YouTubeVid
   const inputTokens = getNormalizedSearchTokens(normalizedInput);
   const filteredInputTokens = filterMatchTokens(inputTokens);
   const guestTokens = extractGuestTokens(title);
+  const contextTokens = extractContextTokens(title);
 
   if (!inputTokens.length) {
     return null;
@@ -310,14 +323,20 @@ export async function getYouTubeVideoForTitle(title: string): Promise<YouTubeVid
       const entryTokens = entryFilteredTokens.length ? entryFilteredTokens : entry.tokens;
       const overlap = entryTokens.filter((token) => baseTokens.includes(token)).length;
       const guestOverlap = guestTokens.filter((token) => entryTokens.includes(token)).length;
+      const contextOverlap = contextTokens.filter((token) => entryTokens.includes(token)).length;
       const baseScore = overlap / Math.max(2, baseTokens.length);
       const guestMatchBonus =
         guestTokens.length >= 2 && guestOverlap === guestTokens.length ? 1 : 0;
-      const score = baseScore + guestMatchBonus;
-      return { entry, score, baseScore, overlap, guestOverlap };
+      const contextMatchBonus =
+        contextTokens.length >= 2 ? contextOverlap / Math.max(2, contextTokens.length) : 0;
+      const score = baseScore + guestMatchBonus + contextMatchBonus;
+      return { entry, score, baseScore, overlap, guestOverlap, contextOverlap };
     })
     .filter((item) => {
       if (guestTokens.length >= 2 && item.guestOverlap < guestTokens.length) {
+        return false;
+      }
+      if (contextTokens.length >= 2 && item.contextOverlap < 1) {
         return false;
       }
       if (guestTokens.length >= 2) {
