@@ -23,46 +23,101 @@ function shouldUseCompactHeader(isCompact: boolean, scrollY: number, isNarrowVie
 
 export function SiteHeader() {
   const [isCompact, setIsCompact] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+  const [isAtTop, setIsAtTop] = useState(true);
+  const [isScrolling, setIsScrolling] = useState(false);
 
   useEffect(() => {
     let frameId: number | null = null;
+    let scrollStopTimeoutId: number | null = null;
+    let hasPendingScrollActivity = false;
     const mediaQueryList = window.matchMedia(compactDisabledMediaQuery);
 
-    const updateHeaderState = () => {
+    const updateHeaderState = (markScrollActivity: boolean) => {
+      if (markScrollActivity) {
+        hasPendingScrollActivity = true;
+      }
+
       if (frameId !== null) {
         return;
       }
 
       frameId = window.requestAnimationFrame(() => {
         frameId = null;
-        const nextScrollY = window.scrollY || 0;
+        const nextScrollY = Math.max(0, window.scrollY || 0);
         const isNarrowViewport = mediaQueryList.matches;
+        const nextIsAtTop = nextScrollY <= 2;
 
+        setIsMobile((current) => (current === isNarrowViewport ? current : isNarrowViewport));
+        setIsAtTop((current) => (current === nextIsAtTop ? current : nextIsAtTop));
         setIsCompact((current) => {
           const next = shouldUseCompactHeader(current, nextScrollY, isNarrowViewport);
           return current === next ? current : next;
         });
+
+        if (!isNarrowViewport) {
+          if (scrollStopTimeoutId !== null) {
+            window.clearTimeout(scrollStopTimeoutId);
+            scrollStopTimeoutId = null;
+          }
+
+          hasPendingScrollActivity = false;
+          setIsScrolling(false);
+          return;
+        }
+
+        if (hasPendingScrollActivity) {
+          setIsScrolling(true);
+
+          if (scrollStopTimeoutId !== null) {
+            window.clearTimeout(scrollStopTimeoutId);
+          }
+
+          scrollStopTimeoutId = window.setTimeout(() => {
+            setIsScrolling(false);
+            scrollStopTimeoutId = null;
+          }, 140);
+        }
+
+        hasPendingScrollActivity = false;
       });
     };
 
-    updateHeaderState();
-    window.addEventListener("scroll", updateHeaderState, { passive: true });
-    window.addEventListener("resize", updateHeaderState, { passive: true });
-    mediaQueryList.addEventListener("change", updateHeaderState);
+    const handleScroll = () => updateHeaderState(true);
+    const handleResize = () => updateHeaderState(false);
+    const handleViewportModeChange = () => updateHeaderState(false);
+
+    updateHeaderState(false);
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    window.addEventListener("resize", handleResize, { passive: true });
+    mediaQueryList.addEventListener("change", handleViewportModeChange);
 
     return () => {
-      window.removeEventListener("scroll", updateHeaderState);
-      window.removeEventListener("resize", updateHeaderState);
-      mediaQueryList.removeEventListener("change", updateHeaderState);
+      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("resize", handleResize);
+      mediaQueryList.removeEventListener("change", handleViewportModeChange);
 
       if (frameId !== null) {
         window.cancelAnimationFrame(frameId);
       }
+
+      if (scrollStopTimeoutId !== null) {
+        window.clearTimeout(scrollStopTimeoutId);
+      }
     };
   }, []);
 
+  const headerClassName = [
+    "siteHeader",
+    isCompact ? "siteHeaderCompact" : "",
+    isMobile && !isAtTop ? "siteHeaderMobileNoLogo" : "",
+    isMobile && isScrolling ? "siteHeaderMobileHidden" : "",
+  ]
+    .filter(Boolean)
+    .join(" ");
+
   return (
-    <header className={`siteHeader${isCompact ? " siteHeaderCompact" : ""}`}>
+    <header className={headerClassName}>
       <div className="container siteHeaderInner">
         <Link href="/" className="brandMark">
           <span>
