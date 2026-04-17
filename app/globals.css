@@ -2065,6 +2065,19 @@ code {
     padding: 0.9rem 0;
   }
 
+  .siteHeader:not(.siteHeaderMobileNoLogo) .siteHeaderInner {
+    gap: 0.35rem;
+    padding: 0.42rem 0 0.32rem;
+  }
+
+  .siteHeader:not(.siteHeaderMobileNoLogo) .brandMark {
+    padding-block: 0.14rem;
+  }
+
+  .siteHeader:not(.siteHeaderMobileNoLogo) .siteNav a {
+    min-height: 34px;
+  }
+
   .brandMark {
     max-height: 68px;
     padding-block: 0.28rem;
