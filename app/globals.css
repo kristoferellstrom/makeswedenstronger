@@ -2038,8 +2038,15 @@ code {
     padding: 0.9rem 0;
   }
 
+  .brandMark {
+    max-height: 46px;
+    padding-block: 0.2rem;
+  }
+
   .brandTitle {
     font-size: 1.55rem;
+    transform: scaleY(0.5);
+    transform-origin: left top;
   }
 
   .siteNav {
