@@ -181,21 +181,6 @@ export default async function HomePage() {
         </section>
       ) : null}
 
-      <section className="section">
-        <div className="sectionHeading">
-          <h2>Starta här</h2>
-          <Link href="/om-podden" className="textLink sectionHeadingLink">
-            Om podden
-          </Link>
-        </div>
-
-        <div className="episodeGrid">
-          {startHereEpisodes.map((episode) => (
-            <EpisodeCard key={episode.guid} episode={episode} />
-          ))}
-        </div>
-      </section>
-
       {popularCandidates.length ? (
         <section className="section">
           <div className="sectionHeading">
@@ -211,6 +196,21 @@ export default async function HomePage() {
           <RandomEpisodeGrid episodes={popularCandidates} count={3} />
         </section>
       ) : null}
+
+      <section className="section">
+        <div className="sectionHeading">
+          <h2>Starta här</h2>
+          <Link href="/om-podden" className="textLink sectionHeadingLink">
+            Om podden
+          </Link>
+        </div>
+
+        <div className="episodeGrid">
+          {startHereEpisodes.map((episode) => (
+            <EpisodeCard key={episode.guid} episode={episode} />
+          ))}
+        </div>
+      </section>
 
       {recentEpisodes.length ? (
         <section className="section">
