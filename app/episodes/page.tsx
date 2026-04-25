@@ -9,7 +9,7 @@ import { buildArchiveJsonLd, buildBreadcrumbJsonLd, serializeJsonLd } from "@/li
 export const revalidate = 3600;
 
 export const metadata: Metadata = {
-  title: "Arkiv: alla transkriberingar och avsnitt",
+  title: "Avsnitt: hela avsnittsarkivet",
   description:
     "Alla avsnitt och transkriberingar från Make Sweden Stronger. Sök bland gäster, bolag och ämnen och hitta rätt intervju direkt.",
   alternates: {
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: `${siteConfig.siteUrl}/episodes`,
-    title: `Arkiv: alla transkriberingar och avsnitt | ${siteConfig.name}`,
+    title: `Avsnitt: hela avsnittsarkivet | ${siteConfig.name}`,
     description:
       "Alla avsnitt och transkriberingar från Make Sweden Stronger. Sök bland gäster, bolag och ämnen och hitta rätt intervju direkt.",
     images: [
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: `Arkiv: alla transkriberingar och avsnitt | ${siteConfig.name}`,
+    title: `Avsnitt: hela avsnittsarkivet | ${siteConfig.name}`,
     description:
       "Alla avsnitt och transkriberingar från Make Sweden Stronger. Sök bland gäster, bolag och ämnen och hitta rätt intervju direkt.",
     images: [siteConfig.defaultImage],
@@ -76,9 +76,9 @@ export default async function EpisodesPage() {
       />
 
       <section className="pageIntro">
-        <h1 className="archiveTitle">Arkiv</h1>
+        <h1 className="archiveTitle">Avsnitt</h1>
         <p className="introCopy">
-          Här finns hela arkivet för Make Sweden Stronger med avsnitt, transkript och sammanfattningar.
+          Här finns hela avsnittsarkivet för Make Sweden Stronger med avsnitt, transkript och sammanfattningar.
           Du kan söka på gäster, bolag, ämnen och nyckelord och snabbt hitta rätt intervju.
           Avsnittssidorna uppdateras från RSS-flödet och kompletteras löpande med transkript, kapitel,
           nyckelämnen och personer.
