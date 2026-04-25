@@ -14,7 +14,7 @@ import {
 } from "@/lib/text";
 import type { Episode, EpisodeListItem, EpisodeMeta } from "@/lib/types";
 
-function hasCompleteEpisodeMeta(meta: EpisodeMeta | null): meta is EpisodeMeta {
+export function hasCompleteEpisodeMeta(meta: EpisodeMeta | null): meta is EpisodeMeta {
   if (!meta) {
     return false;
   }
@@ -28,14 +28,6 @@ function hasCompleteEpisodeMeta(meta: EpisodeMeta | null): meta is EpisodeMeta {
     meta.chapters.some((chapter) => Boolean(chapter.start?.trim()) && Boolean(chapter.title?.trim()));
 
   return hasSummary && hasTopics && hasEntities && hasChapters;
-}
-
-function isEpisodePublishReady(episode: Episode): boolean {
-  if (!episode.hasTranscript) {
-    return false;
-  }
-
-  return hasCompleteEpisodeMeta(getEpisodeMeta(episode.slug));
 }
 
 export const getShow = cache(async () => {
@@ -54,7 +46,7 @@ export const getEpisodes = cache(async (): Promise<Episode[]> => {
     hasTranscript: transcriptIndex.has(episode.titleKey),
   }));
 
-  return episodesWithAssets.filter(isEpisodePublishReady);
+  return episodesWithAssets;
 });
 
 export async function getEpisodeBySlug(slug: string): Promise<Episode | null> {

@@ -113,7 +113,7 @@ export default async function HomePage() {
           </div>
           <div className="trustItem">
             <p className="trustLabel">Transkript och guider</p>
-            <p className="trustValue">Tillgängliga för alla publicerade avsnitt</p>
+            <p className="trustValue">Fylls på löpande när nya avsnitt publiceras</p>
           </div>
           <div className="trustItem">
             <p className="trustLabel">Kunskapsområden</p>
