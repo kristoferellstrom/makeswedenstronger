@@ -11,7 +11,7 @@ import { getEpisodes, getShow } from "@/lib/episodes";
 import { buildHomeJsonLd, serializeJsonLd } from "@/lib/seo";
 import { formatEpisodeDate, formatEpisodeDuration } from "@/lib/text";
 
-export const revalidate = 3600;
+export const revalidate = 86400;
 
 export const metadata: Metadata = {
   title: "Podcast om företagsbyggande, e-handel och ledarskap",

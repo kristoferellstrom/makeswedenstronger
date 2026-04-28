@@ -24,7 +24,7 @@ import { toSemanticSlug, toSemanticTopicSlug } from "@/lib/semantic";
 import { getTranscriptForEpisode } from "@/lib/transcripts";
 import { buildYouTubeSearchUrl, getYouTubeVideoForTitle } from "@/lib/youtube";
 
-export const revalidate = 3600;
+export const revalidate = 86400;
 export const dynamicParams = true;
 
 type EpisodePageProps = {

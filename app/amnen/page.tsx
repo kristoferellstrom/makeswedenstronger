@@ -7,7 +7,7 @@ import { getSemanticDirectoryEntries } from "@/lib/semantic";
 import { siteConfig } from "@/config/site";
 import { buildBreadcrumbJsonLd, serializeJsonLd } from "@/lib/seo";
 
-export const revalidate = 3600;
+export const revalidate = 86400;
 
 export const metadata: Metadata = {
   title: "Ämnen och personer",

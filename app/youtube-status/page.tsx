@@ -5,7 +5,7 @@ import { getEpisodes } from "@/lib/episodes";
 import { normalizeTitle } from "@/lib/text";
 import { getYouTubeVideoIndex } from "@/lib/youtube";
 
-export const revalidate = 3600;
+export const revalidate = 86400;
 
 export const metadata: Metadata = {
   title: "YouTube-status",

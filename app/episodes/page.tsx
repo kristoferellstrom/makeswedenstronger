@@ -6,7 +6,7 @@ import { siteConfig } from "@/config/site";
 import { getEpisodeListItems, getEpisodes } from "@/lib/episodes";
 import { buildArchiveJsonLd, buildBreadcrumbJsonLd, serializeJsonLd } from "@/lib/seo";
 
-export const revalidate = 3600;
+export const revalidate = 86400;
 
 export const metadata: Metadata = {
   title: "Avsnitt: hela avsnittsarkivet",

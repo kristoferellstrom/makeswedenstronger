@@ -11,7 +11,7 @@ export const siteConfig = {
     "https://www.youtube.com/feeds/videos.xml?playlist_id=PLDN2kFf8TeetLpOS8F_bJi6BUKaLtSifz",
   youtubePlaylistId: "PLDN2kFf8TeetLpOS8F_bJi6BUKaLtSifz",
   locale: "sv-SE",
-  revalidateSeconds: 60 * 60,
+  revalidateSeconds: 60 * 60 * 24,
   defaultImage:
     "https://assets.pod.space/system/shows/images/3a1/799/29-/large/IMG_1498.jpeg",
   creator: "Joel Löwenberg",
