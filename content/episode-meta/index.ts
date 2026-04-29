@@ -101,6 +101,7 @@ import meta88 from "./anja-rahi-f-d-saxmark-agare-och-grundare-eminent-halsostud
 import meta99 from "./jakob-wigselius-united-influencers-elle-att-jobba-med-influencers";
 import meta100 from "./lucas-wasniewski-vd-flowlife-den-stora-aterkomsten";
 import meta101 from "./john-larzon-ehandelskonsult-att-driva-affaren-framat";
+import meta102 from "./david-erndin-vd-horseonline-mot-100-miljoner-och-internationell-expansion";
 
 export const episodeMetaBySlug: Record<string, EpisodeMeta> = {
   "3-intervjuer-fran-d-congress-aida-jammal-jenny-rydhstrom-och-pelle-pettersson": meta0,
@@ -204,4 +205,5 @@ export const episodeMetaBySlug: Record<string, EpisodeMeta> = {
   "jakob-wigselius-united-influencers-elle-att-jobba-med-influencers": meta99,
   "lucas-wasniewski-vd-flowlife-den-stora-aterkomsten": meta100,
   "john-larzon-ehandelskonsult-att-driva-affaren-framat": meta101,
+  "david-erndin-vd-horseonline-mot-100-miljoner-och-internationell-expansion": meta102,
 };
