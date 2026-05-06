@@ -6,28 +6,18 @@ type RandomEpisodeGridProps = {
   count?: number;
 };
 
-function computeStableHash(value: string) {
-  let hash = 0;
-
-  for (let index = 0; index < value.length; index += 1) {
-    hash = (hash * 31 + value.charCodeAt(index)) >>> 0;
-  }
-
-  return hash;
-}
-
 function pickRandomEpisodes(episodes: EpisodeListItem[], count: number) {
-  if (episodes.length <= count) {
-    return episodes;
+  const shuffledEpisodes = [...episodes];
+
+  for (let index = shuffledEpisodes.length - 1; index > 0; index -= 1) {
+    const randomIndex = Math.floor(Math.random() * (index + 1));
+    [shuffledEpisodes[index], shuffledEpisodes[randomIndex]] = [
+      shuffledEpisodes[randomIndex],
+      shuffledEpisodes[index],
+    ];
   }
 
-  return [...episodes]
-    .sort((left, right) => {
-      const leftScore = computeStableHash(`${left.guid}:${left.slug}`);
-      const rightScore = computeStableHash(`${right.guid}:${right.slug}`);
-      return leftScore - rightScore;
-    })
-    .slice(0, count);
+  return shuffledEpisodes.slice(0, count);
 }
 
 export function RandomEpisodeGrid({ episodes, count = 3 }: RandomEpisodeGridProps) {

@@ -47,12 +47,10 @@ export default async function HomePage() {
   const startHereEpisodes = [9, 19, 29]
     .map((index) => episodes[index])
     .filter((episode): episode is NonNullable<typeof episode> => Boolean(episode));
-  const latestAndStartSlugs = new Set([
-    ...(latestEpisode ? [latestEpisode.slug] : []),
-    ...startHereEpisodes.map((episode) => episode.slug),
-  ]);
   const recentEpisodes = episodes.slice(1, 7);
-  const popularCandidates = episodes.filter((episode) => !latestAndStartSlugs.has(episode.slug));
+  const popularCandidates = latestEpisode
+    ? episodes.filter((episode) => episode.slug !== latestEpisode.slug)
+    : episodes;
   const uniqueTopics = new Set(
     episodes.flatMap((episode) => getEpisodeMeta(episode.slug)?.topics ?? []),
   ).size;
