@@ -103,6 +103,7 @@ import meta100 from "./lucas-wasniewski-vd-flowlife-den-stora-aterkomsten";
 import meta101 from "./john-larzon-ehandelskonsult-att-driva-affaren-framat";
 import meta102 from "./david-erndin-vd-horseonline-mot-100-miljoner-och-internationell-expansion";
 import meta103 from "./charlotta-dahlqvist-ledarskap-och-forandringsresor";
+import meta104 from "./emil-jansson-skolyx-fran-startup-till-scaleup";
 
 export const episodeMetaBySlug: Record<string, EpisodeMeta> = {
   "3-intervjuer-fran-d-congress-aida-jammal-jenny-rydhstrom-och-pelle-pettersson": meta0,
@@ -208,4 +209,5 @@ export const episodeMetaBySlug: Record<string, EpisodeMeta> = {
   "john-larzon-ehandelskonsult-att-driva-affaren-framat": meta101,
   "david-erndin-vd-horseonline-mot-100-miljoner-och-internationell-expansion": meta102,
   "charlotta-dahlqvist-ledarskap-och-forandringsresor": meta103,
+  "emil-jansson-skolyx-fran-startup-till-scaleup": meta104,
 };
