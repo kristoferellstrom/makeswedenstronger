@@ -104,6 +104,7 @@ import meta101 from "./john-larzon-ehandelskonsult-att-driva-affaren-framat";
 import meta102 from "./david-erndin-vd-horseonline-mot-100-miljoner-och-internationell-expansion";
 import meta103 from "./charlotta-dahlqvist-ledarskap-och-forandringsresor";
 import meta104 from "./emil-jansson-skolyx-fran-startup-till-scaleup";
+import meta105 from "./rabie-salem-vd-contentor-nar-hela-ens-affarsmodell-vands-upp-och-ner-med-ai-intaget";
 
 export const episodeMetaBySlug: Record<string, EpisodeMeta> = {
   "3-intervjuer-fran-d-congress-aida-jammal-jenny-rydhstrom-och-pelle-pettersson": meta0,
@@ -210,4 +211,5 @@ export const episodeMetaBySlug: Record<string, EpisodeMeta> = {
   "david-erndin-vd-horseonline-mot-100-miljoner-och-internationell-expansion": meta102,
   "charlotta-dahlqvist-ledarskap-och-forandringsresor": meta103,
   "emil-jansson-skolyx-fran-startup-till-scaleup": meta104,
+  "rabie-salem-vd-contentor-nar-hela-ens-affarsmodell-vands-upp-och-ner-med-ai-intaget": meta105,
 };
