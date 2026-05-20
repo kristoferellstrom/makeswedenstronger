@@ -58,6 +58,10 @@ function hasSingleGenericSpeakerTrack(cues: TranscriptCue[]) {
   return genericLabels.size === 1 && explicitLabels.size === 0;
 }
 
+function hasNoSpeakerTrack(cues: TranscriptCue[]) {
+  return cues.every((cue) => !cue.speaker?.trim());
+}
+
 function inferSingleTrackSpeakers(cues: TranscriptCue[], episodeTitle: string) {
   const speakerByCue = new Map<string, string>();
   const guestName = getGuestNameFromEpisodeTitle(episodeTitle);
@@ -81,21 +85,30 @@ function inferSingleTrackSpeakers(cues: TranscriptCue[], episodeTitle: string) {
 
     let speaker: string;
 
-    if (isRabieContentorEpisode && cue.startSeconds <= 50) {
+    if (
+      isRabieContentorEpisode &&
+      cue.startSeconds < 18 &&
+      !normalizedText.includes("make sweden stronger")
+    ) {
+      speaker = guestName;
+      expectGuestAnswer = false;
+    } else if (isRabieContentorEpisode && cue.startSeconds < 88) {
       speaker = "Joel";
       expectGuestAnswer = true;
     } else if (
       isRabieContentorEpisode &&
       [
         "tjena",
-        "hallå",
+        "halla",
         "stort tack",
-        "jag tänkte väl",
+        "jag tankte val",
         "egentligen att vi ska prata om eh contentor",
+        "make sweden stronger",
+        "du ska fa beratta lite om dig sjalv",
       ].some((phrase) => normalizedText.includes(phrase))
     ) {
-      speaker = guestName;
-      expectGuestAnswer = false;
+      speaker = "Joel";
+      expectGuestAnswer = true;
     } else if (isLucasReturnEpisode && cue.startSeconds < 15) {
       speaker = guestName;
       expectGuestAnswer = false;
@@ -241,8 +254,8 @@ function mergeTranscriptCues(
 }
 
 export function TranscriptView({ cues, episodeTitle }: TranscriptViewProps) {
-  const singleGenericTrack = hasSingleGenericSpeakerTrack(cues);
-  const syntheticSpeakerByCue = singleGenericTrack
+  const syntheticSpeakerTrack = hasSingleGenericSpeakerTrack(cues) || hasNoSpeakerTrack(cues);
+  const syntheticSpeakerByCue = syntheticSpeakerTrack
     ? inferSingleTrackSpeakers(cues, episodeTitle)
     : new Map<string, string>();
   const speakerTones = getSpeakerToneMap(cues, syntheticSpeakerByCue);
@@ -252,7 +265,7 @@ export function TranscriptView({ cues, episodeTitle }: TranscriptViewProps) {
     speakerTones,
     speakerDisplayNames,
     syntheticSpeakerByCue,
-    singleGenericTrack,
+    syntheticSpeakerTrack,
   );
 
   return (
