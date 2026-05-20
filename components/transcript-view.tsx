@@ -63,6 +63,9 @@ function inferSingleTrackSpeakers(cues: TranscriptCue[], episodeTitle: string) {
   const guestName = getGuestNameFromEpisodeTitle(episodeTitle);
   const normalizedGuestFirstName = normalizeSearchText(guestName.split(" ")[0] ?? "");
   const normalizedEpisodeTitle = normalizeSearchText(episodeTitle);
+  const isRabieContentorEpisode =
+    normalizedEpisodeTitle ===
+    "rabie salem vd contentor nar hela ens affarsmodell vands upp och ner med ai intaget";
   const isLucasReturnEpisode = normalizedEpisodeTitle.includes(
     "lucas wasniewski vd flowlife den stora aterkomsten",
   );
@@ -78,7 +81,22 @@ function inferSingleTrackSpeakers(cues: TranscriptCue[], episodeTitle: string) {
 
     let speaker: string;
 
-    if (isLucasReturnEpisode && cue.startSeconds < 15) {
+    if (isRabieContentorEpisode && cue.startSeconds <= 50) {
+      speaker = "Joel";
+      expectGuestAnswer = true;
+    } else if (
+      isRabieContentorEpisode &&
+      [
+        "tjena",
+        "hallå",
+        "stort tack",
+        "jag tänkte väl",
+        "egentligen att vi ska prata om eh contentor",
+      ].some((phrase) => normalizedText.includes(phrase))
+    ) {
+      speaker = guestName;
+      expectGuestAnswer = false;
+    } else if (isLucasReturnEpisode && cue.startSeconds < 15) {
       speaker = guestName;
       expectGuestAnswer = false;
     } else if (
