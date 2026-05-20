@@ -58,18 +58,11 @@ function hasSingleGenericSpeakerTrack(cues: TranscriptCue[]) {
   return genericLabels.size === 1 && explicitLabels.size === 0;
 }
 
-function hasNoSpeakerTrack(cues: TranscriptCue[]) {
-  return cues.every((cue) => !cue.speaker?.trim());
-}
-
 function inferSingleTrackSpeakers(cues: TranscriptCue[], episodeTitle: string) {
   const speakerByCue = new Map<string, string>();
   const guestName = getGuestNameFromEpisodeTitle(episodeTitle);
   const normalizedGuestFirstName = normalizeSearchText(guestName.split(" ")[0] ?? "");
   const normalizedEpisodeTitle = normalizeSearchText(episodeTitle);
-  const isRabieContentorEpisode =
-    normalizedEpisodeTitle ===
-    "rabie salem vd contentor nar hela ens affarsmodell vands upp och ner med ai intaget";
   const isLucasReturnEpisode = normalizedEpisodeTitle.includes(
     "lucas wasniewski vd flowlife den stora aterkomsten",
   );
@@ -85,31 +78,7 @@ function inferSingleTrackSpeakers(cues: TranscriptCue[], episodeTitle: string) {
 
     let speaker: string;
 
-    if (
-      isRabieContentorEpisode &&
-      cue.startSeconds < 18 &&
-      !normalizedText.includes("make sweden stronger")
-    ) {
-      speaker = guestName;
-      expectGuestAnswer = false;
-    } else if (isRabieContentorEpisode && cue.startSeconds < 88) {
-      speaker = "Joel";
-      expectGuestAnswer = true;
-    } else if (
-      isRabieContentorEpisode &&
-      [
-        "tjena",
-        "halla",
-        "stort tack",
-        "jag tankte val",
-        "egentligen att vi ska prata om eh contentor",
-        "make sweden stronger",
-        "du ska fa beratta lite om dig sjalv",
-      ].some((phrase) => normalizedText.includes(phrase))
-    ) {
-      speaker = "Joel";
-      expectGuestAnswer = true;
-    } else if (isLucasReturnEpisode && cue.startSeconds < 15) {
+    if (isLucasReturnEpisode && cue.startSeconds < 15) {
       speaker = guestName;
       expectGuestAnswer = false;
     } else if (
@@ -254,8 +223,8 @@ function mergeTranscriptCues(
 }
 
 export function TranscriptView({ cues, episodeTitle }: TranscriptViewProps) {
-  const syntheticSpeakerTrack = hasSingleGenericSpeakerTrack(cues) || hasNoSpeakerTrack(cues);
-  const syntheticSpeakerByCue = syntheticSpeakerTrack
+  const singleGenericTrack = hasSingleGenericSpeakerTrack(cues);
+  const syntheticSpeakerByCue = singleGenericTrack
     ? inferSingleTrackSpeakers(cues, episodeTitle)
     : new Map<string, string>();
   const speakerTones = getSpeakerToneMap(cues, syntheticSpeakerByCue);
@@ -265,7 +234,7 @@ export function TranscriptView({ cues, episodeTitle }: TranscriptViewProps) {
     speakerTones,
     speakerDisplayNames,
     syntheticSpeakerByCue,
-    syntheticSpeakerTrack,
+    singleGenericTrack,
   );
 
   return (
