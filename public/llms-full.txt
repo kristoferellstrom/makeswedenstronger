@@ -57086,8 +57086,8 @@ Varje avsnitt börjar med en rubrik och följs av transkriptet.
 <v SPEAKER_2>Gegemoja, Gegemoja, Gegemoja, Gegemoja...
 
 ## Sebastian Nilsson Rundlöf, Extend Marketing & podden Ehandelssnack!
-<v SPEAKER_1>Du laddar upp en bild på din profil, då kan de mäta din hudton, de kan se vart du bor i Sverige, och sen kombinera produktdekommentationer on-site efter din hudton plus luftfuktighet i området.
-<v SPEAKER_1>Alltså, jag menar, det är high-tech shit liksom.
+<v SPEAKER_2>Du laddar upp en bild på din profil, då kan de mäta din hudton, de kan se vart du bor i Sverige, och sen kombinera produktdekommentationer on-site efter din hudton plus luftfuktighet i området.
+<v SPEAKER_2>Alltså, jag menar, det är high-tech shit liksom.
 <v SPEAKER_1>Make Sweden Stronger Men är det så, nu gick vi in, du ska få berätta lite om dig själv, men jag bara hoppar in här lite.
 <v SPEAKER_1>Det är rätt sjukt att ni, vad sa du, omsökt en 160 miljoner.
 <v SPEAKER_1>Jag är ju chanobilgenerationen, jag kan inte ta...
@@ -57100,8 +57100,8 @@ Varje avsnitt börjar med en rubrik och följs av transkriptet.
 <v SPEAKER_1>Men, vad brinner ni mest för?
 <v SPEAKER_1>Idag välkomnar vi Sebastian från Extend Marketing till podden Make Sweden Stronger.
 <v SPEAKER_1>Vi kanske ska säga Extend Marketing och E-Andersnack, för du är också poddare.
-<v SPEAKER_1>Jajamän.
-<v SPEAKER_1>Jag ska skämta att jag födde ett poddmonster, du är gäster på poddavsnitt 2.
+<v SPEAKER_2>Jajamän.
+<v SPEAKER_2>Jag ska skämta att jag födde ett poddmonster, du är gäster på poddavsnitt 2.
 <v SPEAKER_1>Ja exakt, exakt.
 <v SPEAKER_1>Ja, jag kommer ihåg, det var en av de första poddarna jag var med i.
 <v SPEAKER_1>Typ, eller, ja inte riktigt, men liksom en av de första poddarna utanför träningsvärldspodden.
@@ -57310,561 +57310,561 @@ Varje avsnitt börjar med en rubrik och följs av transkriptet.
 <v SPEAKER_1>Stämmer, bolaget och podden.
 <v SPEAKER_1>Så att det har väl startat båda från grunden.
 <v SPEAKER_1>Ja, och vem är Kristoffer och varför gör ni detta ihop och hur blev ni liksom partners?
-<v SPEAKER_1>Jag skulle säga att Kristoffer är ju mer den nördiga kille som illa och nördar ner sig från allt från system till hur vi bygger upp bolaget till hur vi jobbar med kunderna.
-<v SPEAKER_1>Allting ska dokumenteras och finnas en plan bakom.
-<v SPEAKER_1>Så att allting ska enkelt systematiskt kunna skötas på liknande sätt även om strategin är väldigt olika.
-<v SPEAKER_1>Jag är mer, jag skulle säga, kreativ.
-<v SPEAKER_1>Jag älskar att nörda ner mig när det gäller bolagsstrategi, först analysera, behovsanalys, kundrelation, du ser mig på event ganska ofta också.
-<v SPEAKER_1>Jag är mer utåt.
-<v SPEAKER_1>Många som känner till extent marketing har ju, träffar ju mig lite mer regelbundet jämfört med Kristoffer.
-<v SPEAKER_1>Så vi kompletterar med en jäkligt bra, vilket vi inte trodde för vi var ju kompisar innan både jobb och retail.
-<v SPEAKER_1>Sedan startade vi bolaget mest för att vi ville lära oss marknadsföring.
-<v SPEAKER_1>Det var egentligen där vi kom ifrån.
-<v SPEAKER_1>Men vi kompletterar med en väldigt bra på många olika sätt.
-<v SPEAKER_1>Han jobbar mycket med utbildande av personal, han jobbar mycket med att bygga systemen, kring hur vi ska jobba genom olika verktygen, dokumentera allt, vilka teknologier jobbar vi med.
-<v SPEAKER_1>Men jag jobbar med resten.
-<v SPEAKER_1>Partnerskap, strategi på kundnivå, behovsanalys och kundrelation.
-<v SPEAKER_1>Kan du ge mig lite storyn när ni började då?
-<v SPEAKER_1>Absolut.
-<v SPEAKER_1>Det var runt sju år sedan.
-<v SPEAKER_1>Jävlar, jag vet inte hur det går fort.
-<v SPEAKER_1>Vi båda är fortsatt några polare.
-<v SPEAKER_1>Men nu är vi mer som syskon.
-<v SPEAKER_1>Vi träffas ju hela tiden och bråkar om allt, diskuterar allt.
-<v SPEAKER_1>Men back in the day så var vi jättebra kompisar.
-<v SPEAKER_1>Vi umgicks väldigt mycket och vi både ville driva eget på något sätt.
-<v SPEAKER_1>Och så märkte vi att bästa sättet att lära oss driva eget var att lära oss marknadsföring som grunden.
-<v SPEAKER_1>För det spelar ingen roll vad vi än gör i framtiden.
-<v SPEAKER_1>Marknadsföring är ett väldigt bra sätt att implementera det.
-<v SPEAKER_1>Så då startade vi upp ett handelsbolag, kostade 800 kronor.
-<v SPEAKER_1>Vi jobbade egentligen rent provisionsbaserat med nystartade bolag som vi tyckte var häftiga.
-<v SPEAKER_1>Så då köpte vi lister från alla bolag och så hörde vi av oss till alla.
-<v SPEAKER_1>Det var så jäkla opraktiskt.
-<v SPEAKER_1>Då fick man ju printlister med 50 sidor och så bara kontakten vi, kontakten vi, kontakten vi, kontakten vi.
-<v SPEAKER_1>Så in i helskott där ineffektivt.
-<v SPEAKER_1>Men två år in iallafall att göra det, samtidigt som jag gick en säljhusbildning på för många timmar i veckan, så började vi tjäna pengar.
-<v SPEAKER_1>Och då märkte vi att vi kanske borde ta det här lite mer seriöst faktiskt.
-<v SPEAKER_1>Vi kände oss mer kompetenta.
-<v SPEAKER_1>Då var det också mycket performance marketing och e-mail.
-<v SPEAKER_1>Och det var liksom så vi växte.
-<v SPEAKER_1>Så två år in började vi tjäna pengar, sen så var det aktiebolag, vilket blev extend marketing.
-<v SPEAKER_1>Och sen sakta men säkert blev det e-handel, för om en slump.
-<v SPEAKER_1>Vi jobbade mycket med hotell bland sin innan.
-<v SPEAKER_1>Vi kom in i pandemin.
-<v SPEAKER_1>Hotell var inte jättepopulärt under pandemin, om man säger så.
-<v SPEAKER_1>Och sen så började vi signera mer och mer e-handelskunder.
-<v SPEAKER_1>Vilket är egentligen grunden till att vi har blivit en e-handelsbyro.
-<v SPEAKER_1>Så vi har märkt att det där finns störst traction.
-<v SPEAKER_1>Och sen så märkte vi att performance är oftast det bolaget är bra på.
-<v SPEAKER_1>Men det är väldigt få bolag som har koll på sin kundbas.
-<v SPEAKER_1>Det är väldigt få bolag som vet egentligen vilka kunder är lönsamma.
-<v SPEAKER_1>Vilka kunder köper igen.
-<v SPEAKER_1>Hur ska man kommunicera till de olika kunderna.
-<v SPEAKER_1>Och vid marknaden i UK, USA, då finns det CRM-böror överallt.
-<v SPEAKER_1>I Sverige finns det, jag skulle kunna räkna på, både mina händer för att se hur många nischade CRM-böror det finns därute.
-<v SPEAKER_1>Och då valde vi egentligen att köp privaten att gå från performance och CRM till nästan bara att pusera.
-<v SPEAKER_1>Vilket är det där vi i dag egentligen.
-<v SPEAKER_1>Jag köper verkligen det resonemanget.
-<v SPEAKER_1>Vi är ju ett av de svarta hålet inom CRM-arbete.
-<v SPEAKER_1>Du har inte börjat nu lite enda.
-<v SPEAKER_1>Du säger det till exempel men när folk säger så ja men ni har börjat skicka nyhetsbrev.
-<v SPEAKER_1>Ja vi har skickat tre senast året.
-<v SPEAKER_1>Det är en som var nu börjar vi med nyhetsbrev.
-<v SPEAKER_1>Så vi har skickat två nyhetsbrev som är nyhetsbrev.
-<v SPEAKER_1>Säljer jag en bra eller?
-<v SPEAKER_1>Nej jag vet inte, vi har liksom inte lagt någon statistik på det.
-<v SPEAKER_1>Nej jag fattar.
-<v SPEAKER_1>Hur jag köper att folk är duktiga på det här eller dåliga på det här med CRM-arbete.
-<v SPEAKER_1>Skulle du kunna liksom ge mig någon sorts kort masterclass eller kort förklaring i vad det egentligen innebär eller vad?
-<v SPEAKER_1>När jag tänker CRM-arbete, då tänker jag ju typ folk skickar sms och det är jobbigt.
-<v SPEAKER_1>När du tänker CRM-arbete, vad betyder det för dig och vad tycker du att det innebär?
-<v SPEAKER_1>Jättebra och det är som du säger, många tycker.
-<v SPEAKER_1>Fan vad du steppade upp nu.
-<v SPEAKER_1>Jag bara såg på hela ditt kroppsspråk hur du bara gick igång nu.
-<v SPEAKER_1>Nu försvann den flumiga Sebastian.
-<v SPEAKER_1>Nu blev du seriös.
-<v SPEAKER_1>Det var, nu är det nästan synd att vi inte har video.
-<v SPEAKER_1>För helvete vilken steppa du blev.
-<v SPEAKER_1>Du gick från bakåtlutad skrattande till någon sorts, jag ska inte säga psykopat Janne men jag såg att glöden tändes.
-<v SPEAKER_1>Nu är du igång.
-<v SPEAKER_1>Detta var ditt universum.
-<v SPEAKER_1>Men det är det jag bryr mig för.
-<v SPEAKER_1>Jag skulle säga att många använder ju CRM på fel sätt.
-<v SPEAKER_1>That's it.
-<v SPEAKER_1>Och jag skulle säga att om vi kollar egentligen vad CRM är, det är det enda sättet där du äger din egen, där du äger all kunddata själv.
-<v SPEAKER_1>Jämför man med performance marketing, jämför man med all SEO, jämför du med kunder på sajten, du äger inte datan.
-<v SPEAKER_1>Så om vi tar generella bolaget, man sitter i Klavio, då får du in allt form av köpdata in i ett CRM.
-<v SPEAKER_1>CRM står för gastro-relationship management, vilket är ganska brett, det finns cell, det finns e-commerce.
-<v SPEAKER_1>Vi fokuserar mer på e-handelsdelen.
-<v SPEAKER_1>Men vi kan se vad kunden har köpt, när kunden har köpt det.
-<v SPEAKER_1>Vi kan se vad kunden har kollat på på sajten.
-<v SPEAKER_1>Baserat på det vill vi kommunicera till kunden på olika sätt.
-<v SPEAKER_1>Här är också misstaget att många ser bara CRM som ett sätt att skicka mail och sms.
-<v SPEAKER_1>Om man kollar på det bästa bolaget i Sverige, tar vi Kix, bygg Hemma.
-<v SPEAKER_1>De jobbar ju allt från on-site personalisering, vad jag ser på datorn de har i CRM, så att de vet vem kunderna som kommer till sajten.
-<v SPEAKER_1>De säljer banners för retailmedia, efter vad kunden faktiskt tycker om.
-<v SPEAKER_1>De jobbar med automationer, bara ser på vad kunderna har köpt, så att vi presenterar liknande kategorier, kompletterande kategorier.
-<v SPEAKER_1>Och så bygger man en kundresa.
-<v SPEAKER_1>Det ser jag minkligen är bra på, det är när du har byggt upp en tillräckligt hög omsättning, så att du har ett värde att kolla på hur kan vi få kunderna att faktiskt bli mer lojala till oss, genom att vi är lojala till dem.
-<v SPEAKER_1>Då kan vi faktiskt kolla på hur kan vi öka återköpsgraden.
-<v SPEAKER_1>I vissa fall så är det ju sällarköpsvaror, då är det mer att kolla på, om det finns ett värde att kommunicera efter köp för att få kunderna att rekommendera vårt bolag till andra, är det att vi vill få dem att köpa kompletterande kategorier längre fram.
-<v SPEAKER_1>Medan om det finns exempelvis huvudvårdkosmetika, då är det väldigt mycket att vi vill få kunderna att fylla på igen.
-<v SPEAKER_1>Det handlar om att anpassa strategin efter ett bolag, försöka se vad är det för värde vi kan skapa, kan vi få kunderna att dela med sig om vad de gör för att det är en del av bolaget.
-<v SPEAKER_1>Ta man ner exempelvis, det skulle vara jävligt kul, det är om kunderna skickar bilder på hur de har byggt gymmet exempelvis hemma för att man ska få mer content i produktsidorna.
-<v SPEAKER_1>Plötsligt blir det ett väldigt enkelt sätt att man blir en del av bolaget snarare än att man bara är en kund som köper.
-<v SPEAKER_1>Det är det som ser en bäst på.
-<v SPEAKER_1>Många av våra kunder exempelvis jobbar jättemycket med att få in bilder genom ett system som Flowbox, att kunder skickar in för att de kan vara med och delta om att vinna ett presentkort.
-<v SPEAKER_1>Sen använder vi det i meta-ads för att öka nykundsaskattning genom eget content.
-<v SPEAKER_1>Sen är det ganska brett men om man ska gå igenom kortfattat, det är för att försöka skapa återkommande kunder och löja av kunder.
-<v SPEAKER_1>Du sa det här att många tänker nyhetsbrev och du pratade mer om att få, vad ska vi säga, att det handlar om då, men det handlar om att bygga någon sorts förtroende hos kunder när man får in mycket bilder från andra kunder och man bygger en sorts känsla av vad det är på det.
-<v SPEAKER_1>Så det är egentligen inte nyhetsbrev eller liknande.
-<v SPEAKER_1>Om man ska börja inom CRM, vilka är de lägst hängande frukterna?
-<v SPEAKER_1>Vad är det man måste få på plats om man ska ens vara acceptabel?
-<v SPEAKER_1>Steg ett är att kolla om integrationen funkar till CRM.
-<v SPEAKER_1>Det är det steg ett är.
-<v SPEAKER_1>Jag sitter och gör, jag har säkert gjort över 500 adits på olika konton.
-<v SPEAKER_1>Säkert 20% får inte in all data korrekt.
-<v SPEAKER_1>Det kan vara så enkelt att du inte får in all data alls.
-<v SPEAKER_1>Jag hade ett möte med ett bolag som omstod runt en halv miljard ganska nyligen.
-<v SPEAKER_1>Så loggade vi in i deras system och så får de inte in köpdata.
-<v SPEAKER_1>Det är steg ett.
-<v SPEAKER_1>Få in datan korrekt.
-<v SPEAKER_1>Få in orderdata.
-<v SPEAKER_1>Datumet korrekt.
-<v SPEAKER_1>Få in kategoristrukturen på köporder.
-<v SPEAKER_1>Den datan sitter ju i konvertplattformen.
-<v SPEAKER_1>Så det är bara att integrationen ska funka.
-<v SPEAKER_1>När det funkar, då handlar det om att, jag skulle säga att välkom serie, post purchase, win back över en vargkorg.
-<v SPEAKER_1>Det är väl de fyra automationerna jag skulle börja med.
-<v SPEAKER_1>Men vad många är fel där är att man kanske har en komplex produkt.
-<v SPEAKER_1>Men man kommunicerar som det vore en DTC-handel som säljer t-shirts.
-<v SPEAKER_1>Kan du förklara det lite för mig?
-<v SPEAKER_1>Vad menar du då?
-<v SPEAKER_1>Om du säljer t-shirts, det finns absolut mycket du kan trycka på efter köp.
-<v SPEAKER_1>Men om du säljer, ska vi ta din bransch exempelvis, säljer man gymprodukter, då finns det så jäkla mycket annan kommunikation man vill pusha på efter en order.
-<v SPEAKER_1>Du kanske vill kommunicera, vad bör du tänka på när du bygger upp gymmet?
-<v SPEAKER_1>Du kanske vill kommunicera, vad finns det för olika misstag kunde jag göra när man gör där hemma?
-<v SPEAKER_1>Du kanske vill kommunicera leveransdatum, när bör det komma fram?
-<v SPEAKER_1>En post purchase ska inte vara lika för alla.
-<v SPEAKER_1>Det handlar om att anpassa en post purchase efter bolaget.
-<v SPEAKER_1>Och desto mer komplext produkt man har, desto viktigare är ju att efterköpskommunikationen är bra.
-<v SPEAKER_1>Så det är det vi brukar kolla på.
-<v SPEAKER_1>Sen handlar det bara om att vi vill skapa värde efter en order till kunden så att de potentiellt vill komma och köpa igen.
-<v SPEAKER_1>Allt handlar om att identifiera vad för värde vi kan skapa för kunden.
-<v SPEAKER_1>Är det direkt att vi vill pusha på att man ska köpa något nytt eller är det mer att vi faktiskt guiderar kunden vidare för att han ska bli nöjd efter order?
-<v SPEAKER_1>Handlar CRM aldrig om att bygga smidighet för första kunden.
-<v SPEAKER_1>Någonstans när man samlar in massa bilder och liksom förtroende från andra kunder, det är nästan mer ett köp mot första-gångskunder eller?
-<v SPEAKER_1>Ja, men skiter man i det.
-<v SPEAKER_1>Om jag förstår din fråga korrekt, att det handlar mer om att få första-gångskunder och blandargångskunder, är det det du menar eller?
-<v SPEAKER_1>Ja, exakt.
-<v SPEAKER_1>Jag skulle säga att det är oftast det folk är dåliga på.
-<v SPEAKER_1>Det är oftast det jag försöker prata om.
-<v SPEAKER_1>Det handlar om att sätta grunden först.
-<v SPEAKER_1>Bygger du ett hus så börjar du inte bygga våning nio.
-<v SPEAKER_1>Du börjar med våning ett, våning två och så vidare.
-<v SPEAKER_1>Det är oftast där många gör misstaget att man tänker för långt fram i kundresan.
-<v SPEAKER_1>Ja, det är värt att utveckla andra 3D-
-<v SPEAKER_1>och 50-gångsköpskommunikation.
-<v SPEAKER_1>För det första, om du ser att datan visar att det är rimligt, vi kollar mycket på återköpsgrad.
-<v SPEAKER_1>Om ditt bolagssnitt har ett återköpsgrad på 1,1 då är det inte värt att kanske optimera för 3D-gångsköpare.
-<v SPEAKER_1>Då är det snarare problem att hur får vi förståndsköpare blandgångsköpare?
-<v SPEAKER_1>Om din data visar att vi inte var avsnittkunde köpa på 3,7 gånger.
-<v SPEAKER_1>Då bör det kanske segmentera vilka som gör det.
-<v SPEAKER_1>Vad är det som gör att de gör det?
-<v SPEAKER_1>Varför köpa en kund en gång och aldrig köpa igen?
-<v SPEAKER_1>Är det kategorinivå?
-<v SPEAKER_1>Är det på vissa produkter?
-<v SPEAKER_1>Är det en viss typ av kund?
-<v SPEAKER_1>Och så får man se över hur man ska optimera kunderna efter det.
-<v SPEAKER_1>Oftast är det att många har ett problem att de får köpa en kund men de handlar aldrig igen.
-<v SPEAKER_1>Det är 90% av alla enare att prata med.
-<v SPEAKER_1>Så det är oftast den delen man bör naila först.
-<v SPEAKER_1>Ni gör något event som jag har sett någon gång per år.
-<v SPEAKER_1>Det handlar någonting om vem som har bästa personaliseringsresan eller något sånt.
-<v SPEAKER_1>Visst har ni något sånt event?
-<v SPEAKER_1>Önska det var vårt event, det hade varit jävligt nice.
-<v SPEAKER_1>Men det är ett nytt kyrkor vi har det, har du varit på det?
-<v SPEAKER_1>Nej men jag har sett, du har väl lagt upp någon post om den någon gång.
-<v SPEAKER_1>Och jag vill minnas att Kix vann förra året eller något sånt.
-<v SPEAKER_1>Du sa Kix här förut så därför kommer jag att tänka på det här.
-<v SPEAKER_1>Ja exakt.
-<v SPEAKER_1>Vad är det de gör så jävla bra då?
-<v SPEAKER_1>Vad är det vi andra kan lära oss av dem?
-<v SPEAKER_1>Jag hänger inte på Kix annars liksom.
-<v SPEAKER_1>Jag tycker Kix har gjort det väldigt bra.
-<v SPEAKER_1>Men sen skulle jag säga att om man har en inspirationsmotor att bli som Kix då och kolla på fler bolag.
-<v SPEAKER_1>Okej vilka ska man kolla på då?
-<v SPEAKER_1>Bra fråga.
-<v SPEAKER_1>Vi kan börja med vad Kix gör bra.
-<v SPEAKER_1>Det kan vara, det är ju först och främst Kix har ju kopplats samman alla system vilket är egentligen det som CRM handlar om från mitt perspektiv.
-<v SPEAKER_1>De kopplar i butik, e-handel, in i ett CRM, om jag minns rätt vad jag har då.
-<v SPEAKER_1>Och sen så bara se att någon kunde köpa i butik eller om de köper på e-handel.
-<v SPEAKER_1>Segmenteras de efter det.
-<v SPEAKER_1>Det är en grundläggande segmentering.
-<v SPEAKER_1>Och där kan man inspireras av.
-<v SPEAKER_1>Har du butik och e-handel, då bör du vilja veta vilka köper du butik kan, vilka köper e-handel.
-<v SPEAKER_1>Och framför allt var på folk bor, de nära din butik men köper på webben, är det värt att pusha dem att köpa i butika.
-<v SPEAKER_1>De har ju en kundklubb med olika poäng.
-<v SPEAKER_1>Community är ju mer för folk som faktiskt vill bli en del och de lägger upp bilder och chatta med andra människor.
-<v SPEAKER_1>Så de har ju skapat sig ett forum i Kix och det kommer de över till väldigt få.
-<v SPEAKER_1>För att skapa ett forum, då måste det vara personal som är tillräckligt engagerade och lägger tid på det.
-<v SPEAKER_1>Och sen måste det vara tillräckligt många som har varit med.
-<v SPEAKER_1>Och det är det de har lyckats med vilket är jättehäftigt.
-<v SPEAKER_1>Det är ett erbjuditaks liksom.
-<v SPEAKER_1>Jag känner ju Cidri som har byggt upp det här, han är skitgrym.
-<v SPEAKER_1>Men sen gör de ju väldigt hyperpersonaliserade saker.
-<v SPEAKER_1>En sak om du går med i kundklubben är att du laddar upp en bild på din profil.
-<v SPEAKER_1>Då kan någon mäta din hudton.
-<v SPEAKER_1>De kan se vart du bor i Sverige.
-<v SPEAKER_1>Och sen kombinera produktrekommendationer on-site efter din hudton plus luftfuktighet i området.
-<v SPEAKER_1>Det är high tech shit.
-<v SPEAKER_1>Det är värt att inspireras av, men är man en standarde-handlare?
-<v SPEAKER_1>Nej, kanske inte riktigt.
-<v SPEAKER_1>Det hade varit jävligt kul att göra någon sorts udda variant på det.
-<v SPEAKER_1>Om folk laddar upp en bild på gymkompaniiet där de står och spänner sig och så får de ett ljud baserat på hur starka de ser ut, så blir det såhär.
-<v SPEAKER_1>Hahaha, ja det är väldigt roligt.
-<v SPEAKER_1>Ja, nej.
-<v SPEAKER_1>Okej, men Kicks har ju också marknaden för det.
-<v SPEAKER_1>De har ju en marknad som är höga engagerad och där man gör många återköp och där man tycker om att visa upp och förändra och ställa frågor.
-<v SPEAKER_1>Och prata med varandra och de har en bred grupp.
-<v SPEAKER_1>Men har du något exempel på ett företag som är mer, vad ska man kalla det då, mer åt vitvaror och dammsugare.
-<v SPEAKER_1>Finns det något tråkigt varumärke som gör det här bra?
-<v SPEAKER_1>Riktigt jävla tråkigt.
-<v SPEAKER_1>Måste tänka.
-<v SPEAKER_1>Nu snackar vi väldigt sällan köpsvaror.
-<v SPEAKER_1>Eller framförallt osexig bransch.
-<v SPEAKER_1>Hmm, osexig bransch.
-<v SPEAKER_1>Men fan, tunnelväxthus, det är väl inte sällan sexigt eller?
-<v SPEAKER_1>Nej.
-<v SPEAKER_1>Nej, men det är väl inte så coolt.
-<v SPEAKER_1>Nej men det är inte jättekul.
-<v SPEAKER_1>Alltså, om någon sitter här och tänker, va då det är skit på allt, jag älskar odla.
-<v SPEAKER_1>Ja, det är kul att göra det men jag tror inte att det är den sexigaste branschen.
-<v SPEAKER_1>Vi satte upp tunnelväxthus-CRM-strategi på ett år och utvecklade deras kundkommunikation.
-<v SPEAKER_1>Där handlar det inte om att fokusera på kategorierna utan att kolla på, det jag identifierade först med Daniel, det var vad finns det för målgrupper.
-<v SPEAKER_1>För det var ganska enkelt att förstå för han hade det koll väldigt mycket på kundsegment och då sa han, men vad har ni för målgrupper då?
-<v SPEAKER_1>Det finns tre olika målgrupper som köper från oss.
-<v SPEAKER_1>Ena är de traditionella trädgårdsodlare.
-<v SPEAKER_1>Trädgårdsodlare i de som har oftast ett hus eller ett landställe om man odlar själv.
-<v SPEAKER_1>Det är lite svårare än så.
-<v SPEAKER_1>Sen har vi yrkesodlare.
-<v SPEAKER_1>Yrkesodlare köper in större volymer, stora tunnelväxthus, de köper...
-<v SPEAKER_1>Vad heter det?
-<v SPEAKER_1>Växthus i alla fall.
-<v SPEAKER_1>De köper volym.
-<v SPEAKER_1>Väldigt stor volym behöver oftast allt paketerat anpassade efter dem.
-<v SPEAKER_1>Sen har vi en tredje, jag brukar kalla den Södermalman.
-<v SPEAKER_1>Det är den som bor på Södermalm och gillar att ha lite odling på balkongen.
-<v SPEAKER_1>Det finns ingen yta men man gillar ändå att odla.
-<v SPEAKER_1>Om vi vet att de tre mordgrupperna har, då är det värt att kolla på kan vi redan från sign-up-automatik om de får en rabattkod och klicka i vilken kund de är.
-<v SPEAKER_1>Så kan vi anpassa all kommunikation i framtiden efter det.
-<v SPEAKER_1>Det är vad de gjorde.
-<v SPEAKER_1>Där handlar det väldigt mycket om att få in datan från sign-up.
-<v SPEAKER_1>Men också i köpdata kan vi segmentera.
-<v SPEAKER_1>Ett tunnelväxthus som är jättestort är till 85 procent garanti en yrkesordare.
-<v SPEAKER_1>Det kan man också se på mailadressen, att det är ett BTB-mailadress.
-<v SPEAKER_1>Vi kan få in det i check-outen.
-<v SPEAKER_1>Om man köper bara massa små produkter, men man köper alldeles växthus, då är det troligen en privat person som ofta bor i stan.
-<v SPEAKER_1>Man kan också se det på postnummer, man kan se det på adress.
-<v SPEAKER_1>Köper man, om man inte är inom de kategorierna, då är det troligen ett reko-ordnare.
-<v SPEAKER_1>Och så kan vi anpassa kommunikationen.
-<v SPEAKER_1>Då sätter vi upp automationer på post-purchase, tipsar hur de kan odla, vad börjar de tänka på.
-<v SPEAKER_1>Vi skickar videos där man kan klicka, och så får man guidelines på hur du bör fixa trädgården inför vården.
-<v SPEAKER_1>Så där handlar det ju bara om hur vi kan behandla kunder, hur de är behandlade.
-<v SPEAKER_1>Och så ger vi dem relevant kommunikation, allt efter det.
-<v SPEAKER_1>Jag älskar det exemplet, för det är också jävligt tydligt på vad man vill se för sortiment på hemsidan.
-<v SPEAKER_1>Om jag ska odla lite tomater på balkongen, så vill jag inte se växthus för 95 000.
-<v SPEAKER_1>Och det kommer bara göra att jag känner mig weird.
-<v SPEAKER_1>Och är jag en professionell odlare och jag ser en sån där liten jävla spade för 19 spänn som har ett hjärta på sig, så kommer jag tänka att det här är en jävla skit i handel.
-<v SPEAKER_1>Den är liksom gjord för privatpersoner, jag vill ha riktiga grejer.
-<v SPEAKER_1>Jag köper den.
-<v SPEAKER_1>Den funkar till urinier och mer också.
-<v SPEAKER_1>Alla har ju inte ytan av ett stort jävla gym hemma.
-<v SPEAKER_1>Så klart, vi har ju jätteolika, alltså vårt billigaste löpande, vad kostar det?
-<v SPEAKER_1>5 000 och det dyraste kostar 180 000.
-<v SPEAKER_1>Det är en jävla skillnad på kundgruppen där.
-<v SPEAKER_1>Men jag tänkte fråga en annan grej.
-<v SPEAKER_1>Vi sågs en gång och drack kaffe i Göteborg.
-<v SPEAKER_1>Ja, exakt.
-<v SPEAKER_1>Och då, du hade typ dagen innan gjort något jävla test.
-<v SPEAKER_1>Jag minns bara att du var jävligt glad över det här testet.
-<v SPEAKER_1>Jag är lite nördig av det, jag vet.
-<v SPEAKER_1>Ja, men det var, jag kommer inte riktigt ihåg vad det handlar om, men det var typ ett lotteri eller det var att man skulle göra ett pussel på hemsidan eller någonting för att man skulle signa upp för ett nyhetsbredd.
-<v SPEAKER_1>Och du var så jävla nöjd över vilken konverteringsrate det fick.
-<v SPEAKER_1>Vill du berätta om vad det var?
-<v SPEAKER_1>Och framförallt, vill jag ha, alltså väldigt många jobbar med nyhetsbredd.
-<v SPEAKER_1>Skulle du kunna ge några tips på hur man får bra sign-up rate?
-<v SPEAKER_1>Ja, jag kan ju gå in på det caset.
-<v SPEAKER_1>Det var ett memory case vi gjorde med deckskiftarna och för att se vad det innebär.
-<v SPEAKER_1>Jag älskar att det var typ två år sedan och du minns ändå vad det handlar om.
-<v SPEAKER_1>Ja, men det är det.
-<v SPEAKER_1>Jag har kollat.
-<v SPEAKER_1>Det är ett sånt jävligt roligt caset.
-<v SPEAKER_1>Jag kommer alltid att vilja ha det.
-<v SPEAKER_1>Jag minns mycket av de roliga grejerna.
-<v SPEAKER_1>Det roliga är det som bäst är det.
-<v SPEAKER_1>Om jag minns rätt så ville vi tävla ut deckskifte och deckhotell till en eller tre år innan det, inför vintelsäsongen.
-<v SPEAKER_1>Då diskuterade vi om vi kan göra det bra.
-<v SPEAKER_1>Sen kom vi på att vi inte skulle göra ett memory onsite.
-<v SPEAKER_1>Memory är att man klickar på olika och matchar bilderna.
-<v SPEAKER_1>Då är det tre bilder som ska matcha.
-<v SPEAKER_1>Sen tar man tid på det och då gjorde vi det i Triggyby.
-<v SPEAKER_1>Sen gjorde vi ett A-B-test.
-<v SPEAKER_1>Först bara för att vi tänkt.
-<v SPEAKER_1>Teorin hos deckskifterna var att Stockholmare pallar inte hålla på med en räkla memory.
-<v SPEAKER_1>Det kommer inte att hända, det kommer att ta tid, det kommer att ta längre tid.
-<v SPEAKER_1>Man vill ju bara fylla i mailadressen och vara med och tävla.
-<v SPEAKER_1>Bra poäng, vi A-B-testade.
-<v SPEAKER_1>Så att ena var bara vinna gratis deckskift och deckhotell och tävla.
-<v SPEAKER_1>Okej, vi har ett vänligt värde upp till 750 kronor.
-<v SPEAKER_1>Mailadressen och sen postnummer och sen skicka in.
-<v SPEAKER_1>Det var ena.
-<v SPEAKER_1>Och den andra var det att för att vara med och tävla så måste du tävla i memory.
-<v SPEAKER_1>Och så märkte vi att efter två veckor vi skulle köra testet en månad, så hade vi fått upp 15 000 som inte sett ena pop-upen, 15 000 som inte sett andra pop-upen.
-<v SPEAKER_1>Och vi hade en response rate, att man gick genom hela stegen på vanliga sign-upen på 0,97%, vilket är ganska skit.
-<v SPEAKER_1>Men den andra var 3,4%.
-<v SPEAKER_1>Så det är ju mer än 350% som faktiskt var med och tävlade i memory.
-<v SPEAKER_1>Så vi bara skedde i A-B-testet och körde A-L in på memory, för vi fick mer än 350% mailadesser på det.
-<v SPEAKER_1>Och då är frågan varför hände det?
-<v SPEAKER_1>Jo men det är för att hjärnan är så ingrävd i gamification.
-<v SPEAKER_1>Och det markar man på webbkoppar nu, att kolla ur temet så är gamification överallt, men kolla i många andra, så är det ett spel och så är det mycket att tävla.
-<v SPEAKER_1>Och så ville vi kolla på alla städer.
-<v SPEAKER_1>Så vi har ju mappat, liksom i TriggerBee, efter sitt kod.
-<v SPEAKER_1>Och så såg vi att det spelar ingen roll vart det var.
-<v SPEAKER_1>Gamification var överpresterade än med vanliga sign-upen.
-<v SPEAKER_1>Så det är lite rolig case.
-<v SPEAKER_1>Kör ni det på alla sign-ups nu?
-<v SPEAKER_1>Är det liksom standard efter tiden?
-<v SPEAKER_1>Nej, absolut inte.
-<v SPEAKER_1>Alltså varför inte är för att gamification handlar om att du ska vinna någonting.
-<v SPEAKER_1>Vi har testat det.
-<v SPEAKER_1>Vi gör en vanlig sign-up med rabattkod.
-<v SPEAKER_1>Men vi marker typ ingen skillnad där.
-<v SPEAKER_1>Det är ungefär samma.
-<v SPEAKER_1>Och jag tror varför det är att en tävling måste vara att du vinner någonting.
-<v SPEAKER_1>Och att du får en chans att vinna.
-<v SPEAKER_1>Det här är min personliga åsikt.
-<v SPEAKER_1>Det betyder inte att det stämmer.
-<v SPEAKER_1>Men vi marker störst skillnad när du kan vara med och tävla om någonting.
-<v SPEAKER_1>Då är det större procentuellt chans att du faktiskt kommer att genomföra det.
-<v SPEAKER_1>Medan om du bara ska få en rabattkod eller att du ska få någonting mer på köpet, då är det bättre att bara göra ett snabbare sign-up där det går lättare att fylla i det.
-<v SPEAKER_1>Jag tänker att det är så krångligt att lotta ut någonting.
-<v SPEAKER_1>Det är väl bara att lägga en tusen i lära sig, folk lagar här.
-<v SPEAKER_1>Ja, det handlar om att det ska finnas ett värde.
-<v SPEAKER_1>I det här fallet var det ganska enkelt att bara för att få in möjliga adresser, att man ska vara med och tävla om att vinna DEC-skyster och DEC-hotell.
-<v SPEAKER_1>Det kan ju vara att man kan gå med och chans att vinna ett procent fort.
-<v SPEAKER_1>Men jag önskar att det alltid blir bättre, men nej, det gör det bara inte.
-<v SPEAKER_1>Så att data säger det.
-<v SPEAKER_1>Det kan ju också, man kan väl ha det sagt bara så att folk vet att vi inte är korkade.
-<v SPEAKER_1>I teorin skulle det också kunna vara så att de avsignar sen jävligt snabbt, så det måste inte vara svinbra.
-<v SPEAKER_1>Men det jag tänkte fråga var, har du några tips på hur man får, hur får man upp folk på att signa upp på sina nyhetsbrev och sina sådana där lister?
-<v SPEAKER_1>Att ge bort 30% marginal, nej, det givar jag bara.
-<v SPEAKER_1>Jag kommer klippa bort att du sa att du driver.
-<v SPEAKER_1>Jag skulle säga att, först och främst måste du identifiera varför du vill få in dem i signupen, och vad du ska kommunicera efter de gör det.
-<v SPEAKER_1>Om du bara vill ge bort marginal, det kan vara värt det, men de bästa casen när vi faktiskt har en hög signuprate, om du ska ge bort marginal på ditt första gångsköpare, då är det för att du vill få någonting tillbaka.
-<v SPEAKER_1>Det är oftast där det är bra.
-<v SPEAKER_1>Istället för att bara fokusera på hur vi ska maximera signupsgraden innan order, så finns det ett värde att kolla på, är det någonting vi kan få på data från kunden, så att vi kan lättare kommunicera till dem innan order, så vi hjälper dem att konvertera.
-<v SPEAKER_1>Det är ena delen.
-<v SPEAKER_1>Ska jag ta Nordic textile exempelvis, där gjorde vi liknande med tunnelväxthuset, att vi identifierade målgruppen och frågade, är du en DIY-kund som gillar att sy själv eller ha metervaror och fixa hemma, eller är du en klassisk inredningskund.
-<v SPEAKER_1>Då får vi någon form av data där vi kan hjälpa dig och guida den innan order, vilket ju ökar också chansen att kunden faktiskt vill signa upp sig.
-<v SPEAKER_1>Först måste man identifiera varför vi vill få så sjukt mycket mail och order, är det bara för att vi vill få in mail-adresser?
-<v SPEAKER_1>Är det för att vi vill hjälpa kunden att lägga en första order?
-<v SPEAKER_1>Sen kolla, är det någon data punkter vi kan samla för att hjälpa dem lättare att konvertera?
-<v SPEAKER_1>Inte för mycket fokus på rabatt.
-<v SPEAKER_1>Jag tycker att det är för många som slänger ut en skit stor rabattkod.
-<v SPEAKER_1>Det var något varumärke som svängde ut 30 procent rabatt i sign-upen.
-<v SPEAKER_1>Det första jag tänker då är att det visar hur jävla bra vinstmarginal du har, vilket förstör varumärketskänslan.
-<v SPEAKER_1>Så man ska absolut fokusera på en bra sign-uprate men det är inte det viktigaste skulle jag säga.
-<v SPEAKER_1>Jag köper den, jag tycker att det är ett bra tillägg.
-<v SPEAKER_1>Nu går jag tillbaka lite grann, nu hoppar vi hela den här grejen.
-<v SPEAKER_1>Men det är mest för att jag är nyfiken.
-<v SPEAKER_1>När ni drog igång er byrå, jag tänker att det är notoriskt svårt att starta byrå för att alla kommer att se på en med skepsism på något sätt.
-<v SPEAKER_1>Och speciellt om man är två unga killar.
-<v SPEAKER_1>Alltså vi får ju, om inte dagligen, så i alla fall varannan dag så hör ju någon jävla byrå av sig till oss och säger dem hej vi kan hjälpa er med XYZ.
-<v SPEAKER_1>Och det är alltid två unga killar som driver den där jävla byrån och så tänkte man det kommer inte hända.
-<v SPEAKER_1>Kan du komma ihåg?
-<v SPEAKER_1>Inutlandat.
-<v SPEAKER_1>Någonstans behöver man ju några referenskunder som driver de andra kunderna in.
-<v SPEAKER_1>Vilken var er första kund som du bara kände Yes!
-<v SPEAKER_1>Där kom den liksom.
-<v SPEAKER_1>Den här kunden bygger cred.
-<v SPEAKER_1>Kommer du ihåg det?
-<v SPEAKER_1>Jaja, 100%.
-<v SPEAKER_1>Jag skulle säga den största kunden som vi fick in som verkligen bara wow.
-<v SPEAKER_1>Det här är bra skit.
-<v SPEAKER_1>Det var när vi fick in The Buddy Shop som en kund till oss.
-<v SPEAKER_1>Och det var egentligen via en partner till oss som var i en process med dem.
-<v SPEAKER_1>Och de ville koppla samman egentligen deras butiker i Sverige, Danmark och Väben med CRM.
-<v SPEAKER_1>Så då hoppade det in i en del om och om.
-<v SPEAKER_1>Sen gick det mycket snabbare än jag trodde.
-<v SPEAKER_1>Sådana processer har jag fått ganska lång tid.
-<v SPEAKER_1>Men det kändes realistiskt när man har växt upp med The Buddy Shop.
-<v SPEAKER_1>Jag minns ju själv bara när man var barn och gick in i deras butiker, att jävlar, ska vi börja kolla på hur vi kan förbättra deras CRM lösning.
-<v SPEAKER_1>Hur långt är bakåt tiden i detta?
-<v SPEAKER_1>Det är inte längesen ens tror jag, det är typ två år sedan tror jag.
-<v SPEAKER_1>Tidsspektrumet för mig är inte jätteprofitt, det är som Decquiss, det kändes som ett halvår sedan men det var nog två år sedan.
-<v SPEAKER_1>Sen har vi haft mycket mer betydligande kunder som har kommit in under resan, som vi har jobbat mycket mer långsiktigt med.
-<v SPEAKER_1>Det här var mer ett one setup, vi kommer in och kopplar alla butiker, sätter upp regler, lojalitetsprogram, POS, CRM, det är ett sjukt roligt setup, jag kan inte gå in för mycket på detaljer på allt som är med, men det är absolut det största varumärket som vi har jobbat med.
-<v SPEAKER_1>Får du någonsin såhär imposter syndrome när du sitter i möten?
-<v SPEAKER_1>Fan vad betyder imposter syndrome?
-<v SPEAKER_1>Det är när man helt plötsligt bara känner att jag sitter och bara fejkar i kunskap nu.
-<v SPEAKER_1>Inte längre, back in the days då.
-<v SPEAKER_1>Jäklar vad man, det är ju det.
-<v SPEAKER_1>Vi slängtes ju in oss själva som någon form av byrå.
-<v SPEAKER_1>Man kan inte bara komma in till Särskan, Sebastian heter jag, nystartade, jag har inte gjort någonting innan.
-<v SPEAKER_1>Men jag tror att det är smartaste sättet att lära sig grejer.
-<v SPEAKER_1>Men nu så är det ju så att vi har ju valt aktivt att det är CRM-byrå med fokus på e-handlare och vi har jobbat med 20 kunder på löpande basis.
-<v SPEAKER_1>Jag skulle säga att vi gick hand så jäkla mycket nu, att det spelar nästan ingen roll vilka jag pratar med.
-<v SPEAKER_1>Det finns absolut några CRM-byrås därute som är svinduktiga, men jag känner väldigt sällan att vi har en kompetensbrist.
-<v SPEAKER_1>Jag tror inte att jag har känt det någonsin på något form av möte.
-<v SPEAKER_1>Snarare att jag har hoppat in i ett möte där jag sitter med CRM och köper ett skitsvårdbolag.
-<v SPEAKER_1>Och så frågar han mig hur kan ni hjälpa oss?
-<v SPEAKER_1>Och då säger jag att det kan inte jag svara på, jag måste ju kolla på vad ni gör.
-<v SPEAKER_1>Och så märker jag att de gör allt perfekt, skitbra, i alla fall om man kollar utåt.
-<v SPEAKER_1>Sen kan man gräva på kontot.
-<v SPEAKER_1>Och då är det inte värt att vi pratar för ni har den kompetensen in-house.
-<v SPEAKER_1>Men det är väl lite senare att jag känner att det är vi, att vi inte har någon form av imposter-syndom.
-<v SPEAKER_1>Nej, inte längre i fall vilket är så jävla gött.
-<v SPEAKER_1>Ja det förstår jag, vad härligt.
-<v SPEAKER_1>Jag kommer att köra några random frågor till för vi har några minuter som vi playar på här.
-<v SPEAKER_1>Du är på 98 procent av alla enadlösevänt.
-<v SPEAKER_1>Du kanske har missat ett senaste fyra år.
-<v SPEAKER_1>Om någon anledning springer jag alltid på dig först.
-<v SPEAKER_1>Så fort man kommer in genom ingången så är det alltid dig jag ser.
-<v SPEAKER_1>Det är fel.
-<v SPEAKER_1>Vilket event är bäst?
-<v SPEAKER_1>D-Congress.
-<v SPEAKER_1>Alltså?
-<v SPEAKER_1>Ja, men du är ju på D-Congress rätt ofta också va?
-<v SPEAKER_1>Jag har bara varit en gång, det var i år.
-<v SPEAKER_1>Va?
-<v SPEAKER_1>Ja, det var första gången jag var där.
-<v SPEAKER_1>Det känns som att du ser på alla event också, men då är det bara en inbildning att varje gång vi är på ett event så träffas vi direkt liksom.
-<v SPEAKER_1>Exakt.
-<v SPEAKER_1>Vad tycker du om D-Congress år?
-<v SPEAKER_1>Eeeh, eftersom jag aldrig varit där innan så har jag liksom bara den här att gå på, men det var ju sjukt mycket större än alla andra event.
-<v SPEAKER_1>Så att de har ju det.
-<v SPEAKER_1>Och sen så var det ju extremt mycket mer uppstyrt.
-<v SPEAKER_1>Alltså det, det ska jag inte ge Per för mycket cred här, men de har ju fan koll på läget.
-<v SPEAKER_1>Jag har gått och snackat på några event och det här eventet så fick man ju jävligt bra info inför, vad det gäller, vart ska du vara, vad ska du skicka in, vad ska du fokusera på.
-<v SPEAKER_1>Alltså så ser det inte alltid ut, ibland är det typ, du gick upp fem minuter innan, du kanske ska ha en presentation eller inte, och vi har inte sagt vad du ska prata om, så du får bara dyka upp det.
-<v SPEAKER_1>Ibland är det jävligt flummigt.
-<v SPEAKER_1>Det är professionellt på en helt annan nivå, och allting är uppstyrt, det finns tydliga sektioner, vem som ska vara vad.
-<v SPEAKER_1>Om man ska snacka, och jag gillar ofta bara setappen bakom, jag är väldigt mycket mer intresserad av logistiken och setappen, och där är de jävligt duktiga, det får man fan, ger de cred för alltså.
-<v SPEAKER_1>Det var väldigt kul att vara en del av det.
-<v SPEAKER_1>Men skit i det, jag ska inte ha åsikter i detta.
-<v SPEAKER_1>Nu...
-<v SPEAKER_1>Förlåt jag tar över poddposen.
-<v SPEAKER_1>Exakt, eller...
-<v SPEAKER_1>Vem är roligaste gästen ni har haft i podden, och vem är liksom mest värdeskapande?
-<v SPEAKER_1>När du säger, gå in och lyssna på vår podd, vilka två avsnitt brukar du rekommendera?
-<v SPEAKER_1>Du får inte säga Stefan Palm, för alla säger fan Stefan Palm.
-<v SPEAKER_1>Nej men, mest värdeskapande är ju Juri och Gjarno.
-<v SPEAKER_1>Eller, mest intressant, Juri och Gjarno, det är ett av våra senaste avsnitt, det är ju grundaren av Strongware och NAK, det är bland annat som har startat upp ett i mestan på lag, där de investerar i e-handlare.
-<v SPEAKER_1>Och det är mycket för att de har en sån jävla...
-<v SPEAKER_1>Alltså, hur många i Sverige har den bakgrunden, där man har så mycket bolag som man bara lyckats med, liksom omsätter fem miljarder i bara Tyskland, och att han går igenom systematiskt på faktiskt hur man skalar en business, särskilt med tanke på teknologin som finns idag, att gå från 50-100 miljoner omsättning till miljarder, att det går att systematisera i kombination med content-skapande, AI, hur man implementerar det.
-<v SPEAKER_1>Sen tycker jag fan, om man vill få ett bolag man kan relatera med som också är extremt värdeskapande och sjukbra, då är det Flowlife Lucas 100%.
-<v SPEAKER_1>Jättebra avsnitt, på grund av att man faktiskt kan förstå utifrån ett bolag där man kanske gick från att det går jävligt bra till att det går väldigt dåligt, och sen lyckas dupla i omsättning året efter bara för att man ger om hela strategin.
-<v SPEAKER_1>Och ett kartlägga var om man faktiskt gjorde för att lyckas med det.
-<v SPEAKER_1>Det är ju jäkligt, två avsnitt från mina favoriter, det är det garanterat.
-<v SPEAKER_1>Har du någon drömgäst som du vill få in?
-<v SPEAKER_1>Jag tycker att den här frågan är så jäkla svår.
-<v SPEAKER_1>Jag får den frågan ganska ofta.
-<v SPEAKER_1>Jag svarade på det på ett event, vilket var kul på Pindex.
-<v SPEAKER_1>Jag skulle vilja få gå in kicks, och små kicks på scenen.
-<v SPEAKER_1>Jag var utöver Ulrikhavn som spelade Winnepols i två timmar efter.
-<v SPEAKER_1>Vilket var jävligt tacksamt.
-<v SPEAKER_1>Det är en lite rolig story.
-<v SPEAKER_1>Sebastian från Klarna hade inte varit fel.
-<v SPEAKER_1>Det hade varit en kul gäst.
-<v SPEAKER_1>Han är ju alldeles upptagen dock, men lyssna på hans som jättegärna kommer.
-<v SPEAKER_1>Om han lyssnar på denna får den.
-<v SPEAKER_1>Klart där det gör, det är Joel.
-<v SPEAKER_1>En tusendels promilles tusendel.
-<v SPEAKER_1>Någon på Klarna då?
-<v SPEAKER_1>Okej, någon på Klarna.
-<v SPEAKER_1>Kommer någon jävla rat upp?
-<v SPEAKER_1>Jag lär ju snacka med semester i så fall.
-<v SPEAKER_1>Det är samma namn.
-<v SPEAKER_1>Jag tänkte att jag ska dyka upp någon random, någon som jobbade där för sju år sen som skiter fullständigt.
-<v SPEAKER_1>Det där har varit en askyll avsnitt.
-<v SPEAKER_1>En till, om man nu ska starta en podd, de flesta startar ju en podd och så driver de typ två avsnitt och så lägger de ner.
-<v SPEAKER_1>Funkar, nummer ett, vad är det man ska göra för att få lite traction och funkar det att driva podden?
-<v SPEAKER_1>Du har ju redan sagt att du får in lite kunder den här vägen.
-<v SPEAKER_1>Vad handlar det om?
-<v SPEAKER_1>Har du fått in en kund eller har du fått in tio kunder?
-<v SPEAKER_1>Inte tio, jag skulle vara jäkla vad jag tänker nu.
-<v SPEAKER_1>Många är indirekta, man har känt dem innan och varit polare med sen de gästa podden, sen har man väl snackat på partnerskap och business.
-<v SPEAKER_1>Jag skulle ha fyra kunder kanske via podden.
-<v SPEAKER_1>Det är ingen lits i en eringsaffär, så jag skulle säga att starta en podd gör inte för två kunder.
-<v SPEAKER_1>Det är helt fel sätt.
-<v SPEAKER_1>Gör det snarare ett för att du älskar det du ska prata om, och sen två för att du faktiskt har en långsiktig plan att fortsätta.
-<v SPEAKER_1>Starta inte en podd bara för att, ja men fan nu kör jag.
-<v SPEAKER_1>Det ska finnas en tanke att du ska ha tid att producera ett avsnitt ganska regelbundet för att annars blir inget bra och så skiter man i det.
-<v SPEAKER_1>Den regelbundna avsitten, det jag gjorde också, Stoffe, var att vi schema lagde tider varje vecka med kalender så att vi kan bara boka in det skitlätt.
-<v SPEAKER_1>Det är det bästa vi har gjort för då blir det ganska lätt att bara skicka en länk.
-<v SPEAKER_1>Länk boka in när du vill och sen vet du att det alltid har avstått i tre månader fram.
-<v SPEAKER_1>Men skapa inte en podd för att ha en liten e-affär.
-<v SPEAKER_1>Det är helt jäkla fel, det kommer inte funka och då kommer det inte vara intressant.
-<v SPEAKER_1>Alla kommer att se att du bara vill sitta och sälja.
-<v SPEAKER_1>Två, sälj inte i podden.
-<v SPEAKER_1>Det är andra grejen, jag tycker det är så jävla tråkigt när du sitter och som host själv säljer, jag tycker inte att jag outerpoddar, men det finns många poddar där de bara sitter och säljer sitt varumärke.
-<v SPEAKER_1>Det blir inget bra.
-<v SPEAKER_1>Och tre, baserat på vad du tycker och älskar att prata om, snacka om det i så fall.
-<v SPEAKER_1>Det kommer att märkas.
-<v SPEAKER_1>Alla är olika där, du Joel exempelvis, du är ju bara så jävla bra för att du tycker det är kul att snacka skit med otroligt intressanta människor.
-<v SPEAKER_1>Och om du älskar att snacka skit med människor, jag gör det då.
-<v SPEAKER_1>Och så länge man har någon form av nisch så är det kul att lyssna.
-<v SPEAKER_1>Det är ju underbart.
-<v SPEAKER_1>Ja, ibland får du ha avsnitt så att tänka, hur fan ska jag sammanfatta detta, jag har ju inte sagt någonting.
-<v SPEAKER_1>Detta kommer att bli ett sådant avsnitt.
-<v SPEAKER_1>Vi gick igenom tre minuter kunskap och resten var skitsnack.
-<v SPEAKER_1>Men det är kul.
-<v SPEAKER_1>Jag vill bara fylla i att lite grann tycker jag att podd kan nästan användas lite grann som PR snarare.
-<v SPEAKER_1>Det spelar inte så stor roll vad man säger, men det blir en jävligt creditgrej i olika artiklar.
-<v SPEAKER_1>Jag tror att jag hade spelat in typ tio avsnitt och så började det när det kom upp på artiklar, så var det så att han driver också podden Mixed with the Stronger.
-<v SPEAKER_1>Du menar den podden som har typ tio lyssnare, du fattar väl att det är typ de på företag som lyssnar på detta, det är ingen som lyssnar på detta.
-<v SPEAKER_1>Och så växer det med tiden så det blir lite självuppfyllande profetia att folk tror att det är stort för att det är stort och så blir det större.
-<v SPEAKER_1>Så är det ju.
-<v SPEAKER_1>Och sen en annan grej om man nu ska starta en podd som jag tycker är viktig är att det är nästan aldrig de gästerna man tror ska driva lyssnare som driver lyssnare.
-<v SPEAKER_1>De avsnitten som har flest lyssnare hos oss är ofta helt random människor som inte syns så jävla mycket eller hörs så jävla mycket och som verkligen, de får verkligen genomslag i sina nischer.
-<v SPEAKER_1>Det är jävligt kul faktiskt.
-<v SPEAKER_1>Vilket är ditt bästa avsnitt?
-<v SPEAKER_1>Ja det är det första avsnittet med Styrke labbet, men det är för att vi har ju vår största följarbas inom träningskommunitet.
-<v SPEAKER_1>Så att även om jag skriver mycket på LinkedIn och sånt så är väl egentligen andra kanaler där som vi som företag hörs mest.
-<v SPEAKER_1>Och då pushade vi det där.
-<v SPEAKER_1>Men om man kollar på personer som jag har intervjuat såhär, alltså i E-handels...
-<v SPEAKER_1>När jag slutade att ha den som träningspodd har jag den med som E-handelsfolk.
-<v SPEAKER_1>Då var det Johan på gymgro sistem.
-<v SPEAKER_1>Oh nice!
-<v SPEAKER_1>Den matchade båda mångrupperna också, så det är för att de inte får dem.
-<v SPEAKER_1>Det var en ganska kul avsnitt.
-<v SPEAKER_1>Det är time-addering, det blev ju att många i vår bransch också lyssnade på det såklart.
-<v SPEAKER_1>Ja, men jag håller med att det inte är de avsnitt jag förväntar mig som ska ha mest lyssnare, som har de mesta lyssnarna.
-<v SPEAKER_1>Jag trodde ju att folk skulle ha mest intressant att lyssna på E-handlare, men topp tre är ju leverantörer som är E-handlare på podd.
-<v SPEAKER_1>Jag tror att det är Jorge Castro, IG Agency och Heimar från Add Relevance, bland alltihop om det är Add Relevance eller Add Revenue.
-<v SPEAKER_1>Jag tror att det är Add Relevance.
-<v SPEAKER_1>Ja, Add Relevance är de som vi gör för marknadsföring.
-<v SPEAKER_1>Add Relevance är Heimar.
-<v SPEAKER_1>Förlåt Heimar om du lyssnar på detta.
-<v SPEAKER_1>Jag blandar alltid upp det.
-<v SPEAKER_1>Jag har försökt i ett år och kommer ihåg skillnad här, men det är okej, vi kan göra en shout out till dem att vi är också en liten kund där.
-<v SPEAKER_1>Sen använder vi fler ställen, men Heimar kan få en shout out att Add Revenue heter dem.
-<v SPEAKER_1>Exakt, Add Revenue.
-<v SPEAKER_1>Det är ju rimligt ändå, för ettan är ju en handbok inom SEO, andra är allt om Shopify så är det lyckas med affiliate marketing.
-<v SPEAKER_1>Så vårt podd handlar mycket om att man ska lära sig om någonting.
-<v SPEAKER_1>Misha, har jag makt?
-<v SPEAKER_1>Då är det som mest, då är det många lyssnare på det.
-<v SPEAKER_1>Jag skulle helst, jag ska inte ställa den frågan som sista, men jag hade velat fråga vem var den isärklass tråkigaste poddgästen?
-<v SPEAKER_1>Vem tyckte du verkligen?
-<v SPEAKER_1>Men jag lämnar den frågan och så stänger vi av och så tar vi fem minuter och pratar om det.
-<v SPEAKER_1>Vi gör det sen, vi kan ta det sen.
-<v SPEAKER_1>Det kommer att vara ett stort jävla inlägg på e-handel.se.
-<v SPEAKER_1>Sebastian Trash Taker X.
-<v SPEAKER_1>Stort tack för att du var med för den Sebastian.
-<v SPEAKER_1>Tack så jättemycket Joel.
-<v SPEAKER_1>Kul att du var en vän och gästa.
-<v SPEAKER_1>Ni, vi och E-Commerce Success borde inte bara vi tre mötas, bara köra en fight och så ser vi vem som går vinnande ur fighten på något sätt.
+<v SPEAKER_2>Jag skulle säga att Kristoffer är ju mer den nördiga kille som illa och nördar ner sig från allt från system till hur vi bygger upp bolaget till hur vi jobbar med kunderna.
+<v SPEAKER_2>Allting ska dokumenteras och finnas en plan bakom.
+<v SPEAKER_2>Så att allting ska enkelt systematiskt kunna skötas på liknande sätt även om strategin är väldigt olika.
+<v SPEAKER_2>Jag är mer, jag skulle säga, kreativ.
+<v SPEAKER_2>Jag älskar att nörda ner mig när det gäller bolagsstrategi, först analysera, behovsanalys, kundrelation, du ser mig på event ganska ofta också.
+<v SPEAKER_2>Jag är mer utåt.
+<v SPEAKER_2>Många som känner till extent marketing har ju, träffar ju mig lite mer regelbundet jämfört med Kristoffer.
+<v SPEAKER_2>Så vi kompletterar med en jäkligt bra, vilket vi inte trodde för vi var ju kompisar innan både jobb och retail.
+<v SPEAKER_2>Sedan startade vi bolaget mest för att vi ville lära oss marknadsföring.
+<v SPEAKER_2>Det var egentligen där vi kom ifrån.
+<v SPEAKER_2>Men vi kompletterar med en väldigt bra på många olika sätt.
+<v SPEAKER_2>Han jobbar mycket med utbildande av personal, han jobbar mycket med att bygga systemen, kring hur vi ska jobba genom olika verktygen, dokumentera allt, vilka teknologier jobbar vi med.
+<v SPEAKER_2>Men jag jobbar med resten.
+<v SPEAKER_2>Partnerskap, strategi på kundnivå, behovsanalys och kundrelation.
+<v SPEAKER_2>Kan du ge mig lite storyn när ni började då?
+<v SPEAKER_2>Absolut.
+<v SPEAKER_2>Det var runt sju år sedan.
+<v SPEAKER_2>Jävlar, jag vet inte hur det går fort.
+<v SPEAKER_2>Vi båda är fortsatt några polare.
+<v SPEAKER_2>Men nu är vi mer som syskon.
+<v SPEAKER_2>Vi träffas ju hela tiden och bråkar om allt, diskuterar allt.
+<v SPEAKER_2>Men back in the day så var vi jättebra kompisar.
+<v SPEAKER_2>Vi umgicks väldigt mycket och vi både ville driva eget på något sätt.
+<v SPEAKER_2>Och så märkte vi att bästa sättet att lära oss driva eget var att lära oss marknadsföring som grunden.
+<v SPEAKER_2>För det spelar ingen roll vad vi än gör i framtiden.
+<v SPEAKER_2>Marknadsföring är ett väldigt bra sätt att implementera det.
+<v SPEAKER_2>Så då startade vi upp ett handelsbolag, kostade 800 kronor.
+<v SPEAKER_2>Vi jobbade egentligen rent provisionsbaserat med nystartade bolag som vi tyckte var häftiga.
+<v SPEAKER_2>Så då köpte vi lister från alla bolag och så hörde vi av oss till alla.
+<v SPEAKER_2>Det var så jäkla opraktiskt.
+<v SPEAKER_2>Då fick man ju printlister med 50 sidor och så bara kontakten vi, kontakten vi, kontakten vi, kontakten vi.
+<v SPEAKER_2>Så in i helskott där ineffektivt.
+<v SPEAKER_2>Men två år in iallafall att göra det, samtidigt som jag gick en säljhusbildning på för många timmar i veckan, så började vi tjäna pengar.
+<v SPEAKER_2>Och då märkte vi att vi kanske borde ta det här lite mer seriöst faktiskt.
+<v SPEAKER_2>Vi kände oss mer kompetenta.
+<v SPEAKER_2>Då var det också mycket performance marketing och e-mail.
+<v SPEAKER_2>Och det var liksom så vi växte.
+<v SPEAKER_2>Så två år in började vi tjäna pengar, sen så var det aktiebolag, vilket blev extend marketing.
+<v SPEAKER_2>Och sen sakta men säkert blev det e-handel, för om en slump.
+<v SPEAKER_2>Vi jobbade mycket med hotell bland sin innan.
+<v SPEAKER_2>Vi kom in i pandemin.
+<v SPEAKER_2>Hotell var inte jättepopulärt under pandemin, om man säger så.
+<v SPEAKER_2>Och sen så började vi signera mer och mer e-handelskunder.
+<v SPEAKER_2>Vilket är egentligen grunden till att vi har blivit en e-handelsbyro.
+<v SPEAKER_2>Så vi har märkt att det där finns störst traction.
+<v SPEAKER_2>Och sen så märkte vi att performance är oftast det bolaget är bra på.
+<v SPEAKER_2>Men det är väldigt få bolag som har koll på sin kundbas.
+<v SPEAKER_2>Det är väldigt få bolag som vet egentligen vilka kunder är lönsamma.
+<v SPEAKER_2>Vilka kunder köper igen.
+<v SPEAKER_2>Hur ska man kommunicera till de olika kunderna.
+<v SPEAKER_2>Och vid marknaden i UK, USA, då finns det CRM-böror överallt.
+<v SPEAKER_2>I Sverige finns det, jag skulle kunna räkna på, både mina händer för att se hur många nischade CRM-böror det finns därute.
+<v SPEAKER_2>Och då valde vi egentligen att köp privaten att gå från performance och CRM till nästan bara att pusera.
+<v SPEAKER_2>Vilket är det där vi i dag egentligen.
+<v SPEAKER_2>Jag köper verkligen det resonemanget.
+<v SPEAKER_2>Vi är ju ett av de svarta hålet inom CRM-arbete.
+<v SPEAKER_2>Du har inte börjat nu lite enda.
+<v SPEAKER_2>Du säger det till exempel men när folk säger så ja men ni har börjat skicka nyhetsbrev.
+<v SPEAKER_2>Ja vi har skickat tre senast året.
+<v SPEAKER_2>Det är en som var nu börjar vi med nyhetsbrev.
+<v SPEAKER_2>Så vi har skickat två nyhetsbrev som är nyhetsbrev.
+<v SPEAKER_2>Säljer jag en bra eller?
+<v SPEAKER_2>Nej jag vet inte, vi har liksom inte lagt någon statistik på det.
+<v SPEAKER_2>Nej jag fattar.
+<v SPEAKER_2>Hur jag köper att folk är duktiga på det här eller dåliga på det här med CRM-arbete.
+<v SPEAKER_2>Skulle du kunna liksom ge mig någon sorts kort masterclass eller kort förklaring i vad det egentligen innebär eller vad?
+<v SPEAKER_2>När jag tänker CRM-arbete, då tänker jag ju typ folk skickar sms och det är jobbigt.
+<v SPEAKER_2>När du tänker CRM-arbete, vad betyder det för dig och vad tycker du att det innebär?
+<v SPEAKER_2>Jättebra och det är som du säger, många tycker.
+<v SPEAKER_2>Fan vad du steppade upp nu.
+<v SPEAKER_2>Jag bara såg på hela ditt kroppsspråk hur du bara gick igång nu.
+<v SPEAKER_2>Nu försvann den flumiga Sebastian.
+<v SPEAKER_2>Nu blev du seriös.
+<v SPEAKER_2>Det var, nu är det nästan synd att vi inte har video.
+<v SPEAKER_2>För helvete vilken steppa du blev.
+<v SPEAKER_2>Du gick från bakåtlutad skrattande till någon sorts, jag ska inte säga psykopat Janne men jag såg att glöden tändes.
+<v SPEAKER_2>Nu är du igång.
+<v SPEAKER_2>Detta var ditt universum.
+<v SPEAKER_2>Men det är det jag bryr mig för.
+<v SPEAKER_2>Jag skulle säga att många använder ju CRM på fel sätt.
+<v SPEAKER_2>That's it.
+<v SPEAKER_2>Och jag skulle säga att om vi kollar egentligen vad CRM är, det är det enda sättet där du äger din egen, där du äger all kunddata själv.
+<v SPEAKER_2>Jämför man med performance marketing, jämför man med all SEO, jämför du med kunder på sajten, du äger inte datan.
+<v SPEAKER_2>Så om vi tar generella bolaget, man sitter i Klavio, då får du in allt form av köpdata in i ett CRM.
+<v SPEAKER_2>CRM står för gastro-relationship management, vilket är ganska brett, det finns cell, det finns e-commerce.
+<v SPEAKER_2>Vi fokuserar mer på e-handelsdelen.
+<v SPEAKER_2>Men vi kan se vad kunden har köpt, när kunden har köpt det.
+<v SPEAKER_2>Vi kan se vad kunden har kollat på på sajten.
+<v SPEAKER_2>Baserat på det vill vi kommunicera till kunden på olika sätt.
+<v SPEAKER_2>Här är också misstaget att många ser bara CRM som ett sätt att skicka mail och sms.
+<v SPEAKER_2>Om man kollar på det bästa bolaget i Sverige, tar vi Kix, bygg Hemma.
+<v SPEAKER_2>De jobbar ju allt från on-site personalisering, vad jag ser på datorn de har i CRM, så att de vet vem kunderna som kommer till sajten.
+<v SPEAKER_2>De säljer banners för retailmedia, efter vad kunden faktiskt tycker om.
+<v SPEAKER_2>De jobbar med automationer, bara ser på vad kunderna har köpt, så att vi presenterar liknande kategorier, kompletterande kategorier.
+<v SPEAKER_2>Och så bygger man en kundresa.
+<v SPEAKER_2>Det ser jag minkligen är bra på, det är när du har byggt upp en tillräckligt hög omsättning, så att du har ett värde att kolla på hur kan vi få kunderna att faktiskt bli mer lojala till oss, genom att vi är lojala till dem.
+<v SPEAKER_2>Då kan vi faktiskt kolla på hur kan vi öka återköpsgraden.
+<v SPEAKER_2>I vissa fall så är det ju sällarköpsvaror, då är det mer att kolla på, om det finns ett värde att kommunicera efter köp för att få kunderna att rekommendera vårt bolag till andra, är det att vi vill få dem att köpa kompletterande kategorier längre fram.
+<v SPEAKER_2>Medan om det finns exempelvis huvudvårdkosmetika, då är det väldigt mycket att vi vill få kunderna att fylla på igen.
+<v SPEAKER_2>Det handlar om att anpassa strategin efter ett bolag, försöka se vad är det för värde vi kan skapa, kan vi få kunderna att dela med sig om vad de gör för att det är en del av bolaget.
+<v SPEAKER_2>Ta man ner exempelvis, det skulle vara jävligt kul, det är om kunderna skickar bilder på hur de har byggt gymmet exempelvis hemma för att man ska få mer content i produktsidorna.
+<v SPEAKER_2>Plötsligt blir det ett väldigt enkelt sätt att man blir en del av bolaget snarare än att man bara är en kund som köper.
+<v SPEAKER_2>Det är det som ser en bäst på.
+<v SPEAKER_2>Många av våra kunder exempelvis jobbar jättemycket med att få in bilder genom ett system som Flowbox, att kunder skickar in för att de kan vara med och delta om att vinna ett presentkort.
+<v SPEAKER_2>Sen använder vi det i meta-ads för att öka nykundsaskattning genom eget content.
+<v SPEAKER_2>Sen är det ganska brett men om man ska gå igenom kortfattat, det är för att försöka skapa återkommande kunder och löja av kunder.
+<v SPEAKER_2>Du sa det här att många tänker nyhetsbrev och du pratade mer om att få, vad ska vi säga, att det handlar om då, men det handlar om att bygga någon sorts förtroende hos kunder när man får in mycket bilder från andra kunder och man bygger en sorts känsla av vad det är på det.
+<v SPEAKER_2>Så det är egentligen inte nyhetsbrev eller liknande.
+<v SPEAKER_2>Om man ska börja inom CRM, vilka är de lägst hängande frukterna?
+<v SPEAKER_2>Vad är det man måste få på plats om man ska ens vara acceptabel?
+<v SPEAKER_2>Steg ett är att kolla om integrationen funkar till CRM.
+<v SPEAKER_2>Det är det steg ett är.
+<v SPEAKER_2>Jag sitter och gör, jag har säkert gjort över 500 adits på olika konton.
+<v SPEAKER_2>Säkert 20% får inte in all data korrekt.
+<v SPEAKER_2>Det kan vara så enkelt att du inte får in all data alls.
+<v SPEAKER_2>Jag hade ett möte med ett bolag som omstod runt en halv miljard ganska nyligen.
+<v SPEAKER_2>Så loggade vi in i deras system och så får de inte in köpdata.
+<v SPEAKER_2>Det är steg ett.
+<v SPEAKER_2>Få in datan korrekt.
+<v SPEAKER_2>Få in orderdata.
+<v SPEAKER_2>Datumet korrekt.
+<v SPEAKER_2>Få in kategoristrukturen på köporder.
+<v SPEAKER_2>Den datan sitter ju i konvertplattformen.
+<v SPEAKER_2>Så det är bara att integrationen ska funka.
+<v SPEAKER_2>När det funkar, då handlar det om att, jag skulle säga att välkom serie, post purchase, win back över en vargkorg.
+<v SPEAKER_2>Det är väl de fyra automationerna jag skulle börja med.
+<v SPEAKER_2>Men vad många är fel där är att man kanske har en komplex produkt.
+<v SPEAKER_2>Men man kommunicerar som det vore en DTC-handel som säljer t-shirts.
+<v SPEAKER_2>Kan du förklara det lite för mig?
+<v SPEAKER_2>Vad menar du då?
+<v SPEAKER_2>Om du säljer t-shirts, det finns absolut mycket du kan trycka på efter köp.
+<v SPEAKER_2>Men om du säljer, ska vi ta din bransch exempelvis, säljer man gymprodukter, då finns det så jäkla mycket annan kommunikation man vill pusha på efter en order.
+<v SPEAKER_2>Du kanske vill kommunicera, vad bör du tänka på när du bygger upp gymmet?
+<v SPEAKER_2>Du kanske vill kommunicera, vad finns det för olika misstag kunde jag göra när man gör där hemma?
+<v SPEAKER_2>Du kanske vill kommunicera leveransdatum, när bör det komma fram?
+<v SPEAKER_2>En post purchase ska inte vara lika för alla.
+<v SPEAKER_2>Det handlar om att anpassa en post purchase efter bolaget.
+<v SPEAKER_2>Och desto mer komplext produkt man har, desto viktigare är ju att efterköpskommunikationen är bra.
+<v SPEAKER_2>Så det är det vi brukar kolla på.
+<v SPEAKER_2>Sen handlar det bara om att vi vill skapa värde efter en order till kunden så att de potentiellt vill komma och köpa igen.
+<v SPEAKER_2>Allt handlar om att identifiera vad för värde vi kan skapa för kunden.
+<v SPEAKER_2>Är det direkt att vi vill pusha på att man ska köpa något nytt eller är det mer att vi faktiskt guiderar kunden vidare för att han ska bli nöjd efter order?
+<v SPEAKER_2>Handlar CRM aldrig om att bygga smidighet för första kunden.
+<v SPEAKER_2>Någonstans när man samlar in massa bilder och liksom förtroende från andra kunder, det är nästan mer ett köp mot första-gångskunder eller?
+<v SPEAKER_2>Ja, men skiter man i det.
+<v SPEAKER_2>Om jag förstår din fråga korrekt, att det handlar mer om att få första-gångskunder och blandargångskunder, är det det du menar eller?
+<v SPEAKER_2>Ja, exakt.
+<v SPEAKER_2>Jag skulle säga att det är oftast det folk är dåliga på.
+<v SPEAKER_2>Det är oftast det jag försöker prata om.
+<v SPEAKER_2>Det handlar om att sätta grunden först.
+<v SPEAKER_2>Bygger du ett hus så börjar du inte bygga våning nio.
+<v SPEAKER_2>Du börjar med våning ett, våning två och så vidare.
+<v SPEAKER_2>Det är oftast där många gör misstaget att man tänker för långt fram i kundresan.
+<v SPEAKER_2>Ja, det är värt att utveckla andra 3D-
+<v SPEAKER_2>och 50-gångsköpskommunikation.
+<v SPEAKER_2>För det första, om du ser att datan visar att det är rimligt, vi kollar mycket på återköpsgrad.
+<v SPEAKER_2>Om ditt bolagssnitt har ett återköpsgrad på 1,1 då är det inte värt att kanske optimera för 3D-gångsköpare.
+<v SPEAKER_2>Då är det snarare problem att hur får vi förståndsköpare blandgångsköpare?
+<v SPEAKER_2>Om din data visar att vi inte var avsnittkunde köpa på 3,7 gånger.
+<v SPEAKER_2>Då bör det kanske segmentera vilka som gör det.
+<v SPEAKER_2>Vad är det som gör att de gör det?
+<v SPEAKER_2>Varför köpa en kund en gång och aldrig köpa igen?
+<v SPEAKER_2>Är det kategorinivå?
+<v SPEAKER_2>Är det på vissa produkter?
+<v SPEAKER_2>Är det en viss typ av kund?
+<v SPEAKER_2>Och så får man se över hur man ska optimera kunderna efter det.
+<v SPEAKER_2>Oftast är det att många har ett problem att de får köpa en kund men de handlar aldrig igen.
+<v SPEAKER_2>Det är 90% av alla enare att prata med.
+<v SPEAKER_2>Så det är oftast den delen man bör naila först.
+<v SPEAKER_2>Ni gör något event som jag har sett någon gång per år.
+<v SPEAKER_2>Det handlar någonting om vem som har bästa personaliseringsresan eller något sånt.
+<v SPEAKER_2>Visst har ni något sånt event?
+<v SPEAKER_2>Önska det var vårt event, det hade varit jävligt nice.
+<v SPEAKER_2>Men det är ett nytt kyrkor vi har det, har du varit på det?
+<v SPEAKER_2>Nej men jag har sett, du har väl lagt upp någon post om den någon gång.
+<v SPEAKER_2>Och jag vill minnas att Kix vann förra året eller något sånt.
+<v SPEAKER_2>Du sa Kix här förut så därför kommer jag att tänka på det här.
+<v SPEAKER_2>Ja exakt.
+<v SPEAKER_2>Vad är det de gör så jävla bra då?
+<v SPEAKER_2>Vad är det vi andra kan lära oss av dem?
+<v SPEAKER_2>Jag hänger inte på Kix annars liksom.
+<v SPEAKER_2>Jag tycker Kix har gjort det väldigt bra.
+<v SPEAKER_2>Men sen skulle jag säga att om man har en inspirationsmotor att bli som Kix då och kolla på fler bolag.
+<v SPEAKER_2>Okej vilka ska man kolla på då?
+<v SPEAKER_2>Bra fråga.
+<v SPEAKER_2>Vi kan börja med vad Kix gör bra.
+<v SPEAKER_2>Det kan vara, det är ju först och främst Kix har ju kopplats samman alla system vilket är egentligen det som CRM handlar om från mitt perspektiv.
+<v SPEAKER_2>De kopplar i butik, e-handel, in i ett CRM, om jag minns rätt vad jag har då.
+<v SPEAKER_2>Och sen så bara se att någon kunde köpa i butik eller om de köper på e-handel.
+<v SPEAKER_2>Segmenteras de efter det.
+<v SPEAKER_2>Det är en grundläggande segmentering.
+<v SPEAKER_2>Och där kan man inspireras av.
+<v SPEAKER_2>Har du butik och e-handel, då bör du vilja veta vilka köper du butik kan, vilka köper e-handel.
+<v SPEAKER_2>Och framför allt var på folk bor, de nära din butik men köper på webben, är det värt att pusha dem att köpa i butika.
+<v SPEAKER_2>De har ju en kundklubb med olika poäng.
+<v SPEAKER_2>Community är ju mer för folk som faktiskt vill bli en del och de lägger upp bilder och chatta med andra människor.
+<v SPEAKER_2>Så de har ju skapat sig ett forum i Kix och det kommer de över till väldigt få.
+<v SPEAKER_2>För att skapa ett forum, då måste det vara personal som är tillräckligt engagerade och lägger tid på det.
+<v SPEAKER_2>Och sen måste det vara tillräckligt många som har varit med.
+<v SPEAKER_2>Och det är det de har lyckats med vilket är jättehäftigt.
+<v SPEAKER_2>Det är ett erbjuditaks liksom.
+<v SPEAKER_2>Jag känner ju Cidri som har byggt upp det här, han är skitgrym.
+<v SPEAKER_2>Men sen gör de ju väldigt hyperpersonaliserade saker.
+<v SPEAKER_2>En sak om du går med i kundklubben är att du laddar upp en bild på din profil.
+<v SPEAKER_2>Då kan någon mäta din hudton.
+<v SPEAKER_2>De kan se vart du bor i Sverige.
+<v SPEAKER_2>Och sen kombinera produktrekommendationer on-site efter din hudton plus luftfuktighet i området.
+<v SPEAKER_2>Det är high tech shit.
+<v SPEAKER_2>Det är värt att inspireras av, men är man en standarde-handlare?
+<v SPEAKER_2>Nej, kanske inte riktigt.
+<v SPEAKER_2>Det hade varit jävligt kul att göra någon sorts udda variant på det.
+<v SPEAKER_2>Om folk laddar upp en bild på gymkompaniiet där de står och spänner sig och så får de ett ljud baserat på hur starka de ser ut, så blir det såhär.
+<v SPEAKER_2>Hahaha, ja det är väldigt roligt.
+<v SPEAKER_2>Ja, nej.
+<v SPEAKER_2>Okej, men Kicks har ju också marknaden för det.
+<v SPEAKER_2>De har ju en marknad som är höga engagerad och där man gör många återköp och där man tycker om att visa upp och förändra och ställa frågor.
+<v SPEAKER_2>Och prata med varandra och de har en bred grupp.
+<v SPEAKER_2>Men har du något exempel på ett företag som är mer, vad ska man kalla det då, mer åt vitvaror och dammsugare.
+<v SPEAKER_2>Finns det något tråkigt varumärke som gör det här bra?
+<v SPEAKER_2>Riktigt jävla tråkigt.
+<v SPEAKER_2>Måste tänka.
+<v SPEAKER_2>Nu snackar vi väldigt sällan köpsvaror.
+<v SPEAKER_2>Eller framförallt osexig bransch.
+<v SPEAKER_2>Hmm, osexig bransch.
+<v SPEAKER_2>Men fan, tunnelväxthus, det är väl inte sällan sexigt eller?
+<v SPEAKER_2>Nej.
+<v SPEAKER_2>Nej, men det är väl inte så coolt.
+<v SPEAKER_2>Nej men det är inte jättekul.
+<v SPEAKER_2>Alltså, om någon sitter här och tänker, va då det är skit på allt, jag älskar odla.
+<v SPEAKER_2>Ja, det är kul att göra det men jag tror inte att det är den sexigaste branschen.
+<v SPEAKER_2>Vi satte upp tunnelväxthus-CRM-strategi på ett år och utvecklade deras kundkommunikation.
+<v SPEAKER_2>Där handlar det inte om att fokusera på kategorierna utan att kolla på, det jag identifierade först med Daniel, det var vad finns det för målgrupper.
+<v SPEAKER_2>För det var ganska enkelt att förstå för han hade det koll väldigt mycket på kundsegment och då sa han, men vad har ni för målgrupper då?
+<v SPEAKER_2>Det finns tre olika målgrupper som köper från oss.
+<v SPEAKER_2>Ena är de traditionella trädgårdsodlare.
+<v SPEAKER_2>Trädgårdsodlare i de som har oftast ett hus eller ett landställe om man odlar själv.
+<v SPEAKER_2>Det är lite svårare än så.
+<v SPEAKER_2>Sen har vi yrkesodlare.
+<v SPEAKER_2>Yrkesodlare köper in större volymer, stora tunnelväxthus, de köper...
+<v SPEAKER_2>Vad heter det?
+<v SPEAKER_2>Växthus i alla fall.
+<v SPEAKER_2>De köper volym.
+<v SPEAKER_2>Väldigt stor volym behöver oftast allt paketerat anpassade efter dem.
+<v SPEAKER_2>Sen har vi en tredje, jag brukar kalla den Södermalman.
+<v SPEAKER_2>Det är den som bor på Södermalm och gillar att ha lite odling på balkongen.
+<v SPEAKER_2>Det finns ingen yta men man gillar ändå att odla.
+<v SPEAKER_2>Om vi vet att de tre mordgrupperna har, då är det värt att kolla på kan vi redan från sign-up-automatik om de får en rabattkod och klicka i vilken kund de är.
+<v SPEAKER_2>Så kan vi anpassa all kommunikation i framtiden efter det.
+<v SPEAKER_2>Det är vad de gjorde.
+<v SPEAKER_2>Där handlar det väldigt mycket om att få in datan från sign-up.
+<v SPEAKER_2>Men också i köpdata kan vi segmentera.
+<v SPEAKER_2>Ett tunnelväxthus som är jättestort är till 85 procent garanti en yrkesordare.
+<v SPEAKER_2>Det kan man också se på mailadressen, att det är ett BTB-mailadress.
+<v SPEAKER_2>Vi kan få in det i check-outen.
+<v SPEAKER_2>Om man köper bara massa små produkter, men man köper alldeles växthus, då är det troligen en privat person som ofta bor i stan.
+<v SPEAKER_2>Man kan också se det på postnummer, man kan se det på adress.
+<v SPEAKER_2>Köper man, om man inte är inom de kategorierna, då är det troligen ett reko-ordnare.
+<v SPEAKER_2>Och så kan vi anpassa kommunikationen.
+<v SPEAKER_2>Då sätter vi upp automationer på post-purchase, tipsar hur de kan odla, vad börjar de tänka på.
+<v SPEAKER_2>Vi skickar videos där man kan klicka, och så får man guidelines på hur du bör fixa trädgården inför vården.
+<v SPEAKER_2>Så där handlar det ju bara om hur vi kan behandla kunder, hur de är behandlade.
+<v SPEAKER_2>Och så ger vi dem relevant kommunikation, allt efter det.
+<v SPEAKER_2>Jag älskar det exemplet, för det är också jävligt tydligt på vad man vill se för sortiment på hemsidan.
+<v SPEAKER_2>Om jag ska odla lite tomater på balkongen, så vill jag inte se växthus för 95 000.
+<v SPEAKER_2>Och det kommer bara göra att jag känner mig weird.
+<v SPEAKER_2>Och är jag en professionell odlare och jag ser en sån där liten jävla spade för 19 spänn som har ett hjärta på sig, så kommer jag tänka att det här är en jävla skit i handel.
+<v SPEAKER_2>Den är liksom gjord för privatpersoner, jag vill ha riktiga grejer.
+<v SPEAKER_2>Jag köper den.
+<v SPEAKER_2>Den funkar till urinier och mer också.
+<v SPEAKER_2>Alla har ju inte ytan av ett stort jävla gym hemma.
+<v SPEAKER_2>Så klart, vi har ju jätteolika, alltså vårt billigaste löpande, vad kostar det?
+<v SPEAKER_2>5 000 och det dyraste kostar 180 000.
+<v SPEAKER_2>Det är en jävla skillnad på kundgruppen där.
+<v SPEAKER_2>Men jag tänkte fråga en annan grej.
+<v SPEAKER_2>Vi sågs en gång och drack kaffe i Göteborg.
+<v SPEAKER_2>Ja, exakt.
+<v SPEAKER_2>Och då, du hade typ dagen innan gjort något jävla test.
+<v SPEAKER_2>Jag minns bara att du var jävligt glad över det här testet.
+<v SPEAKER_2>Jag är lite nördig av det, jag vet.
+<v SPEAKER_2>Ja, men det var, jag kommer inte riktigt ihåg vad det handlar om, men det var typ ett lotteri eller det var att man skulle göra ett pussel på hemsidan eller någonting för att man skulle signa upp för ett nyhetsbredd.
+<v SPEAKER_2>Och du var så jävla nöjd över vilken konverteringsrate det fick.
+<v SPEAKER_2>Vill du berätta om vad det var?
+<v SPEAKER_2>Och framförallt, vill jag ha, alltså väldigt många jobbar med nyhetsbredd.
+<v SPEAKER_2>Skulle du kunna ge några tips på hur man får bra sign-up rate?
+<v SPEAKER_2>Ja, jag kan ju gå in på det caset.
+<v SPEAKER_2>Det var ett memory case vi gjorde med deckskiftarna och för att se vad det innebär.
+<v SPEAKER_2>Jag älskar att det var typ två år sedan och du minns ändå vad det handlar om.
+<v SPEAKER_2>Ja, men det är det.
+<v SPEAKER_2>Jag har kollat.
+<v SPEAKER_2>Det är ett sånt jävligt roligt caset.
+<v SPEAKER_2>Jag kommer alltid att vilja ha det.
+<v SPEAKER_2>Jag minns mycket av de roliga grejerna.
+<v SPEAKER_2>Det roliga är det som bäst är det.
+<v SPEAKER_2>Om jag minns rätt så ville vi tävla ut deckskifte och deckhotell till en eller tre år innan det, inför vintelsäsongen.
+<v SPEAKER_2>Då diskuterade vi om vi kan göra det bra.
+<v SPEAKER_2>Sen kom vi på att vi inte skulle göra ett memory onsite.
+<v SPEAKER_2>Memory är att man klickar på olika och matchar bilderna.
+<v SPEAKER_2>Då är det tre bilder som ska matcha.
+<v SPEAKER_2>Sen tar man tid på det och då gjorde vi det i Triggyby.
+<v SPEAKER_2>Sen gjorde vi ett A-B-test.
+<v SPEAKER_2>Först bara för att vi tänkt.
+<v SPEAKER_2>Teorin hos deckskifterna var att Stockholmare pallar inte hålla på med en räkla memory.
+<v SPEAKER_2>Det kommer inte att hända, det kommer att ta tid, det kommer att ta längre tid.
+<v SPEAKER_2>Man vill ju bara fylla i mailadressen och vara med och tävla.
+<v SPEAKER_2>Bra poäng, vi A-B-testade.
+<v SPEAKER_2>Så att ena var bara vinna gratis deckskift och deckhotell och tävla.
+<v SPEAKER_2>Okej, vi har ett vänligt värde upp till 750 kronor.
+<v SPEAKER_2>Mailadressen och sen postnummer och sen skicka in.
+<v SPEAKER_2>Det var ena.
+<v SPEAKER_2>Och den andra var det att för att vara med och tävla så måste du tävla i memory.
+<v SPEAKER_2>Och så märkte vi att efter två veckor vi skulle köra testet en månad, så hade vi fått upp 15 000 som inte sett ena pop-upen, 15 000 som inte sett andra pop-upen.
+<v SPEAKER_2>Och vi hade en response rate, att man gick genom hela stegen på vanliga sign-upen på 0,97%, vilket är ganska skit.
+<v SPEAKER_2>Men den andra var 3,4%.
+<v SPEAKER_2>Så det är ju mer än 350% som faktiskt var med och tävlade i memory.
+<v SPEAKER_2>Så vi bara skedde i A-B-testet och körde A-L in på memory, för vi fick mer än 350% mailadesser på det.
+<v SPEAKER_2>Och då är frågan varför hände det?
+<v SPEAKER_2>Jo men det är för att hjärnan är så ingrävd i gamification.
+<v SPEAKER_2>Och det markar man på webbkoppar nu, att kolla ur temet så är gamification överallt, men kolla i många andra, så är det ett spel och så är det mycket att tävla.
+<v SPEAKER_2>Och så ville vi kolla på alla städer.
+<v SPEAKER_2>Så vi har ju mappat, liksom i TriggerBee, efter sitt kod.
+<v SPEAKER_2>Och så såg vi att det spelar ingen roll vart det var.
+<v SPEAKER_2>Gamification var överpresterade än med vanliga sign-upen.
+<v SPEAKER_2>Så det är lite rolig case.
+<v SPEAKER_2>Kör ni det på alla sign-ups nu?
+<v SPEAKER_2>Är det liksom standard efter tiden?
+<v SPEAKER_2>Nej, absolut inte.
+<v SPEAKER_2>Alltså varför inte är för att gamification handlar om att du ska vinna någonting.
+<v SPEAKER_2>Vi har testat det.
+<v SPEAKER_2>Vi gör en vanlig sign-up med rabattkod.
+<v SPEAKER_2>Men vi marker typ ingen skillnad där.
+<v SPEAKER_2>Det är ungefär samma.
+<v SPEAKER_2>Och jag tror varför det är att en tävling måste vara att du vinner någonting.
+<v SPEAKER_2>Och att du får en chans att vinna.
+<v SPEAKER_2>Det här är min personliga åsikt.
+<v SPEAKER_2>Det betyder inte att det stämmer.
+<v SPEAKER_2>Men vi marker störst skillnad när du kan vara med och tävla om någonting.
+<v SPEAKER_2>Då är det större procentuellt chans att du faktiskt kommer att genomföra det.
+<v SPEAKER_2>Medan om du bara ska få en rabattkod eller att du ska få någonting mer på köpet, då är det bättre att bara göra ett snabbare sign-up där det går lättare att fylla i det.
+<v SPEAKER_2>Jag tänker att det är så krångligt att lotta ut någonting.
+<v SPEAKER_2>Det är väl bara att lägga en tusen i lära sig, folk lagar här.
+<v SPEAKER_2>Ja, det handlar om att det ska finnas ett värde.
+<v SPEAKER_2>I det här fallet var det ganska enkelt att bara för att få in möjliga adresser, att man ska vara med och tävla om att vinna DEC-skyster och DEC-hotell.
+<v SPEAKER_2>Det kan ju vara att man kan gå med och chans att vinna ett procent fort.
+<v SPEAKER_2>Men jag önskar att det alltid blir bättre, men nej, det gör det bara inte.
+<v SPEAKER_2>Så att data säger det.
+<v SPEAKER_2>Det kan ju också, man kan väl ha det sagt bara så att folk vet att vi inte är korkade.
+<v SPEAKER_2>I teorin skulle det också kunna vara så att de avsignar sen jävligt snabbt, så det måste inte vara svinbra.
+<v SPEAKER_2>Men det jag tänkte fråga var, har du några tips på hur man får, hur får man upp folk på att signa upp på sina nyhetsbrev och sina sådana där lister?
+<v SPEAKER_2>Att ge bort 30% marginal, nej, det givar jag bara.
+<v SPEAKER_2>Jag kommer klippa bort att du sa att du driver.
+<v SPEAKER_2>Jag skulle säga att, först och främst måste du identifiera varför du vill få in dem i signupen, och vad du ska kommunicera efter de gör det.
+<v SPEAKER_2>Om du bara vill ge bort marginal, det kan vara värt det, men de bästa casen när vi faktiskt har en hög signuprate, om du ska ge bort marginal på ditt första gångsköpare, då är det för att du vill få någonting tillbaka.
+<v SPEAKER_2>Det är oftast där det är bra.
+<v SPEAKER_2>Istället för att bara fokusera på hur vi ska maximera signupsgraden innan order, så finns det ett värde att kolla på, är det någonting vi kan få på data från kunden, så att vi kan lättare kommunicera till dem innan order, så vi hjälper dem att konvertera.
+<v SPEAKER_2>Det är ena delen.
+<v SPEAKER_2>Ska jag ta Nordic textile exempelvis, där gjorde vi liknande med tunnelväxthuset, att vi identifierade målgruppen och frågade, är du en DIY-kund som gillar att sy själv eller ha metervaror och fixa hemma, eller är du en klassisk inredningskund.
+<v SPEAKER_2>Då får vi någon form av data där vi kan hjälpa dig och guida den innan order, vilket ju ökar också chansen att kunden faktiskt vill signa upp sig.
+<v SPEAKER_2>Först måste man identifiera varför vi vill få så sjukt mycket mail och order, är det bara för att vi vill få in mail-adresser?
+<v SPEAKER_2>Är det för att vi vill hjälpa kunden att lägga en första order?
+<v SPEAKER_2>Sen kolla, är det någon data punkter vi kan samla för att hjälpa dem lättare att konvertera?
+<v SPEAKER_2>Inte för mycket fokus på rabatt.
+<v SPEAKER_2>Jag tycker att det är för många som slänger ut en skit stor rabattkod.
+<v SPEAKER_2>Det var något varumärke som svängde ut 30 procent rabatt i sign-upen.
+<v SPEAKER_2>Det första jag tänker då är att det visar hur jävla bra vinstmarginal du har, vilket förstör varumärketskänslan.
+<v SPEAKER_2>Så man ska absolut fokusera på en bra sign-uprate men det är inte det viktigaste skulle jag säga.
+<v SPEAKER_2>Jag köper den, jag tycker att det är ett bra tillägg.
+<v SPEAKER_2>Nu går jag tillbaka lite grann, nu hoppar vi hela den här grejen.
+<v SPEAKER_2>Men det är mest för att jag är nyfiken.
+<v SPEAKER_2>När ni drog igång er byrå, jag tänker att det är notoriskt svårt att starta byrå för att alla kommer att se på en med skepsism på något sätt.
+<v SPEAKER_2>Och speciellt om man är två unga killar.
+<v SPEAKER_2>Alltså vi får ju, om inte dagligen, så i alla fall varannan dag så hör ju någon jävla byrå av sig till oss och säger dem hej vi kan hjälpa er med XYZ.
+<v SPEAKER_2>Och det är alltid två unga killar som driver den där jävla byrån och så tänkte man det kommer inte hända.
+<v SPEAKER_2>Kan du komma ihåg?
+<v SPEAKER_2>Inutlandat.
+<v SPEAKER_2>Någonstans behöver man ju några referenskunder som driver de andra kunderna in.
+<v SPEAKER_2>Vilken var er första kund som du bara kände Yes!
+<v SPEAKER_2>Där kom den liksom.
+<v SPEAKER_2>Den här kunden bygger cred.
+<v SPEAKER_2>Kommer du ihåg det?
+<v SPEAKER_2>Jaja, 100%.
+<v SPEAKER_2>Jag skulle säga den största kunden som vi fick in som verkligen bara wow.
+<v SPEAKER_2>Det här är bra skit.
+<v SPEAKER_2>Det var när vi fick in The Buddy Shop som en kund till oss.
+<v SPEAKER_2>Och det var egentligen via en partner till oss som var i en process med dem.
+<v SPEAKER_2>Och de ville koppla samman egentligen deras butiker i Sverige, Danmark och Väben med CRM.
+<v SPEAKER_2>Så då hoppade det in i en del om och om.
+<v SPEAKER_2>Sen gick det mycket snabbare än jag trodde.
+<v SPEAKER_2>Sådana processer har jag fått ganska lång tid.
+<v SPEAKER_2>Men det kändes realistiskt när man har växt upp med The Buddy Shop.
+<v SPEAKER_2>Jag minns ju själv bara när man var barn och gick in i deras butiker, att jävlar, ska vi börja kolla på hur vi kan förbättra deras CRM lösning.
+<v SPEAKER_2>Hur långt är bakåt tiden i detta?
+<v SPEAKER_2>Det är inte längesen ens tror jag, det är typ två år sedan tror jag.
+<v SPEAKER_2>Tidsspektrumet för mig är inte jätteprofitt, det är som Decquiss, det kändes som ett halvår sedan men det var nog två år sedan.
+<v SPEAKER_2>Sen har vi haft mycket mer betydligande kunder som har kommit in under resan, som vi har jobbat mycket mer långsiktigt med.
+<v SPEAKER_2>Det här var mer ett one setup, vi kommer in och kopplar alla butiker, sätter upp regler, lojalitetsprogram, POS, CRM, det är ett sjukt roligt setup, jag kan inte gå in för mycket på detaljer på allt som är med, men det är absolut det största varumärket som vi har jobbat med.
+<v SPEAKER_2>Får du någonsin såhär imposter syndrome när du sitter i möten?
+<v SPEAKER_2>Fan vad betyder imposter syndrome?
+<v SPEAKER_2>Det är när man helt plötsligt bara känner att jag sitter och bara fejkar i kunskap nu.
+<v SPEAKER_2>Inte längre, back in the days då.
+<v SPEAKER_2>Jäklar vad man, det är ju det.
+<v SPEAKER_2>Vi slängtes ju in oss själva som någon form av byrå.
+<v SPEAKER_2>Man kan inte bara komma in till Särskan, Sebastian heter jag, nystartade, jag har inte gjort någonting innan.
+<v SPEAKER_2>Men jag tror att det är smartaste sättet att lära sig grejer.
+<v SPEAKER_2>Men nu så är det ju så att vi har ju valt aktivt att det är CRM-byrå med fokus på e-handlare och vi har jobbat med 20 kunder på löpande basis.
+<v SPEAKER_2>Jag skulle säga att vi gick hand så jäkla mycket nu, att det spelar nästan ingen roll vilka jag pratar med.
+<v SPEAKER_2>Det finns absolut några CRM-byrås därute som är svinduktiga, men jag känner väldigt sällan att vi har en kompetensbrist.
+<v SPEAKER_2>Jag tror inte att jag har känt det någonsin på något form av möte.
+<v SPEAKER_2>Snarare att jag har hoppat in i ett möte där jag sitter med CRM och köper ett skitsvårdbolag.
+<v SPEAKER_2>Och så frågar han mig hur kan ni hjälpa oss?
+<v SPEAKER_2>Och då säger jag att det kan inte jag svara på, jag måste ju kolla på vad ni gör.
+<v SPEAKER_2>Och så märker jag att de gör allt perfekt, skitbra, i alla fall om man kollar utåt.
+<v SPEAKER_2>Sen kan man gräva på kontot.
+<v SPEAKER_2>Och då är det inte värt att vi pratar för ni har den kompetensen in-house.
+<v SPEAKER_2>Men det är väl lite senare att jag känner att det är vi, att vi inte har någon form av imposter-syndom.
+<v SPEAKER_2>Nej, inte längre i fall vilket är så jävla gött.
+<v SPEAKER_2>Ja det förstår jag, vad härligt.
+<v SPEAKER_2>Jag kommer att köra några random frågor till för vi har några minuter som vi playar på här.
+<v SPEAKER_2>Du är på 98 procent av alla enadlösevänt.
+<v SPEAKER_2>Du kanske har missat ett senaste fyra år.
+<v SPEAKER_2>Om någon anledning springer jag alltid på dig först.
+<v SPEAKER_2>Så fort man kommer in genom ingången så är det alltid dig jag ser.
+<v SPEAKER_2>Det är fel.
+<v SPEAKER_2>Vilket event är bäst?
+<v SPEAKER_2>D-Congress.
+<v SPEAKER_2>Alltså?
+<v SPEAKER_2>Ja, men du är ju på D-Congress rätt ofta också va?
+<v SPEAKER_2>Jag har bara varit en gång, det var i år.
+<v SPEAKER_2>Va?
+<v SPEAKER_2>Ja, det var första gången jag var där.
+<v SPEAKER_2>Det känns som att du ser på alla event också, men då är det bara en inbildning att varje gång vi är på ett event så träffas vi direkt liksom.
+<v SPEAKER_2>Exakt.
+<v SPEAKER_2>Vad tycker du om D-Congress år?
+<v SPEAKER_2>Eeeh, eftersom jag aldrig varit där innan så har jag liksom bara den här att gå på, men det var ju sjukt mycket större än alla andra event.
+<v SPEAKER_2>Så att de har ju det.
+<v SPEAKER_2>Och sen så var det ju extremt mycket mer uppstyrt.
+<v SPEAKER_2>Alltså det, det ska jag inte ge Per för mycket cred här, men de har ju fan koll på läget.
+<v SPEAKER_2>Jag har gått och snackat på några event och det här eventet så fick man ju jävligt bra info inför, vad det gäller, vart ska du vara, vad ska du skicka in, vad ska du fokusera på.
+<v SPEAKER_2>Alltså så ser det inte alltid ut, ibland är det typ, du gick upp fem minuter innan, du kanske ska ha en presentation eller inte, och vi har inte sagt vad du ska prata om, så du får bara dyka upp det.
+<v SPEAKER_2>Ibland är det jävligt flummigt.
+<v SPEAKER_2>Det är professionellt på en helt annan nivå, och allting är uppstyrt, det finns tydliga sektioner, vem som ska vara vad.
+<v SPEAKER_2>Om man ska snacka, och jag gillar ofta bara setappen bakom, jag är väldigt mycket mer intresserad av logistiken och setappen, och där är de jävligt duktiga, det får man fan, ger de cred för alltså.
+<v SPEAKER_2>Det var väldigt kul att vara en del av det.
+<v SPEAKER_2>Men skit i det, jag ska inte ha åsikter i detta.
+<v SPEAKER_2>Nu...
+<v SPEAKER_2>Förlåt jag tar över poddposen.
+<v SPEAKER_2>Exakt, eller...
+<v SPEAKER_2>Vem är roligaste gästen ni har haft i podden, och vem är liksom mest värdeskapande?
+<v SPEAKER_2>När du säger, gå in och lyssna på vår podd, vilka två avsnitt brukar du rekommendera?
+<v SPEAKER_2>Du får inte säga Stefan Palm, för alla säger fan Stefan Palm.
+<v SPEAKER_2>Nej men, mest värdeskapande är ju Juri och Gjarno.
+<v SPEAKER_2>Eller, mest intressant, Juri och Gjarno, det är ett av våra senaste avsnitt, det är ju grundaren av Strongware och NAK, det är bland annat som har startat upp ett i mestan på lag, där de investerar i e-handlare.
+<v SPEAKER_2>Och det är mycket för att de har en sån jävla...
+<v SPEAKER_2>Alltså, hur många i Sverige har den bakgrunden, där man har så mycket bolag som man bara lyckats med, liksom omsätter fem miljarder i bara Tyskland, och att han går igenom systematiskt på faktiskt hur man skalar en business, särskilt med tanke på teknologin som finns idag, att gå från 50-100 miljoner omsättning till miljarder, att det går att systematisera i kombination med content-skapande, AI, hur man implementerar det.
+<v SPEAKER_2>Sen tycker jag fan, om man vill få ett bolag man kan relatera med som också är extremt värdeskapande och sjukbra, då är det Flowlife Lucas 100%.
+<v SPEAKER_2>Jättebra avsnitt, på grund av att man faktiskt kan förstå utifrån ett bolag där man kanske gick från att det går jävligt bra till att det går väldigt dåligt, och sen lyckas dupla i omsättning året efter bara för att man ger om hela strategin.
+<v SPEAKER_2>Och ett kartlägga var om man faktiskt gjorde för att lyckas med det.
+<v SPEAKER_2>Det är ju jäkligt, två avsnitt från mina favoriter, det är det garanterat.
+<v SPEAKER_2>Har du någon drömgäst som du vill få in?
+<v SPEAKER_2>Jag tycker att den här frågan är så jäkla svår.
+<v SPEAKER_2>Jag får den frågan ganska ofta.
+<v SPEAKER_2>Jag svarade på det på ett event, vilket var kul på Pindex.
+<v SPEAKER_2>Jag skulle vilja få gå in kicks, och små kicks på scenen.
+<v SPEAKER_2>Jag var utöver Ulrikhavn som spelade Winnepols i två timmar efter.
+<v SPEAKER_2>Vilket var jävligt tacksamt.
+<v SPEAKER_2>Det är en lite rolig story.
+<v SPEAKER_2>Sebastian från Klarna hade inte varit fel.
+<v SPEAKER_2>Det hade varit en kul gäst.
+<v SPEAKER_2>Han är ju alldeles upptagen dock, men lyssna på hans som jättegärna kommer.
+<v SPEAKER_2>Om han lyssnar på denna får den.
+<v SPEAKER_2>Klart där det gör, det är Joel.
+<v SPEAKER_2>En tusendels promilles tusendel.
+<v SPEAKER_2>Någon på Klarna då?
+<v SPEAKER_2>Okej, någon på Klarna.
+<v SPEAKER_2>Kommer någon jävla rat upp?
+<v SPEAKER_2>Jag lär ju snacka med semester i så fall.
+<v SPEAKER_2>Det är samma namn.
+<v SPEAKER_2>Jag tänkte att jag ska dyka upp någon random, någon som jobbade där för sju år sen som skiter fullständigt.
+<v SPEAKER_2>Det där har varit en askyll avsnitt.
+<v SPEAKER_2>En till, om man nu ska starta en podd, de flesta startar ju en podd och så driver de typ två avsnitt och så lägger de ner.
+<v SPEAKER_2>Funkar, nummer ett, vad är det man ska göra för att få lite traction och funkar det att driva podden?
+<v SPEAKER_2>Du har ju redan sagt att du får in lite kunder den här vägen.
+<v SPEAKER_2>Vad handlar det om?
+<v SPEAKER_2>Har du fått in en kund eller har du fått in tio kunder?
+<v SPEAKER_2>Inte tio, jag skulle vara jäkla vad jag tänker nu.
+<v SPEAKER_2>Många är indirekta, man har känt dem innan och varit polare med sen de gästa podden, sen har man väl snackat på partnerskap och business.
+<v SPEAKER_2>Jag skulle ha fyra kunder kanske via podden.
+<v SPEAKER_2>Det är ingen lits i en eringsaffär, så jag skulle säga att starta en podd gör inte för två kunder.
+<v SPEAKER_2>Det är helt fel sätt.
+<v SPEAKER_2>Gör det snarare ett för att du älskar det du ska prata om, och sen två för att du faktiskt har en långsiktig plan att fortsätta.
+<v SPEAKER_2>Starta inte en podd bara för att, ja men fan nu kör jag.
+<v SPEAKER_2>Det ska finnas en tanke att du ska ha tid att producera ett avsnitt ganska regelbundet för att annars blir inget bra och så skiter man i det.
+<v SPEAKER_2>Den regelbundna avsitten, det jag gjorde också, Stoffe, var att vi schema lagde tider varje vecka med kalender så att vi kan bara boka in det skitlätt.
+<v SPEAKER_2>Det är det bästa vi har gjort för då blir det ganska lätt att bara skicka en länk.
+<v SPEAKER_2>Länk boka in när du vill och sen vet du att det alltid har avstått i tre månader fram.
+<v SPEAKER_2>Men skapa inte en podd för att ha en liten e-affär.
+<v SPEAKER_2>Det är helt jäkla fel, det kommer inte funka och då kommer det inte vara intressant.
+<v SPEAKER_2>Alla kommer att se att du bara vill sitta och sälja.
+<v SPEAKER_2>Två, sälj inte i podden.
+<v SPEAKER_2>Det är andra grejen, jag tycker det är så jävla tråkigt när du sitter och som host själv säljer, jag tycker inte att jag outerpoddar, men det finns många poddar där de bara sitter och säljer sitt varumärke.
+<v SPEAKER_2>Det blir inget bra.
+<v SPEAKER_2>Och tre, baserat på vad du tycker och älskar att prata om, snacka om det i så fall.
+<v SPEAKER_2>Det kommer att märkas.
+<v SPEAKER_2>Alla är olika där, du Joel exempelvis, du är ju bara så jävla bra för att du tycker det är kul att snacka skit med otroligt intressanta människor.
+<v SPEAKER_2>Och om du älskar att snacka skit med människor, jag gör det då.
+<v SPEAKER_2>Och så länge man har någon form av nisch så är det kul att lyssna.
+<v SPEAKER_2>Det är ju underbart.
+<v SPEAKER_2>Ja, ibland får du ha avsnitt så att tänka, hur fan ska jag sammanfatta detta, jag har ju inte sagt någonting.
+<v SPEAKER_2>Detta kommer att bli ett sådant avsnitt.
+<v SPEAKER_2>Vi gick igenom tre minuter kunskap och resten var skitsnack.
+<v SPEAKER_2>Men det är kul.
+<v SPEAKER_2>Jag vill bara fylla i att lite grann tycker jag att podd kan nästan användas lite grann som PR snarare.
+<v SPEAKER_2>Det spelar inte så stor roll vad man säger, men det blir en jävligt creditgrej i olika artiklar.
+<v SPEAKER_2>Jag tror att jag hade spelat in typ tio avsnitt och så började det när det kom upp på artiklar, så var det så att han driver också podden Mixed with the Stronger.
+<v SPEAKER_2>Du menar den podden som har typ tio lyssnare, du fattar väl att det är typ de på företag som lyssnar på detta, det är ingen som lyssnar på detta.
+<v SPEAKER_2>Och så växer det med tiden så det blir lite självuppfyllande profetia att folk tror att det är stort för att det är stort och så blir det större.
+<v SPEAKER_2>Så är det ju.
+<v SPEAKER_2>Och sen en annan grej om man nu ska starta en podd som jag tycker är viktig är att det är nästan aldrig de gästerna man tror ska driva lyssnare som driver lyssnare.
+<v SPEAKER_2>De avsnitten som har flest lyssnare hos oss är ofta helt random människor som inte syns så jävla mycket eller hörs så jävla mycket och som verkligen, de får verkligen genomslag i sina nischer.
+<v SPEAKER_2>Det är jävligt kul faktiskt.
+<v SPEAKER_2>Vilket är ditt bästa avsnitt?
+<v SPEAKER_2>Ja det är det första avsnittet med Styrke labbet, men det är för att vi har ju vår största följarbas inom träningskommunitet.
+<v SPEAKER_2>Så att även om jag skriver mycket på LinkedIn och sånt så är väl egentligen andra kanaler där som vi som företag hörs mest.
+<v SPEAKER_2>Och då pushade vi det där.
+<v SPEAKER_2>Men om man kollar på personer som jag har intervjuat såhär, alltså i E-handels...
+<v SPEAKER_2>När jag slutade att ha den som träningspodd har jag den med som E-handelsfolk.
+<v SPEAKER_2>Då var det Johan på gymgro sistem.
+<v SPEAKER_2>Oh nice!
+<v SPEAKER_2>Den matchade båda mångrupperna också, så det är för att de inte får dem.
+<v SPEAKER_2>Det var en ganska kul avsnitt.
+<v SPEAKER_2>Det är time-addering, det blev ju att många i vår bransch också lyssnade på det såklart.
+<v SPEAKER_2>Ja, men jag håller med att det inte är de avsnitt jag förväntar mig som ska ha mest lyssnare, som har de mesta lyssnarna.
+<v SPEAKER_2>Jag trodde ju att folk skulle ha mest intressant att lyssna på E-handlare, men topp tre är ju leverantörer som är E-handlare på podd.
+<v SPEAKER_2>Jag tror att det är Jorge Castro, IG Agency och Heimar från Add Relevance, bland alltihop om det är Add Relevance eller Add Revenue.
+<v SPEAKER_2>Jag tror att det är Add Relevance.
+<v SPEAKER_2>Ja, Add Relevance är de som vi gör för marknadsföring.
+<v SPEAKER_2>Add Relevance är Heimar.
+<v SPEAKER_2>Förlåt Heimar om du lyssnar på detta.
+<v SPEAKER_2>Jag blandar alltid upp det.
+<v SPEAKER_2>Jag har försökt i ett år och kommer ihåg skillnad här, men det är okej, vi kan göra en shout out till dem att vi är också en liten kund där.
+<v SPEAKER_2>Sen använder vi fler ställen, men Heimar kan få en shout out att Add Revenue heter dem.
+<v SPEAKER_2>Exakt, Add Revenue.
+<v SPEAKER_2>Det är ju rimligt ändå, för ettan är ju en handbok inom SEO, andra är allt om Shopify så är det lyckas med affiliate marketing.
+<v SPEAKER_2>Så vårt podd handlar mycket om att man ska lära sig om någonting.
+<v SPEAKER_2>Misha, har jag makt?
+<v SPEAKER_2>Då är det som mest, då är det många lyssnare på det.
+<v SPEAKER_2>Jag skulle helst, jag ska inte ställa den frågan som sista, men jag hade velat fråga vem var den isärklass tråkigaste poddgästen?
+<v SPEAKER_2>Vem tyckte du verkligen?
+<v SPEAKER_2>Men jag lämnar den frågan och så stänger vi av och så tar vi fem minuter och pratar om det.
+<v SPEAKER_2>Vi gör det sen, vi kan ta det sen.
+<v SPEAKER_2>Det kommer att vara ett stort jävla inlägg på e-handel.se.
+<v SPEAKER_2>Sebastian Trash Taker X.
+<v SPEAKER_2>Stort tack för att du var med för den Sebastian.
+<v SPEAKER_2>Tack så jättemycket Joel.
+<v SPEAKER_2>Kul att du var en vän och gästa.
+<v SPEAKER_2>Ni, vi och E-Commerce Success borde inte bara vi tre mötas, bara köra en fight och så ser vi vem som går vinnande ur fighten på något sätt.
 
 ## Sebastian Sandlund - Medgrundare Bast Sauna. Från uppstartsresa till etableringsfas!
 <v SPEAKER_1>Vår strategi är att verkligen sätta kundeupplevelsen nummer ett och alltid som extra tri.
