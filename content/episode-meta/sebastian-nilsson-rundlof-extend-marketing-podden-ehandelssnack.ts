@@ -25,7 +25,8 @@ const episodeMeta = {
     "sign-up rate",
     "byråbygge",
     "podcast",
-    "D-Congress"
+    "D-Congress",
+    "Flowlife"
   ],
   entities: [
     "Sebastian Nilsson Rundlöf",
@@ -43,7 +44,9 @@ const episodeMeta = {
     "Nordic Textile",
     "D-Congress",
     "Spotify",
-    "Klarna"
+    "Klarna",
+    "Lucas Wasniewski",
+    "Flowlife"
   ],
   topicSeekSeconds: {
     "extend-marketing": 875,
@@ -64,7 +67,8 @@ const episodeMeta = {
     "sign-up-rate": 1611,
     "byrabygge": 1780,
     "podcast": 321,
-    "d-congress": 1969
+    "d-congress": 1969,
+    "flowlife": 2798
   },
   entitySeekSeconds: {
     "sebastian-nilsson-rundlof": 40,
@@ -82,7 +86,9 @@ const episodeMeta = {
     "nordic-textile": 1741,
     "d-congress": 1945,
     "spotify": 352,
-    "klarna": 2071
+    "klarna": 2071,
+    "lucas-wasniewski": 2798,
+    "flowlife": 2798
   },
   chapters: [
     {
