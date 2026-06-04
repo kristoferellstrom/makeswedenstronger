@@ -97,92 +97,92 @@ const episodeMeta = {
       summary: "Joel introducerar Sebastian och sätter ramen för ett avsnitt om byråbygge, e-handel och varför CRM har blivit en central del av många bolags tillväxtarbete."
     },
     {
-      start: "00:02",
+      start: "00:44",
       title: "Video, länk och hur podden spelas in",
       summary: "De pratar om att spela in live, hur videopoddar fungerar och varför vissa avsnitt blir bättre när gästen sitter i rummet och slappnar av efter en stund."
     },
     {
-      start: "00:05",
+      start: "05:42",
       title: "Vad E-handelssnack egentligen fokuserar på",
       summary: "Sebastian beskriver podden som en plats för e-handel men också för närliggande områden som AI, CRM och integrationer, medan Joel driver sin poäng om att han helst vill höra människors story."
     },
     {
-      start: "00:07",
+      start: "07:32",
       title: "Podden som varumärkesbygge och relationsmotor",
       summary: "Samtalet går in på varför podden finns, hur den bygger förtroende och hur den både ger kunder, insikter och ett sätt att förstå framgångsrika människor på djupet."
     },
     {
-      start: "00:14",
+      start: "13:57",
       title: "Kristoffer, rollerna och hur byrån startade",
       summary: "Sebastian berättar vem Kristoffer är, hur de kompletterar varandra och hur de gick från ett enkelt handelsbolag och kalla listor till ett mer seriöst företag med tydligare ansvar."
     },
     {
-      start: "00:17",
+      start: "15:17",
       title: "Från performance marketing till CRM och e-handel",
       summary: "De går igenom hur byrån växte fram ur performance marketing, hur hotellkunderna försvann under pandemin och varför e-handel och CRM till slut blev den tydligaste nischen."
     },
     {
-      start: "00:18",
+      start: "18:24",
       title: "Vad CRM faktiskt är",
       summary: "Sebastian förklarar CRM som att äga sin kunddata och kunna använda den för att förstå köp, beteenden och kommunikation i stället för att bara skicka utskick."
     },
     {
-      start: "00:20",
+      start: "20:23",
       title: "Personalisering, lojalitet och återköp",
       summary: "De pratar om hur data kan användas för on-site-personalisering, rekommendationer och lojalitetsarbete, och varför CRM blir som mest värdefullt när bolaget har volym nog att optimera återköp."
     },
     {
-      start: "00:22",
+      start: "22:33",
       title: "De första CRM-frukterna att plocka",
       summary: "Sebastian går igenom vad ett bolag måste få på plats först: att integrationen fungerar, att orderdata kommer in rätt och att basautomationer som welcome, post purchase och win back finns där."
     },
     {
-      start: "00:23",
+      start: "23:16",
       title: "Post-purchase för komplexa produkter",
       summary: "Samtalet landar i att kommunikationen efter köp måste anpassas efter produktens komplexitet, särskilt i kategorier där kunden behöver guidning, instruktioner eller trygghet efter ordern."
     },
     {
-      start: "00:25",
+      start: "25:03",
       title: "Förstaköp, återköpsgrad och segmentering",
       summary: "Joel pressar Sebastian på vad som faktiskt är viktigast att optimera, och Sebastian svarar att många bolag först måste förstå varför kunder bara köper en gång innan de jagar avancerad 3:e och 5:e köpskommunikation."
     },
     {
-      start: "00:26",
+      start: "27:07",
       title: "Kicks, community och hyperpersonalisering",
       summary: "Sebastian lyfter Kicks som ett starkt exempel på hur butik, e-handel, kundklubb och community kan kopplas ihop och skapa väldigt avancerad personalisering för rätt målgrupp."
     },
     {
-      start: "00:29",
+      start: "29:28",
       title: "Osexiga branscher och segmentering som faktiskt fungerar",
       summary: "De tar tunnelväxthus som exempel och visar hur även en ganska osexig kategori kan få starkare CRM när målgrupperna identifieras tydligt och kommunikationen anpassas efter deras behov."
     },
     {
-      start: "00:33",
+      start: "33:11",
       title: "Gamification och minnes-testet som slog allt",
       summary: "Sebastian berättar om ett A/B-test där ett memory-spel slog en vanlig signup med rå marginal, och varför gamification fungerar när användaren faktiskt känner att hen kan vinna något."
     },
     {
-      start: "00:37",
+      start: "37:58",
       title: "Hur man får fler sign-ups utan att förstöra varumärket",
       summary: "De diskuterar varför stora rabatter ofta är fel väg, hur man ska tänka kring signup-flöden och varför datainsamling och kundnytta är viktigare än att bara maximera procenten signups."
     },
     {
-      start: "00:39",
+      start: "39:59",
       title: "Första byråkunderna och hur cred byggs",
       summary: "Sebastian berättar om The Body Shop som ett viktigt varumärke att få in som kund och hur referenser, trovärdighet och väl genomförda setup-faser bygger byråns position över tid."
     },
     {
-      start: "00:42",
+      start: "42:14",
       title: "Imposter syndrome och att kunna sitt hantverk",
       summary: "Samtalet går in på hur det kändes i början att kliva in som en ny byrå, men också på hur mycket tryggare det blir när man sett tillräckligt många kundcase och vet vad man faktiskt är bra på."
     },
     {
-      start: "00:44",
+      start: "44:01",
       title: "D-Congress, favoritgäster och poddens roll",
       summary: "Joel och Sebastian pratar om D-Congress, bästa gästerna i podden och vilka avsnitt som ger mest värde för lyssnaren, innan de rör sig mot poddande som långsiktigt projekt."
     },
     {
-      start: "00:47",
+      start: "45:38",
       title: "Drömgäster och vad som krävs för en podd att hålla",
       summary: "Avslutningen handlar om drömgäster som Klarna-profiler och vad som faktiskt krävs för att en podd ska överleva mer än några avsnitt: intresse, uthållighet och en tydlig idé."
     }
