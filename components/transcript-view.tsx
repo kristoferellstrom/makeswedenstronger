@@ -1,4 +1,7 @@
-import { inferSpeakerDisplayNames } from "@/lib/transcript-speakers";
+import {
+  inferSpeakerDisplayNames,
+  getTranscriptGuestNameFromTitle,
+} from "@/lib/transcript-speakers";
 import { normalizeSearchText } from "@/lib/text";
 import { formatTimestampRange } from "@/lib/text";
 import type { TranscriptCue } from "@/lib/types";
@@ -21,6 +24,12 @@ function getCueKey(cue: TranscriptCue) {
 }
 
 function getGuestNameFromEpisodeTitle(episodeTitle: string) {
+  const specialCase = getTranscriptGuestNameFromTitle(episodeTitle);
+
+  if (specialCase) {
+    return specialCase;
+  }
+
   const withoutSubtitle = episodeTitle.split(/\s+-\s+/)[0]?.trim() ?? episodeTitle.trim();
   const firstChunk = withoutSubtitle.split(",")[0]?.trim() ?? withoutSubtitle;
   const cleaned = firstChunk

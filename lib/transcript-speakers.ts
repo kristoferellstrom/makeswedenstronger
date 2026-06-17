@@ -2,6 +2,8 @@ import { normalizeSearchText } from "@/lib/text";
 import type { TranscriptCue } from "@/lib/types";
 
 const HOST_NAME = "Joel";
+const JACOB_BORJAN_PA_SLUTET_TITLE = "borjan pa slutet 4 avsnitt om ehandel med jacob wibom westerberg";
+const JACOB_BORJAN_PA_SLUTET_GUEST_NAME = "Jacob Wibom Westerberg";
 const INTRO_WINDOW_SECONDS = 120;
 const HOST_PHRASE_FALLBACK_START = 38;
 const HOST_PHRASE_FALLBACK_END = 46;
@@ -100,7 +102,13 @@ function cueLooksLikeHostBridgeQuestion(text: string) {
   return normalizeSearchText(text).includes(HOST_BRIDGE_PHRASE);
 }
 
-function getGuestNameFromTitle(episodeTitle: string) {
+export function getTranscriptGuestNameFromTitle(episodeTitle: string) {
+  const normalizedEpisodeTitle = normalizeSearchText(episodeTitle);
+
+  if (normalizedEpisodeTitle === JACOB_BORJAN_PA_SLUTET_TITLE) {
+    return JACOB_BORJAN_PA_SLUTET_GUEST_NAME;
+  }
+
   const withoutSubtitle = episodeTitle.split(/\s+-\s+/)[0]?.trim() ?? episodeTitle.trim();
   const primaryName = withoutSubtitle.split(",")[0]?.trim() ?? withoutSubtitle;
   return sanitizeGuestCandidate(primaryName);
@@ -243,7 +251,7 @@ export function inferSpeakerDisplayNames(cues: TranscriptCue[], episodeTitle: st
     return speakerNames;
   }
 
-  const resolvedGuestName = getGuestNameFromTitle(episodeTitle) ?? guestName;
+  const resolvedGuestName = getTranscriptGuestNameFromTitle(episodeTitle) ?? guestName;
 
   if (!resolvedGuestName) {
     return speakerNames;
