@@ -13787,6 +13787,718 @@ Varje avsnitt börjar med en rubrik och följs av transkriptet.
 <v SPEAKER_2>Jag säger tack så mycket Brian.
 <v SPEAKER_1>Stort tack!
 
+## Början på Slutet! - 4 Avsnitt om Ehandel med Jacob Wibom Westerberg
+<v SPEAKER_1>Okej, jag ska skala upp din marknadsföring 50 procent.
+<v SPEAKER_1>Men du är inte villig att betala en spend mer per ny kund.
+<v SPEAKER_1>Frågan tillbaka då är ju sen, men om du bara tror att det gått att skala upp 50 procent och ta in 50 procent fler nya kunder nästa år, varför gjorde du inte det i år?
+<v SPEAKER_2>Make Sweden Stronger.
+<v SPEAKER_2>Men är det så, nu gick vi in, du ska få berätta lite om det själv, men jag bara hoppar in här lite.
+<v SPEAKER_2>Det är rätt sjukt att ni, vad sa du, omsökt 160 miljoner.
+<v SPEAKER_2>Jag är ju chanobilgenerationen, jag kan inte ta...
+<v SPEAKER_2>Du vet, vem är du typ?
+<v SPEAKER_2>Det låter inte så jävla verkligt.
+<v SPEAKER_2>Du har rejända språk.
+<v SPEAKER_2>Ni har inga sura kollegor, ni bråkar aldrig och det finns inga tulliga ögonblick.
+<v SPEAKER_2>Nu kanske jag får skit för detta men jag säger...
+<v SPEAKER_3>Jag håller med.
+<v SPEAKER_2>Men, vad brinner ni mest för?
+<v SPEAKER_3>Välkommen till podden Make Sweden Stronger.
+<v SPEAKER_3>Idag sitter vi här med Jakob Wibohm-Westberg och det kommer vi göra i x antal avsnitt.
+<v SPEAKER_3>Vi har bokat in en sex timmars sittning här.
+<v SPEAKER_3>Vi ska plöja av, tanken är väl egentligen att vi ska plöja av i princip varenda ämne inom att bedriva e-handel eller starta e-handel.
+<v SPEAKER_3>Jakob är väl allmänt accepterad i branschen som en människa med koll och jag är liksom en människa.
+<v SPEAKER_3>Någonstans i detta ska vi liksom mötas och försöka få ut så mycket kunskap och så mycket åsikter och så mycket feedback som möjligt.
+<v SPEAKER_3>Så vi ska försöka beta av alla ämnen så snabbt som möjligt.
+<v SPEAKER_3>Så tanken är väl nästan att man ska kunna spela fram till den delen av avsnittet som man känner att man vill lyssna på om man bara inte vill sitta och bara njuta av våra röster.
+<v SPEAKER_3>Men hej Jakob.
+<v SPEAKER_1>Hej.
+<v SPEAKER_1>Otroligt kul att vara tillbaka i podden och det här kommer ju om vi tar oss igenom den här dagen, garanterat bli den längsta poddssittningen jag har varit med om.
+<v SPEAKER_3>Jag tog en huvudvägstablett precis innan vi satte oss ned i någon sorts förebyggande syfte för att vi sitter i en ganska liten, ett litet fyrkantigt rum och de som satt här innan oss luktade liksom amöba så att det är jävligt goda förutsättningar.
+<v SPEAKER_3>Men vi kör igång egentligen tänker jag.
+<v SPEAKER_3>Jag tänker att folk vet vem du är i branschen.
+<v SPEAKER_3>Skulle du säga att du har recognition, att vi inte behöver presentera dig?
+<v SPEAKER_1>Ja men värsta fall annars vill man googla.
+<v SPEAKER_3>Du driver ju ett bolag som har Sveriges krångligaste stavning och mest märkliga namnval.
+<v SPEAKER_1>Orange Juice, det är väl inte så komplicerat ändå?
+<v SPEAKER_1>Det är Apelsinjuice på engelska.
+<v SPEAKER_3>Ja jag bara menar att det har inte jättemycket med att göra utan det är ju mer.
+<v SPEAKER_1>Fair enough.
+<v SPEAKER_3>Och det stavas typ OHIAI eller?
+<v SPEAKER_1>Men det är bara för att vi inte fick tag på det.
+<v SPEAKER_1>Vi kunde inte få tag på orangejuice.com som domän så att då valde vi oj.co som domän men och absolut det är lite komplicerat, det är inte jättepraktiskt men i alla fall en kort domän så att det är alltid något.
+<v SPEAKER_3>Ja men vi ska inte hamna i så mycket Jakobs historia med namn och sådant där utan vi går rakt in på val av produkt.
+<v SPEAKER_3>Det låter stort.
+<v SPEAKER_1>Det känns väldigt stort.
+<v SPEAKER_3>Vadå val av produkt man väljer eller man tar väl det man tycker om typ?
+<v SPEAKER_1>Jo men det är väl i och för sig så det börjar för de flesta, alltså det är väl nästan ingen eller ja det är klart det finns väl några som i startställningen handlar bara baserat på att dom ser ett hål i marknaden men ganska många människor börjar dom sälja någonting som dom kommer i kontakt med på tidiga arbetsplats eller någonting dom har en passion för och så där.
+<v SPEAKER_1>Men eller liksom som i min fru fall när vi var på ett hotell och hade en väldigt bra upplevelse med sängkläder, så blev det sedan sängkläder som blev fokus för företaget.
+<v SPEAKER_1>Men man skulle säga att man ändå ser vissa typer av företag som tenderar att poppa upp och bli framgångsrik oftare.
+<v SPEAKER_1>Jag tror inte att det beror på att alla människor som opererar just i den kategorin är enormt skickliga utan det finns ju på något sätt inneboende karakteristika med vissa typer av kategorier som är tacksamt att sälja över i handel.
+<v SPEAKER_3>Vad är tacksamt att sälja över i handel?
+<v SPEAKER_3>Och inte de mättade de marknaderna?
+<v SPEAKER_1>Ja, man skulle kunna tro att de är mättade, men jag skulle ändå säga att på något sätt så vinner ofta ekonomin i, vinner över faktumet att det är mättat.
+<v SPEAKER_1>Så att är man någorlunda skicklig så går det ganska ofta att slå in sig i alla fall.
+<v SPEAKER_1>Så om du tänker på hudvård till exempel, så tenderar det att vara väldigt stark produktekonomi på den enskilda produkten.
+<v SPEAKER_1>Och så har man en snygg förpackning och kan göra något claim om att det är någonting unikt på insidan.
+<v SPEAKER_1>Då tenderar bolag att kunna ta relativt hög prispunkt.
+<v SPEAKER_1>Det gör att man har bra produktekonomi på första köp.
+<v SPEAKER_1>Första köp är också ofta en ganska okej prispunkt att köpa in människor på sig, 6, 7, 800, upp till 1000 spänn kanske.
+<v SPEAKER_1>Men sen så är det ju framförallt så att hudvård är också någonting som människor inte vill bytas ofta.
+<v SPEAKER_1>Jag köper all min gymutrustning från dig, men teoretiskt sett så hade jag kunnat köpt lite gymutrustning från dig och sen hade det inte varit så himla svårt att gå till någon annan och köpa en hantel därifrån istället och så hade de fått bo i samma rum hemma.
+<v SPEAKER_1>Men hudvård är ju en väldigt lockt in kategori.
+<v SPEAKER_1>Om du använder ett hudvårdsmärke och din hud mår bra av den hudvården så är det inte jättemånga som är sugna på att testa ett annat varumärke.
+<v SPEAKER_1>Så får du väl in en kund och den personen blir nöjd med köp ett så att säga då tänder du dem och kommer tillbaka i stor utsträckning.
+<v SPEAKER_1>Det skapar ett väldigt attraktivt återköpsmönster.
+<v SPEAKER_1>Även om du behöver då betala dyrt för första köpet så när de kommer tillbaka så behöver du kanske inte betala för det utan då är det mest behandlat via e-mail eller sms och så där.
+<v SPEAKER_1>Det gör väl att vissa kategorier, nu pratade jag om hudvård specifikt men det finns ju andra kategorier som har samma typ av beteenden.
+<v SPEAKER_3>Säg såhär då för att alla vi människor kommer inte jobba med hudvård.
+<v SPEAKER_3>Jag är inte liksom, det är inte mitt case då.
+<v SPEAKER_1>Du är inte tarjekupp.
+<v SPEAKER_3>Nej men säg att ja, finns det några liksom frågor som man ska ställa sig själv om man drar igång sin e-handel eller man har kört lite grann?
+<v SPEAKER_3>Vilka frågor ska man liksom ställa sig kring sin produkt för att optimera den för e-handel?
+<v SPEAKER_3>Är du med på vad jag menar då?
+<v SPEAKER_1>Ja men för det första så tror jag man ofta underskattar värdet av bra pris.
+<v SPEAKER_1>Det är liksom att ha ett attraktivt pris är väldigt födelagtigt.
+<v SPEAKER_1>Jag tror att bland människor som startar nya e-handlar överskattar deras tillförda värde i termer av att de har tänkt igenom funktionalitet, att det är fin färg och form, att hemsidan ser snygg ut.
+<v SPEAKER_1>Så tänker man att det här warrant är liksom en premiumprispunkt, men det tenderar ändå att vara ganska svårt att komma igång med e-handlar, eller liksom en e-handel som har en hög prispunkt.
+<v SPEAKER_1>Det tenderar också att vara väldigt svårt att skala e-handlar som har hög prispunkt.
+<v SPEAKER_1>Det finns absolut exempel, typ Totem, som har lyckats jätteväl med en relativt hög prispunkt, men de flesta ensbolagen som sticker iväg, de är ju snarare liksom ett ride store som har väldigt attraktiva priser på sina produkter.
+<v SPEAKER_1>Revolution Race, samma grej.
+<v SPEAKER_1>Och många andra som liksom är åt det mer attraktiva hållet eller liksom där du kan tilltala en bredare massa.
+<v SPEAKER_1>Så jag tror att det är väl en aspekt och då måste man få ner er genom produktmarginaler och så här, för det är lätt att säga att man ska ha ett bra pris, men ska du ha ett bra pris så måste du också ha relativt billiga inköpspriser för att det ska gå ihop, så den biten måste man få ner igenom.
+<v SPEAKER_1>Och sen så är väl det andra vägen till köp 2.
+<v SPEAKER_1>Och där finns det väl liksom två aspekter att tänka igenom.
+<v SPEAKER_1>Dels är det hur många som köper den första produkten kommer att köpa en produkt till.
+<v SPEAKER_1>Om ditt svar på den frågan är fler än 50% så har du antagligen dåligt dataunderlag liksom, eller du överskattar antagligen hur nöjda människor blir med dina produkter.
+<v SPEAKER_1>Det är ganska få.
+<v SPEAKER_3>Jag gillar det.
+<v SPEAKER_3>Det är inte så.
+<v SPEAKER_3>Det är bara det är samma som folk som säger såhär ja vi kommer ta en procent av marknaden.
+<v SPEAKER_3>Det kommer ni inte göra.
+<v SPEAKER_1>Nej men alltså lite så, det är precis när människor säger såhär men vi ska in i USA och vi bara tar en procent av den amerikanska marknaden.
+<v SPEAKER_1>Det är jättemycket vägen.
+<v SPEAKER_1>Ja, nej men exakt.
+<v SPEAKER_1>Det är väldigt ovanligt att fler än 50% kommer tillbaka och handlar en gång till inom liksom, säg, 365 dagar.
+<v SPEAKER_1>Och sen så är såklart den andra då funktionen av det är att okej men om de där som väl kommer tillbaka, hur många gånger kommer de att köpa igen?
+<v SPEAKER_1>Och säljer du en produkt som tar slut på 90 dagar, då finns det ju en möjlighet att de kommer tillbaka och handlar 2-3 gånger till redan under de kommande 365 dagarna.
+<v SPEAKER_1>Säljer du sängkläder till exempel, då tar inte produkten slut, så du kanske kan argumentera för att de ska köpa till ett annat rum eller ett extra sätt.
+<v SPEAKER_1>Men jag kan liksom berätta att även de människorna som är i de minsta sängkläderna de kommer inte köpa sängkläder så ofta.
+<v SPEAKER_1>Det är väl de grejerna man ska tänka igenom.
+<v SPEAKER_1>Och sen så en till grej på lite på samma tema, men det är att man överskattar ofta drastiskt sitt brands clout i termer av att gå in, ja men liksom aura eller liksom ditt brands förmåga att hoppa in i nya produktkategorier.
+<v SPEAKER_1>Alltså typ det som Chimmy gjorde.
+<v SPEAKER_1>Chimmy var ett balt brand som sålde solglasögon och så tänkte de att vi balla låt oss sälja mode liksom i stället.
+<v SPEAKER_1>Och så var det ingen som riktigt tyckte det var en bra idé.
+<v SPEAKER_1>Eller inte tillräckligt bra idé i alla fall för att köpa det.
+<v SPEAKER_1>Och eller för den delen, alltså så här, Juniper sålde sängkläder och lanserade handdukar och det har tagit fem år för handdukarna att börja sälja.
+<v SPEAKER_1>De säljer fortfarande vid ganska låga volymer relativt sängkläderna.
+<v SPEAKER_3>Ja jag tänkte faktiskt säga att innan precis, jag tänkte jag väntade att du stod klar med din utläggning, sen tänkte jag, Juniper har ju nej på alla de tre.
+<v SPEAKER_3>Ni har ett ganska hög prispunkt som köper vad vi ska säga.
+<v SPEAKER_3>Det är inte så stora återköp.
+<v SPEAKER_3>Och ni började med typ tvål också eller något sånt.
+<v SPEAKER_3>Så ni har ju gjort alla tre de där.
+<v SPEAKER_3>Men då tickar det väl på.
+<v SPEAKER_3>Varför?
+<v SPEAKER_3>Skulle du ha gjort det annorlunda om du var konsult utifrån och inte...
+<v SPEAKER_1>Nej men så här, jag tror att jag när vi startade Juniper, så hade jag inte riktigt samma insikt i de här grejerna som jag har nu.
+<v SPEAKER_1>Jag hade aldrig startat Juniper idag men jag ska helt ärlig, det är liksom, det är inte en bra underliggande affär.
+<v SPEAKER_1>Jag tror att vi kommer att kunna göra Juniper nu till en ganska bra affär ändå, men det har på något sätt varit sju år nu, vi firar precis sju år.
+<v SPEAKER_1>Det har varit sju år av otroligt mycket lärande och jag tror att en av anledningen till att jag har på något sätt blivit ganska bra på mycket inom e-handel är att Juniper har haft det ganska svårt.
+<v SPEAKER_1>Så jag behöver problemlösa väldigt mycket över att fundera på varför vi inte kommer att återköpa en oftare och sådär.
+<v SPEAKER_1>Nu lanserade Juniper ganska nyligen en billigare sängklädesklass, obviously då inte riktigt samma kvalitet, men ändå så passar kvalitet att när du använder produkten så tror jag att väldigt många kommer att vara nöjda och glada och du kommer ner lite igen i priset.
+<v SPEAKER_1>Jag tror att man har lättare att hitta en sweetspot och baserat på första par månaders försäljning så går det också mycket lättare att ta in nya kunder där.
+<v SPEAKER_1>Så jag tror att det är en av lösningarna där.
+<v SPEAKER_1>Nu börjar tvålförsäljningen äntligen lossna.
+<v SPEAKER_1>Det har tagit flera år för den att komma loss.
+<v SPEAKER_1>Så jag tror att vi kommer att kunna lyfta Juniper till att bli ett väldigt bra företag.
+<v SPEAKER_1>Men resan dit har varit ganska lång och hade vi varit smartare från start så hade man kanske startat någonting annat eller insett att om man ska ta de här vägen som Juniper har tagit så hade vi behövt mer kapital up front för att kunna bygga bolaget lite annorlunda med lite större bredd av produkter på en gång.
+<v SPEAKER_1>Så att nej, det finns bättre kategorier att ge sin i än sänkläder.
+<v SPEAKER_3>Kan vi inte snacka om de tre punkterna som du tog upp där och problematiserade om lite.
+<v SPEAKER_3>Jag tänker den första när vi snackar pris.
+<v SPEAKER_3>Menar du ett faktiskt pris, 1000 spänn är en låg pris nu eller 10 000 är en dyr oavsett vad det är.
+<v SPEAKER_3>Vi säljer till exempel ljumutrustning och vi har ganska höga snittård i världen.
+<v SPEAKER_3>Men vi är ju fortfarande inte, om vi tar Eleiko till exempel, som är ett jättedyrt varumärke inom ljumutrustning, så ligger de ju mångdubbelt högre än vad vi gör till exempel.
+<v SPEAKER_3>Så att vi framstår ju som billiga jämfört med dem.
+<v SPEAKER_3>Så är vi säkert dyra jämfört med någon annan.
+<v SPEAKER_3>Jag bara menar du att det ska vara...
+<v SPEAKER_1>Upplevd pris är väl det som är...
+<v SPEAKER_1>Det är klart att saker...
+<v SPEAKER_1>Det finns väl begränsningar där också.
+<v SPEAKER_1>Jag tror att det mesta som kostar 100 000 är svårt att sälja över e-handel.
+<v SPEAKER_1>Men om du är nere på någonting som människor ändå har en viss vana att sätta in ett kort för att betala, då tror jag att det framför allt handlar om upplevd pris.
+<v SPEAKER_1>Och då kan du sälja...
+<v SPEAKER_1>RideStore kanske, jag har ingen aning om vad de har för snittkvitto, men säga att de säljer hela skidställ och att deras snittkvitto ändå är över 2 000 kronor.
+<v SPEAKER_1>Men din jämförelseprispunkt någonstans kanske är peak performance och då kostar samma ställe 9 000 kronor och då framstår de 2 000 väldigt billigt.
+<v SPEAKER_1>Men i hudvård då kanske 2 000 kronor känns som ett väldigt högt snittkvitto och då snarare att ska ner på liksom.
+<v SPEAKER_3>Jag upplever att för några år sen så var liksom alla inköp över 5 000 kändes av mycket pengar oavsett vad det var nästan.
+<v SPEAKER_3>Men nu är det som att folk har gått in i mer i den här som du säger.
+<v SPEAKER_3>Det ska vara ett upplevt prispunkt jämfört med marknaden på något sätt.
+<v SPEAKER_3>Det var ju, vår snittårlig kvitto har ju vuxit kraftigt de senaste typ sju åren.
+<v SPEAKER_3>Förr var det väldigt svårt att sälja ett hemmagym för 50 000 till någon på ett telefonsamtal.
+<v SPEAKER_3>För det kändes verkligen som mycket pengar att ligga på en e-handel.
+<v SPEAKER_3>Och nu för tiden klickar ju folk hem det utan att ens prata med oss.
+<v SPEAKER_1>Nej men exakt.
+<v SPEAKER_1>Där är det väl två grejer.
+<v SPEAKER_1>För det första sa väl den underliggande marknadstrenden för att investera pengar i hälsa överlag bara oavsett om det är supplements eller gymmetrustning eller något annat.
+<v SPEAKER_1>Det känns som att viljan för det har gått upp dramatiskt.
+<v SPEAKER_1>Det är nästan som att du får lite cred nästan när du gör av med pengar på din egen hälsa, vem du än pratar med.
+<v SPEAKER_1>Medan om du berättar om något annat som du har lagt 50 000 kronor på så framstår det som att du är lite skrytsam och korkad.
+<v SPEAKER_1>Men just hälsa, du kommer runt med vad som helst.
+<v SPEAKER_2>För en applåd och ett good for you.
+<v SPEAKER_1>Exakt, det är väl en del av det och det andra är att människor är mer bekväma över lag.
+<v SPEAKER_1>Att göra av med 50 000 kronor i en fysisk butik eller göra av med 50 000 kronor på en e-handel, det spelar mig absolut ingen roll längre.
+<v SPEAKER_1>Det kanske för tio år sedan spelade det ändå lite roll att man har varit 50 000 spänn över internet.
+<v SPEAKER_1>Det känns mycket.
+<v SPEAKER_3>Jag bara tänker, ja exakt, det känns lite så.
+<v SPEAKER_3>Vad var nummer två där som du hade?
+<v SPEAKER_3>Just det, återkommande kunder.
+<v SPEAKER_3>Det här verkar vara din heliga graal på något sätt.
+<v SPEAKER_3>Jag tror aldrig jag har hört en intervju med dig där du inte pratar återkommande kunder.
+<v SPEAKER_3>Spelar det så jävla stor roll eller?
+<v SPEAKER_3>Vad är grejen?
+<v SPEAKER_3>Absolut det är billigare kostnader.
+<v SPEAKER_3>Kan man inte bara bygga en affär utan att vara så?
+<v SPEAKER_3>Måste man vara så fokuserad på det?
+<v SPEAKER_3>Måste produkterna vara så fokuserade på återkommande kunder?
+<v SPEAKER_1>Nej men det finns bra exempel på att jämna.
+<v SPEAKER_1>Du nämnde häromdagen en LinkedIn-post.
+<v SPEAKER_1>Den här listan som Breakit satt ihop med Sveriges lönsamaste enländskt bolag.
+<v SPEAKER_1>Och där fanns ju till exempel tre mattbolag att vara med.
+<v SPEAKER_1>Matte är ju inte en kategori där det är stark återköp.
+<v SPEAKER_1>Så mattbolagen har istället lyckats hitta någon form av kombination.
+<v SPEAKER_1>Matte råker vara en produktkategori där man nästan mot vad jag på något sätt hade gissat med magkänsla så är det enormt stark produktekonomi i matte.
+<v SPEAKER_1>De kostar ingenting att köpa in men ändå har hela marknaden kommit överens om att man ska betala mycket för en matte hem.
+<v SPEAKER_1>Då har de 85-90% i GM1 och även om de då betalar 20-25% i kack så med lite frakt och hej och hål liksom, då går det att få ihop en väldigt lönsam nykundshandskaffning plus att du kanske har lite så här wow-effekt i meta, att du ser matte i ett rum så det är lätt att få en uppmärksamhet.
+<v SPEAKER_1>Så det finns ju kategorier som fungerar trots dåliga återköp men jag skulle säga att den stora majoriteten av e-handelsbolag som i alla fall är så här lätta och tar till 100 miljoner, de är ofta med ganska starka återköp.
+<v SPEAKER_1>En e-handel som har mycket kunder som kommer tillbaka, där tenderar det att bara kännas lite lätt.
+<v SPEAKER_1>Du kan vara mycket mindre skicklig som operatör och ändå så går det bra.
+<v SPEAKER_1>Medan om du inte har så mycket återkommande kunder då behöver du hela tiden hitta nästa växel själv för att om man tar ett mattbolag som exempel och sen så i år omsätter vi 50 miljoner.
+<v SPEAKER_1>Och så äger du det mattbolaget och så kommer du till Orange Juice och så säger du att nästa år vill du omsätta 75 miljoner.
+<v SPEAKER_1>Och återkommande kunder kommer att stå för 5% av omsättningen och liksom 95% ska vara nya kunder.
+<v SPEAKER_1>Det du egentligen ber mig om då är att okej jag ska skala upp din marknadsföring 50% men du är inte villig att betala en spänn mer per ny kund.
+<v SPEAKER_1>Frågan tillbaka då är ju såhär men om du bör tro att du gått att skala upp 50% och ta in liksom 50% fler nya kunder nästa år, varför gjorde du inte det i år?
+<v SPEAKER_1>Och så blir mitt jobb att problemlösa för att kunna skala upp marknadsföringen 50% utan att att kundens kapitänisk kostnad går upp alls.
+<v SPEAKER_1>Och det är ju en väldigt svår, alltså det vet ju alla människor som är marknadsföring att så fungerar ju inte liksom världen.
+<v SPEAKER_1>Och då måste jag hitta en större addressable marknad, antagligen måste jag gå ut i nya länder.
+<v SPEAKER_1>Det vet också alla att går man ut i nya länder det tenderar att vara svårare, det är lokalanpassning som krävs.
+<v SPEAKER_1>Och sen så lyckas vi med det nästa år, så vi tar oss till 75 miljoner.
+<v SPEAKER_1>Och då säger du att nästa år ska vi till 100, vi lyckades växa från 50 till 75 varför tar vi oss inte till 100?
+<v SPEAKER_1>Återigen, återkommande kund står för 5%.
+<v SPEAKER_1>Så du ber mig att återigen skala upp marknadsföringen med 33% till, utan att nykundsanskaffningskostnaden ska gå upp.
+<v SPEAKER_1>Det är liksom inte bara någonstans att ta i den där ekvationen slut.
+<v SPEAKER_1>Det är otroligt svårt att bara fortsätta skala upp nykundsanskaffningen utan att du stötter på motstånd.
+<v SPEAKER_1>Då måste du antingen lansera nya produkter eller hela tiden göra din hemsida mer konverteringsvänlig, göra dina annonser ett steg bättre, göra fler annonser, media köpa bättre, etc.
+<v SPEAKER_1>All förbättring i din PNL måste drivas av att du like for like lyckas förbättra din operationella skicklighet, vilket är svårt.
+<v SPEAKER_3>Men att säga att man har ett bolag då, vi är ju till exempel ett sånt bolag som, vi snackade lite om det här innan, om man köper liksom ett löpband hos oss, så är det inte så att man köper ett till löpband nästa år.
+<v SPEAKER_3>Det är inte så det funkar, utan du kanske köper ett par handlar efter tre år, och sen kanske du köper ett kryssdrag två år senare, eller jag ska göra Köravasa-loppet så jag köper en skijag nästa sommar för det är då jag ska satsa på den.
+<v SPEAKER_3>Det är en långsam business.
+<v SPEAKER_3>Om man har ett sånt bolag som är lite trök då, eller vad ska jag säga, hur ska man liksom tänka, ska man aktivt försöka göra sig mer till ett återköpsbolag, eller ska man bara skita i det och fokusera på det man ska fokusera på?
+<v SPEAKER_1>Ni, du driver ju en ganska udda affär, jämfört med de flesta e-handlare.
+<v SPEAKER_1>Ni har extremt höga snittkvitton, och ni har många åsikter att snittkvitton, som du tänker på på något sätt ett histogram av era ordrar, så har ni också ett gäng ordrar som är över 10 000 eller över 20 000, och som ändå står för en ganska stor del av revenue om man bullkar ut revenue.
+<v SPEAKER_1>Det finns andra exempel på det, typ Gotain som går väldigt bra, de säljer gardiner med måttanpassning, men du går in, det är knappt en e-handel, du kan säkert köpa lite kuddar och andra grejer på deras sajt, men det du framförallt ska göra är att du bokar att en människa kommer hem till dig, måttar upp hur dina gardiner ska se ut, och sen berättar för dig att det här kostar 50 000 kronor, så installera oss och göra om det, så blir det toppen.
+<v SPEAKER_1>Och de får det ju fungera väldigt väl.
+<v SPEAKER_1>Men jag skulle ändå säga att både er och deras business är lite utanför realmen av hur helt vanliga e-handelsaffärer ser ut.
+<v SPEAKER_1>Där det mer är...
+<v SPEAKER_1>Och du har ju dessutom också en affär som är ganska sökorienterad.
+<v SPEAKER_1>Om jag ska köpa ett gym, så måste jag typ söka upp en leverantör av det gymmet, men relativt många andra om du säljer typ hudvård och du har någon usp som du tycker är bra, oavsett vilket bolag du är.
+<v SPEAKER_1>Så det kanske inte riktigt är någon annan som frågar efter den uspen, utan du måste gå ut med demangen, annonsering och berätta för människor att vet du vad, det här borde du köpa istället för någonting annat.
+<v SPEAKER_1>Affärerna tes lite annorlunda och jag är inte säker på därför att den bästa lösningen för dig är att du ska introducera en produkt som människor vill fylla på.
+<v SPEAKER_1>Du hade ju för sig kunnat såld proteinpulver typ, det hade väl ni redan gör men nej.
+<v SPEAKER_1>Det hade väl du kunnat såld och säkert fått upp någon kredibilitet i det.
+<v SPEAKER_1>Du hade kanske heller kunnat introducera ditt eget varumärke med vissa typer av grejer som vänder sig till din kundbas och byggt säkert en fin affär på det.
+<v SPEAKER_1>Ja varför inte i och för sig?
+<v SPEAKER_1>Men ändå, om snittkvitto till 10 000 på första och så börjar du sälja proteinpulver och så även om jag köper mitt proteinpulver hos er så är det 2 000 kronor om året.
+<v SPEAKER_1>Och så kommer du tillbaka till min första poäng då att du kommer inte att konvertera alla som köper någonting för 10 000 till att köpa proteinpulver utan du kommer att lyckas med det på 5 procent av din bas.
+<v SPEAKER_1>Och då helt plötsligt så är det 10 000 kronor och så de som väl konverterar det 2 000 kronor på ett år men det är bara 10 procent som konverterar och så är det 200 kronor och då är man såhär men vänta 10 000 kronor, 200 kronor, då rör ju inte nålen liksom.
+<v SPEAKER_1>I alla fall inte liksom om man tänker på den enskilda kunden.
+<v SPEAKER_1>Sen kan du möjligen på sikt bygga en affär så att säga av det och så kan du ta eran liksom proteinpulver i business till att bli en 10 miljoner kronor affär och sen en 20 miljoner kronor affär.
+<v SPEAKER_1>Då kan man väl hävda att det finns liksom en separat poäng med det där du kan liksom över tid bygga en bra affär men då ska du ha lite tålamod och tycka att det är kul att välja om.
+<v SPEAKER_3>Det är en bra segway på något sätt in till den tredje punkten där med att ta in kategorier som man kanske inte ska jobba i.
+<v SPEAKER_3>För jag har fått den här frågan, alltså jag vet inte hur många gånger, varför säljer ni inte proteinpulver eller varför gör ni inte?
+<v SPEAKER_3>Det är för att det är en annan marginalsstruktur, den är mycket mer rörlig den marginalen.
+<v SPEAKER_3>Det är inte så bra vinst på proteinmargin.
+<v SPEAKER_3>Kolla på alla de stora aktörerna och se hur mycket pengar de tjänar egentligen trots att de är stora.
+<v SPEAKER_3>De gör ju inköp som vi inte ens hade varit i närheten av.
+<v SPEAKER_3>Sen är det ett annat användarbeteende.
+<v SPEAKER_3>Ska du sälja till exempel kosttillskott så ska du ha billigast bara eller så behöver du ha en viss trendighet i det.
+<v SPEAKER_3>Man behöver sticka ut i det.
+<v SPEAKER_3>Väldigt mycket av hela min affärsmodell är att vi ska vara jättetråkiga och bara göra logistik.
+<v SPEAKER_3>Mitt stora claim är att vi inte är en e-handel utan vi är ett logistikbolag och vi hanterar logistik.
+<v SPEAKER_3>Jag fattar att nu, jag pratar i sånt här och det låter som att vi sysslar med massa e-handel men 90% av min tid tänker jag på logistik.
+<v SPEAKER_3>Det är inte så att jag sitter och tänker på vad frontend ser ut utan jag tänker på produkter in och produkter ut.
+<v SPEAKER_3>Det är väldigt lätt att börja med en ny vertikal bara för att i vårat huvud låter det som en liknande vertikal men det är inte en liknande vertikal.
+<v SPEAKER_3>Bara för att du köper ett löpande hos oss betyder inte att vi är bäst på proteinpulver.
+<v SPEAKER_3>Det är inte samma sak.
+<v SPEAKER_3>Nej 100%.
+<v SPEAKER_3>Om vi tar chimmi, jag kan ingenting av chimmi, men de har glasögon och där var de coola.
+<v SPEAKER_3>Det var liksom, vi är the shit inom glasögon.
+<v SPEAKER_3>Det betyder inte att man har ett claim inom kläder, att man är the shit inom kläder.
+<v SPEAKER_3>För det är en helt annan värld.
+<v SPEAKER_1>Exakt, men jag tror att ibland så tänker människor fel.
+<v SPEAKER_1>Jag kan inte svära på att det inte skulle gå bra för er om ni introducerar proteinpulver.
+<v SPEAKER_3>Vi kommer säkert gärna om också.
+<v SPEAKER_1>Men felet man gör ibland är att man tänker såhär, nämen våran kund köper ju andra proteinpulver, då kan de lika gärna göra det från oss.
+<v SPEAKER_1>Och så likställer man det med att vi har kredibilitet att sälja proteinpulver.
+<v SPEAKER_1>Men snarare så, och det är lite samma problem som Juniper, när Juniper introducerade handdukar.
+<v SPEAKER_1>Man tänker att om ni gillar våra sängkläder, om ni tycker att vi är bra, då är det ändå textil i hemmet.
+<v SPEAKER_1>Och sen ska du gå till ett annat rum och köpa en annan form av textil.
+<v SPEAKER_1>Men ändå finns inte riktigt den där.
+<v SPEAKER_1>Sängkläder är i lite större utsträckning ett funktionellt köp, i bemärkelsen att du pratar ganska sällan med människor om dina sängkläder.
+<v SPEAKER_1>Du har inga brands typiskt på dina sängkläder, utan alla lappar sitter inåt och relativt många människor köper ju desto mer vita sängkläder.
+<v SPEAKER_1>Så då är de helt ospeciella.
+<v SPEAKER_1>Så det viktigaste för dig är någonstans att när du går och lägger på kallaren så ska det vara nice.
+<v SPEAKER_1>Eller så beror det inte alls.
+<v SPEAKER_1>Det är typ de två lägarna som finns.
+<v SPEAKER_1>Medan i badrummet där är man mer benägen att köpa lite Lexington, lite Ralph Lauren, man vill gärna att det ska finnas en liten logotype på handdukarna som skiner utåt för att du har gäster som går in i ditt badrum, du köper in Bayredo-tvål och så ser man sig när Ralph Lauren handdukar och då verkar det som att du har ett framgångsrikt liv.
+<v SPEAKER_1>När vi introducerade handdukar så hade vi inte den brand-auren i tillräckligt stor utsträckning.
+<v SPEAKER_1>Det kommer inte att innebära att man inte kan sälja till någon, men det kommer att innebära att de människorna som ändå tidigare ville ha Ralph Lauren och Lexington, det bekommer inte dem att vi säger att vår råvara är 4% bättre, men det står Juniper på handduken i stället för att det är fortfarande inte Ralph Lauren.
+<v SPEAKER_1>Där tror jag att man tänker fel för att man är såhär, ja, men våra kunder ska kunna köpa handdukar, de kan ju kunna köpa det från oss.
+<v SPEAKER_1>Nu har Juniper lite växt i kapp, Juniper är nu ett lite starkare brand, har en större underliggande kundbas, och bara det faktumet att Juniper är lite större och har en större underliggande kundbas, gör att MOQ-erna på handdukar inte känns lika jobbiga längre som de gjorde då, så att konverteringen från sängkläder över till handdukar behöver inte vara så mycket större bara för att vi har växt volymen på totalen.
+<v SPEAKER_1>Så jag tror att det är väldigt ofta det att slå fel när man ska bredda produktkategorier.
+<v SPEAKER_1>Vissa brands gör det toppen, men jag skulle säga att väldigt många DTC-brands misslyckas.
+<v SPEAKER_3>Ja, jag kan känna jänderna är väldigt starkt och det är ganska enkelt i efterhand att förstå vad det var som gjorde att det gick rätt och vad som gick fel.
+<v SPEAKER_3>För vår typ bästa lansering av en ny kategori var golv.
+<v SPEAKER_3>Vi sålde inget golv i början, men för åtta år sen sålde vi i princip bara skistångssätt med skistång, vikter, en bänk och en skistångsställning.
+<v SPEAKER_3>Det var liksom, that's it.
+<v SPEAKER_3>Och att vi inte såg att vi behövde sälja golv då, för alla de som gör detta vill givetvis ha ett golv under det, för annars så går golvet sönder.
+<v SPEAKER_3>Det var liksom en ögonöppnare.
+<v SPEAKER_3>När vi började tog in den kategorin så var det, den plötsligt blev det 20% av hela vår omsättning på en dag.
+<v SPEAKER_3>Det bara slog.
+<v SPEAKER_3>Medan att ta in en helt ny vertikal som inte hör ihop med det paketet, som när vi börjar sälja kampsport eller yoga, yoga gick i fullkomligt skit då givetvis, eftersom vi inte har någon feeling i det.
+<v SPEAKER_3>Efterhand är det jättelätt att se, men på något sätt så tänkte jag, vi säljer ju gymutrustning, vi säljer ju träning, varför skulle vi inte kunna sälja yoga eller varför skulle vi inte kunna sälja kampsport?
+<v SPEAKER_3>Det är för att det är inte samma köp.
+<v SPEAKER_3>Det kanske är en liknande kund, men det är inte samma köp.
+<v SPEAKER_3>Samma köp är någonting som man köper samtidigt.
+<v SPEAKER_3>Det är enkelt.
+<v SPEAKER_3>Det är enkelt att addera.
+<v SPEAKER_3>Men att addera någonting som kräver ett speciellt köptillfälle eller en speciell tankebana, det är inte samma sak.
+<v SPEAKER_3>Det är ofta mycket svårare att lägga till, upplever jag dem.
+<v SPEAKER_1>Ja 100%.
+<v SPEAKER_1>Man kan ju fråga sig varför inte Uniper har lanserat tecken till exempel.
+<v SPEAKER_1>Det hade varit en enklare produkt att lägga till.
+<v SPEAKER_1>Golv är inte en spännande produkt att lägga till, och det var säkert därför ni inte gjorde det från start.
+<v SPEAKER_1>Sedan blev det upp till mat att det går att göra det.
+<v SPEAKER_1>Tecken för oss har varit lite samma grej.
+<v SPEAKER_1>Det är ingenting som syns, det är bakom och det har inte riktigt känts så spännande.
+<v SPEAKER_1>Sedan har vi haft en väldigt stark idé om att inte ha djur involverat i Unipers-produkter, men dune är ändå den prevalenta.
+<v SPEAKER_3>Men vad har ni inte i kuddar?
+<v SPEAKER_3>Du ska byta öngott och så ser du dina äckliga kuddar i helt orange.
+<v SPEAKER_1>Det är av exakt samma skäl.
+<v SPEAKER_1>De flesta människor vill fortfarande köpa dune, Uniper vill inte sälja dune.
+<v SPEAKER_1>Så vi har hållit på och experimenterat lite grann med olika kuddar och olika tecken av synetet-material av olika slag och inte riktigt hittat fram.
+<v SPEAKER_1>Sedan är det dels en fråga om hur produkten blir, sedan kan man ju till slut säga att nu har vi hittat någonting, oavsett pick a name och sagt att det här blir precis lika bra som dune.
+<v SPEAKER_1>Men sedan ska du också gå ut och klaima det till marknaden och så säger du att vi har R2D2 tecken här.
+<v SPEAKER_1>Det är toppen, det är lika bra som dune, köp dem.
+<v SPEAKER_1>Och då kommer många människor som ska köpa tecken, att tänka att jag vill ha ett dune-tecken.
+<v SPEAKER_1>Det blir toppen.
+<v SPEAKER_1>Och vi vill inte sälja produkter som är från djurriket.
+<v SPEAKER_1>Så det är en liten lurig, men vi kommer att garantera att introducera tecken och kuddar någon gång.
+<v SPEAKER_1>Och sen så kommer vi stå där med våra R2D2 tecken och fundera varför ingen vill köpa dem.
+<v SPEAKER_3>Och så kommer vi ha ett avsnitt om varför man aldrig ska ta in en produkt när man måste utbilda kunden, för det är hopplöst.
+<v SPEAKER_3>Ska vi snacka lite marginalstruktur och liknande på produkter?
+<v SPEAKER_3>Någonstans levde det ju det to see värden i att om du börjar köpa in själv så får du dubbelmarginal.
+<v SPEAKER_3>Gäller det fortfarande eller?
+<v SPEAKER_1>Nej, för det gör det verkligen inte.
+<v SPEAKER_1>Det är klart att det finns DTC-varumärken som Essence som tjänar massa pengar eller Gotain som vi nämner här nyss som också tjänar väldigt bra pengar.
+<v SPEAKER_1>Men jag skulle säga att majoriteten av DTC-varumärken är ganska lönsamhetsutmanade.
+<v SPEAKER_1>Och det beror ju liksom, ja absolut du har bättre produktekonomi och lite så här claim to fame från början i DTC-världen var ju att du kunde erbjuda ett bättre pris genom att skära ut distributörsledet eller retail-ledet.
+<v SPEAKER_1>Men det det kommer med är ju också att du själv måste hantera distributionen på ett eller annat sätt som tidigare skedde genom dem.
+<v SPEAKER_1>Tidigare kunde ju, om du säljde dina produkter genom en butik, då bara gick människor in i den här butiken, de visste inte om vad ditt varumärke var för någonting och de kunde ibland shoppa din produkt och så var det toppen.
+<v SPEAKER_1>Nu måste du ställa ut och berätta om den här produkten.
+<v SPEAKER_1>Det är marketing.
+<v SPEAKER_1>Så marketingen är ju dramatiskt mycket högre i DTC-varumärken än vad den har varit i klassiska retail-varumärken.
+<v SPEAKER_1>Marginalerna, på ett sätt är det här också givet att det uppstår väldigt sällan affärsmodeller med asymetrisk jättehög avkastning som bara kan bestå över tiotals år.
+<v SPEAKER_1>Det finns inga branscher där alla bolag tjänar 30% och det är hög konkurrens.
+<v SPEAKER_1>Den går inte ihop.
+<v SPEAKER_1>Det är ju marknadsekonomi är ju tillverkad för att tävla bort den typen av lönsamhets-
+<v SPEAKER_1>och fördelaktigheter.
+<v SPEAKER_1>Så nej men det tror jag inte.
+<v SPEAKER_1>Men om man tänker på produktekonomi och vad man behöver få till någonstans, jag brukar säga att det, och jag vet att ni bryter den här regeln, men det brukar vara svårt att få ett DTC-varumärke att fungera om man har mindre än 50% i GM2-marginal.
+<v SPEAKER_1>GM2 avser då alltså levererad vara ut till kund kan man enklast beskriva det som.
+<v SPEAKER_1>I GM1 så tar vi bort produktkostnaderna som är inbound leverans från fabrik.
+<v SPEAKER_1>Det är vår GP1 uttryckt i nominella pengar eller GM1 uttryckt i procent.
+<v SPEAKER_1>Sen så tar vi in alla andra variabla kostnader som rör sig med antalet ordrar eller med nettoomsättningen, alltså typ transaktionskostnader, lager, logistik, outbound shipping, möjligen om man har något CSR, att man planterar ett träd varje gång man skickar en order eller liknande.
+<v SPEAKER_1>Allt det tar man in där och så kommer man ner till GP2, GM2.
+<v SPEAKER_1>Sedan har man marketingkostnaderna och då kommer man ner till GM3, GP3.
+<v SPEAKER_3>Absolut, du säger att efter där GM2 så ska man ligga på 50 procent.
+<v SPEAKER_1>Ja.
+<v SPEAKER_3>Hur många gör det?
+<v SPEAKER_1>Nästan alla.
+<v SPEAKER_3>Jaha, är det så?
+<v SPEAKER_1>Ja.
+<v SPEAKER_1>Det är ganska ovanligt.
+<v SPEAKER_3>Vi ligger inte ens där på ettan liksom.
+<v SPEAKER_1>Nej, men ni är återigen en rätt udda fågel i den här industrin.
+<v SPEAKER_1>Ni har väldigt tunga varor.
+<v SPEAKER_1>Det är väl så att om du tittar på ett soffbolag så gör inte de det heller.
+<v SPEAKER_1>Tunga stora varor med höga snittordekvitton tenderar att ha, det är så mycket materialkostnad som går in i det, så det tenderar att komprimera ihop den här resultaträkningen lite grann.
+<v SPEAKER_1>Men jag skulle säga att väldigt många ligger på en GM1 på 62-63 och uppåt någonstans.
+<v SPEAKER_1>Alltså upp till, kanske vi pratade ju för så mattbolagar då som lite går emot just den skrymmande idén, men de kan ligga uppåt liksom över 85.
+<v SPEAKER_1>Hudvård ligger ofta på 80 plus.
+<v SPEAKER_1>Kosmetik ligger på liksom 75 plus.
+<v SPEAKER_3>Vad skulle du säga att om man har en GM2 som är under 50 procent så i princip får man tänka om och börja räkna om om man inte är någon sorts märklig outlier.
+<v SPEAKER_1>Ja eller så där, om du har en GM2 som är under 50 procent så vill det till att du är i en kategori där det finns ett starkt sökbeteende från kund så att en större del av din marknadsföring kan vara Google baserad.
+<v SPEAKER_1>Om en väldigt stor del, om vi säger typ så här, de flesta DTC-varumärkena, de behöver förlita sig på att kanske 60, 70, 80 procent av deras totala marknadsföring går via demand jam-plattformar så att typ meta.
+<v SPEAKER_1>Det tenderar att vara så att om din affärsmodell är så då när du ska ta in nya kunder, då brukar det oftast inte göra till så mycket starkare än break even.
+<v SPEAKER_1>Över tid, så beroende på återköpsmönster och så där, det är en dynamisk ekvation över tid.
+<v SPEAKER_1>Det är lite svårt att säga exakt vad som händer, men jag skulle ändå säga att många DTC-bolag, oavsett av, fastnar i att betala 20-30 procent i marketing.
+<v SPEAKER_1>Man kanske ligger lite högre tidigt, går det bra och du får mycket återköp, då kan din marknadsföringskostnad sjunka för att du framförallt köper in nya kunder med marknadsföringen och då allt eftersom återkommande kunder blir en större del av din totala revenue, då sjunker din kost oavsett hur du beter dig på något sätt.
+<v SPEAKER_1>Då kanske man rör sig mot 20%, men säg att du ska investera 30% i marknadsföring.
+<v SPEAKER_1>Ligger du på 50% i GM2 så tar du 30% bort i marknadsföring, du runer på 20% som är kvar.
+<v SPEAKER_1>Vill du ha 5-10% i lönsamhet, då kan du bara ha en OPEX på 15%.
+<v SPEAKER_1>Och OPEX på 15% är ofta inte jätteenkelt att ta sig dit.
+<v SPEAKER_1>Så man måste betala människor.
+<v SPEAKER_3>Jag tycker att det var en jävla bra mening, jag har aldrig tänkt på det så men du sa att om man har, där kunden gör ett aktivt sökval så kan man ligga på en lägre marknadsföringskostnad.
+<v SPEAKER_3>Och det är det som räddar oss i den här affären, det är att vi har ju, vad ligger vi på typ men 15 procent i marknadsföring, alltså knappt.
+<v SPEAKER_3>Och det är ju för att kunder aktivt själva söker upp köpande, det kan man lura systemet där på något sätt.
+<v SPEAKER_1>Alltså, hade man kunnat gjort det så liksom, för ett fashionbolag så är det rätt svårt att säga, alltså oavsett vilket fashionbolag du är så, du har en t-shirt i ditt utbud.
+<v SPEAKER_1>Men det är ganska svårt att fånga den kunden via Google, för att när någon väl söker på köpa t-shirt på Google, då är de typ på jakt efter lager 157 eller H&M i regel då.
+<v SPEAKER_1>Det är ingen som söker efter din t-shirt som kostar 800 spänn, och börjar med en helt random sökning.
+<v SPEAKER_1>Medan köpahantlar kan landa på er sajt, och ni kan faktiskt vara en relevant leverantör för den sökningen.
+<v SPEAKER_1>Så att alla DTC-bolag som lutar sig in i lite high-end premium-fashion, de kommer aldrig fånga det Google-söket.
+<v SPEAKER_1>Då måste de i stället gå ut på typ Meta och berätta att kolla, vårt t-shirt är faktiskt snyggare än alla andra t-shirtar, eller har någon fantastisk funktion som du inte visste att du behövde.
+<v SPEAKER_1>Som nu gör att du borde komma till vår site och köpa.
+<v SPEAKER_1>Och då, när du automatiskt på något sätt precis som TV-reklam var förr, det är klart att när du gjorde TV-reklam, majoriteten av människor som såg den här TV-reklamen var inte så intresserade av din TV-reklam, men 1% var det.
+<v SPEAKER_1>De lyssnar lite grann och några procent av dem väljer att konvertera på din produkt.
+<v SPEAKER_1>Precis likadant är det på Meta.
+<v SPEAKER_1>Hur mycket vi anstränger oss för att se till att bara visa annonser för de människorna som är relevanta, så är det väldigt många impressions som sker därute, som bara är som ett svart hål.
+<v SPEAKER_1>Några är intressanta, några kommer till sajt, några väljer att konvertera.
+<v SPEAKER_1>Den där processen är dyr för att det är många skärmar då dykt upp på utan att det var rätt.
+<v SPEAKER_3>Jag kan känna spontant ett stort förrakt för världen i att marknadsföringskostnaden är typ större än produktionskostnaden för rätt många bolag.
+<v SPEAKER_3>Det är lite halvbizarrt om man ska vara sådant men eftersom det är en så stor kostnad där det i princip skulle kunna vara ganska mycket luft.
+<v SPEAKER_3>Hur stort ansvar har byrån kontra bolaget?
+<v SPEAKER_3>Ofta använder man ju en byrån när man har kommit upp i en viss size kanske, eller även i början för att man inte fattar vad man gör.
+<v SPEAKER_3>Men hur bra är byråerna i Sverige idag?
+<v SPEAKER_3>Om jag lämnar samma material till fem olika byråer här i Stockholm för alla i Stockholm.
+<v SPEAKER_3>Hur stor diff är det mellan den bästa och den sämsta som är ett gott namn, du behöver inte trashtalka någon.
+<v SPEAKER_3>Jag bara menar, hur hårt ska man jämföra och hur mycket ska man skicka runt?
+<v SPEAKER_1>Jag tror att...
+<v SPEAKER_1>Du boxar in det där på ett sätt som gör att det blir svårare för byrån att faktiskt utmärka sig.
+<v SPEAKER_1>För om du säger till dem att det här är materialet och ni får inte ha några åsikter, då har du direkt tagit bort ett stort värde av vad en byrå kan göra att faktiskt ha åsikter runt hur materialet ser ut.
+<v SPEAKER_1>Vi borde testa andra vinklar eller vi borde vända oss till andra personer.
+<v SPEAKER_1>Sen är det klart att det handlar om den tekniska setupen på Meta.
+<v SPEAKER_1>De flesta byråerna har någon åtminstone i teamet som är ganska skicklig på hur Meta ska fungera.
+<v SPEAKER_1>Tyvärr innebär inte det att alla i teamet kan, den här personen eller en-två personerna som är duktiga, de märker vi ganska ofta inte har tid att vara överallt.
+<v SPEAKER_1>För jag skulle säga att majoriteten av gånger när vi tar över från en annan byrå så är det väldigt tydligt att tekniska missar, inte grejer som gråsonsgrejer där man kan diskutera fram och tillbaka, utan det är så här, det här är fel uppsatt och det borde vara så här istället.
+<v SPEAKER_1>Och hade man pratat med den personen på den byrån som är bäst på det här hade den personen hållit med.
+<v SPEAKER_1>Så jag tror att det finns en kaskaderingsproblem i byråer där du har några duktiga...
+<v SPEAKER_3>Det finns ingen människa som lär mig så många nya ord som du gör.
+<v SPEAKER_3>Kaskaderingsproblem, det har jag aldrig hört i mitt liv, jag läser mycket böcker.
+<v SPEAKER_1>Det finns ett organisatoriskt problem där du har någon person längst upp, eller liksom några personer längst upp på en byrå, som har goda idéer och allt eftersom din byrå växer, så är det svårare att säkerställa kvalitet längs hela basen av människor.
+<v SPEAKER_1>Vi har ju fördelen av att typ fortfarande vara ganska små.
+<v SPEAKER_1>Det är mycket lättare att operera orange shoes än att operera precis digital.
+<v SPEAKER_1>Jag vet inte hur många anställda de har, men de har liksom 500 anställda kanske.
+<v SPEAKER_1>Det finns ju vi bara 16.
+<v SPEAKER_1>Det finns såklart fler än 16 sevinduktiga personer på precis.
+<v SPEAKER_1>Men jag kan också garantera att om du tittar på alla kunder som precis servar, så kommer du att hitta mycket mer fel än vad du gör på alla kunder vi servar.
+<v SPEAKER_1>För att de har såklart högre variabilitet i sin personalstyrka.
+<v SPEAKER_1>Det går inte att komma ifrån när man är så många människor.
+<v SPEAKER_1>Det finns väl några få organisationer i världen, typ McKinsey, som har verkligen lyckats skapa ett system där det är enormt högre i både, därför McKinsey och McKinsey.
+<v SPEAKER_1>Det är över hela personalstyrkan.
+<v SPEAKER_1>Men där är ju inte Sveriges digitala byråer.
+<v SPEAKER_1>Det finns ingen digital byrå som har samma positionering inom digital marknadsföring som McKinsey har inom management-konsulting.
+<v SPEAKER_3>Men den stora grejen när man väljer byrå är kanske framför allt att få rätt person på byrån.
+<v SPEAKER_3>Är det så jag ska koppla?
+<v SPEAKER_1>Det är i alla fall en viktig aspekt.
+<v SPEAKER_1>Det är nog ett bra tips till vem som helst som ska upphandla byrå.
+<v SPEAKER_1>Att säga att det är great att jag pratar med dig nu, jag tycker du har goda idéer.
+<v SPEAKER_1>Vem kommer vara ansvarig för vårt konto imorgon?
+<v SPEAKER_1>Hur ofta ser jag dig som sitter i den här dialogen?
+<v SPEAKER_1>Om den personen säger att du kommer se mig en gång i veckan, då vet man att den personen kommer ha lite bättre koll.
+<v SPEAKER_1>Om de säger en gång i månaden då är de i alla fall fortfarande med någonstans.
+<v SPEAKER_1>De behöver ändå stå till svars för vad som händer ifall man ses en gång i månaden.
+<v SPEAKER_1>Om den personen säger att jag kommer göra en överlämning ut till min kollega Claes här borta och sen ska Claes driva det här och du ser den här personen då spelar det inte så jättestor roll vad som har sagts i det där inställningsmätet egentligen.
+<v SPEAKER_1>Så jag tror att det är en viktig aspekt.
+<v SPEAKER_1>Den tekniska setupen, om den är halv dålig då kanske det är 5-10% i effektivitetsförlust.
+<v SPEAKER_1>Om den är superdålig så kanske du hittar lite mer.
+<v SPEAKER_1>Men i regel är det ju ändå människor som professionellt jobbar med det här så att den är oftast inte superdålig.
+<v SPEAKER_1>Det hittar man kanske snarare om något bolag har skött allting helt själva och bara gissat lite baserat på YouTube.
+<v SPEAKER_1>Men oavsett då, då säger jag 5-10%, det är ganska lite.
+<v SPEAKER_1>Om du spändar 400 000 kronor i månaden och du ligger på 2,2 i ROAS och sen så ser vi att det är massa tekniska problem i kontot så tar vi över och hoppas att det lyfts till 2-4.
+<v SPEAKER_1>Det är typ den förhoppningen man har.
+<v SPEAKER_1>Och sen bortom det så handlar det ju inte om det tekniska i meta, utan då handlar det om att fundera igenom din kreativa strategi, det handlar om att fundera igenom är 2,2 eller 2,4 i ROAS, är det rätt effektivitetsmål överhuvudtaget att upprätthålla eller hade vi mått mycket bättre av att gå ner till 1,5 för att vi då kan köpa in 50% fler nya kunder den här månaden, kommer att belasta kassaflödet ut igen den här månaden när det kommer att göra att det kommer tillbaka sjukt mycket fler nya kunder om några månader igen.
+<v SPEAKER_1>Att ha en byrå och kunna ha den diskussionen med, det kan skapa jättemycket värde.
+<v SPEAKER_1>Det finns generellt sett där du tar in en byrå så du vill egentligen ha den byrons åsikter på så mycket som möjligt.
+<v SPEAKER_1>Jag tror att det är fel att försöka boxa in sin byrå och tänka att de bara är händer och fötter, de ska ladda upp en annons och dra budget där upp och ner efter vad du ger för spes.
+<v SPEAKER_1>Då ska betalvillen vara ganska låg, då kan du anställa en gymnasieelev istället och träna upp den under några månader och så får du dem att göra det typ istället.
+<v SPEAKER_3>Ja jag köper det.
+<v SPEAKER_3>Hela contentproduktionen när det kommer till byråer och sånt, vad?
+<v SPEAKER_1>Det finns ju byråer som är skickliga på contentproduktion, typ SoScale gör ju en väldigt stort nummer av det.
+<v SPEAKER_1>Ludwig är väldigt duktig där på SoScale, de har byggt en bra organisation som verkligen är en content first byrå som också hanterar en del medierköp.
+<v SPEAKER_1>Jag vet inte exakt hur mycket medierköp de gör, men en del i alla fall.
+<v SPEAKER_1>Vi kommer ju till bordet lite från ett annat håll, där vi snarare är en finance first byrå och sen så jobbar vi väldigt mycket med medierköp.
+<v SPEAKER_1>Och sen så är content där vi i regel är mer av en strategisk partner och hjälper till att analysera och säga att det går bättre och ni har Creators som är mellan 25 och 35 men 35-45 ni borde luta er in mer i det.
+<v SPEAKER_1>Här borta är någon vinkel ni har testat som har gått väldigt bra men ni har gjort ganska få annonser, ni borde göra mer av det.
+<v SPEAKER_1>Så vi är mer som en styrande part, men vi håller aldrig själva i kameran eller så.
+<v SPEAKER_1>Jag tror att vi kommer att förändra våra affärsmodeller lite grann faktiskt och luta oss in i att hjälpa till med efterredigering och ta fram statics.
+<v SPEAKER_1>För att det finns så många stora efterfrågan att det känns som att det går ditåt.
+<v SPEAKER_1>Nu med AI och så där så går det att få ut ganska mycket hävstång.
+<v SPEAKER_1>Men i slutändan är alla bolag mår ganska bra av att ha olika contentkällor.
+<v SPEAKER_1>Vilket bolag man än är, om man kan ha ett inhouse-team som gör något content, en hel del, toppen.
+<v SPEAKER_1>Om grundaren kan vara med och delta i content, jättebra.
+<v SPEAKER_1>Om du sedan kan ha en extern konsult, om du kan ha ambassadörer som gillar varumärket så får du produkter regelbundet.
+<v SPEAKER_1>Därför gör content åt varumärket.
+<v SPEAKER_1>Sen har en byrå vid sidan om som också hjälper till med content.
+<v SPEAKER_1>Då får du mer olika typer av content.
+<v SPEAKER_1>Det tenderar att gå väldigt bra idag att ha hög diversifiering i content.
+<v SPEAKER_3>Jag bara tänker att det blir så stort ganska fort.
+<v SPEAKER_3>Det är en grej om jag idag, ja Jacob kan du hjälpa oss med detta?
+<v SPEAKER_3>Kan du samarbeta med det här bolaget?
+<v SPEAKER_3>Ni tar hand om det här och det här.
+<v SPEAKER_3>Det kanske går att göra för att ni alla har en uppsida idé eller det finns en ekonomisk vinning.
+<v SPEAKER_3>Men ganska många e-handlare är ju liksom fortfarande, eller alla som startar är ju liksom små och man gör detta, man ligger och taktar runt några miljoner upp mot 10 miljoner och då börjar det kännas liksom stort.
+<v SPEAKER_3>Då får man ju ofta jobba med en by då.
+<v SPEAKER_3>Vad är det man ska liksom leta efter?
+<v SPEAKER_1>Det går typ inte tror jag.
+<v SPEAKER_1>Alltså nu kanske liksom, jag tror faktiskt även att liksom om man bara tänker på vad hade Ludwig sagt här på SoSkylda.
+<v SPEAKER_1>Men liksom jag tror också att han hade sagt att det är ganska svårt att anställa en byrå som ska skapa content åt en när man är i storleksordningen 5 till 10 miljoner.
+<v SPEAKER_1>För att content kräver alltid väldigt mycket tid.
+<v SPEAKER_1>Så jag tror att det är svårt att liksom ta in en byrå på det.
+<v SPEAKER_1>Då är det nog bättre att hitta typ någon frilansande konsult eller sådär som kan hjälpa till på lite timmar.
+<v SPEAKER_1>Jag tror också att det gäller att bli rätt effektiv och timeboxa hur mycket.
+<v SPEAKER_1>När vi säger till ett varumärke att vi behöver, i er storlek, om ni omsätter 20 miljoner kronor.
+<v SPEAKER_1>Så att det vore väldigt dåligt för er att inte lansera minst 10 nyannonser i veckan.
+<v SPEAKER_1>Då kan ibland bli en sån där att människor tänker oj det är så himla mycket med 10 nyannonser i veckan.
+<v SPEAKER_1>Men har du en person in house som är lite kan-do-attitude, så inser man att 10 annonser säger ni, det ska vara 8 bilder och 2 videos, 8 stillbilder på våra produkter, det klarar jag nog av att producera på fem timmar en dag.
+<v SPEAKER_1>Det ska inte vara, det är inte så att bara för att vi säger att man ska lansera 10 annonser, det är inte så att du måste ha 10 photoshoots, utan du kan ju ta photoshooten från tre månader sedan och bara repurpose den på olika sätt, hitta någon inspiration, skapa lite nya annonser, hitta på några nya vinklar, tänk igenom vem du säljer till.
+<v SPEAKER_1>Så på fem timmar, åtta statics, då ska du ha två videos, det kan omöjligt ta mer än två timmar.
+<v SPEAKER_1>Så att en arbetsdag och producera ut 10 annonser för någon som är lite kund i Canva eller Figma eller Photoshop ska ju inte vara omöjligt.
+<v SPEAKER_1>Men ibland så får människor att de har 10 annonser, då måste vi göra en fotografering på fredag och så blir det så stort och så svårt.
+<v SPEAKER_1>Men jag tror att det gäller någonstans att såhär, och jag menar inte egentligen att man ska släppa sitt brand, utan det gäller på något sätt bara att såhär att avdramatisera volym av annonser.
+<v SPEAKER_1>För att volym är inte den enda, men det är en väldigt stark predictor för att hitta vinnande grejer.
+<v SPEAKER_1>Och det gäller då inte bara att göra 10 annonser och se exakt likadant ut, såhär kolla det blev 10, utan någonstans poängen måste vara att såhär det är 10 som är distinct skilda från varandra och då kommer vi hitta grejer där att såhär, kolla, Q1 går bättre än alla de andra.
+<v SPEAKER_1>Varför än det kan vi fundera mer runt det.
+<v SPEAKER_3>Alltså det är ju också en grej som jag tycker är mycket nyfiken, det är det här helvet vad man ska producera content.
+<v SPEAKER_3>Det verkar vara det folk pratar.
+<v SPEAKER_3>Alla poddar handlar om AI, men sen handlar det om contentproduktion.
+<v SPEAKER_1>Contentproduktion med AI?
+<v SPEAKER_3>Ja exakt, men är kunderna, spelar det någon roll liksom?
+<v SPEAKER_3>Jag fattar inte, spelar det verkligen så stor roll?
+<v SPEAKER_3>Kunden skiter väl i att se den annonsen eller om den såg den en gång till?
+<v SPEAKER_3>Jag ser ju samma annons hela tiden.
+<v SPEAKER_3>Jag bara, jag fattar, jag vill bara förstå varför det krävs sådana enorma mängder produktion.
+<v SPEAKER_1>Men fel, eller liksom det, jag tror att så här, tankefällan är att du tänker på en individ och hur den personen reagerar relativt när Rey och annonsen.
+<v SPEAKER_3>Ja, jag vet redan var jag ska komma, jag gillar det här svaret.
+<v SPEAKER_1>Men poängen är någonstans att ni ska sälja gymmetrustning till många olika människor.
+<v SPEAKER_1>Det är liksom Agneta och Bosse som har precis gått i pension men nu vill hinna komma igång med träningen.
+<v SPEAKER_1>Du behöver prata till dem annorlunda från när du ska vända dig till Mattias som MMA-fighter och han behöver liksom bygga sitt gym hemma.
+<v SPEAKER_3>Varför behöver jag producera en nytt hela tiden då?
+<v SPEAKER_1>Nej men du behöver inte.
+<v SPEAKER_1>Alltså det behöver inte alltid producera en ny, nyt råmaterial.
+<v SPEAKER_1>Men sen kan ju du, vi brukar prata om det här i två steg.
+<v SPEAKER_1>För först så finns det olika individer du kan vända dig till.
+<v SPEAKER_1>Men sen så även i de här grupperna då, om vi tar alla de förpensionerade paren, där finns det människor som fördrar olika saker.
+<v SPEAKER_1>Det finns någon som kommer tycka att det är lite nice med en bild som är tagen med mobilkamerablxt i en mörk källare där man ändå anar att shit, tog sin gamla muggiga källare, de har byggt ett gym och det ser lite nice ut.
+<v SPEAKER_1>De reagerar på den typen av content i sin feed och de tycker att det är kul.
+<v SPEAKER_1>Det kommer att finnas en annan person som är en person som tycker att det är roligare att dricka champagne som vill att bilderna ska kännas högproducerade och du ska få en känsla av att du nästan är på Grand Hotel fast det är löst i deras garage.
+<v SPEAKER_1>Och så finns det alla där emellan.
+<v SPEAKER_1>Det kommer att finnas någon person som är mer benägen att scrolla reels.
+<v SPEAKER_1>Den personen kommer att behöva en videoannons.
+<v SPEAKER_1>Det kommer att finnas någon som tycker att det är kul att swipea karuseller.
+<v SPEAKER_1>Någon som är bättre på att läsa långa primary copies och behöver skriva en lång historia om hur det gick för de här när de byggde sitt gym och att de hade först inte tänkt göra det och sen skulle de göra det och sen blev det så sjukt bra.
+<v SPEAKER_3>Det är en dålig story.
+<v SPEAKER_1>Nu har de gått ner i vikt och de är lyckligare än någonsin och de kan åka på cykelresor ihop vilket de aldrig trodde skulle vara möjligt innan de pensionerade sig.
+<v SPEAKER_1>Att leda in människor i det narrativt och det kommer att finnas någon som bara det här är ju vi, vi är ju de här som inte är tränade mellan 40 och 60.
+<v SPEAKER_1>Men det går alltså fortfarande att reda upp det här trots att vi är 60.
+<v SPEAKER_1>Du kan hitta på så många vinklar och idéer in som gör att du dels hittar olika tydliga grupper att vända dig till i Sverige.
+<v SPEAKER_1>Och sen i den gruppen så finns det då olika sätt att tala till de människorna via video, via långa copies, via stillbilder.
+<v SPEAKER_1>Så att det här gör liksom, och den här matrisen blir ganska stor.
+<v SPEAKER_1>Först har du människorna och sen har du då olika uttryckssätt.
+<v SPEAKER_1>Vi pratar nu om tre, fyra personer, så vi hade säkert kommit på tio personer still ganska snabbt.
+<v SPEAKER_1>Och så ska du ta ut det på fyra sätt.
+<v SPEAKER_1>Och sen så kommer du säga, ja men kolla, stillbilden mot personen 11 funkar inte bra.
+<v SPEAKER_1>Är det för att personen 11 hatar stillbild eller är det för att vi gjorde en dålig stillbild?
+<v SPEAKER_1>Och ofta är svaret att det är för att vi gjorde en dålig stillbildsanans.
+<v SPEAKER_1>Då behöver man testa det fem gånger till och då sitter du såhär, ja, jag vill bara hassa det mot den personen.
+<v SPEAKER_1>Och liksom den här matrisen blir då bara väldigt väldigt stor vilket gör att man måste luta sig in i content mycket.
+<v SPEAKER_3>Ja jag köper det.
+<v SPEAKER_3>Jag tror att ett av de stora felen som e-handlare gör är att man utgår från sig själv väldigt mycket.
+<v SPEAKER_3>Alltså jag är lite tråkig på det sättet.
+<v SPEAKER_3>Det är inte, alltså om jag ska köpa ett par jeans så söker jag ju på jeans och så väljer de längst upp och så väljer de som ser ut att vara i min storlek och så klickar jag hem dem.
+<v SPEAKER_3>Jag har ju ingen direkt åsikt om någonting egentligen.
+<v SPEAKER_3>Köper jag en tvättmaskin gör jag på samma sätt.
+<v SPEAKER_3>Då på något sätt förutsätter jag att varför ska folk vilja ha annonser eller vem bryr sig om vad någon har.
+<v SPEAKER_3>Man går in och så söker man den som finns i lager och så klickar man bara på den.
+<v SPEAKER_3>Jag bara menar, och det är inte så det funkar, nu är det ett överdrivet exempel, men jag bara menar att det är lätt att man tänker ja vi ska göra annonser på det här sättet, eller vi ska göra annonser på det här sättet.
+<v SPEAKER_3>Och så hamnar man i den fällan som du säger att man tänker att det här passar inte riktigt med ens brand eller det här inte.
+<v SPEAKER_3>Det är ingen som bryr sig om det passar med ditt brand egentligen, för att det ska passa med den personens känsla av vad den vill köpa i den situationen.
+<v SPEAKER_3>Det är egentligen det du måste hitta och det är det du ska bli duktig på.
+<v SPEAKER_1>Exakt, det som någonstans ser ut så att är det en människa därute som du kan komma i kontakt med, som vill köpa dina produkter och blir glad när de har köpt dina produkter, då är ju den människan en del av din brandvärld, annars har du producerat fel produkt.
+<v SPEAKER_1>Och jag tror att det där kan ibland bli limiterande.
+<v SPEAKER_1>Sen är det klart att man behöver också kunna hålla i någon form av varumärksidentitet.
+<v SPEAKER_1>Jag brukar tänka på det som att ju längre ifrån köp du är i din funnel någonstans, så desto mindre om brand måste du vara okej med att du är.
+<v SPEAKER_1>För att sen, om du tänker det liksom att du är så top of funnel du kan vara, det är en människa som inte vet att de behöver din produkt som aldrig har talat om ditt varumärke.
+<v SPEAKER_1>Där uppe måste du vara väldigt villig att bara visa content som den personen kanske tycker är lite nice.
+<v SPEAKER_1>Om den personen då kvalificerar sig genom att lutas in och titta på din video du har producerat i tolv sekunder, då visar det sig att den här personen i alla fall måttligt intresserar antingen av din produkt, av problemet du löser eller ditt varumärke.
+<v SPEAKER_1>Och så kommer du ner lite i fannen och säger att vår produkt som löser problemet som du just verkar identifiera med har de här tre usparna.
+<v SPEAKER_1>Om den personen känner att det är nice också, då kan du styra ner lite mot ditt varumärke.
+<v SPEAKER_1>Så när du väl ska presentera din produkt, då kan du på något sätt säga att kolla, här är vår produkt, den är svart och vit och grön, som är right on brand, det är nice, du kommer till vår site.
+<v SPEAKER_1>Och siten på något sätt är alltid så varumärketsnära den kan vara.
+<v SPEAKER_1>Det är ju ingen i princip, man kan ha landningside och sådant, men det är ganska ovanligt att man har en site som lever i många varumärksidentiteter.
+<v SPEAKER_1>Så där är man ju alltid on brand, men din site är ju någonstans så bottom of funnel som du kan komma.
+<v SPEAKER_1>Då är i alla fall någon gillat dig tillräckligt mycket för att vara villig och ta sig till din site.
+<v SPEAKER_1>Så att ju längre ifrån man är, desto mer villig måste man vara på något sätt att bredda synen av.
+<v SPEAKER_1>Då är ett sätt att komma över den grejen brukar vara att säga att om vi tar ett varumärke med stark identitet, så säg CDLP eller Kim eller någon av de här coola brands som man växte upp.
+<v SPEAKER_1>De människor köper deras produkter och lägger upp på Instagram.
+<v SPEAKER_1>Det kan inte de här varumärkena kontrollera.
+<v SPEAKER_1>Jag tror till och med de skulle säga att det är klart att det är nice när människor lägger upp våra produkter på e-simfeed.
+<v SPEAKER_1>Det är ju en reklam.
+<v SPEAKER_1>Vi har inte lagt pengar bakom den.
+<v SPEAKER_1>Men om du är fin med att andra människor gör det, oavsett om du är fin eller inte, så kan du inte kontrollera att det händer.
+<v SPEAKER_1>Det enda nästa steget efter det är att vi tar exakt den grejen som någon nu har lagt upp.
+<v SPEAKER_1>Och så skjuter vi till 10 000 kronor bakom det.
+<v SPEAKER_1>Det går fortfarande ut från Joel's konton när du står och testar CDLPS-t-shirt framför en spegel.
+<v SPEAKER_1>Det var bra att du gjorde det från början och nu ballegger vi till 10 000 kronor.
+<v SPEAKER_1>Det är ju på något sätt, det kan vara en jättebra top of funnel placering för att du resonerar till någon målgrupp som de tycker är nice att se dig och de känner att därför gjorde du det för mig.
+<v SPEAKER_1>Sen så har du nått ut till en ny grupp av potentiella CDLP-köpare.
+<v SPEAKER_3>Jag tänker att vi ska avsluta hela budgetdialogen där någonstans.
+<v SPEAKER_3>Där vi gick igenom resultaträkningen och så hade vi kvar fasta kostnader.
+<v SPEAKER_3>Jag menar det med all kärlek men jag får inte riktigt ihop det här med 15 procent i fasta kostnader.
+<v SPEAKER_3>Vad fan är det som kostar så mycket pengar?
+<v SPEAKER_1>Den stora delen där är väl löner såklart.
+<v SPEAKER_1>Löner, ofta så blir teamen ganska stora eller kanske lite för stora relativt toplinen.
+<v SPEAKER_1>Jag tror att det är viktigt att man sätter på sig hatten tidigt att fundera på hur stort ska teamet vara vid olika storlekar på bolaget.
+<v SPEAKER_1>När man är liten då är det svårt att inte teamet är för stort relativt topline.
+<v SPEAKER_1>Man kanske är tre personer redan vid mellan 10-20 miljoner någonstans i omsättning.
+<v SPEAKER_1>Men när man rör sig mot 100 miljoner då ska man kanske bara vara 10 då eller till och med färre än 10.
+<v SPEAKER_1>Ni opererar ju med fem eller vad kan man säga på en omsättning på 100.
+<v SPEAKER_1>Det finns ju andra bolag som lyckas med också, typ Sixsac eller Nudient eller någonting annat.
+<v SPEAKER_1>Jag tror att det är jätteviktigt att bara inte anställa för att det känns rätt i stunden, utan göra det väldigt planerat helt enkelt.
+<v SPEAKER_3>Vi är ju som sagt relativt få.
+<v SPEAKER_3>Lagret är halva vår styrka eftersom vi har en inhouse, men på kontoret är vi liksom fem.
+<v SPEAKER_3>Och jag bara tänker att vi producerar ju väldigt lite content.
+<v SPEAKER_3>Det är en avdelning som typ försvinner hos oss.
+<v SPEAKER_3>Vad är rimligt där liksom?
+<v SPEAKER_1>Det beror ju lite på vart man är någonstans på resan, men jag skulle säga att är man ett litet bolag som Juniper som omsätter en bit över 20 nu kanske år, då behöver man väl ha en halv person som kanske jobbar med content.
+<v SPEAKER_1>Då vill det ju till att man hittar ett effektivt sätt att använda den andra halvan av den tiden och se till att den personen är en person som vill ta sig an ett bredare ansvar.
+<v SPEAKER_1>Och om man omsätter 100 miljoner och ska göra hur mycket annonser som helst, då kanske man kan vara två personer som jobbar med content istället.
+<v SPEAKER_1>Men då är det också viktigt att man klarar av att outputta.
+<v SPEAKER_1>Jag tror att Junipers team kanske hann att producera tillsammans med Matilda som lägger en del av sin tid på content, men de gör ändå 60-70 annonser i månaden och det har varit en av anlocksen för att få Juniper att nu röra sig lite snabbare framåt.
+<v SPEAKER_1>I år växer Juniper väldigt fint, men ifall man är på 100 miljoner då behöver man räkna med att kunna göra 100 annonser i månaden.
+<v SPEAKER_1>Då vill det till att de personer som jobbar kreativt också har ganska bra cadence eller rätt bra fart i steget när de rör sig framåt så att det inte blir för mycket att sitta och fundera på hur brandet ska visualiseras om två år.
+<v SPEAKER_1>Det vill till att man får tillräckligt på en program.
+<v SPEAKER_3>Är det det som är den stora problematiken att när man är en person då är det väldigt tydligt att den ska producera.
+<v SPEAKER_3>När man blir två personer då hjälps man åt lite att producera och man snackar lite.
+<v SPEAKER_3>Blir man tre personer då blir det en person som typ säger det här är godkänt och det här är inte godkänt och de andra två producerar fortfarande så att man ökar inte linjärt.
+<v SPEAKER_3>Är det det som är den stora...
+<v SPEAKER_1>Ja, jag skulle säga det är det.
+<v SPEAKER_1>Och sen ser jag att det blir väldigt mycket...
+<v SPEAKER_1>Alltså det handlar inte bara om content-produktion utan det är väl var som helst i företaget.
+<v SPEAKER_1>Det blir väldigt mycket koordineringsmöten och det är vare sig det handlar om att ändra hemsidan eller någonting annat.
+<v SPEAKER_1>Och jag kan ibland, liksom även på Juniper som är ett sådant litet team, så kan jag ibland så här...
+<v SPEAKER_1>Jag blir indragen i vissa frågeställningar när det här mailet ska gå ut imorgon.
+<v SPEAKER_1>Kan inte du korrläsa?
+<v SPEAKER_1>Så är det en tjej som har skrivit det och sen så har Matilda korrläst det och så ska jag korrläsa det.
+<v SPEAKER_1>Och då hölls det här, nu lägger vi för mycket energi på att det här mailet ska gå ut.
+<v SPEAKER_1>Det var nog bra från början, det har gått igenom ett kvalitetsfilter, det behöver inte gå igenom ett tredje kvalitetsfilter.
+<v SPEAKER_1>Det där är ju bara ett exempel och där är det ganska lätt att säga att det är klart att inte det behövs, men den där typen av grejer finns det otroligt mycket av på arbetsplatser.
+<v SPEAKER_3>Får jag fråga vad, dra ett exempel.
+<v SPEAKER_3>Vi hade en kollega, hon skrev nyhetsbrev, och hon var väldigt perfektionistisk på en nivå att det blev, det här tar för lång tid.
+<v SPEAKER_3>Hon ville att man skulle korreläsa hennes nyhetsbrev.
+<v SPEAKER_3>Jag förstår att det här var säkert någon sorts asshole move och så skulle jag kanske inte gjort idag, men detta är tolv år sedan så det spelar ingen roll.
+<v SPEAKER_3>Men när hon bad mig korreläsa, då gick jag in och så skrev jag massa fel i nyhetsbrevet, bara gjorde massa bokstäver och sen skickade jag iväg det.
+<v SPEAKER_3>Bara för att illustrera att det är lugnt, jag vet att du gör bättre än vad jag gör om jag gör detta, och det gör ingenting om det blir ett fel i nyhetsbrevet, för du gör nyhetsbrevet bättre än vad jag gör, så att slappna av typ.
+<v SPEAKER_3>Men det är lugnt, folk bryr sig inte så mycket om man gör ett fel.
+<v SPEAKER_1>Exakt, folk bryr sig inte så mycket om man gör ett fel.
+<v SPEAKER_1>Det är mycket sådana grejer med saker som ska hända på sajt eller neder, där så många människor känner att de borde få ha ett sig i saker.
+<v SPEAKER_1>Och jag skulle säga att i ganska många fall så mår man bättre av att skicka ut det där nyhetsbrevet eller nyhetsbrevet en hel månad.
+<v SPEAKER_1>Och sen så i slutet på den månaden så säger man att vi borde tänka på att prata mer produkt, eller vi borde tänka på att ta upp vårt brand mer, eller vad det nu är.
+<v SPEAKER_1>Och sen så försöker man korrigera det inför nästa månad istället för att ha ett koordineringsmöte inför varje nyhetsbrev som ska gå iväg.
+<v SPEAKER_1>Och allt sånt där, är man ett väldigt litet team, då hinner man inte hålla på med alla de där koordineringsmöterna, och då bara gör man, och då rör man sig snabbare framåt, och när man rör sig snabbare framåt så lär man sig mer istället för mindre.
+<v SPEAKER_1>Och i regel växer de bolagen också ganska snabbt.
+<v SPEAKER_1>Jag skulle säga att det finns inte en tajt korrelation mellan att teamstorleken är större och att ett bolag växer snabbare alls.
+<v SPEAKER_3>Men du har sagt i några tillfällen, tror jag du har pratat om att man anställer i efterhand istället för i förtid och att det är liksom rätt väg att gå.
+<v SPEAKER_3>Alltså för de flesta människor som inte är liksom vc-backade typ.
+<v SPEAKER_1>Exakt, just om man har en stor pool av kapital och det finns en väldigt hög kravbild på hur snabbt du ska växa.
+<v SPEAKER_1>För det första, hur många enhållsbolag är i den positionen i Sverige i dag?
+<v SPEAKER_1>Det är ganska ovanligt att man hör om ett enhållspelag som har noll i omsättning, som har fått in 20 miljoner kronor i kapital och nu har en kravbild att ta sig till 100 miljoner kronor på 24 månader.
+<v SPEAKER_1>Det finns säkert en sådan resa därute just nu men det är inte många bolag som har den setupen.
+<v SPEAKER_1>I regel så reser man i pengar efter att man kommit nånvart som DTC-bolag, det är det vanligaste.
+<v SPEAKER_1>Oftast så reser man inte ohymula belopp, utan det är ofta 3, 4, 5, kanske max 10 miljoner kronor.
+<v SPEAKER_1>Det som är vettigt att lägga pengar på när man tar in investerare, det är till exempel produktbräddning, för det är någonting man inte hade kunnat gjort annars.
+<v SPEAKER_1>Så binder man upp pengar i kapital, man hoppas på att kunna korsälja mera till sin externa kundbas eller kunna ta in fler kunder.
+<v SPEAKER_1>Om Juniper hade haft oändliga pengar så hade vi kunnat introducera en ytterligare billigare sängkläddesrange, vi hade kunnat introducera fler material, det kanske hade visat sig att vi hade kunnat snor mer marketsharp från Hemtex på något sätt för att vi hade ätit upp en större del av marknaden vill ha.
+<v SPEAKER_1>Det är ett ganska bra sätt att använda kapital, men att anställa upp en massa människor som sitter och ritar saker och sådär, men som inte i sig driver en utökad kundstock, det är i regel inte en jättebra idé.
+<v SPEAKER_1>En annan gis med en ganska dålig idé att investera pengar i, det är att säga att vi ska forcera in försäljning genom att driva olönsam marknadsföring.
+<v SPEAKER_1>Så börjar man köpa in, du gör av med 1000 kronor, men jag betalar 3000 kronor för att få in dig i kack.
+<v SPEAKER_1>Payback time är never, du får aldrig tillbaka de pengarna.
+<v SPEAKER_1>Då har du skapat artificiell topline genom att allokera in 10 miljoner kronor i marketing och så har du fått 5 miljoner tillbaka i topline.
+<v SPEAKER_1>Men det där är olönsam försäljning forever.
+<v SPEAKER_1>Det är inte heller en sund grej att göra med pengar.
+<v SPEAKER_1>Man måste hitta grejer att göra med pengar.
+<v SPEAKER_1>Öppna butiker kan vara en bra idé och göra när man faktiskt får in pengar för att det ökar ditt footprint, det ökar din permanenta brand, image, marketing och butikerna i sig kan skapa ökad försäljning som du annars inte hade fått som inte är cannibaliserad på en extern försäljning.
+<v SPEAKER_1>Det är viktigt att tänka igenom vad man ska göra med pengarna man får in dem och att anställa väldigt stora team är nog inte en jättebra idé, absolut.
+<v SPEAKER_1>Man kanske istället då väljer att anställa en person 12 månader för tidigt men inte fyra.
+<v SPEAKER_3>Finns det någon annan fast kostnad som man ska hålla koll på?
+<v SPEAKER_1>Det är väl mjukvarukostnader som är såklart viktigt.
+<v SPEAKER_1>Jag pratade med Pontus på Nudientramdan, de hade skurit ut ganska mycket mjukvarukostnader, typ över en halv miljon tror jag nämnde, genom att gå över till egenproducerade mjukvaror.
+<v SPEAKER_1>Och det är väl värt tror jag för de flesta nu, jag ska säga så att de inte är då ett tekniskt team, de är väldigt tekniska kan man ju hävda för att de är skickliga, men de är inte kodade, utan de har använt vibkodinglösningar för att täcka upp de mjukvarubehoven de har i viss utsträckning.
+<v SPEAKER_1>Självklart har de inte bytt ut sitt CMS, de kör med en, jag tror att de är på Shopify.
+<v SPEAKER_1>Men de har ändå bytt ut en del av de grejerna, typ inventory, forecasting och andra saker.
+<v SPEAKER_3>Jag måste ifrågasätta det här, hur stort är Nudient?
+<v SPEAKER_1>Om en hundra miljoner ungefär.
+<v SPEAKER_3>Så då är det 0,5% av omsättningen.
+<v SPEAKER_3>Han har säkert lagt en del tid på det och man kanske lägger in en del risker där.
+<v SPEAKER_3>För jag har hört detta exempel tidigare i, man vet inte säkert framtiden ser jag andra eller.
+<v SPEAKER_1>Han pratade på D-kongress också.
+<v SPEAKER_3>Så kanske det var.
+<v SPEAKER_3>Jag kan inte situationen men är det inte riskabel till en sån grej för en så liten besparing?
+<v SPEAKER_3>Man vet ju inte vad som hände där riktigt.
+<v SPEAKER_1>Ja men det beror lite på vad du tänker på för del av, att det är riskabelt om du skulle byta ut, om du skulle byta ut Magento eller Shopify mot någonting som din polare har vibe-kodat.
+<v SPEAKER_1>Ja men det är en enormt stor risk.
+<v SPEAKER_1>Men om du skulle byta ut er att inköpssystem, och du känner att så här, ja men sett att jag gör inköp idag, det kanske sker i ett system, men i slutändan är det sjukt manuellt.
+<v SPEAKER_1>Du sitter fram och tillbaka och tittar upp och ner och så här.
+<v SPEAKER_1>Risken kanske inte är så våldsamt stor om det inte redan sker en massa automation i det här systemet idag.
+<v SPEAKER_1>Om du då sätter dig och så säger du först att så här, men vi kan bygga det här i Excel lika gärna, och så kommer du på att, ja men jag kan nog bygga det här bättre i liksom en vibe-kodad mjukvara.
+<v SPEAKER_1>Då kanske du slutar med att, visst du får investera lite tid up front, men min upplevelse när jag vibe-kodar mjukvaror just nu, det är att det tar mindre tid än vad man tror att få ihop det.
+<v SPEAKER_1>Så det är så här, det tar ofta åtta timmar kanske att producera någonting som ändå är hyfsat komplext, men sen så direkt när du börjar använda det, så spar du massa tid istället.
+<v SPEAKER_1>Så att om du då kan få ner tiden då du jobbar med inköp med 30 procent, och så har du investerat, även om det är liksom partially arbetsdagar up front, så relativt snabbt får du tillbaka den där, och jag tror att det är den stora skillnaden med när du lutar in i AI mot hur det har varit typ, när jag började jobba som management consult, då försökte jag få människor att bli bättre på Excel.
+<v SPEAKER_1>Och när du skulle bli bättre på Excel, då är det så här, vet du vad, om du lär dig den här shortcuten idag, och sen gör du den för all framtid, då kommer du till beslutet på det här året att ha sparat fyra timmar.
+<v SPEAKER_1>Och då ska du använda den ganska ofta.
+<v SPEAKER_1>Men det tar jättelång tid innan du har sparat tiden, men med AI idag är det ganska stor utsträckning.
+<v SPEAKER_1>Ofta kan du göra en grej i en halvtimme för att göra setupen, och det gör du på en måndag, och på onsdag känner du redan att du har sparat tiderna i veckan för att det tog den här halvtimen i måndags.
+<v SPEAKER_1>Så det är inte bara en fråga om att spara pengar, även om det ofta är det lättaste sättet att motivera bolaget att röra på sig, men det är också en fråga om att öka effektiviteten, att få saker som är fit for purpose, att säga att jag har byggt ett inköpssystem till Uniper.
+<v SPEAKER_1>Det inköpssystemet inte bara forecaster ut vad jag behöver köpa in, utan det genererar ut färdiga purchase orders till fabriken i exakt det formatet som fabriken vill ha, och bara slänger ut det.
+<v SPEAKER_1>Och jag behöver inte göra någon manuell handpåläggning annat än att jag laddar upp vår försäljningsdata, vår lagerdata, den generella forecasting, den inslänger ut purchase orders.
+<v SPEAKER_1>Och sen så det jag behöver göra är att ta den Excel-filmen, dra in det i mailprogrammet, och skicka det till fabriken och säga att jag behöver det här enligt den specen som den har sagt att jag behöver.
+<v SPEAKER_1>Och så säger han att du behöver de här produkterna i augusti.
+<v SPEAKER_1>Och så är jag så här, ja men bra.
+<v SPEAKER_1>Det har gått från att det var ett flertimmas projekt varje gång vi skulle lägga orderar, till att nu är det några minuter och jag behöver factchecka lite att ingenting har landat fel.
+<v SPEAKER_3>Jag köper det, det är nästan personalfrågan igen.
+<v SPEAKER_1>Ja men exakt.
+<v SPEAKER_1>Och kan man hitta några points of leverage, när jag sköter Unipers inköp, det har varit en flaskhals genom de sista par åren.
+<v SPEAKER_1>För att jag gör ju tyvärr inte på heltid, utan det är ju någonting jag gör på lördagen mellan att jag hanterar barnen typ.
+<v SPEAKER_1>Och då blir det fel ibland.
+<v SPEAKER_1>Men inte för att analyserna är fel, utan för att jag prioriterar bort det i flera veckor när jag borde ha tagit tag i det.
+<v SPEAKER_1>Och nu är det otroligt mycket lättare att sätta sig med det, för att jag vet att från att jag startar till att jag är helt klar, det är så här 30 minuter, lättare att hitta den looken.
+<v SPEAKER_3>Är det de som är de stora fasta kostnaderna man kan tänka på?
+<v SPEAKER_1>Sen kan det ju ha räntor, det kan vara en stor fast kostnad, om man har behövt ta lån genom åren, behöva serva det.
+<v SPEAKER_1>Vad kan det mer vara?
+<v SPEAKER_1>Det kan vara lokalhyr och sådär.
+<v SPEAKER_1>Framförallt om man har mycket butiker, så kan det bli en stor kostnadspost.
+<v SPEAKER_1>Bara själva kontoret brukar inte behöva bli en så stor kostnadspost.
+<v SPEAKER_1>Vad kan det mer vara?
+<v SPEAKER_3>Räntor och sådant.
+<v SPEAKER_3>Skulle du säga att e-handlare är för dåliga att gå och förhandla med bank kontra alla betallösningar som finns?
+<v SPEAKER_1>Ja, jag tror att det är lätt att glömma bort att du i regel kan få ett lån från din bank till mycket lägre räntor än vad du får om du går till de leverantörerna som på något sätt specialiserat sig mot e-handelsbolag.
+<v SPEAKER_3>Jag tycker att ofta folk säger, hur löser du den här likviditetsbampen här, och då säger de att vi använder den eller den.
+<v SPEAKER_3>Har du kollat med din bank typ?
+<v SPEAKER_3>Nej, jag har inte pratat med dem på tre år, för tre år sen ville de inte, absolut, men du är ju typ sex gånger större nu.
+<v SPEAKER_3>Ska vi inte bara gå in och fråga?
+<v SPEAKER_3>Kolla om ni kan få ett lån på ett pannel i grunden.
+<v SPEAKER_3>Det är en jävla skillnad i ränta.
+<v SPEAKER_1>Otroligt stor skillnad i ränta, så jag tror att det är en klok idé för många faktiskt.
+<v SPEAKER_1>Just för ett kassaflöde är det ett problem, och man vet att det är väldigt säsongsbetonat.
+<v SPEAKER_1>Det är ofta lågt för samma bolag vid samma del av året varje år, så det är ganska lätt att förutse att det här kommer att hända nästa år igen.
+<v SPEAKER_1>Vad är det egentligen med för stora fasta kostnadsposter?
+<v SPEAKER_1>Det här är väl det man ofta pratar om.
+<v SPEAKER_1>Transaktionsavgifter har vi redan diskuterat tidigare, men det är också ofta en sån som är lätt att glömma bort att det går att ibland få ner.
+<v SPEAKER_3>Ja men grymt, då sätter vi punkter för det här avsnittet.
+<v SPEAKER_1>Toppen, tack för idag!
+<v SPEAKER_3>Tack för idag!
+<v SPEAKER_3>När hon bad mig korleza, då gick jag in och så skrev jag massa fel i nyhetsbrevet.
+<v SPEAKER_3>Bara såhär, gjorde massa bokstäver och sen skickade jag iväg det.
+<v SPEAKER_3>Bara för att illustrera att typ, det är lugnt typ, jag vet att du gör bättre än vad jag gör om jag gör detta.
+
 ## Calle Fleur - Chefredaktör Chef, tf VD Chefakademin
 <v SPEAKER_1>Riktigt bra chefer har ju landat i förståelsen att det inte handlar om dom själva och så, utan att det är på något vis.
 <v SPEAKER_1>Ledarskap handlar om att få med sig människor för att nå verksamhetens mål.

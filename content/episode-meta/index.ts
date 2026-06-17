@@ -108,6 +108,7 @@ import meta105 from "./rabie-salem-vd-contentor-nar-hela-ens-affarsmodell-vands-
 import meta106 from "./jens-thulin-mylla-se-att-utmana-oligopolet";
 import meta107 from "./sebastian-nilsson-rundlof-extend-marketing-podden-ehandelssnack";
 import meta108 from "./alexander-bica-lyfe-nordic-att-bygga-ett-bolag-fran-grunden-i-en-ny-och-vaxande-marknad";
+import meta109 from "./borjan-pa-slutet-4-avsnitt-om-ehandel-med-jacob-wibom-westerberg";
 
 export const episodeMetaBySlug: Record<string, EpisodeMeta> = {
   "3-intervjuer-fran-d-congress-aida-jammal-jenny-rydhstrom-och-pelle-pettersson": meta0,
@@ -218,4 +219,5 @@ export const episodeMetaBySlug: Record<string, EpisodeMeta> = {
   "jens-thulin-mylla-se-att-utmana-oligopolet": meta106,
   "sebastian-nilsson-rundlof-extend-marketing-podden-ehandelssnack": meta107,
   "alexander-bica-lyfe-nordic-att-bygga-ett-bolag-fran-grunden-i-en-ny-och-vaxande-marknad": meta108,
+  "borjan-pa-slutet-4-avsnitt-om-ehandel-med-jacob-wibom-westerberg": meta109,
 };
