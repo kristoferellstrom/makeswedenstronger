@@ -4,6 +4,9 @@ import type { TranscriptCue } from "@/lib/types";
 const HOST_NAME = "Joel";
 const JACOB_BORJAN_PA_SLUTET_TITLE = "borjan pa slutet 4 avsnitt om ehandel med jacob wibom westerberg";
 const JACOB_BORJAN_PA_SLUTET_GUEST_NAME = "Jacob Wibom Westerberg";
+const FORTSATTNINGEN_PA_SLUTET_TITLE =
+  "fortsattningen pa slutet plattformar betallosningar leverantorsforhandlingar och valutor";
+const FORTSATTNINGEN_PA_SLUTET_GUEST_NAME = "Jacob Wibom Westerberg";
 const INTRO_WINDOW_SECONDS = 120;
 const HOST_PHRASE_FALLBACK_START = 38;
 const HOST_PHRASE_FALLBACK_END = 46;
@@ -105,8 +108,13 @@ function cueLooksLikeHostBridgeQuestion(text: string) {
 export function getTranscriptGuestNameFromTitle(episodeTitle: string) {
   const normalizedEpisodeTitle = normalizeSearchText(episodeTitle);
 
-  if (normalizedEpisodeTitle === JACOB_BORJAN_PA_SLUTET_TITLE) {
-    return JACOB_BORJAN_PA_SLUTET_GUEST_NAME;
+  if (
+    normalizedEpisodeTitle === JACOB_BORJAN_PA_SLUTET_TITLE ||
+    normalizedEpisodeTitle === FORTSATTNINGEN_PA_SLUTET_TITLE
+  ) {
+    return normalizedEpisodeTitle === JACOB_BORJAN_PA_SLUTET_TITLE
+      ? JACOB_BORJAN_PA_SLUTET_GUEST_NAME
+      : FORTSATTNINGEN_PA_SLUTET_GUEST_NAME;
   }
 
   const withoutSubtitle = episodeTitle.split(/\s+-\s+/)[0]?.trim() ?? episodeTitle.trim();
@@ -195,6 +203,17 @@ export function inferSpeakerDisplayNames(cues: TranscriptCue[], episodeTitle: st
 
   if (genericLabels.length < 2) {
     return new Map<string, string>();
+  }
+
+  const normalizedEpisodeTitle = normalizeSearchText(episodeTitle);
+
+  if (normalizedEpisodeTitle === FORTSATTNINGEN_PA_SLUTET_TITLE) {
+    return new Map<string, string>([
+      ["speaker_1", FORTSATTNINGEN_PA_SLUTET_GUEST_NAME],
+      ["speaker_2", HOST_NAME],
+      ["speaker_3", HOST_NAME],
+      ["speaker_4", HOST_NAME],
+    ]);
   }
 
   let hostLabel: string | null = null;

@@ -28710,6 +28710,549 @@ Varje avsnitt börjar med en rubrik och följs av transkriptet.
 <v SPEAKER_1>Du kan ärva de kläderna, dina skor kan vara en storlek för stora.
 <v SPEAKER_2>Du kan tugga på sten, absolut.
 
+## Fortsättningen på slutet - Plattformar, betallösningar, leverantörsförhandlingar och valutor!
+<v SPEAKER_1>Det är lite mer poppis, men det känns som att någon gång, inom inte alltför lång framtid, så kom man att titta tillbaka på hur absurt det var att man skulle betala extra för att man skulle betala i en annan valuta någonstans.
+<v SPEAKER_1>Det bara känns otroligt omodern.
+<v SPEAKER_2>Make Sweden Stronger Men är det så, nu gick vi in, du ska få berätta lite om det själv, men jag bara hoppar in här lite.
+<v SPEAKER_2>Det är rätt sjukt att ni, vad sa du, omsökt 160 miljoner.
+<v SPEAKER_2>Jag är ju chanobilgenerationen, jag kan inte ta...
+<v SPEAKER_2>Du vet, vem är du typ?
+<v SPEAKER_2>Det låter inte så jävla verkligt.
+<v SPEAKER_2>Du har renda språk.
+<v SPEAKER_2>Ni har inga sura kolleger, ni bråkar aldrig och det finns inga tulliga ögonblick.
+<v SPEAKER_2>Nu kanske jag får skit för detta men...
+<v SPEAKER_2>Alltså man tar det positivt.
+<v SPEAKER_3>Jag håller med.
+<v SPEAKER_2>Men, vad brinner ni mest för?
+<v SPEAKER_3>Välkommen till podden Make Sweden Stronger och...
+<v SPEAKER_3>Nu sitter vi igen här med Jakob Wibom Westerberg från OJ och vi ska göra vår lilla miniserie om allt som finns kring e-handel kan man säga.
+<v SPEAKER_3>Vi tänker att vi börjar någonstans i plattformsval.
+<v SPEAKER_3>När man lyssnar på er, andra i, ska man säga ni som har poddar i den här världen, så känns det som att det är Shopify som gäller.
+<v SPEAKER_3>Jag ligger inte på Shopify.
+<v SPEAKER_3>Kan du bara förklara, kan inte du bara spåna loss lite kring vad fan är grejen med Shopify typ?
+<v SPEAKER_1>Jag tror att Shopify har väl gjort lite det för ensvärlden som Apple kanske gjorde för mobilvärlden när det kommer till appar.
+<v SPEAKER_1>Och det är väldigt enkelt att installera nästa grej.
+<v SPEAKER_1>Det är väldigt låg grad av problem.
+<v SPEAKER_1>Det är liksom sidan blir aldrig överbelastad.
+<v SPEAKER_1>Checkouten funkar alltid.
+<v SPEAKER_1>Uniper, som min frugrunda som jag fortfarande är involverad i, var på WooCommerce till exempel innan.
+<v SPEAKER_1>Jag minns det som att det var varje helg, men det var väl kanske en helg i månaden där hemsidan hade något form av problem.
+<v SPEAKER_1>Antingen var det överbelastat eller så hade Checkouten slutat fungera för att det var en uppdatering någonstans som fick systemet att trilla ihop.
+<v SPEAKER_1>Säkert inte den bäst byggda hemsidan från grunden, men det blev ändå för ett pyttelitet bolag då.
+<v SPEAKER_1>Juniprom satt det kanske två eller fem miljoner eller något som vi bytte över till Shopify.
+<v SPEAKER_1>På den tiden betalade vi 20 000 i månaden till utvecklare kontinuerligt för att bara hålla sajten vid liv och knappt göra någon utveckling.
+<v SPEAKER_1>Vi gick till Shopify och nu har vi väl betalat 20 000 kronor i utvecklingskostnader på två år istället.
+<v SPEAKER_1>Det är rätt behagligt för små e-handlare.
+<v SPEAKER_3>Men är det bara för små e-handlare?
+<v SPEAKER_1>Nej men är det ju inte längre.
+<v SPEAKER_1>Villoid till exempel som är Norges största Shopify-butik är på väg mot 800 miljoner i år i omsättning.
+<v SPEAKER_1>Så det är absolut inte bara för små e-handlare.
+<v SPEAKER_1>I USA finns det ju enormt många stora bolag.
+<v SPEAKER_1>Så jag tror också att den andra benefiten, det där är ju då för små e-handlare, men den andra benefiten av att vara på Shopify för ett stort bolag är att man kan testa saker väldigt snabbt.
+<v SPEAKER_1>Jag hade en kund som var på en häddlös lösning som jag jobbade med och vi kom på förra sommaren att de borde introducera bundles av produkter.
+<v SPEAKER_1>Man tänker att det ändå inte är så jättekomplicerat och de hade resten av en produkt som i princip inte gick att använda.
+<v SPEAKER_1>Om man inte köpte flera av deras andra produkter samtidigt så måste man ha bundles på sajten.
+<v SPEAKER_1>Det tog sju månader innan de var redo att testa det.
+<v SPEAKER_1>På Shopify hade du kunnat testa det på ett par tre dagar, kanske till och med samma dag om man har någon idogutvecklare som är beredd att inställa den här pluggen men testa lite grann och sätta ihop produkterna.
+<v SPEAKER_1>Den snabbigheten i att kunna testa det, för i det här fallet var det jättegivet att de skulle sälja med bundles, men ibland vill man ju testa saker som inte man är hundra på att det är rätt.
+<v SPEAKER_1>Om barriären för att testa är sex månaders arbete, då blir det ju antingen inte av eller oavsett om testet kommer ut som positivt eller negativt, så måste du nästan säga att nu blir det så här, för vi har lagt sex månader på det här och då måste vi implementera det.
+<v SPEAKER_1>Medan om det tog några timmar för någon att göra det, då kan man vara så här, det var inte så bra i det som vi tänkte, vi rullar tillbaka det och sen så ser vi hur vi ska göra i stället.
+<v SPEAKER_3>Alltså Shopify har fått sjukt mycket cred här i många.
+<v SPEAKER_3>Jag tänker att jag bara kritiserar det nu en stund.
+<v SPEAKER_3>För jag kan inte så mycket om Shopify och så får du förklara om jag har rätt eller inte.
+<v SPEAKER_3>Min uppfattning är att om du har Shopify så lägger du till olika, vi kallar det appar då, men då får du väl betala för dem månad för månad eller?
+<v SPEAKER_1>Absolut, det får du göra.
+<v SPEAKER_1>Precis som man ibland måste betala för appar på mobilen, inte alltid i och för sig.
+<v SPEAKER_1>Absolut, många appar måste man betala för.
+<v SPEAKER_1>I regel är det ju desto mer subscription kostnader, så det gör ju att du höjer upp din SaaS-kostnadspål.
+<v SPEAKER_1>Även om fakturan kommer från Shopify så finns det en underliggande kostnadspost på någon viss app.
+<v SPEAKER_3>Det är ju en sjuk nackdel, eller för när vi har Magento, som ingen vet vad det är längre, men det är ju ett gammalt system då.
+<v SPEAKER_3>Men då installerar vi en modul och sen ligger den där och så är den betald för och så betalar vi aldrig något igen.
+<v SPEAKER_3>Det är ju ganska softlösning kan jag tycka.
+<v SPEAKER_1>Ja, fast om du till exempel, så här ska man ha tredje parts reviewverktyg, så Jott på eller Trustpilot eller nån sånt där.
+<v SPEAKER_1>Då åker du på att betala och utanför Shopify's ekosystem i regel så behöver du betala, säg, tre till fem gånger mer och får det att fungera med olika headless-plattformar.
+<v SPEAKER_1>Ska du utveckla saker på Magento då till exempel som du säger att du inte behöver betala för, fine, men säg att den där utvecklingskostnaden är 10 000 kronor från början, då är det ändå något väldigt litet i regel som ska utvecklas om den kostar 10 000.
+<v SPEAKER_1>Eller så är det någonting som kostar kanske 50 000 som fortfarande inte är någon jättegrej att utveckla.
+<v SPEAKER_1>Medan på shopföder i stället kan du ha installerat en app för 500 kronor i månaden.
+<v SPEAKER_1>Då kan man säga att det är jättejobbigt att betala 500 kronor i månaden, men det är många månader du ska ha den här appen liggandes innan du är uppe i 50 000 kronor i kost.
+<v SPEAKER_1>Så jag tror att fördelen är, och desto mer har du noll bindningstid, så avinställ den appen sen efter tre månader, då har du betalat 1500 spänn och så behöver du inte tänka mer på det.
+<v SPEAKER_1>Så det är ett väldigt tacksamt ekosystem att befinna sig, att man kan testa saker, man kan rulla tillbaka, du behöver aldrig ta investeringskostnader med en app front, sen absolut så kan det ju vara så.
+<v SPEAKER_1>Det är ju lite en klassisk fälla över lag med subscription modeller om man är på betalarsidan, att över långa perioder så är det kanske mer fördelaktigt att ta kostnaden app front istället för att betala på subscription.
+<v SPEAKER_1>Men fördelar med subscription på andra sidan då är väl flexibiliteten i att det är lätt att skala ner, skala upp, testa nya grejer, är du inte nöjd?
+<v SPEAKER_1>Det är ju ofta att installera appar som kostar pengar och så slutar man till att betala en månad eller två månader och sen så tar jag bort dem.
+<v SPEAKER_1>Så att jag tror för många att det är väldigt, väldigt praktiskt.
+<v SPEAKER_1>Är man liksom väldigt erfaren och har en otroligt tydlig via av att jag ska bygga det här och vet till 100% vad det är, då kan det säkert vara en bra idé att vara på andra plattformar ibland.
+<v SPEAKER_1>Men just nu tror jag att det är svårt för vem som helst egentligen att klaima att de vet hur en hemsida ska se ut och fungera om ett, två, tre, fyra, fem år för att AI har ändå mer och mer impact och man kanske ska ha någon chatbot på site.
+<v SPEAKER_1>Jag vet inte om det är så det kommer se ut framåt men det är liksom, du kanske ska ha en diagnostik när du kommer in på en site, ställer för att kunden ska navigera sig runt så kanske de ska svara på fem frågor och sedan få en produktrekommendation.
+<v SPEAKER_1>Jag vet inte exakt hur saker utvecklas men jag tror att ingen vet exakt hur saker utvecklas och då är det ganska faktiskt ett ekosystem där det är enkelt att röra sig framåt och utveckla.
+<v SPEAKER_3>En annan kritik som jag har eller som jag uppfattar är att jag uppfattar det som att på Shopify så betalar man en sorts transaktionskostnad på transaktioner och framförallt i i början så förstår jag det som att det är en ganska hög typ påslagsavgift eller liknande.
+<v SPEAKER_4>Är det så det funkar eller?
+<v SPEAKER_1>Jo men det är det väl i någon mån så att är du på en Headless-plattform så betalar du i regel för plattformen på något sätt och det betalar du då till plattformsägaren, men sedan ägs ju ofta checkouten av någon annan, typ Custom eller Cliro eller vem du kan tänka svara.
+<v SPEAKER_1>Svea har väl ni på Jimmysistern och Jimm Companyet, my bad.
+<v SPEAKER_3>Du är inte första, du är inte sista gången.
+<v SPEAKER_1>Du har till och med merch på dig, my bad.
+<v SPEAKER_1>Nej men, och så att, jag tror att det är väl en, liksom en skillnad då.
+<v SPEAKER_1>Här kommer det att sälja Shopify i grunden äga checkouten, och då måste man ju betala den avgiften till Shopify.
+<v SPEAKER_1>Ibland uppfattas det där då liksom som att man ska jämföra att sitta på en plattform då du bara betalar för plattformen med Shopify, och då framstår Shopify dyrt för att de tar en transaktionskostnad men det måste ju göra någonstans att du jämför att du sitter på en annan plattform plus vad du betalar till den checkout-leverantören du har och så jämför du det med Shopify.
+<v SPEAKER_1>Och då kan det absolut vara så att Shopify framstår dyrare och oavsett.
+<v SPEAKER_4>Men tar inte Shopify den kostnaden plus ett påslag?
+<v SPEAKER_1>Jo men i och med Shopify Advanced som jag skulle säga är liksom det de flesta är på och upp till de omsätter kanske 30-50 miljoner någonstans.
+<v SPEAKER_1>Sen rullar man över på plus.
+<v SPEAKER_1>I och med Shopify Advanced så betalar du 400 dollar i månaden för Shopify i fixed fee.
+<v SPEAKER_1>Och sen så har du checkout-kostnaderna ovanpå det.
+<v SPEAKER_1>Och i Advanced har du inte möjlighet att istället gå över till Clio eller till Kastam utan du måste vara i Shopify's ekosystem.
+<v SPEAKER_1>Och då tror jag att grundpriset är 1,4% på korttransaktion plus typ 1,85 kronor per transaktion.
+<v SPEAKER_1>Jag ska inte riktigt ta gifte exakt på den men det är den storlekståndningen på det.
+<v SPEAKER_1>Det är lite dyrare probably än vad du hade behövt betala om du istället hade varit på Kastam eller Clio eller någonstans.
+<v SPEAKER_1>Då kanske hade du varit nere på 1% snarare.
+<v SPEAKER_1>Och kanske inte så stor skillnad i den fasta fin men någonstans där i krokarna.
+<v SPEAKER_1>Så du betalar ju någonstans då ett premium på sig 0,3-0,4% även som liten.
+<v SPEAKER_1>Och det är klart att det där kan man ju då fundera på.
+<v SPEAKER_1>Vad innebär det relativt din årsomsättning och hur rönder du de pengarna istället.
+<v SPEAKER_1>Jag har sett väldigt många gånger när människor ritar business case på det här och på nån sätt överestimerar hur dyrt de tror att det kommer att vara med Shopify.
+<v SPEAKER_1>För att man underskattar hur bildet är att driva systemet.
+<v SPEAKER_1>400 dollar i månaden är i regel också mindre än vad det kostar att sitta på en annan plattform.
+<v SPEAKER_1>Den fasta avgiften till att börja med är ofta lägre.
+<v SPEAKER_1>Säg att du sparar in 10 000 kronor där och sen har du 0,4 procent mer.
+<v SPEAKER_1>Börjar det bli lite större så är det förstås mer pengar men är du lite mindre så är det inte så jättemycket pengar.
+<v SPEAKER_1>Omsätter du bara 10 miljoner har du 1 procent 100 000 då är det 0,4 procent 40 000 om året, delar det på 12 och ser det ner på 3000 kronor.
+<v SPEAKER_1>Då är du på 4000 kronor fast, 4000 extra kronor i månaden.
+<v SPEAKER_1>Det blir inte så stort när du är en liten e-handlare.
+<v SPEAKER_1>Ibland är det lite svårt att se det här framför sig och se vad det är som kostar pengar.
+<v SPEAKER_1>Sedan glömmer man bort det här med att de utvecklingskostnaderna på andra plattformar tenderar att sticka iväg.
+<v SPEAKER_3>Har du någon feeling om du är ett bolag runt 20 miljoner eller något liknande?
+<v SPEAKER_3>Vad betalar du i total kostnad för Shopify med ett gäng appar?
+<v SPEAKER_1>Vi kan väl göra business caset snabbt.
+<v SPEAKER_1>I och med 20 miljoner så är det regel på advanced, snarare en plus.
+<v SPEAKER_1>Då betalar vi 400 dollar i månads, det är 4 000 kronor.
+<v SPEAKER_1>Du betalar då 2 procent, lite drygt kanske.
+<v SPEAKER_1>Även om de punkterna jag just nämnde, de berör om du använder Shopify payments.
+<v SPEAKER_1>Men sedan tenderar många att vilja lägga till till exempel Klana payments som ett alternativ eller Clearo eller någon annan som by now, pay later, snurra.
+<v SPEAKER_1>Framförallt Klana har ett avtal med Shopify som är otroligt ofördelaktigt för e-handlare.
+<v SPEAKER_1>Då betalar man 2,9 procent på Klana transaktioner i Shopify plus nästan 6 kronor per transaktion.
+<v SPEAKER_1>Så Klana är liksom, att installera Klana i en vanlig Shopify-payments lösning är väldigt ofördelaktigt.
+<v SPEAKER_1>Det är mycket bättre då egentligen att gå till Kliro där du får en mycket bättre deal.
+<v SPEAKER_1>För de har inte, jag tror i alla fall att Kliro har liksom inte ett separat, i alla fall inte ett globalt avtal som sitter på något sätt med Shopify.
+<v SPEAKER_1>Som jag tror skäller till att man fastnar inte i den här väldigt ofördelaktiga setupen för att i USA är Shopify-payments mycket dyrare än vad det är i Europa.
+<v SPEAKER_1>Och så tror jag att Klarna avtalet på något sätt överenskommit till USA och som har landat på den prispunkten i Sverige.
+<v SPEAKER_1>Men säger du att du landar på 2% för att ganska många människor betalar med kreditkort eller väljer att betala med Swish.
+<v SPEAKER_1>Och så är det några som trillar över på Klarna och så kommer man ut på 2%.
+<v SPEAKER_1>Om du sätter 20 miljoner då är 1% 200 000, 2% 400 000.
+<v SPEAKER_1>Men man ska också tänka på att de här procentsatserna tas ju på grossvärdena, så att det är ink mums.
+<v SPEAKER_1>Så att det är 25 miljoner de dras på, så att det inte är 400 000, det är snarare 500 000 om året.
+<v SPEAKER_1>Säg att det är 500 000 om året, sa vi det.
+<v SPEAKER_1>Jo men det stämmer va.
+<v SPEAKER_1>Så 500 000 om året så har du 40 000 i månaden ungefär, plus de där 4 000 betalade shopparadvans, plus säg 10 000 appar, så är det uppe på kanske 55 000 i månaden kan det stämma.
+<v SPEAKER_1>Det kändes lite mycket.
+<v SPEAKER_3>Det kändes väldigt högt.
+<v SPEAKER_1>Det känns som om jag landar fel i siffrorna möjligen här.
+<v SPEAKER_1>20 miljoner om året, 10 % är 2 miljoner, 1 % är 200 000.
+<v SPEAKER_1>Right.
+<v SPEAKER_1>Så 200 000 om året är 1 %.
+<v SPEAKER_1>400 000 om året är 2 %.
+<v SPEAKER_1>Lägg tillbaka med Omsen, 500 000 om året är dryga 2 %.
+<v SPEAKER_1>2 % på Oms.
+<v SPEAKER_1>500 000 genom 12, det är 40 plus minus, plus lite igen, men ändå cirka 40.
+<v SPEAKER_1>Sen så betalar du 4 000 kronor för fasta avgifter, på 44 000 och så lägger du på 10 000 kronor.
+<v SPEAKER_1>Nej men nu är det ungefär på 5 000.
+<v SPEAKER_1>Vi är nog tillbaka till där vi började.
+<v SPEAKER_1>Det stämmer nog ungefär.
+<v SPEAKER_1>Jag håller med om att den nominella summan låter väldigt hög, men det vi egentligen säger är att det här är 2,5 procent av omsättningen en snitt månad.
+<v SPEAKER_3>Någonstans får man också dra bort transaktionskostnaderna som du annars hade betalat.
+<v SPEAKER_3>Det är ju inte en riktig kostnad, eller det är ju inte Shopifys kostnad utan det är ju och det är ju precis det som är utmaningen här.
+<v SPEAKER_3>Att det jämförs ofta med...
+<v SPEAKER_3>Säg att du hade fått 1,2 procent om du hade sagnat Svea då till exempel som vi har.
+<v SPEAKER_3>Så då försvinner ju hälften av den där transaktionskostnaden.
+<v SPEAKER_1>Exakt.
+<v SPEAKER_1>Då hade du betalat 1,2 procent med Svea plus någon kronor per transaktion probably och då, det du jämför med på Shopify är kanske att du ligger på 2 procent och det är förutsatt att Svea tar 1,2 procent på alla betalsätt oavsett vart du landar någonstans.
+<v SPEAKER_1>Jag vet inte om de gör det riktigt men det är det.
+<v SPEAKER_3>För vi gör en ganska flatrate aktig version men sen vill de inte snacka avtal men...
+<v SPEAKER_1>Och vad betalar du för plattformen per månad?
+<v SPEAKER_3>Vad du menar, för Magento.
+<v SPEAKER_3>Alltså vi betalar bara för serverhosting och lastbalanserare typ.
+<v SPEAKER_3>Så vi betalar ingenting för egentligen plattformen.
+<v SPEAKER_1>Ni betalar ingenting till Adobe för farvandrarna?
+<v SPEAKER_3>Nej, det kanske vi gör kanske en och en tusen någonstans men jag har aldrig ens reflekterat över att det är en kostnad någonstans i vårat system.
+<v SPEAKER_3>Men vi betalar ju för att hosta alla på olika server och täcka upp på olika sätt.
+<v SPEAKER_3>Men vi ligger någonstans runt, alltså inklusive utvecklingskostnader och liknande kanske vi ligger och smittar någonstans runt 50 i månaden.
+<v SPEAKER_3>Då har jag inte räknat intressantionskostnader på det.
+<v SPEAKER_3>Det är en ren plattformsavgift med all utveckling som vi gör.
+<v SPEAKER_3>Men jag tänker om vi bara stänger Shopify innan vi går vidare.
+<v SPEAKER_3>Shopify är egentligen en enkel plattform att komma igång med.
+<v SPEAKER_3>De fyller liksom, det är en enkel testningsplattform.
+<v SPEAKER_3>Det är en enkel plattform för att få allt setup när man inte vill lägga tid på tekniken eller vad vi ska kalla det.
+<v SPEAKER_3>Och nästan alla system synkar med det.
+<v SPEAKER_1>Ja, och otroligt enkel plattform att ha när man ska skala ett bolag också.
+<v SPEAKER_1>Det är bara så här, du behöver aldrig tänka på...
+<v SPEAKER_1>Efter att man byter Shopify så nämner man aldrig ordet server igen.
+<v SPEAKER_1>Du är live 100% av tiden, din checkout fungerar alltid.
+<v SPEAKER_1>Det spelar ingen roll om du har en miljon besökare under Blackweek.
+<v SPEAKER_1>Om du vill utveckla någonting nästa vecka, så till och med du skulle kunna göra det på eget bevåg i ganska stor utsträckning att vara så här, men vi borde göra så här.
+<v SPEAKER_1>Det är väldigt stabilt och tacksamt, och gör att de flesta organisationer gillar inte tech.
+<v SPEAKER_1>Det är ingen som startar ett enländskt bolag nästan för att de tycker att det är så intressant att koda, utan man startar ett enländskt bolag för att man vill sälja hantlar, eller för att man vill sälja sängkläder, eller vad man nu hittar på för någonting.
+<v SPEAKER_1>Och sen så är på något sätt tech ett nödvändigt ont.
+<v SPEAKER_1>Sen är det klart att ju mer man lutas in i och tycker att det är kul, desto bättre går det ofta, men det är aldrig någon som börjar i den ändan.
+<v SPEAKER_1>Och Shopify är bara en väldigt tacksam plats att vara på då, för man behöver inte tänka så mycket på tecken, utan den gör det den ska göra, och sen så kan du ägna din tid åt andra saker.
+<v SPEAKER_3>Jag bara tänker, om du skulle säga, bara så att det inte ska låta som att du är köpt av Shopify, vad är de sämst?
+<v SPEAKER_1>De får jag gärna betala.
+<v SPEAKER_3>Vad finns det de är dåliga på liksom?
+<v SPEAKER_3>Finns det någon stor nackdel där som du ser?
+<v SPEAKER_1>Det finns absolut grejer som de spärrar medvetet.
+<v SPEAKER_1>Shopify-advansplanen så kan du inte anpassa din checkout alls, men du kan ändra betalsättene, men du kan inte göra någonting annat i din checkout.
+<v SPEAKER_1>Det känns ganska fonigt att det är en sida på din sida som du har noll möjlighet att påverka.
+<v SPEAKER_1>Och så säger de att om du i stället för att betala 400 dollar en månad betalar 20 000 en månad, då kan du få justera den här sidan.
+<v SPEAKER_1>Då får du ner din transaktionsavgift visstligen men då betalar du mer fast varje månad.
+<v SPEAKER_1>Det är därför det är ett brytvärde någonstans, runt 40 miljoner om året som gör att det är ekonomiskt logiskt att gå över.
+<v SPEAKER_1>Det är klart att det är en nackdel att man är captive någonstans inne i ett system som man får förhålla sig till.
+<v SPEAKER_1>Framförallt kanske när man kommer över från någonting annat så kommer man att tycka att det känns väldigt konstigt att man inte riktigt i slutändan äger sin egen site.
+<v SPEAKER_1>Det kan väl vara en grej, det är typ omöjligt att få tag på någon människa, eller inte omöjligt ska jag inte säga men de har viss support.
+<v SPEAKER_1>Men jag vänder mig inte till Shopify-support om jag har ett problem.
+<v SPEAKER_1>Det är inte där det kommer att lösas utan det kommer att lösas nån annanstans.
+<v SPEAKER_1>Men det var några år sen nu, senast jag kände att jag behövde hjälp att lösa någonting från Shopify senare.
+<v SPEAKER_1>Det finns nog nackdelar, jag tror att jag på något sätt har lärt mig, det ska också säga att jag har inte bara exponering mot Shopify, det låter lite så, jag har kunder som är på Askos, som är på Sentra, som är på Leatsium till exempel, och ingen kund på Magento dock.
+<v SPEAKER_1>Men det blir mer diskussion om affären, om produkterna, om vad vi ska göra för marknadsföringsmoments och kampanjer när man är på Shopify.
+<v SPEAKER_1>Och när man inte är på Shopify blir det mer diskussioner om varför pop-up inte fungerar, varför tracking inte fungerar, varför våra EMQ-scores på Meta inte fungerar, de är nästan alltid sämre i alla Headless setups och event match quality scores, hur väl Meta klarar av att se att nu Joel var på din hemsida idag och tittade på den här produkten och därför borde vi göra en retarget till någon som ser ut på det här sättet.
+<v SPEAKER_1>Det är ändå en väldigt stark funktion i Meta och när man tappar den eller klarar it i den så fungerar Meta sämre.
+<v SPEAKER_1>Så det finns absolut företag som det går toppen för med andra lösningar också, men jag bara finner att jag har lite roligare oftast när våra kunder är på Shopify.
+<v SPEAKER_3>Men om vi tar andra plattformar för att på något sätt så har det blivit lite Shopify versus andra plattformar, snarare än att vi pratar om AskHos för sig och Centra för sig och Magento för sig.
+<v SPEAKER_3>Finns det några fördelar med de andra plattformarna, förutom att man kan fixa sin checkout-sida?
+<v SPEAKER_1>Det är som en headless proponent, det går ju för övrigt ska man också säga, att det går ju att bygga headless ovan på Shopifys back-end.
+<v SPEAKER_1>Vi har en kund som bygger i sanity ovan på sajten och det ska också ses att det är ganska många av de här globala stora Shopify-brandsen som man säger är på Shopify.
+<v SPEAKER_1>De bygger ofta liksom i en headless setup framåt vilket gör att de har full kontroll framåt och sen så använder de liksom Shopifys back-end.
+<v SPEAKER_1>Då kan man fortfarande på vissa av Shopifys regler visserligen och sådär men i stor utsträckning kan man då lite plisa båda lägrena för att om man då har ett starkt tech-team, utvecklingsteam som vill kunna göra allting custom i alla lägen då kan de göra det framåt.
+<v SPEAKER_1>Och sen så har du ett gäng människor som vill driva affären och som inte bryr sig så mycket om tech.
+<v SPEAKER_1>De kan använda Shopify-spacken och den är väldigt snäll.
+<v SPEAKER_1>De knapparna som man vill klicka på heter det som vore logiskt.
+<v SPEAKER_1>Och så hittar man saker.
+<v SPEAKER_1>Medan i en del andra system sitter man ofta och klickar runt i systemen.
+<v SPEAKER_1>Vi i Juniper var på WooCommerce innan och det är klart man lär sig navigera i sitt eget system för att är man där varje dag så slutslöser det sig.
+<v SPEAKER_1>Men ganska ofta där när man var såhär, det var tre klick in i en menu för att hitta någonting som man ändå skulle till varje dag.
+<v SPEAKER_1>Men alltså jag tycker att det är lättare att navigera.
+<v SPEAKER_1>Den lösningen finns ju också.
+<v SPEAKER_1>Människor som förespråkar headless, det finns ju några stycken på LinkedIn som tycker till om det ofta.
+<v SPEAKER_1>Det de ofta säger är just det här att det är fördelaktigt med lägre transaktionsavgifter och dels att det går att göra precis vad som helst.
+<v SPEAKER_1>Jag köper argumentet att det är billigare transaktionsavgifter och så skulle man kunna fundera på klarar vi av att göra det billigare till totalt cost of ownership.
+<v SPEAKER_1>Jag tror att svaret oftast är nej men jag kan förstå hur man i Excel tror att det kan bli billigare.
+<v SPEAKER_1>Men den här med att du kan göra precis vad som helst den tror jag är drastiskt överskattad för att ja de 99,9 procent av alla hemsidor behöver du inte göra vad som helst på.
+<v SPEAKER_1>Du har en startsida, en kollektionssida, en produktsida och så har du en checkout.
+<v SPEAKER_1>Och det är typ det du behöver.
+<v SPEAKER_1>Och de flesta sidorna är ju inte att du ska skräddas i din Tesla och kunna byta färg på lädret på växelspaken.
+<v SPEAKER_1>Utan, ska du inte ner på den customization nivån då mår du ganska bra i en relativ standard setup.
+<v SPEAKER_1>Så att, jag vet inte.
+<v SPEAKER_1>Clearly så har jag ju en point of view här.
+<v SPEAKER_1>Jag är inte unbiased i den här frågan men jag har ändå exponering mot olika sätt att lösa det här.
+<v SPEAKER_1>För många så tror jag att det är en enkel lösning i alla fall.
+<v SPEAKER_3>Jag köper det.
+<v SPEAKER_3>Jag skulle säga att hade jag startat upp på 90 dag så hade jag inte satt upp min nya e-handel i Magento.
+<v SPEAKER_3>Sen tycker jag att det får, jag kan tycka att alla de här lösningarna får mest skit, som att fan det där är ett jävla pissystem typ.
+<v SPEAKER_3>Men jag är väldigt tacksam i det systemet vi har för att vi har byggt de systemen under typ 11 år.
+<v SPEAKER_3>Så vi har ju liksom, vi använder Magento som affärssystem, som ordersystem, alltså en lagersystem.
+<v SPEAKER_3>Vi har ju alltid Magento så vi har ju inga andra system påkopplade i princip.
+<v SPEAKER_3>Vi tar hand om våra egna reviews och de har vi kopplat ihop med Google, de godkänner dem.
+<v SPEAKER_3>Vi behöver inte använda, betalar ingenting annat liksom.
+<v SPEAKER_3>Och det är väldigt tacksamt eller vi har ett bolag i Finland och då har de en prislista på våran sida som de kan se i sin inlogg eller vad man ska säga.
+<v SPEAKER_3>Och samma sak när vi säljer till, vi ska öppna upp mot Norge nu, det är ju bara, om inte vi öppnar upp en framsida mot Norge utan bara ett backendsystem för att hantera Norge så är det bara två klick och så är det klart och vi behöver aldrig betala för det.
+<v SPEAKER_3>Det är väldigt enkelt att navigera det när det väl är.
+<v SPEAKER_3>Men sen hatar ju mina kollegor det.
+<v SPEAKER_3>Alltså jag kan tycka om det i liksom vad vi kan göra med systemet men mina kollegor som jobbar på kundtjänst tycker jag att det är lite jobbigt.
+<v SPEAKER_3>Ja exakt, det finns ju många liksom saker man behöver förstå, att där kunde du inte klicka, det blev fel.
+<v SPEAKER_1>Jag är fascinerad över att inte fler andra system hänger med, särskilt nu när man, jag har börjat vibe-koda en del egna system nu på olika, och liksom inte ett CMS, men liksom ett CRM-system för Orange House, där vi dels håller koll på kunderna och personalen och vem som jobbar var och så här.
+<v SPEAKER_1>Givet hur pass enkelt det är så har jag så svårt att förstå hur många av de här andra plattformarna kan acceptera att dashboard sen ser risig ut.
+<v SPEAKER_1>Alltså ingenting är enklare än att skapa en dashboard idag.
+<v SPEAKER_1>Går in i cursor eller i cloud code eller whatever och så bara säger du att jag vill ha en dashboard.
+<v SPEAKER_1>Här har du en Excel-fil med all data som jag har tillgänglig.
+<v SPEAKER_1>Kan du setup en cool dashboard?
+<v SPEAKER_1>Så bygger du en dashboard som ser ut som att den var i något högbudget premium dashboardsystem.
+<v SPEAKER_1>Hur kan det ta fem minuter?
+<v SPEAKER_1>Och sen när du går in i backenden på de flesta, alltså say AskGhosta till exempel, så går du in i deras backend och så bara ser det ut som att det är Windows 95 typ, istället för att någon bara har fixat till så att dina nedsales står tydligt, dina gossales står tydligt, hur mycket returns man kommer in i, I don't know, whatever liksom.
+<v SPEAKER_1>Men det är inte, jag ber inte om svart magi utan bara så här, några av de här metrics som människor är typiskt sett ganska intresserade av och har dem lite prydligt synliga i backhandeln.
+<v SPEAKER_1>Jag tycker det är jättekonstigt.
+<v SPEAKER_3>Ja, men bara för att gå på något sätt, sätta punkt för den diskussionen.
+<v SPEAKER_3>Rent krasst verkar det som att Shopify ligger lite i framkant just nu och ska man sätta upp något nytt så är det typ enklaste valet att gå på.
+<v SPEAKER_3>Det verkar liksom prismässigt ligga okej.
+<v SPEAKER_3>Och sen det finns säkert massa argument, jag har några argument för varför vi ligger på vårat men det är också för att vi har legat där under lång tid och så där.
+<v SPEAKER_3>Vi pausar av den plattformsdiskussionen där.
+<v SPEAKER_3>Vi kom in lite på betalsätten, för du nämnde att Klana eller Custom har ett dåligt avtal med Shopify.
+<v SPEAKER_3>Kan vi inte bara beta av betalsätten samtidigt?
+<v SPEAKER_1>Jo exakt, det där är ju separerat så att du kan ju ha har du Shopify som äger din checkout?
+<v SPEAKER_3>Jag tänker, vi skiter i Shopify, nu bara betar vi av betalsätten.
+<v SPEAKER_1>Jag menar att Klana och Custom är inte i samma sak längre.
+<v SPEAKER_1>Du kan ha Klana Payments då.
+<v SPEAKER_1>Klana kan ju förse dig med en buy now pay later lösning.
+<v SPEAKER_1>Custom kan ju äga en hel checkout någonstans.
+<v SPEAKER_1>Man ser ju, ni använder Svea, Lyco använder Cliro till exempel för sin checkout.
+<v SPEAKER_1>Det finns ju lite olika lösningar.
+<v SPEAKER_1>Alla försöker göra det så smidigt som möjligt.
+<v SPEAKER_1>Alla försöker hålla nere kostnaderna.
+<v SPEAKER_1>För mig känns det, jag ska inte säga att jag har någon data på det, men det känns som att Cliro har haft en ganska stark framfart, åtminstone i DTC e-handel på lite större.
+<v SPEAKER_1>Jag tycker att man ser och hör ofta om Cliro.
+<v SPEAKER_1>Det känns som att ganska många bolag väljer att gå åt det hållet.
+<v SPEAKER_1>Det är väl några av de vanligaste.
+<v SPEAKER_1>Adyen kan man förstås ha som checkhörtlöst.
+<v SPEAKER_3>Finns det någon anledning?
+<v SPEAKER_3>Upplever du att det är någon större skillnad på betalsätten nu?
+<v SPEAKER_1>De slåss i ganska stor utsträckning på pris.
+<v SPEAKER_1>Det fanns någon punkt där för ganska många år sen när man ansåg att det var en usp att ha Klarna.
+<v SPEAKER_1>För att alla sa att Klarna är så himla praktiskt.
+<v SPEAKER_3>Den är eller är borta eller?
+<v SPEAKER_1>Jag tycker typ att den är borta.
+<v SPEAKER_1>Åtminstone i Sverige så tror jag att den är ganska borta.
+<v SPEAKER_1>I Tyskland har de fortfarande en väldigt stark position.
+<v SPEAKER_1>Så där kan det möjligen vara en fördel.
+<v SPEAKER_1>Men i Sverige så kan Lyko få det att fungera med Cliro och så kan väl vem som helst få det att fungera med Cliro på något sätt.
+<v SPEAKER_1>Och jag tror inte att Klarna's Paylator, den är inte heller tillräckligt ubiquitous för att kunna vara en lösning för alla människor.
+<v SPEAKER_1>Om du är en människa idag som säger att jag vägrar att shoppa på en sajt om de inte har Klarna Paylator, då är det väldigt många sajter du inte kan shoppa på.
+<v SPEAKER_1>Så jag har svårt att se att någon tar den positionen.
+<v SPEAKER_1>Jag har också ganska svårt att förstå, jag tycker att Paylator-alternativen är svåra att förstå att de är så poppis som de är.
+<v SPEAKER_1>För att det är så lätt att få ett kreditkort idag.
+<v SPEAKER_1>Det är ju ett Paylator-alternativ och då spelar det ingen roll vad det är för checkat på sajt.
+<v SPEAKER_1>Du kan bara betala med ditt kreditkort, så står det en faktur i slutet på måndagen, så det är bra så.
+<v SPEAKER_1>Istället för att hålla koll på att Klarna och Cliro och Sverige ska skicka separata fakturer till dig.
+<v SPEAKER_1>För mig är det helt oförståeligt.
+<v SPEAKER_3>Jag köper det och jag upplever inte att det är någon större.
+<v SPEAKER_3>Jag tycker att alla säger att jag tycker att de ser likadana ut.
+<v SPEAKER_3>Rent krasst, jag som lekman tycker att om jag går in så fyller man i sin grej, det funkar, allting snurrar.
+<v SPEAKER_3>När folk säger att det är en smidjcheckout är inte alla fucking checkouts smidjan nu för tiden eller?
+<v SPEAKER_3>Är det någon som är krånglig av de här som är de stora?
+<v SPEAKER_1>Nej, jag tror inte det.
+<v SPEAKER_1>För mig, jag gillar när människor har Apple Pay i checkout.
+<v SPEAKER_3>Det kan du ju lägga till.
+<v SPEAKER_3>Vi har ju Svea och vill ha till Apple Pay förr.
+<v SPEAKER_1>Nej men 100% man kan lägga till i vilken checkout som helst, men det är inte alla som gör.
+<v SPEAKER_1>Men det är väldigt lätt att göra.
+<v SPEAKER_3>Men det är ofta bara en, det är bara att man ska öppna för det.
+<v SPEAKER_3>Det är liksom inte helst.
+<v SPEAKER_1>Men när du shoppar på mobil, att kunna betala genom att klicka två gånger på sidan på mobilen och visa ditt ansikte, det är bara otroligt tacksamt.
+<v SPEAKER_1>Det ger ändå en lite lätt futuristisk känsla, att du slipper hålla på att knappa på någon tangentbord och så bara, det är klart.
+<v SPEAKER_1>Du har bestämt dig att klicka två gånger på en knapp och så visa ditt ansikte och så är du färdigt och så ska du göra någonting annat.
+<v SPEAKER_1>Det skapar en otroligt snabb checkout.
+<v SPEAKER_1>Men nej jag håller med.
+<v SPEAKER_1>Jag tycker att alla checkout-lösningarna är relativt smidiga och då kommer det lite grann komma ner till pris och de som är vilja att gå lägst kommer probably ha viss framfart med kunder.
+<v SPEAKER_3>Sen kanske man ska lägga till att det finns vissa, de säljer till exempel väldigt mycket mot företag och föreningar och typ landsting och liknande och de är ganska krångliga.
+<v SPEAKER_3>Man måste fylla i olika pepoli, det måste ibland gå via vissa system och det är lite halvmäcket.
+<v SPEAKER_3>Det täcker inte vissa av de här betallösningarna särskilt bra.
+<v SPEAKER_3>Det är en av anledningarna till att vi har Swirro till exempel för att de har det inbyggt i sitt system.
+<v SPEAKER_3>Så det är ingenting vi behöver, vi behöver inte ta hand om det, utan det hanteras per automatik i kassan i check-outen.
+<v SPEAKER_1>Det är ju praktiskt, men annars märker man att det börjar bli en commodity, och det är ju därför som Svea, Clearo och Klarna, alla försöker ta stora sponsorpositioner på många olika platser, för att om de syns och hörs så blir man ju såklart lite mer benägen att tänka på dem som first choice.
+<v SPEAKER_1>Det där har man ju sett i andra commoditybranscher, alltså typ huvudverkstablätter, då Epren hamrade i reklam på tv i tolv år, men man får ändå ge dem att idag är de en del av ens consideration när man ska köpa huvudverkstablätter, så är det såhär, ja men det är Alvedon och Epren typ.
+<v SPEAKER_1>Och det kostade dem tolv år med konstante tv-reklamer att ta sig till den positionen, men nu behöver de inte investera lika mycket i marknadsföring för att lösa det.
+<v SPEAKER_3>Har du någon betaldeleverantör som, eftersom du ju ändå jobbar med många, finns det någon som du upplever, jag vet inte, trashar ner dem hårt, men liksom, där krånglar det, eller de brukar vara dyrast, eller de där brukar vara billigast, är det alltid en förhandlingsfråga?
+<v SPEAKER_1>Nej men, jag upplever verkligen inte att det är så.
+<v SPEAKER_1>Jag upplever som sagt att Cliro känns som de har tagit mark, men jag har inte data på det, men det är bara att jag upplever att det är en och ganska många e-handlare jag träffar som säger att de har bytt till Cliro, eller är på väg till Cliro, Cliro ger, och det många anger som anledning är, att Cliro har gett dem en bra prispunkt.
+<v SPEAKER_1>Så jag skulle säga att det är väl det jag ser, men nej, bortsett från det och vad det kommer till problem, jag upplever inte att några av våra e-handlare egentligen har problem med sin checkout.
+<v SPEAKER_1>Jag vet flera som har försökt att kolla på checkout conversion rate, specifikt från a to cart till checkout, efter att de har bytt mellan olika betalsät.
+<v SPEAKER_1>Ingen kommer någonsin fram till någonting som drar åt något håll, utan det är såhär otroligt små skillnader, och man kan på något sätt alltid tillskriva det till statistisk brus.
+<v SPEAKER_3>När kan man börja prispressa?
+<v SPEAKER_3>När kan du ringa upp någon och bara, tja jag vill ha lägre transaktionskostnad?
+<v SPEAKER_1>Jag tror att det går nästan från, jag är ju ofta i Shopify CX-system, och då kommer den i skånen först när du omsätter cirka 40 miljoner kronor, för att det är då du byter till Shopify plus, och det är för att Shopify plus verkligen ska löna sig, då behöver du byta till en av de externa checkout-lösningarna.
+<v SPEAKER_1>Och då har man ändå, skulle jag säga, en i regel en helt okej diskussion.
+<v SPEAKER_1>Adyen har börjat neka diskussioner vid den storleken, så Adyen vill ofta gå på lite större e-handlare.
+<v SPEAKER_1>Det var bättre när Adyen var med, för då fanns det flera prispunkter att ta in.
+<v SPEAKER_1>Men jag tycker ändå att man får ganska attraktiva prispunkter redan när man är i den storleksordningen.
+<v SPEAKER_3>Vad är en attraktiv prispunkt?
+<v SPEAKER_3>Vad ska folk ha som benchmark?
+<v SPEAKER_1>Jag tycker att en procent är en ganska attraktiv prispunkt, och det går ofta redan runt där i krokarna och kanske få någon baspunkt ner från det.
+<v SPEAKER_1>Det beror lite på vad man har för produkter och sådär, men ofta går det att få till runt där i krokarna.
+<v SPEAKER_1>Sen ska sägas en nackdel med Shopify.
+<v SPEAKER_1>Det är bra, nu har vi en nackdel med Shopify också.
+<v SPEAKER_1>De slår på 25 baspunkter när du använder en extern checkout-leverantör.
+<v SPEAKER_1>Även om Cliro ger dig 0.95 och så landar du på 1-2 i transitionsavgiften, då blir det inte riktigt lika attraktivt som det lät som.
+<v SPEAKER_3>Det är också på gross.
+<v SPEAKER_1>Exakt, det är på gross.
+<v SPEAKER_3>Men egentligen, om vi är på gymkompagniet, nomsätt vi är drygt hundra, då egentligen är det en extra kostnad på 250 000 plus 1,25, det ska vara 3,2, jag vet inte.
+<v SPEAKER_3>Men det är 300 000 extra typ som jag får räkna in som en Shopify-kostnad, om jag ska hårdra det.
+<v SPEAKER_1>Probably so, ja.
+<v SPEAKER_3>Men så rent krasst, betal upplägg, check out lösningar.
+<v SPEAKER_1>Spelar inte så stor roll.
+<v SPEAKER_3>Nej, pusha dem mot valansen, se vad du kan få och så går vi vidare med livet.
+<v SPEAKER_1>Exakt, och jag tycker ofta att det slutar med att prispunkterna, när man pratar med flera, det landar inom fem baspunkter från varandra ungefär, så det är inte heller jättestora slag på det ena eller det andra.
+<v SPEAKER_1>Du har väl en nära relation, känns det som, till Svedteamet.
+<v SPEAKER_1>Jag har en lite närmare relation till Clearoteamet.
+<v SPEAKER_1>Jag tycker att de är härliga att jobba med, men jag hade nog ändå inte, helt ärligt talat, varit mer trogen än att de ska ligga väldigt nära någon annan i pris för att man ändå ska...
+<v SPEAKER_1>Det är en, två baspunkter kanske man hade valt att gå åt det hållet, även om det inte var det billigaste.
+<v SPEAKER_3>Jag tänker att vi kan slå över mot det för att punkt nummer tre här vi kan beta av är egentligen leverantörsförhandlingar, betalvillkor, MOQs och liknande.
+<v SPEAKER_3>Jag bara tänkte på, för det är egentligen mitt sätt när jag benchmarkar mot varandra.
+<v SPEAKER_3>Om jag har en leverantör jag tycker om och jag får ett bättre pris nån annanstans, om det inte slår tillräckligt mycket, det är väldigt lätt att bara börja hoppa för 2% eller 1% där.
+<v SPEAKER_3>Det är ofta inte värt det kan jag tycka, utan det behöver vara en markant skillnad i sådant där och då kommer vi in på någon sorts leverantörsförhandlingar.
+<v SPEAKER_3>Ska vi beta av hela den?
+<v SPEAKER_1>Ja men absolut.
+<v SPEAKER_1>Jag håller helt med.
+<v SPEAKER_1>Det är lite skillnad om du kommer, om du är på Shopify-payments och säger att du ska byta checkout, då är du mer känslig för 2-4 baspunkter åt olika håll för du vet att du inte ska byta.
+<v SPEAKER_1>Men om du befinner dig på Cliro och är nöjd med Cliro och så kommer custom och säger att du kan få två baspunkter billigare här borta, då hade jag bara sagt att det är inte värt strulet för att försöka spara in vad som nästan är ingenting för att det räcker med att vi har en kass eftermiddag för att det försvinner bort i eten.
+<v SPEAKER_1>Och plus att man ska lägga tid så fort det ska göra saker också.
+<v SPEAKER_1>Så jag håller helt med.
+<v SPEAKER_1>Sen finns det också någonting, om vi bortser från betallösningar, om era kommer till fabriksrelationer och sådär, så där finns det ju någonting som är väldigt viktigt, alltså bortsett från pengar i termer av att några gånger kommer du vara den jobbiga parten, för du kommer säga att när jag behöver de här produkterna om sex veckor går det att lösa och du kommer vilja bli framputtad inom kö för att de ska prioritera dig i produktionen.
+<v SPEAKER_1>Det kan de inte alltid lösa, men ibland kan de lösa det.
+<v SPEAKER_1>Är du en lite skönare dude så kommer du öka förutsättningarna för att du blir specialbehandlad någon annan gång.
+<v SPEAKER_1>Gör de något misstag?
+<v SPEAKER_1>Men det där är ändå mer av en ge och ta relation skulle jag säga, där man har regelbundna kontakter.
+<v SPEAKER_1>Jag menar den ultimata relationen till en betallösning är ju typ att du aldrig pratar med dem.
+<v SPEAKER_1>Då funkar ju allting toppen.
+<v SPEAKER_1>Och sen ses man på D-Congress och sen nästa år på D-Congress.
+<v SPEAKER_1>Eller på Cliro e-comm summit, jag ska ändå vara moderator där.
+<v SPEAKER_3>Du har fått säga för mycket skit idag.
+<v SPEAKER_1>Så jag tror att det är väl också en stor skillnad, att det inte är värt att byta leverantör bara på pris, utan ofta är det en fråga om kvalitet.
+<v SPEAKER_1>Så jag vet inte, du har ju...
+<v SPEAKER_3>Ska vi snacka fabriker och frakt kanske?
+<v SPEAKER_3>Det är ju två stora förhandlingspunkter.
+<v SPEAKER_3>Jag kan tycka att...
+<v SPEAKER_3>Dels om vi ska snacka inköp så...
+<v SPEAKER_3>Hur ställer du dig till att batcha upp mycket inköp från ett ställe, för att då få lite leverage i förhandlingar, kontra att ha flera leverantörer?
+<v SPEAKER_3>Om vi säger Uniper till exempel, köper ni in från en fabrik eller köper ni in från flera?
+<v SPEAKER_1>Vi köper in varje kategori från en fabrik i princip.
+<v SPEAKER_1>Vi har ingen backup-fabrik på sängkläder, vilket ändå är någonting vi sitter och pratar om ibland, att det är en väldigt hög risk på ett sätt.
+<v SPEAKER_1>Fördelen för Uniper är att alla fabriker ligger i Europa, det är ganska tajt, eller korta vägar.
+<v SPEAKER_1>Det har kommit en del makroekonomiska chocker de sista åren här, där det har varit problem med båtar som har fastnat, bränslekostnaderna är just nu väldigt höga, och sånt blir mer känsligt om man har produktionen längre bort.
+<v SPEAKER_1>Och även tariffer för den delen har gjort att det kanske inte är lika attraktivt att tillverka i Kina idag om man är ett bolag som säljer mycket in till USA.
+<v SPEAKER_1>Så det är väl en grej som vi på ett sätt har de-riskat.
+<v SPEAKER_1>Samtidigt så hade det nog varit ganska smart för Juniper att ha en sekundär fabrik som man skulle beställa lite kvantiteter ifrån för att någonstans kunna ha en backup.
+<v SPEAKER_1>För om Juniper inte kan sälja sängkläder så är Juniper ett väldigt litet bolag på ganska kort tid.
+<v SPEAKER_1>Men jag är väl lite såhär, det beror lite på vad de är för storlek på bolaget, Juniper är fortfarande ett litet bolag som omsätter kanske 22 miljoner i år eller nåt sånt.
+<v SPEAKER_1>Och när man är i den storleken så är det vissa risker man kanske måste lära sig att leva med.
+<v SPEAKER_1>Medan när man kommer upp mer i storlek så kan man kanske vara lite mer strategisk.
+<v SPEAKER_1>Man kan fortfarande beställa meningsfulla volymer från en plats och ändå dela upp på olika platser.
+<v SPEAKER_1>Så jag tror att det beror lite på vad man är i sin bolagsresa.
+<v SPEAKER_3>Ser du det bara som en sorts risk management grej eller finns det något affärsmässigt syfte med det där?
+<v SPEAKER_3>För är det inte alltid bättre att bara klöja volymer?
+<v SPEAKER_1>Jo, samtidigt så är det klart att om vi tar Juniper som referenscase här så är det klart att om vi beställer allting från en fabrik hela tiden, det är väldigt lätt att du fastnar i en situation och att även om du säger att vi kör alla våra volymer och ser, så är det ändå så att du hamnar ju i att du bara ser en brispunkt och aldrig riktigt förhandlar.
+<v SPEAKER_1>Medan som du har två fabriker så får du i alla fall hela tiden på något sätt, det är mycket enklare då att säga om ni skulle producera de här grejerna också, vad hade det kostat då liksom.
+<v SPEAKER_1>Det finns väl fördelar och nackdelar med att ha fler fabriker.
+<v SPEAKER_1>Jag hade ju aldrig gett ett råd till ett stort företag, alltså ett miljardbolag hade ju aldrig sagt att det vore toppen om ni bara producerade allting i en fabrik hos någon externa leverantör någonstans där ni inte äger fabriken.
+<v SPEAKER_1>Och det hade ju varit en jättejätte risk i deras affär då.
+<v SPEAKER_1>Så jag tror att det beror på pålet igen.
+<v SPEAKER_1>Lite vad man är för bransch, lite vad det är för produkter, för att lämna sängkläder i mejlen att det är såhär, det är inte ett så tekniskt hantverk, det är inte så svårt, probably, att source en annan fabrik.
+<v SPEAKER_3>Och hur krass ska man vara, hur mycket får man pusha sin fabrik?
+<v SPEAKER_1>Men så mycket som är lagom, va, liksom, alltså det är såhär...
+<v SPEAKER_3>Aha, så mycket!
+<v SPEAKER_1>Ja men det är svårt att säga, tror jag.
+<v SPEAKER_3>Ska man ligga på vid varje inköp liksom, eller ska man rulla här?
+<v SPEAKER_1>Nej men det tycker jag inte.
+<v SPEAKER_1>Jag tycker inte man ska ligga på vid varje inköp.
+<v SPEAKER_1>Det blir för mycket tjat om pris då, liksom.
+<v SPEAKER_1>Det är bättre att göra det max två gånger per år, hade jag sagt, för de flesta.
+<v SPEAKER_1>Kanske en gång per år när man liksom, och det absolut bästa är att man också kan knyta upp volym mot en nedgångig pris fram i tiden.
+<v SPEAKER_1>Så att du tar en förhandling idag, som inte påverkar priset idag, men som säger att när vi bryter igenom att beställa för er för tio miljoner kronor om året, då liksom går våra priser ner med fem procent.
+<v SPEAKER_1>Så att du på något sätt inflationsskyddar dig själv däråt.
+<v SPEAKER_1>För sen kommer de ändå komma om två år och säga nu måste vi göra priserna med fem procent.
+<v SPEAKER_1>Då är man såhär, absolut, men det tas ut av att vi också beställer större volymer.
+<v SPEAKER_1>Då ger man sig själv lite utrymme framåt att hitta lägre priser och att skala in i bättre produktekonomi, vilket också tenderar att vara en bra grej om man vill ta in investerare vid någon tillfälle och säga att vi blir mer lönsamma när vi blir lite större på grund av XYZ.
+<v SPEAKER_1>Det kan vara ett sätt att ta förhandlingen upp front.
+<v SPEAKER_1>Sen kan det ibland också vara...
+<v SPEAKER_1>Du pratar ibland om kassaflöde och så där på...
+<v SPEAKER_1>Du kanske inte i och för sig gör det så mycket, men vi har haft någon diskussion på LinkedIn om kassaflöde.
+<v SPEAKER_3>Vi har säkert haft en diskussion om allt typ.
+<v SPEAKER_1>Men kassaflöde är ju ofta ett rejält problem för enasbolag.
+<v SPEAKER_1>Det är en av anledningarna till att e-handel är en ganska opraktisk bransch att vara i.
+<v SPEAKER_1>Och ibland är det ju mer värdefullt att få till bättre betalvillkor än lägre priser.
+<v SPEAKER_1>Vilket också kan vara någonting att fakturera i diskussionen.
+<v SPEAKER_1>När man är tidig i sin entreprenörsresa så tänker man typ aldrig på det.
+<v SPEAKER_1>Men efter ett eller två år som entreprenör så tänker man väldigt mycket på kassaflöde istället.
+<v SPEAKER_1>För det är alltid tomt på bankkontot.
+<v SPEAKER_1>Nästan oavsett hur fin din resultaträkning ser ut.
+<v SPEAKER_1>Och det liksom behöver man också lösa för det problemet.
+<v SPEAKER_3>Det blir nästan mer tomt om det går bra fort.
+<v SPEAKER_1>Exakt, för då måste man köpa in mer och sen så har man ofta fortfarande dåliga betalvillkor med fabriken.
+<v SPEAKER_1>Man måste betala upfront och kan då pusha så att du får betala efter att du åtminstone har fått varorna.
+<v SPEAKER_1>Men i bästa fall, så att du faktiskt hinner sälja en del av varorna eller i absolut bästa fall sälja allt av varorna innan du måste betala fakturan.
+<v SPEAKER_1>Då har du en möjlighet att skala upp i himlen.
+<v SPEAKER_1>Typ Apple har positiva betaldagar.
+<v SPEAKER_1>Så när Apple växer så får de mer cash på bankkontoet.
+<v SPEAKER_1>Det tror jag är svårt nästan för en e-handlare att sätta sig in i.
+<v SPEAKER_1>Att det kan liksom fungera på det sättet.
+<v SPEAKER_1>Om Apple växer mer nästa år, då ligger det mer pengar på deras bankkonto.
+<v SPEAKER_1>Det vore härligt att komma till den punkten.
+<v SPEAKER_3>Väldigt bra.
+<v SPEAKER_3>Jag brukar förhandla enligt lite olika deviser.
+<v SPEAKER_3>Dels förhandlar jag alltid när vi ökar volymen på inköpen.
+<v SPEAKER_3>Om jag brukar köpa en container per år, och jag ökar det till två container, och jag vet att det konsekvent kommer att vara så på de produkterna, då kör jag ofta en förhandling där.
+<v SPEAKER_3>Om vi fyller containerna, vad är priset då?
+<v SPEAKER_3>Så att man kör det som en konsekvent grej.
+<v SPEAKER_3>Varje gång man dubblar inköpen tycker jag att man kan ha en ganska tung förhandling om det.
+<v SPEAKER_3>Det är väldigt enkelt för alla att förstå.
+<v SPEAKER_3>Sedan brukar jag lite då och då på storsäljandevaror, skicka in jämförelsexempel, det är väl lite halvsyniskt, men då säger man att titta på den här konkurrenten, de har börjat ta stora marknadsandelar, oavsett om de har det eller inte, och så säger man att det här verkar vara deras prispunkt, kan ni matcha den prispunkten?
+<v SPEAKER_3>Eller hur kan ni matcha den prispunkten?
+<v SPEAKER_3>Ofta är det enklare att säga hur kan ni matcha dem, för ofta är det att de behöver göra någon designändring eller någon liten, väldigt sällan till nackdel, utan det är ofta bara att de behöver ta bort en viss svets, så de kanske behöver skicka samman i, för oss är det svetsar som kostar pengar för det är mer manuellt.
+<v SPEAKER_3>Men då kanske de behöver sätta ihop den delen så det blir en del istället för två delar.
+<v SPEAKER_3>Det är ju fine, kunden bryr sig inte och vi bryr oss inte men det blir billigare.
+<v SPEAKER_3>Att man har det som en sån kategorisk.
+<v SPEAKER_3>Och sen skulle jag säga att den största, apropå kassaflöde och liknande, det är den största diskussionen vi har varje år, det är alltid betaltider.
+<v SPEAKER_3>Vi började precis som alla andra med att man betalade, betalade vi 70% upfront vid en order, och tre månader senare när den skickades betalade vi de andra 30%.
+<v SPEAKER_3>Det är hemskt.
+<v SPEAKER_3>Ja, det var väl typ åtta veckor på vattnet då, och sen fick man hem det och sen skulle man säga att det var bedrövligt.
+<v SPEAKER_3>Sen fick man ner det där till att det är 50-50, sen är det 50 när de skickas och 50 innan de kommer fram.
+<v SPEAKER_3>Och nu betalar vi, just nu ligger vi på att vi betalar 100% två veckor innan han kom till hamn.
+<v SPEAKER_1>Tänk om du hade kunnat pusha det till att du betalade 100% 90 dagar efter han kom till hamn.
+<v SPEAKER_1>Det hade gjort gymkompaniiet otroligt mycket lättare.
+<v SPEAKER_3>Ja, det hade varit väldigt likvida.
+<v SPEAKER_3>Så det hade varit trevligt.
+<v SPEAKER_3>Men där är ju den stora nackdelen, det här minns jag att vi pratade om i din och Fedjas podd.
+<v SPEAKER_3>För vi pratade om när de körde på tullar mot Kina och USA, så blev det ganska svårt för många kinesiska bolag att, de förlorade ju ganska mycket i produktionsgrejer och då pratade vi om hur hårt man får pusha leverantörerna i den situationen.
+<v SPEAKER_3>Och där hade vi säkert kunnat pusha på att, ja vi vill ha längre betaltiden nu, men det är också att på något sätt, vi är en ganska stor kund oss, de vi köper mest av, så var det lite grann såhär, hur hårt vill vi pusha fabriken i en ganska utsatt situation.
+<v SPEAKER_3>På något sätt så gjorde vi det tydligt att vi förstod att vi kan pusha nu, men vi väljer att inte pusha för att vi liksom, vi är schyssta nu så är ni schyssta någon annan gång typ.
+<v SPEAKER_1>Ja, nej men det är väl helt fair liksom det där.
+<v SPEAKER_1>Vi, jag hade precis den gången med en kollegor i morse, en av våra kunder frågade om vi kunde hjälpa till och göra lite mer grejer som egentligen inte ingår i vårat scope.
+<v SPEAKER_1>Och jag sa att låt oss bara, vi tar på oss det också nu för det går inte så jättebra för dem.
+<v SPEAKER_1>Och då känner vi att det är fair att vi hjälper till nu lite mer än vad vi hade tänkt i ett par tre månader och tillsätter lite extra människor från vår team.
+<v SPEAKER_1>Och så får man hoppas att det går bättre för den här kunden längre fram och då kan man liksom, fortsätta hjälpa till med de extra grejerna.
+<v SPEAKER_1>När det väl har vänt lite grann då kan vi på något sätt ta en pristiskussion.
+<v SPEAKER_1>Då istället för att be någon att betala mer när man vet att det går väldigt dåligt, känns inte bra.
+<v SPEAKER_1>Vi hoppas verkligen att vi ska kunna hjälpa den här kunden att få till en vändning.
+<v SPEAKER_1>Vi började jobba ganska nyligen med dem.
+<v SPEAKER_1>Så då tar vi den diskussionen senare i sådana fall.
+<v SPEAKER_1>Och det är ju lite samma grej.
+<v SPEAKER_1>Det är ingen roligt att be människor mer betalt om de inte har några pengar att betala med.
+<v SPEAKER_3>Sen tycker jag att saker som är opersonliga eller som är löpande, om vi tar till exempel FXTrade, jag vet inte vad det kallas, men växlingskurser är ju en sån där grej som kan skilja ganska mycket om du har förhandlat det bra eller inte.
+<v SPEAKER_3>Det tror jag inte folk ens tänker på.
+<v SPEAKER_3>Man betalar liksom sina USD-konton och sina eurokonton och liknande.
+<v SPEAKER_3>Och så tänker man inte på den transaktionsavgiften som den tror att vi bara skickade det fram och tillbaks mellan bank och alternativlösningar.
+<v SPEAKER_3>Och så här, hej kan ni matcha detta?
+<v SPEAKER_3>Detta budet fick vi nu, här skrev de såhär, såhär gjorde de.
+<v SPEAKER_3>Och så har det bara fått...
+<v SPEAKER_3>För att den som sitter på banken skiter ju i det.
+<v SPEAKER_3>Alltså rent krasst.
+<v SPEAKER_3>Och jag kommer aldrig ha den diskussionen igen.
+<v SPEAKER_3>Jag vill ha den en gång i mitt liv.
+<v SPEAKER_3>Så att alla förhandlingar som inte är personliga på något sätt och framförallt som är löpande, som är långa kostnader, de tycker jag man ska vara precis absurdt hård i.
+<v SPEAKER_1>Fx är kanske den tråkigaste kostnadsposten i heläns resultaträkning.
+<v SPEAKER_1>Så att man håller 100% med att man kan få ner det.
+<v SPEAKER_1>En grej som vi ibland hittar möjligheter på är om vi har kunder som säljer ut i Europa och så kan man se till att eller så får de försäljningen i euro och så kan man faktiskt lägga det på ett eurokonto, betala sen fabrikerna i euro så slipper du att hålla på att tramsa med och växla över till SEK och sen tillbaka till euro när du ska betala.
+<v SPEAKER_1>Det kan vara rätt stor kostnadsbesparing i att göra det och även om bolaget bara har 30% av sin försäljning i euro så kan det ganska ofta räcka för att täcka nästan hela inköpet av varor.
+<v SPEAKER_1>Det där kan verkligen vara en anlock på ett sätt för att hitta lite bättre produktökonomier och igen bara så sjukt tråkigt att betala växlingskurser.
+<v SPEAKER_1>Transaktionsavgifter är ju roliga jämfört med växlingskurser.
+<v SPEAKER_3>Ja men det kan också vara värt att tänka på att många av de här som lånar ut pengar, alltså typ uni-trade liknande, vissa av dem kräver att man växlar i deras system för att betala fakturor.
+<v SPEAKER_3>Och det är en jävla påslagskostnad som inte räknas in i räntekostnaden.
+<v SPEAKER_3>Men vissa av dem är fine med att du betalar fakturan i till exempel dollar, samma som som du gjorde inköpen i och där kan du spara ganska mycket pengar om du har bra växlingskurser.
+<v SPEAKER_1>Det känns som att om tio år kanske, kryptovaluta håller jag på att bli lite mer poppis, men det känns som att någon gång, inom inte alltför lång framtid, så kommer man sitta och titta tillbaka på hur absurdt det var att man skulle betala extra för att man skulle betala i en annan valuta någonstans.
+<v SPEAKER_1>Det bara känns otroligt omodernt att ta ut inte heller bara en baspunkt, utan du betalar en betydande avgift för att det ska vara en annan valuta.
+<v SPEAKER_1>Det känns liksom som någonting som var rimligt på tiden när du behövde ta med en kappsäck och gå och byta dina svenska sedlar mot frang på ett fåårigskontor.
+<v SPEAKER_1>Men att man fortfarande ska behöva betala procentenheter på att i en digital värld betala en annan valuta, det känns helt absurdt.
+<v SPEAKER_3>Det är väldigt, väldigt märkligt.
+<v SPEAKER_3>Men det finns ganska bra poddar om det där, om man lyssnar på varför det är ett sånt jävla problem att växla eller att betala utomlands.
+<v SPEAKER_3>Hur de måste hålla pengarna mellan olika kontor för att det inte sker simultant på samma sätt som kriptovalueter då.
+<v SPEAKER_3>Men det är lite fascinerande.
+<v SPEAKER_3>Men har du något tips på hur man får ner, har du någonsin bett asiatiska leverantörer att betala i lokala valutor?
+<v SPEAKER_3>Har du testat sådana lösningar?
+<v SPEAKER_1>Asiatska leverantörer?
+<v SPEAKER_3>Alltså typ att betala i Kina i kinesiska järn till exempel.
+<v SPEAKER_3>Nej, det ska jag inte påstå.
+<v SPEAKER_3>Istället för dollar, om det skulle kunna vara.
+<v SPEAKER_3>Jag har hört att vissa har börjat jobba så.
+<v SPEAKER_1>Nej, det ska jag inte riktigt påsta att jag har diskuterat.
+<v SPEAKER_1>Jag tror att det närmaste är väl just att se till att ha olika bankkonton med olika valutor, men det är väldigt få svenska järnlare som har yen in någonstans, eller yuan in någonstans.
+<v SPEAKER_1>Så nej, det har jag inte riktigt gjort.
+<v SPEAKER_1>Men berätta.
+<v SPEAKER_3>Jag har bara hört att, jag har inga konkreta exempel, men jag har hört det viskas lite grann om att du kan få ner priserna lite grann om du är fine med att betala i lokala valutor, för att det har svingt så mycket och det har varit lite känsligt, men jag kan inte mer än så.
+<v SPEAKER_1>Men det är väl en färdig diskussion att ha framåt.
+<v SPEAKER_1>Det är inte riktigt givet över de kommande 10-20 åren att USD ska vara världens reservvaluta längre.
+<v SPEAKER_1>Den kinesiska ekonomin är större, USA är nog någonstans, även om USA ligger ganska långt fram nu när det kommer till AI och så, så är ändå USA någonstans i en nedåtgående trend relativt Kina i alla fall.
+<v SPEAKER_1>Så att allt eftersom Kina växer sig större så finns det väl än en risk att USA inte längre kommer att vara referensvaluta på vad det sig är i olja eller det man ska betala kinesiska leverantörer i egentligen.
+<v SPEAKER_1>Alltså egentligen varför ska vi betala kinesiska leverantörer i USA när vi gör en transaktion från Sverige?
+<v SPEAKER_1>Det är inte givet.
+<v SPEAKER_3>Nu Jacob ska vi sätta punkt, vi har betat av tre punkter.
+<v SPEAKER_1>Absolut, let's go!
+<v SPEAKER_3>Tack!
+<v SPEAKER_3>Så att alla förhandlingar som inte är personliga på något sätt, och framförallt som är löpande, som är långa kostnader, de tycker jag att man ska vara precis absurdt hård i.
+
 ## Frank Angelini - Medgrundare av bl.a. Foodbox, Kraftmark, Wondr, etc
 <v SPEAKER_1>2014 när vi startade med Foodbox så var det nog ännu färre som köpte frysmat.
 <v SPEAKER_1>Idag tycker jag att det finns mycket frysmat att köpa.
