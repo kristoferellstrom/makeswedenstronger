@@ -110,6 +110,7 @@ import meta107 from "./sebastian-nilsson-rundlof-extend-marketing-podden-ehandel
 import meta108 from "./alexander-bica-lyfe-nordic-att-bygga-ett-bolag-fran-grunden-i-en-ny-och-vaxande-marknad";
 import meta109 from "./borjan-pa-slutet-4-avsnitt-om-ehandel-med-jacob-wibom-westerberg";
 import meta110 from "./fortsattningen-pa-slutet-plattformar-betallosningar-leverantorsforhandlingar-och-valutor";
+import meta111 from "./nast-sista-avsnittet-bygga-varumarke-langsiktighet-senior-personal-och-stagnation";
 
 export const episodeMetaBySlug: Record<string, EpisodeMeta> = {
   "3-intervjuer-fran-d-congress-aida-jammal-jenny-rydhstrom-och-pelle-pettersson": meta0,
@@ -222,4 +223,5 @@ export const episodeMetaBySlug: Record<string, EpisodeMeta> = {
   "alexander-bica-lyfe-nordic-att-bygga-ett-bolag-fran-grunden-i-en-ny-och-vaxande-marknad": meta108,
   "borjan-pa-slutet-4-avsnitt-om-ehandel-med-jacob-wibom-westerberg": meta109,
   "fortsattningen-pa-slutet-plattformar-betallosningar-leverantorsforhandlingar-och-valutor": meta110,
+  "nast-sista-avsnittet-bygga-varumarke-langsiktighet-senior-personal-och-stagnation": meta111,
 };

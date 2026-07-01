@@ -7,6 +7,9 @@ const JACOB_BORJAN_PA_SLUTET_GUEST_NAME = "Jacob Wibom Westerberg";
 const FORTSATTNINGEN_PA_SLUTET_TITLE =
   "fortsattningen pa slutet plattformar betallosningar leverantorsforhandlingar och valutor";
 const FORTSATTNINGEN_PA_SLUTET_GUEST_NAME = "Jacob Wibom Westerberg";
+const NAST_SISTA_AVSNITTET_TITLE =
+  "nast sista avsnittet bygga varumarke langsiktighet senior personal och stagnation";
+const NAST_SISTA_AVSNITTET_GUEST_NAME = "Jacob Wibom Westerberg";
 const INTRO_WINDOW_SECONDS = 120;
 const HOST_PHRASE_FALLBACK_START = 38;
 const HOST_PHRASE_FALLBACK_END = 46;
@@ -110,11 +113,18 @@ export function getTranscriptGuestNameFromTitle(episodeTitle: string) {
 
   if (
     normalizedEpisodeTitle === JACOB_BORJAN_PA_SLUTET_TITLE ||
-    normalizedEpisodeTitle === FORTSATTNINGEN_PA_SLUTET_TITLE
+    normalizedEpisodeTitle === FORTSATTNINGEN_PA_SLUTET_TITLE ||
+    normalizedEpisodeTitle === NAST_SISTA_AVSNITTET_TITLE
   ) {
-    return normalizedEpisodeTitle === JACOB_BORJAN_PA_SLUTET_TITLE
-      ? JACOB_BORJAN_PA_SLUTET_GUEST_NAME
-      : FORTSATTNINGEN_PA_SLUTET_GUEST_NAME;
+    if (normalizedEpisodeTitle === JACOB_BORJAN_PA_SLUTET_TITLE) {
+      return JACOB_BORJAN_PA_SLUTET_GUEST_NAME;
+    }
+
+    if (normalizedEpisodeTitle === FORTSATTNINGEN_PA_SLUTET_TITLE) {
+      return FORTSATTNINGEN_PA_SLUTET_GUEST_NAME;
+    }
+
+    return NAST_SISTA_AVSNITTET_GUEST_NAME;
   }
 
   const withoutSubtitle = episodeTitle.split(/\s+-\s+/)[0]?.trim() ?? episodeTitle.trim();
@@ -213,6 +223,14 @@ export function inferSpeakerDisplayNames(cues: TranscriptCue[], episodeTitle: st
       ["speaker_2", HOST_NAME],
       ["speaker_3", HOST_NAME],
       ["speaker_4", HOST_NAME],
+    ]);
+  }
+
+  if (normalizedEpisodeTitle === NAST_SISTA_AVSNITTET_TITLE) {
+    return new Map<string, string>([
+      ["speaker_1", NAST_SISTA_AVSNITTET_GUEST_NAME],
+      ["speaker_2", HOST_NAME],
+      ["speaker_3", HOST_NAME],
     ]);
   }
 
